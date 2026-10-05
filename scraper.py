@@ -20,21 +20,21 @@ def get_games():
         cols = row.find_all('td')
         if len(cols) >= 3:
             try:
-                # 1. Extrair Data, Hora e verificar se é Hoje
-                date_strings = list(cols[0].stripped_strings)
-                is_today = any(s.lower() == 'hoje' for s in date_strings)
-                date_strings = [s for s in date_strings if s.lower() != 'hoje']
+                # 1. Separar Data e Hora (e verificar marcador 'hoje')
+                col0_lines = [line.strip() for line in cols[0].get_text(separator="\n").split('\n') if line.strip()]
+                is_today = any('hoje' in line.lower() for line in col0_lines)
+                col0_lines = [line for line in col0_lines if 'hoje' not in line.lower()]
                 
-                date_val = date_strings[0] if len(date_strings) > 0 else ""
-                time_val = date_strings[1] if len(date_strings) > 1 else ""
+                date_val = col0_lines[0] if len(col0_lines) > 0 else ""
+                time_val = col0_lines[1] if len(col0_lines) > 1 else ""
 
-                # 2. Extrair Equipas e Competição
-                team_strings = list(cols[1].stripped_strings)
-                match_teams = team_strings[0] if len(team_strings) > 0 else "N/D"
-                competition = team_strings[1] if len(team_strings) > 1 else ""
+                # 2. Separar Equipas e Competição
+                col1_lines = [line.strip() for line in cols[1].get_text(separator="\n").split('\n') if line.strip()]
+                match_teams = col1_lines[0] if len(col1_lines) > 0 else "N/D"
+                competition = col1_lines[1] if len(col1_lines) > 1 else ""
 
                 # 3. Extrair Canal
-                channel = " ".join(cols[2].stripped_strings)
+                channel = cols[2].get_text(separator=" ", strip=True)
                 if not channel:
                     channel = "N/D"
                 

@@ -6,15 +6,8 @@
     <title>verbola</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans min-h-screen">
-    <header class="sticky top-0 bg-gray-800 border-b border-gray-700 p-4 shadow-md flex justify-between items-center z-10">
-        <h1 class="text-2xl font-bold text-green-500 tracking-tight">verbola</h1>
-        <button onclick="loadGames()" class="bg-gray-700 hover:bg-gray-600 text-sm px-4 py-2 rounded-lg transition-colors">
-            Recarregar
-        </button>
-    </header>
-
-    <main class="p-4 max-w-2xl mx-auto space-y-3" id="games-container">
+<body class="bg-gray-900 text-gray-100 font-sans min-h-screen p-4">
+    <main class="max-w-2xl mx-auto space-y-3" id="games-container">
         <div class="text-center text-gray-400 mt-10">A carregar jogos...</div>
     </main>
 
@@ -32,7 +25,7 @@
             
             const gameTimeInMins = (gameH * 60) + gameM;
             
-            // Margem de 115 minutos para cobrir a duração total de um jogo de futebol
+            // 115 minutos de tolerância (90m jogo + 15m intervalo + 10m descontos)
             return nowInMins >= gameTimeInMins && nowInMins <= (gameTimeInMins + 115);
         }
 
@@ -51,7 +44,6 @@
                 container.innerHTML = games.map(game => {
                     const isLive = checkIsLive(game.time, game.is_today);
                     
-                    // Aplica borda vermelha e sombra se estiver a dar
                     const borderClass = isLive 
                         ? 'border-red-500 shadow-[0_0_10px_rgba(239,68,68,0.3)]' 
                         : 'border-gray-700';
@@ -61,7 +53,7 @@
                         : '';
 
                     return `
-                    <div class="bg-gray-800 rounded-xl p-4 border ${borderClass} flex flex-col gap-2">
+                    <div class="bg-gray-800 rounded-xl p-4 border ${borderClass} flex flex-col gap-2 transition-all">
                         <div class="flex justify-between items-start">
                             <div class="flex items-center">
                                 <span class="bg-gray-700 text-gray-200 text-xs font-bold px-2 py-1 rounded-md">${game.date} - ${game.time}</span>
@@ -82,8 +74,6 @@
         }
         
         loadGames();
-        
-        // Verifica a cada minuto se algum jogo começou ou terminou, alterando a borda sem recarregar a rede
         setInterval(loadGames, 60000); 
     </script>
 </body>
