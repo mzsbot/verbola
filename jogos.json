@@ -1,314 +1,314 @@
 [
   {
     "id": 1,
-    "date": "Seg 5 Out17:00hoje",
-    "match": "Chipre - - - Letónia - UEFA Liga Nações",
+    "date": "Seg 5 Out 17:00",
+    "match": "Chipre <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv1"
   },
   {
     "id": 2,
-    "date": "Seg 5 Out19:45hoje",
-    "match": "França - - - Bélgica - UEFA Liga Nações",
+    "date": "Seg 5 Out 19:45",
+    "match": "França <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv1"
   },
   {
     "id": 5,
-    "date": "Seg 5 Out19:45hoje",
-    "match": "Itália - - - Turquia - UEFA Liga Nações",
+    "date": "Seg 5 Out 19:45",
+    "match": "Itália <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv2"
   },
   {
     "id": 6,
-    "date": "Seg 5 Out19:45hoje",
-    "match": "Bósnia H. - - - Polónia - UEFA Liga Nações",
+    "date": "Seg 5 Out 19:45",
+    "match": "Bósnia H. <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv3"
   },
   {
     "id": 7,
-    "date": "Seg 5 Out19:45hoje",
-    "match": "Roménia - - - Suécia - UEFA Liga Nações",
+    "date": "Seg 5 Out 19:45",
+    "match": "Roménia <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv4"
   },
   {
     "id": 8,
-    "date": "Seg 5 Out19:45hoje",
-    "match": "Ucrânia - - - Hungria - UEFA Liga Nações",
+    "date": "Seg 5 Out 19:45",
+    "match": "Ucrânia <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv6"
   },
   {
     "id": 9,
-    "date": "Ter 6 Out17:30",
-    "match": "Portugal - - - Chéquia - SUB21, Qual. Euro",
-    "channel": ""
+    "date": "Ter 6 Out 17:30",
+    "match": "Portugal <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 10,
-    "date": "Ter 6 Out19:45",
-    "match": "Croácia - - - Espanha - UEFA Liga Nações",
+    "date": "Ter 6 Out 19:45",
+    "match": "Croácia <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv1"
   },
   {
     "id": 11,
-    "date": "Ter 6 Out19:45",
-    "match": "Inglaterra - - - Chéquia - UEFA Liga Nações",
+    "date": "Ter 6 Out 19:45",
+    "match": "Inglaterra <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv2"
   },
   {
     "id": 12,
-    "date": "Ter 6 Out19:45",
-    "match": "Suíça - - - Maced. N. - UEFA Liga Nações",
+    "date": "Ter 6 Out 19:45",
+    "match": "Suíça <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv4"
   },
   {
     "id": 13,
-    "date": "Ter 6 Out20:00",
-    "match": "Angola - - - Malawi - Qual. Taça N. Africanas",
-    "channel": "Sport.Tv6Betano"
+    "date": "Ter 6 Out 20:00",
+    "match": "Angola <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "Sport.Tv6 Betano"
   },
   {
     "id": 14,
-    "date": "Qua 7 Out00:00",
-    "match": "Argentina - - - Benim - Jogo Preparação",
+    "date": "Qua 7 Out 00:00",
+    "match": "Argentina <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv1"
   },
   {
     "id": 15,
-    "date": "Sex 9 Out14:30",
-    "match": "Brasil - - - Portugal - Fut. PRAIA, Mundialito",
+    "date": "Sex 9 Out 14:30",
+    "match": "Brasil <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv+"
   },
   {
     "id": 16,
-    "date": "Sex 9 Out19:00",
-    "match": "Al Nassr - - - Al Diriyah - Liga Arábia Saudita",
+    "date": "Sex 9 Out 19:00",
+    "match": "Al Nassr <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv2"
   },
   {
     "id": 17,
-    "date": "Sex 9 Out20:15",
-    "match": "Sp. Braga - - - Sporting - Liga Portugal, J8",
+    "date": "Sex 9 Out 20:15",
+    "match": "Sp. Braga <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv1"
   },
   {
     "id": 18,
-    "date": "Sab 10 Out18:00",
-    "match": "Marítimo - - - FC Porto - Liga Portugal, J8",
+    "date": "Sab 10 Out 18:00",
+    "match": "Marítimo <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv1"
   },
   {
     "id": 19,
-    "date": "Dom 11 Out18:00",
-    "match": "Benfica - - - V. Guimarães - Liga Portugal, J8",
+    "date": "Dom 11 Out 18:00",
+    "match": "Benfica <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Benfica.Tv"
   },
   {
     "id": 20,
-    "date": "Ter 13 Out17:45",
-    "match": "Lens - - - Sporting - UEFA Liga Campeões",
+    "date": "Ter 13 Out 17:45",
+    "match": "Lens <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv5"
   },
   {
     "id": 21,
-    "date": "Qua 14 Out17:45",
-    "match": "Lask Linz - - - Liverpool - UEFA Liga Campeões",
-    "channel": "daznLiveModeTv"
+    "date": "Qua 14 Out 17:45",
+    "match": "Lask Linz <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "dazn LiveModeTv"
   },
   {
     "id": 22,
-    "date": "Qua 14 Out20:00",
-    "match": "Real Betis - - - FC Porto - UEFA Liga Campeões",
+    "date": "Qua 14 Out 20:00",
+    "match": "Real Betis <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv5"
   },
   {
     "id": 23,
-    "date": "Qua 14 Out20:00",
-    "match": "Man City - - - PSG - UEFA Liga Campeões",
-    "channel": ""
+    "date": "Qua 14 Out 20:00",
+    "match": "Man City <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 24,
-    "date": "Qui 15 Out17:45",
-    "match": "Torreense - - - Sunderland - UEFA Liga Europa",
-    "channel": ""
+    "date": "Qui 15 Out 17:45",
+    "match": "Torreense <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 25,
-    "date": "Qui 15 Out20:00",
-    "match": "Benfica - - - Celtic - UEFA Liga Europa",
+    "date": "Qui 15 Out 20:00",
+    "match": "Benfica <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv5"
   },
   {
     "id": 26,
-    "date": "Qui 15 Out20:00",
-    "match": "Kobenhavn - - - Sp. Braga - UEFA Liga Conferência",
-    "channel": ""
+    "date": "Qui 15 Out 20:00",
+    "match": "Kobenhavn <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 27,
-    "date": "Ter 20 Out20:00",
-    "match": "FC Porto - - - PSV - UEFA Liga Campeões",
-    "channel": ""
+    "date": "Ter 20 Out 20:00",
+    "match": "FC Porto <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 28,
-    "date": "Ter 20 Out20:00",
-    "match": "FC Porto - - - PSV - UEFA Liga Campeões",
-    "channel": ""
+    "date": "Ter 20 Out 20:00",
+    "match": "FC Porto <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 29,
-    "date": "Ter 20 Out20:00",
-    "match": "Paris SG - - - Barcelona - UEFA Liga Campeões",
-    "channel": ""
+    "date": "Ter 20 Out 20:00",
+    "match": "Paris SG <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 30,
-    "date": "Qua 21 Out17:45",
-    "match": "Como - - - Manchester United - UEFA Liga Campeões",
-    "channel": "daznLiveModeTv"
+    "date": "Qua 21 Out 17:45",
+    "match": "Como <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "dazn LiveModeTv"
   },
   {
     "id": 31,
-    "date": "Qua 21 Out20:00",
-    "match": "Sporting - - - LASK Linz - UEFA Liga Campeões",
-    "channel": ""
+    "date": "Qua 21 Out 20:00",
+    "match": "Sporting <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 32,
-    "date": "Qui 22 Out20:00",
-    "match": "Gent - - - Sp. Braga - UEFA Liga Conferência",
-    "channel": ""
+    "date": "Qui 22 Out 20:00",
+    "match": "Gent <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 33,
-    "date": "Qui 22 Out20:00",
-    "match": "Omonia - - - Benfica - UEFA Liga Europa",
-    "channel": ""
+    "date": "Qui 22 Out 20:00",
+    "match": "Omonia <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 34,
-    "date": "Sab 24 Out20:30",
-    "match": "Gil Vicente - - - FC Porto - Liga Portugal, J9",
+    "date": "Sab 24 Out 20:30",
+    "match": "Gil Vicente <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 35,
-    "date": "Dom 25 Out20:30",
-    "match": "Sporting - - - Académico Viseu - Liga Portugal, J9",
+    "date": "Dom 25 Out 20:30",
+    "match": "Sporting <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 36,
-    "date": "Seg 26 Out18:45",
-    "match": "Santa Clara - - - Benfica - Liga Portugal, J9",
+    "date": "Seg 26 Out 18:45",
+    "match": "Santa Clara <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 37,
-    "date": "Ter 27 Out20:15",
-    "match": "Sporting - - - Marítimo - Taça Liga PT Allianz",
+    "date": "Ter 27 Out 20:15",
+    "match": "Sporting <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 38,
-    "date": "Qua 28 Out20:30",
-    "match": "FC Porto - - - Ac. Viseu - Taça Liga PT Allianz",
+    "date": "Qua 28 Out 20:30",
+    "match": "FC Porto <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 39,
-    "date": "Qui 29 Out20:45",
-    "match": "Benfica - - - Gil Vicente - Taça Liga PT Allianz",
+    "date": "Qui 29 Out 20:45",
+    "match": "Benfica <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 40,
-    "date": "Sex 30 Out20:15",
-    "match": "Casa Pia - - - Sporting - Liga Portugal, J10",
+    "date": "Sex 30 Out 20:15",
+    "match": "Casa Pia <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 41,
-    "date": "Sab 31 Out20:30",
-    "match": "FC Porto - - - Estoril - Liga Portugal, J10",
+    "date": "Sab 31 Out 20:30",
+    "match": "FC Porto <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 42,
-    "date": "Seg 2 Nov20:15",
-    "match": "Benfica - - - FC Alverca - Liga Portugal, J10",
+    "date": "Seg 2 Nov 20:15",
+    "match": "Benfica <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Benfica.Tv"
   },
   {
     "id": 43,
-    "date": "Qua 4 Nov17:45",
-    "match": "AEK - - - Real Madrid - UEFA Liga Campeões",
-    "channel": "daznLiveModeTv"
+    "date": "Qua 4 Nov 17:45",
+    "match": "AEK <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "dazn LiveModeTv"
   },
   {
     "id": 44,
-    "date": "Qui 5 Nov20:00",
-    "match": "Benfica - - - Lech P. - UEFA Liga Europa",
-    "channel": ""
+    "date": "Qui 5 Nov 20:00",
+    "match": "Benfica <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 45,
-    "date": "Sab 7 Nov20:30",
-    "match": "Sporting - - - Moreirense - Liga Portugal, J11",
+    "date": "Sab 7 Nov 20:30",
+    "match": "Sporting <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 46,
-    "date": "Dom 8 Nov18:00",
-    "match": "V. Guimarães - - - FC Porto - Liga Portugal, J11",
+    "date": "Dom 8 Nov 18:00",
+    "match": "V. Guimarães <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 47,
-    "date": "Dom 8 Nov20:30",
-    "match": "E. Amadora - - - Benfica - Liga Portugal, J11",
+    "date": "Dom 8 Nov 20:30",
+    "match": "E. Amadora <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 48,
-    "date": "Sab 14 Nov19:45",
-    "match": "Portugal - - - Dinamarca - Liga Nações 2026/27",
+    "date": "Sab 14 Nov 19:45",
+    "match": "Portugal <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "RTP 1"
   },
   {
     "id": 49,
-    "date": "Qui 26 Nov17:45",
-    "match": "Plzen - - - Benfica - UEFA Liga Europa",
-    "channel": ""
+    "date": "Qui 26 Nov 17:45",
+    "match": "Plzen <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 50,
-    "date": "Dom 29 Nov20:30",
-    "match": "FC Porto - - - Sporting - Liga Portugal, J12",
+    "date": "Dom 29 Nov 20:30",
+    "match": "FC Porto <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Sport.Tv"
   },
   {
     "id": 51,
-    "date": "Seg 30 Nov20:15",
-    "match": "Benfica - - - Famalicão - Liga Portugal, J12",
+    "date": "Seg 30 Nov 20:15",
+    "match": "Benfica <span class='text-xs text-gray-400 block mt-1'>-</span>",
     "channel": "Benfica.Tv"
   },
   {
     "id": 52,
-    "date": "Qui 10 Dez20:00",
-    "match": "Benfica - - - OFI - UEFA Liga Europa",
-    "channel": ""
+    "date": "Qui 10 Dez 20:00",
+    "match": "Benfica <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 53,
-    "date": "Qui 21 Jan17:45",
-    "match": "NEC - - - Benfica - UEFA Liga Europa",
-    "channel": ""
+    "date": "Qui 21 Jan 17:45",
+    "match": "NEC <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   },
   {
     "id": 54,
-    "date": "Qui 28 Jan20:00",
-    "match": "AZ Alkmaar - - - Benfica - UEFA Liga Europa",
-    "channel": ""
+    "date": "Qui 28 Jan 20:00",
+    "match": "AZ Alkmaar <span class='text-xs text-gray-400 block mt-1'>-</span>",
+    "channel": "N/D"
   }
 ]
