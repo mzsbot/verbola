@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import re
 
 URL = "https://ondebola.com/"
 OUTPUT_FILE = "jogos.json"
@@ -16,73 +15,57 @@ def get_games():
     soup = BeautifulSoup(response.text, 'html.parser')
     games = []
     
-    # O OndeBola usa <tr> para as linhas e <td> para as colunas
     rows = soup.select('tr')
     
     for idx, row in enumerate(rows):
         cols = row.find_all('td')
         
-        # Ignorar linhas de publicidade (geralmente não têm 3 ou 4 colunas com dados de jogo)
-        if len(cols) >= 3 and not row.get('class') == ['pub']:
+        # Ignora blocos de publicidade ou linhas incompletas
+        if len(cols) >= 3 and not 'pub' in row.get('class', []):
             try:
-                # --- COLUNA 1: Data e Hora ---
-                col1_html = str(cols[0])
-                # Substituir <br> por | para separar facilmente
-                col1_clean = re.sub(r'<br\s*/?>', '|', col1_html)
-                col1_soup = BeautifulSoup(col1_clean, 'html.parser')
-                col1_text = col1_soup.get_text(strip=True)
+                # --- 1. DATA E HORA ---
+                date_strings = list(cols[0].stripped_strings)
+                is_today = any('hoje' in s.lower() for s in date_strings)
+                # Remove a palavra 'hoje' da lista de texto
+                date_strings = [s for s in date_strings if 'hoje' not in s.lower()]
                 
-                date_parts = [p.strip() for p in col1_text.split('|') if p.strip()]
-                
-                date_val = date_parts[0] if len(date_parts) > 0 else ""
-                
-                # A segunda parte costuma ter a hora e a palavra "hoje"
-                time_str_raw = date_parts[1] if len(date_parts) > 1 else ""
-                is_today = "hoje" in time_str_raw.lower()
-                time_val = time_str_raw.lower().replace("hoje", "").strip()
+                date_val = date_strings[0] if len(date_strings) > 0 else ""
+                time_val = date_strings[1] if len(date_strings) > 1 else ""
 
-                # --- COLUNA 2: Equipas, Competição e Bandeiras ---
-                # Extrair as bandeiras (imagens) primeiro
-                images = cols[1].find_all('img')
+                # --- 2. EQUIPAS, COMPETIÇÃO E BANDEIRAS ---
                 flags = []
-                for img in images:
+                for img in cols[1].find_all('img'):
                     src = img.get('src')
                     if src:
-                        # Se o URL da imagem for relativo, converte para absoluto
-                        if src.startswith('/'):
+                        if src.startswith('/'): 
                             src = f"https://ondebola.com{src}"
-                        elif not src.startswith('http'):
+                        elif not src.startswith('http'): 
                             src = f"https://ondebola.com/{src}"
                         flags.append(src)
+                    # Remove a imagem do HTML para não colar palavras quando extrairmos o texto
+                    img.extract() 
+                
+                # Extrai o texto limpo, separado por '|'
+                team_text = cols[1].get_text(separator='|', strip=True)
+                team_parts = [p.strip() for p in team_text.split('|') if p.strip() and p.strip() != '-']
+                
+                if len(team_parts) >= 2:
+                    match_teams = team_parts[0]
+                    competition = team_parts[-1]
+                elif len(team_parts) == 1:
+                    match_teams = team_parts[0]
+                    competition = ""
+                else:
+                    match_teams = "N/D"
+                    competition = ""
 
-                # Extrair Equipas e Competição
-                col2_html = str(cols[1])
-                # Remover as imagens para não sujar o texto
-                col2_clean_img = re.sub(r'<img[^>]*>', '', col2_html)
-                # Substituir <br> e <span> por |
-                col2_clean = re.sub(r'<br\s*/?>|<span[^>]*>', '|', col2_clean_img)
-                col2_soup = BeautifulSoup(col2_clean, 'html.parser')
-                col2_text = col2_soup.get_text(separator='|', strip=True)
-                
-                # Limpar traços múltiplos " - - - "
-                col2_text = re.sub(r'(\s*-\s*){2,}', ' - ', col2_text)
-                
-                team_parts = [p.strip() for p in col2_text.split('|') if p.strip() and p.strip() != '-']
-                
-                match_teams = team_parts[0] if len(team_parts) > 0 else "N/D"
-                competition = team_parts[1] if len(team_parts) > 1 else ""
-
-                # --- COLUNA 3: Canal ---
-                # Limpar as bolinhas (ex: Betano 🔴) que estão em <img> ou <span>
-                col3_html = str(cols[2])
-                col3_clean_img = re.sub(r'<img[^>]*>', '', col3_html)
-                col3_clean = re.sub(r'<br\s*/?>|<span[^>]*>|</span>', '|', col3_clean_img)
-                col3_soup = BeautifulSoup(col3_clean, 'html.parser')
-                
-                # Extrair os canais (podem ser múltiplos, ex: Sport.Tv6 e Betano)
-                channels_raw = [p.strip() for p in col3_soup.get_text(separator='|').split('|') if p.strip()]
-                # Filtrar links vazios e garantir que pegamos os nomes limpos
-                channels = [c for c in channels_raw if c and c.lower() != 'livemodetv']
+                # --- 3. CANAIS ---
+                for img in cols[2].find_all('img'):
+                    img.extract() 
+                    
+                channels_raw = [p.strip() for p in cols[2].get_text(separator='|', strip=True).split('|') if p.strip()]
+                # Filtra lixo como o texto invisível "LiveModeTv"
+                channels = [c for c in channels_raw if c.lower() != 'livemodetv']
 
                 games.append({
                     "id": idx,
