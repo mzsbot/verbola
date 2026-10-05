@@ -1,0 +1,36 @@
+name: Atualizar Dados Verbola
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Corre a cada 6 horas
+  workflow_dispatch: # Permite correr o script manualmente no GitHub
+
+permissions:
+  contents: write # Necessário para o bot poder fazer commit do jogos.json
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Instalar Dependências
+        run: pip install -r requirements.txt
+
+      - name: Executar Scraper
+        run: python scraper.py
+
+      - name: Guardar e Publicar Alterações
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add jogos.json
+          # O '|| exit 0' impede que o workflow falhe se não houver jogos novos
+          git commit -m "auto: atualização da lista de jogos" || exit 0
+          git push

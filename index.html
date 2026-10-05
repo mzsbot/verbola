@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verbola</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans min-h-screen">
+    <header class="sticky top-0 bg-gray-800 border-b border-gray-700 p-4 shadow-md flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-green-500 tracking-tight">verbola</h1>
+        <button onclick="loadGames()" class="bg-gray-700 hover:bg-gray-600 text-sm px-4 py-2 rounded-lg transition-colors">
+            Recarregar
+        </button>
+    </header>
+
+    <main class="p-4 max-w-2xl mx-auto space-y-4" id="games-container">
+        <div class="text-center text-gray-400 mt-10">A carregar jogos...</div>
+    </main>
+
+    <script>
+        async function loadGames() {
+            const container = document.getElementById('games-container');
+            container.innerHTML = '<div class="text-center text-gray-400 mt-10">A atualizar...</div>';
+            
+            try {
+                // Adiciona timestamp para evitar cache no GitHub Pages
+                const response = await fetch(`jogos.json?t=${new Date().getTime()}`);
+                const games = await response.json();
+                
+                if (games.length === 0) {
+                    container.innerHTML = '<div class="text-center text-gray-400 mt-10">Nenhum jogo encontrado.</div>';
+                    return;
+                }
+
+                container.innerHTML = games.map(game => `
+                    <div class="bg-gray-800 rounded-xl p-4 border border-gray-700 flex flex-col gap-2">
+                        <div class="flex justify-between items-start">
+                            <span class="bg-gray-700 text-gray-200 text-xs font-bold px-2 py-1 rounded-md">${game.date}</span>
+                            <span class="bg-blue-900/50 text-blue-300 border border-blue-800 text-xs px-2 py-1 rounded">${game.channel}</span>
+                        </div>
+                        <div class="text-base font-medium mt-1">${game.match}</div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                container.innerHTML = '<div class="text-center text-red-400 mt-10">Erro ao carregar os dados.</div>';
+            }
+        }
+        
+        loadGames();
+    </script>
+</body>
+</html>
