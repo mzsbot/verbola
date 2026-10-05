@@ -5,10 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>verbola</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* CSS Grid personalizado para forçar a estrutura do site original mas adaptável a mobile */
+        .game-grid {
+            display: grid;
+            grid-template-columns: 80px 1fr auto;
+            gap: 12px;
+            align-items: center;
+        }
+        @media (max-width: 480px) {
+            .game-grid {
+                grid-template-columns: 70px 1fr; /* Esconde a coluna do canal num ecrã muito pequeno para a meter abaixo */
+            }
+            .channels-col {
+                grid-column: 1 / -1;
+                justify-content: flex-start !important;
+                padding-top: 8px;
+                border-top: 1px solid #374151; /* gray-700 */
+            }
+        }
+    </style>
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans min-h-screen p-4">
-    <main class="max-w-2xl mx-auto space-y-3" id="games-container">
-        <div class="text-center text-gray-400 mt-10">A carregar jogos...</div>
+<body class="bg-[#0f172a] text-slate-200 font-sans min-h-screen p-2 sm:p-4 selection:bg-blue-500/30">
+    
+    <main class="max-w-3xl mx-auto space-y-2" id="games-container">
+        <div class="text-center text-slate-500 mt-10 animate-pulse">A carregar jogos...</div>
     </main>
 
     <script>
@@ -33,47 +54,79 @@
             const container = document.getElementById('games-container');
             
             try {
+                // Previne o cache do navegador
                 const response = await fetch(`jogos.json?t=${new Date().getTime()}`);
                 const games = await response.json();
                 
                 if (games.length === 0) {
-                    container.innerHTML = '<div class="text-center text-gray-400 mt-10">Nenhum jogo encontrado.</div>';
+                    container.innerHTML = '<div class="text-center text-slate-500 mt-10">Nenhum jogo agendado.</div>';
                     return;
                 }
 
-                container.innerHTML = games.map(game => {
+                container.innerHTML = games.map((game, index) => {
                     const isLive = checkIsLive(game.time, game.is_today);
                     
-                    const borderClass = isLive 
-                        ? 'border-red-500 shadow-[0_0_10px_rgba(239,68,68,0.3)]' 
-                        : 'border-gray-700';
-                        
-                    const liveBadge = isLive 
-                        ? '<span class="bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded ml-2 animate-pulse">DIRETO</span>' 
+                    // Alterna o fundo ligeiramente entre linhas pares e ímpares (como no original)
+                    const bgClass = index % 2 === 0 ? 'bg-slate-800/80' : 'bg-slate-800/40';
+                    
+                    // Borda e sombra vermelha se estiver em direto
+                    const liveStyles = isLive 
+                        ? 'border-l-4 border-l-red-500 border-t border-b border-r border-slate-700/50 shadow-[inset_4px_0_0_0_rgba(239,68,68,1),0_0_15px_rgba(239,68,68,0.15)] bg-slate-800/90' 
+                        : `border border-slate-700/50 ${bgClass}`;
+
+                    // Gera o HTML das bandeiras (se existirem)
+                    const flagsHtml = game.flags && game.flags.length > 0 
+                        ? `<div class="flex gap-1 ml-2 opacity-90">${game.flags.map(f => `<img src="${f}" class="h-4 object-contain rounded-[2px]" loading="lazy">`).join('')}</div>` 
                         : '';
 
+                    // Gera o HTML dos canais (badges)
+                    const channelsHtml = game.channels && game.channels.length > 0
+                        ? game.channels.map(c => `<span class="bg-blue-950/40 text-blue-300 border border-blue-800/50 text-[11px] px-2 py-0.5 rounded uppercase tracking-wider font-semibold whitespace-nowrap">${c}</span>`).join('')
+                        : '<span class="text-slate-600 text-xs font-semibold">N/D</span>';
+
+                    // Lógica para mostrar a tag "HOJE"
+                    const todayTag = game.is_today ? `<span class="text-red-400 font-bold ml-1 text-xs">hoje</span>` : '';
+
                     return `
-                    <div class="bg-gray-800 rounded-xl p-4 border ${borderClass} flex flex-col gap-2 transition-all">
-                        <div class="flex justify-between items-start">
-                            <div class="flex items-center">
-                                <span class="bg-gray-700 text-gray-200 text-xs font-bold px-2 py-1 rounded-md">${game.date} - ${game.time}</span>
-                                ${liveBadge}
+                    <div class="rounded-lg p-3 sm:p-4 transition-all duration-300 hover:bg-slate-700/50 ${liveStyles}">
+                        <div class="game-grid">
+                            
+                            <!-- COLUNA 1: Data e Hora -->
+                            <div class="flex flex-col border-r border-slate-700/50 pr-2">
+                                <span class="text-sm font-semibold text-slate-300 whitespace-nowrap">${game.date}</span>
+                                <div class="flex items-baseline">
+                                    <span class="text-sm font-bold text-slate-100">${game.time}</span>
+                                    ${todayTag}
+                                </div>
                             </div>
-                            <span class="bg-blue-900/50 text-blue-300 border border-blue-800 text-xs px-2 py-1 rounded font-medium">${game.channel}</span>
-                        </div>
-                        <div class="mt-1">
-                            <div class="text-base font-bold text-gray-100">${game.match}</div>
-                            <div class="text-xs text-gray-400 mt-1 uppercase tracking-wider">${game.competition}</div>
+
+                            <!-- COLUNA 2: Equipas, Competição e Bandeiras -->
+                            <div class="flex flex-col justify-center pl-1 sm:pl-2 min-w-0">
+                                <div class="flex items-center">
+                                    <span class="text-[15px] font-bold text-slate-100 truncate">${game.match}</span>
+                                    ${flagsHtml}
+                                </div>
+                                <span class="text-xs text-slate-400 italic truncate mt-0.5">${game.competition}</span>
+                            </div>
+
+                            <!-- COLUNA 3: Canais -->
+                            <div class="channels-col flex sm:flex-col lg:flex-row flex-wrap gap-1.5 justify-end items-end sm:items-center">
+                                ${channelsHtml}
+                            </div>
+
                         </div>
                     </div>
                     `;
                 }).join('');
             } catch (error) {
-                container.innerHTML = '<div class="text-center text-red-400 mt-10">Erro ao carregar os dados.</div>';
+                container.innerHTML = '<div class="text-center text-red-400 mt-10 p-4 bg-red-900/20 rounded-lg">Erro de ligação. O ficheiro de jogos não foi encontrado.</div>';
             }
         }
         
+        // Inicia o processo
         loadGames();
+        
+        // Atualiza a interface a cada minuto para o estado "Direto"
         setInterval(loadGames, 60000); 
     </script>
 </body>
