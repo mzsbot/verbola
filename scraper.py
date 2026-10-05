@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import os
+import re
 
 URL = "https://ondebola.com/"
 OUTPUT_FILE = "jogos.json"
@@ -17,25 +17,47 @@ def get_games():
     soup = BeautifulSoup(response.text, 'html.parser')
     games = []
     
-    # NOTA: Estes seletores dependem da estrutura HTML atual do ondebola.com.
-    # É necessário inspecionar os elementos no navegador caso a lista venha vazia.
-    rows = soup.select('tr') # Assume que os jogos estão em tabelas
+    # Procura as linhas da tabela
+    rows = soup.select('tr')
     
     for idx, row in enumerate(rows):
         cols = row.find_all('td')
         if len(cols) >= 3:
             try:
-                date_time = cols[0].get_text(strip=True)
-                teams = cols[1].get_text(separator=" - ", strip=True)
-                channel = cols[2].get_text(strip=True)
+                # 1. Tratar Data e Hora (remover a palavra "hoje" que suja a string)
+                date_time_raw = cols[0].get_text(separator=" ", strip=True)
+                date_time_clean = date_time_raw.replace("hoje", "").strip()
+                
+                # 2. Tratar Equipas e Competição
+                # O site coloca as equipas e a competição na mesma célula. Vamos separar.
+                teams_comp_raw = cols[1].get_text(separator="|", strip=True)
+                parts = teams_comp_raw.split('|')
+                
+                if len(parts) >= 2:
+                    match_teams = parts[0].strip()
+                    competition = parts[1].strip()
+                    # Limpar traços excessivos nas equipas (ex: Chipre - - Letónia)
+                    match_teams = re.sub(r'\s*-\s*-\s*', ' - ', match_teams)
+                else:
+                    match_teams = teams_comp_raw
+                    competition = ""
+                
+                # Juntar as equipas e a competição de forma limpa para o frontend
+                match_display = f"{match_teams} <span class='text-xs text-gray-400 block mt-1'>{competition}</span>"
+
+                # 3. Tratar Canal (remover espaços extra se houver mais de um canal)
+                channel = cols[2].get_text(separator=" ", strip=True)
+                if not channel:
+                    channel = "N/D"
                 
                 games.append({
                     "id": idx,
-                    "date": date_time,
-                    "match": teams,
+                    "date": date_time_clean,
+                    "match": match_display,
                     "channel": channel
                 })
-            except Exception:
+            except Exception as e:
+                print(f"Erro ao processar linha {idx}: {e}")
                 continue
 
     return games
