@@ -2,6 +2,30 @@
   {
     "id": 1,
     "date": "Ter 6 Out",
+    "time": "11:00",
+    "is_today": true,
+    "match": "Portugal - Turquia",
+    "competition": "SUB16, FIFA Prep.",
+    "flags": [],
+    "channels": [
+      "Canal 11"
+    ]
+  },
+  {
+    "id": 2,
+    "date": "Ter 6 Out",
+    "time": "12:35",
+    "is_today": true,
+    "match": "China - Tajiquistão",
+    "competition": "Jogo Preparação",
+    "flags": [],
+    "channels": [
+      "Betano"
+    ]
+  },
+  {
+    "id": 3,
+    "date": "Ter 6 Out",
     "time": "15:00",
     "is_today": true,
     "match": "Índia - Uruguai",
@@ -13,7 +37,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 4,
     "date": "Ter 6 Out",
     "time": "17:30",
     "is_today": true,
@@ -21,11 +45,11 @@
     "competition": "SUB21, Qual. Euro",
     "flags": [],
     "channels": [
-      "N/D"
+      "Canal 11"
     ]
   },
   {
-    "id": 5,
+    "id": 7,
     "date": "Ter 6 Out",
     "time": "19:45",
     "is_today": true,
@@ -37,7 +61,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 8,
     "date": "Ter 6 Out",
     "time": "19:45",
     "is_today": true,
@@ -49,7 +73,19 @@
     ]
   },
   {
-    "id": 7,
+    "id": 9,
+    "date": "Ter 6 Out",
+    "time": "19:45",
+    "is_today": true,
+    "match": "Escócia - Eslovénia",
+    "competition": "UEFA Liga Nações",
+    "flags": [],
+    "channels": [
+      "Sport.Tv3"
+    ]
+  },
+  {
+    "id": 10,
     "date": "Ter 6 Out",
     "time": "19:45",
     "is_today": true,
@@ -61,7 +97,19 @@
     ]
   },
   {
-    "id": 8,
+    "id": 11,
+    "date": "Ter 6 Out",
+    "time": "19:45",
+    "is_today": true,
+    "match": "Vários - Jogos",
+    "competition": "UEFA Liga Nações",
+    "flags": [],
+    "channels": [
+      "Sport.Tv"
+    ]
+  },
+  {
+    "id": 12,
     "date": "Ter 6 Out",
     "time": "20:00",
     "is_today": true,
@@ -69,25 +117,59 @@
     "competition": "Qual. Taça N. Africanas",
     "flags": [],
     "channels": [
-      "Sport.Tv6",
-      "Betano"
+      "Sport.Tv6"
     ]
   },
   {
-    "id": 9,
+    "id": 13,
     "date": "Qua 7 Out",
     "time": "00:00",
     "is_today": false,
     "match": "Argentina - Benim",
+    "competition": "Despedida Messi",
+    "flags": [],
+    "channels": [
+      "Sport.Tv1"
+    ]
+  },
+  {
+    "id": 14,
+    "date": "Qua 7 Out",
+    "time": "00:45",
+    "is_today": false,
+    "match": "Colômbia - Peru",
     "competition": "Jogo Preparação",
     "flags": [],
     "channels": [
-      "Sport.Tv1",
       "Betano"
     ]
   },
   {
-    "id": 10,
+    "id": 15,
+    "date": "Qua 7 Out",
+    "time": "01:00",
+    "is_today": false,
+    "match": "EUA - Canadá",
+    "competition": "Jogo Preparação",
+    "flags": [],
+    "channels": [
+      "Betano"
+    ]
+  },
+  {
+    "id": 16,
+    "date": "Qua 7 Out",
+    "time": "23:30",
+    "is_today": false,
+    "match": "Vários - Jogos",
+    "competition": "Brasileirão 2026",
+    "flags": [],
+    "channels": [
+      "N/D"
+    ]
+  },
+  {
+    "id": 17,
     "date": "Sex 9 Out",
     "time": "14:30",
     "is_today": false,
@@ -99,7 +181,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 18,
     "date": "Sex 9 Out",
     "time": "19:00",
     "is_today": false,
@@ -111,7 +193,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 19,
     "date": "Sex 9 Out",
     "time": "20:15",
     "is_today": false,
@@ -123,7 +205,31 @@
     ]
   },
   {
-    "id": 13,
+    "id": 20,
+    "date": "Sab 10 Out",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Man. United - Tottenham",
+    "competition": "Liga Inglaterra",
+    "flags": [],
+    "channels": [
+      "dazn 1"
+    ]
+  },
+  {
+    "id": 21,
+    "date": "Sab 10 Out",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Barcelona - Getafe",
+    "competition": "Liga Espanha",
+    "flags": [],
+    "channels": [
+      "dazn 2"
+    ]
+  },
+  {
+    "id": 22,
     "date": "Sab 10 Out",
     "time": "18:00",
     "is_today": false,
@@ -135,7 +241,43 @@
     ]
   },
   {
-    "id": 14,
+    "id": 23,
+    "date": "Sab 10 Out",
+    "time": "19:45",
+    "is_today": false,
+    "match": "PSG - Le Mans",
+    "competition": "Liga França",
+    "flags": [],
+    "channels": [
+      "Sport.Tv3"
+    ]
+  },
+  {
+    "id": 24,
+    "date": "Sab 10 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Real Madrid - Villarreal",
+    "competition": "Liga Espanha",
+    "flags": [],
+    "channels": [
+      "dazn 1"
+    ]
+  },
+  {
+    "id": 25,
+    "date": "Dom 11 Out",
+    "time": "16:30",
+    "is_today": false,
+    "match": "Liverpool - Manchester City",
+    "competition": "Liga Inglaterra",
+    "flags": [],
+    "channels": [
+      "dazn 1"
+    ]
+  },
+  {
+    "id": 26,
     "date": "Dom 11 Out",
     "time": "18:00",
     "is_today": false,
@@ -147,7 +289,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 27,
     "date": "Ter 13 Out",
     "time": "17:45",
     "is_today": false,
@@ -159,7 +301,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 28,
     "date": "Qua 14 Out",
     "time": "17:45",
     "is_today": false,
@@ -171,7 +313,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 29,
     "date": "Qua 14 Out",
     "time": "20:00",
     "is_today": false,
@@ -183,7 +325,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 30,
     "date": "Qua 14 Out",
     "time": "20:00",
     "is_today": false,
@@ -195,7 +337,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 31,
     "date": "Qui 15 Out",
     "time": "17:45",
     "is_today": false,
@@ -207,7 +349,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 32,
     "date": "Qui 15 Out",
     "time": "20:00",
     "is_today": false,
@@ -219,7 +361,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 33,
     "date": "Qui 15 Out",
     "time": "20:00",
     "is_today": false,
@@ -231,7 +373,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 34,
     "date": "Ter 20 Out",
     "time": "20:00",
     "is_today": false,
@@ -243,7 +385,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 35,
     "date": "Ter 20 Out",
     "time": "20:00",
     "is_today": false,
@@ -255,7 +397,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 36,
     "date": "Ter 20 Out",
     "time": "20:00",
     "is_today": false,
@@ -267,7 +409,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 37,
     "date": "Qua 21 Out",
     "time": "17:45",
     "is_today": false,
@@ -279,7 +421,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 38,
     "date": "Qua 21 Out",
     "time": "20:00",
     "is_today": false,
@@ -291,7 +433,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 39,
     "date": "Qui 22 Out",
     "time": "20:00",
     "is_today": false,
@@ -303,7 +445,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 40,
     "date": "Qui 22 Out",
     "time": "20:00",
     "is_today": false,
@@ -315,7 +457,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 41,
     "date": "Sab 24 Out",
     "time": "20:30",
     "is_today": false,
@@ -327,7 +469,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 42,
     "date": "Dom 25 Out",
     "time": "20:30",
     "is_today": false,
@@ -339,7 +481,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 43,
     "date": "Seg 26 Out",
     "time": "18:45",
     "is_today": false,
@@ -351,7 +493,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 44,
     "date": "Ter 27 Out",
     "time": "20:15",
     "is_today": false,
@@ -363,7 +505,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 45,
     "date": "Qua 28 Out",
     "time": "20:30",
     "is_today": false,
@@ -375,7 +517,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 46,
     "date": "Qui 29 Out",
     "time": "20:45",
     "is_today": false,
@@ -387,7 +529,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 47,
     "date": "Sex 30 Out",
     "time": "20:15",
     "is_today": false,
@@ -399,7 +541,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 48,
     "date": "Sab 31 Out",
     "time": "20:30",
     "is_today": false,
@@ -411,7 +553,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 49,
     "date": "Seg 2 Nov",
     "time": "20:15",
     "is_today": false,
@@ -423,7 +565,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 50,
     "date": "Qua 4 Nov",
     "time": "17:45",
     "is_today": false,
@@ -435,7 +577,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 51,
     "date": "Qui 5 Nov",
     "time": "20:00",
     "is_today": false,
@@ -447,7 +589,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 52,
     "date": "Sab 7 Nov",
     "time": "20:30",
     "is_today": false,
@@ -459,7 +601,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 53,
     "date": "Dom 8 Nov",
     "time": "18:00",
     "is_today": false,
@@ -471,7 +613,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 54,
     "date": "Dom 8 Nov",
     "time": "20:30",
     "is_today": false,
@@ -483,7 +625,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 55,
     "date": "Sab 14 Nov",
     "time": "19:45",
     "is_today": false,
@@ -495,7 +637,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 56,
     "date": "Qui 26 Nov",
     "time": "17:45",
     "is_today": false,
@@ -507,7 +649,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": 57,
     "date": "Dom 29 Nov",
     "time": "20:30",
     "is_today": false,
@@ -519,7 +661,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": 58,
     "date": "Seg 30 Nov",
     "time": "20:15",
     "is_today": false,
@@ -531,7 +673,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 59,
     "date": "Qui 10 Dez",
     "time": "20:00",
     "is_today": false,
@@ -543,7 +685,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": 60,
     "date": "Qui 21 Jan",
     "time": "17:45",
     "is_today": false,
@@ -555,7 +697,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 61,
     "date": "Qui 28 Jan",
     "time": "20:00",
     "is_today": false,
