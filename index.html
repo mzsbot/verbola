@@ -7,7 +7,6 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* CSS Grid personalizado para forçar a estrutura do site original mas adaptável a mobile */
         .game-grid {
             display: grid;
             grid-template-columns: 80px 1fr auto;
@@ -16,13 +15,13 @@
         }
         @media (max-width: 480px) {
             .game-grid {
-                grid-template-columns: 70px 1fr; /* Esconde a coluna do canal num ecrã muito pequeno para a meter abaixo */
+                grid-template-columns: 70px 1fr;
             }
             .channels-col {
                 grid-column: 1 / -1;
                 justify-content: flex-start !important;
                 padding-top: 8px;
-                border-top: 1px solid #374151; /* gray-700 */
+                border-top: 1px solid #374151;
             }
         }
     </style>
@@ -30,69 +29,68 @@
 <body class="bg-[#0f172a] text-slate-200 font-sans min-h-screen p-2 sm:p-4 selection:bg-blue-500/30">
     
     <main class="max-w-3xl mx-auto space-y-2" id="games-container">
-        <div class="text-center text-slate-500 mt-10 animate-pulse">A carregar jogos...</div>
+        <div class="text-center text-slate-500 mt-10 animate-pulse">A carregar horários...</div>
     </main>
 
     <script>
-        function checkIsLive(timeStr, isToday) {
+        function checkIsLive(timeStr, isToday, sport) {
             if (!isToday || !timeStr) return false;
             
             const now = new Date();
-            const currentHour = now.getHours();
-            const currentMin = now.getMinutes();
-            const nowInMins = (currentHour * 60) + currentMin;
-
+            const nowInMins = (now.getHours() * 60) + now.getMinutes();
             const [gameH, gameM] = timeStr.split(':').map(Number);
             if (isNaN(gameH) || isNaN(gameM)) return false;
             
             const gameTimeInMins = (gameH * 60) + gameM;
             
-            // 115 minutos de tolerância (90m jogo + 15m intervalo + 10m descontos)
-            return nowInMins >= gameTimeInMins && nowInMins <= (gameTimeInMins + 115);
+            // F1 tem tolerância de 120 minutos (Corridas/Treinos). Futebol tem 115 minutos.
+            const tolerance = sport === 'f1' ? 120 : 115;
+            return nowInMins >= gameTimeInMins && nowInMins <= (gameTimeInMins + tolerance);
         }
 
         async function loadGames() {
             const container = document.getElementById('games-container');
             
             try {
-                // Previne o cache do navegador
                 const response = await fetch(`jogos.json?t=${new Date().getTime()}`);
                 const games = await response.json();
                 
                 if (games.length === 0) {
-                    container.innerHTML = '<div class="text-center text-slate-500 mt-10">Nenhum jogo agendado.</div>';
+                    container.innerHTML = '<div class="text-center text-slate-500 mt-10">Nenhum evento agendado.</div>';
                     return;
                 }
 
                 container.innerHTML = games.map((game, index) => {
-                    const isLive = checkIsLive(game.time, game.is_today);
-                    
-                    // Alterna o fundo ligeiramente entre linhas pares e ímpares (como no original)
+                    const isLive = checkIsLive(game.time, game.is_today, game.sport);
                     const bgClass = index % 2 === 0 ? 'bg-slate-800/80' : 'bg-slate-800/40';
                     
-                    // Borda e sombra vermelha se estiver em direto
                     const liveStyles = isLive 
                         ? 'border-l-4 border-l-red-500 border-t border-b border-r border-slate-700/50 shadow-[inset_4px_0_0_0_rgba(239,68,68,1),0_0_15px_rgba(239,68,68,0.15)] bg-slate-800/90' 
                         : `border border-slate-700/50 ${bgClass}`;
 
-                    // Gera o HTML das bandeiras (se existirem)
                     const flagsHtml = game.flags && game.flags.length > 0 
                         ? `<div class="flex gap-1 ml-2 opacity-90">${game.flags.map(f => `<img src="${f}" class="h-4 object-contain rounded-[2px]" loading="lazy">`).join('')}</div>` 
                         : '';
 
-                    // Gera o HTML dos canais (badges)
                     const channelsHtml = game.channels && game.channels.length > 0
                         ? game.channels.map(c => `<span class="bg-blue-950/40 text-blue-300 border border-blue-800/50 text-[11px] px-2 py-0.5 rounded uppercase tracking-wider font-semibold whitespace-nowrap">${c}</span>`).join('')
                         : '<span class="text-slate-600 text-xs font-semibold">N/D</span>';
 
-                    // Lógica para mostrar a tag "HOJE"
                     const todayTag = game.is_today ? `<span class="text-red-400 font-bold ml-1 text-xs">hoje</span>` : '';
+                    
+                    // Lógica visual da marca de água 
+                    const icon = game.sport === 'f1' ? '🏎️' : '⚽';
 
                     return `
-                    <div class="rounded-lg p-3 sm:p-4 transition-all duration-300 hover:bg-slate-700/50 ${liveStyles}">
-                        <div class="game-grid">
-                            
-                            <!-- COLUNA 1: Data e Hora -->
+                    <div class="relative overflow-hidden rounded-lg p-3 sm:p-4 transition-all duration-300 hover:bg-slate-700/50 ${liveStyles}">
+                        
+                        <!-- Marca de água do desporto -->
+                        <div class="absolute -right-4 -bottom-4 text-7xl sm:text-8xl opacity-10 grayscale select-none pointer-events-none z-0">
+                            ${icon}
+                        </div>
+
+                        <!-- Conteúdo do Cartão -->
+                        <div class="game-grid relative z-10">
                             <div class="flex flex-col border-r border-slate-700/50 pr-2">
                                 <span class="text-sm font-semibold text-slate-300 whitespace-nowrap">${game.date}</span>
                                 <div class="flex items-baseline">
@@ -101,7 +99,6 @@
                                 </div>
                             </div>
 
-                            <!-- COLUNA 2: Equipas, Competição e Bandeiras -->
                             <div class="flex flex-col justify-center pl-1 sm:pl-2 min-w-0">
                                 <div class="flex items-center">
                                     <span class="text-[15px] font-bold text-slate-100 truncate">${game.match}</span>
@@ -110,24 +107,19 @@
                                 <span class="text-xs text-slate-400 italic truncate mt-0.5">${game.competition}</span>
                             </div>
 
-                            <!-- COLUNA 3: Canais -->
                             <div class="channels-col flex sm:flex-col lg:flex-row flex-wrap gap-1.5 justify-end items-end sm:items-center">
                                 ${channelsHtml}
                             </div>
-
                         </div>
                     </div>
                     `;
                 }).join('');
             } catch (error) {
-                container.innerHTML = '<div class="text-center text-red-400 mt-10 p-4 bg-red-900/20 rounded-lg">Erro de ligação. O ficheiro de jogos não foi encontrado.</div>';
+                container.innerHTML = '<div class="text-center text-red-400 mt-10 p-4 bg-red-900/20 rounded-lg">Erro de ligação ao ficheiro JSON.</div>';
             }
         }
         
-        // Inicia o processo
         loadGames();
-        
-        // Atualiza a interface a cada minuto para o estado "Direto"
         setInterval(loadGames, 60000); 
     </script>
 </body>
