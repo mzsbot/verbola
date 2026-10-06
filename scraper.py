@@ -8,7 +8,6 @@ URL = "https://ondebola.com/"
 OUTPUT_FILE = "jogos.json"
 
 def parse_pt_date(date_str, time_str):
-    """Converte o formato 'Seg 5 Out' e '17:00' num objeto de tempo real para ordenação cronológica."""
     try:
         months = {"Jan": 1, "Fev": 2, "Mar": 3, "Abr": 4, "Mai": 5, "Jun": 6, 
                   "Jul": 7, "Ago": 8, "Set": 9, "Out": 10, "Nov": 11, "Dez": 12}
@@ -24,7 +23,6 @@ def parse_pt_date(date_str, time_str):
         now = datetime.now(pt_tz)
         year = now.year
         
-        # Se estivermos em dezembro e o jogo for em janeiro
         if month < now.month - 1:
             year += 1
             
@@ -110,58 +108,70 @@ def get_futebol_events():
 def get_f1_events():
     f1_games = []
     try:
-        # API Pública Jolpi (Dados oficiais F1)
-        res = requests.get("https://api.jolpi.ca/ergast/f1/current/next.json", timeout=10)
+        # Repositório Oficial JSON da F1Calendar (mais rápido e atualizado)
+        res = requests.get("https://raw.githubusercontent.com/sportstimes/f1/main/_db/f1/2026.json", timeout=10)
         if res.status_code != 200:
             return []
             
         data = res.json()
-        race = data["MRData"]["RaceTable"]["Races"][0]
-        race_name = race["raceName"]
-        
-        # Mapeia todas as sessões do fim de semana
-        sessions = [
-            ("Treinos Livres 1", race.get("FirstPractice")),
-            ("Treinos Livres 2", race.get("SecondPractice")),
-            ("Treinos Livres 3", race.get("ThirdPractice")),
-            ("Qualificação Sprint", race.get("SprintQualifying")),
-            ("Sprint", race.get("Sprint")),
-            ("Qualificação", race.get("Qualifying")),
-            ("Corrida", race)
-        ]
-        
         pt_tz = ZoneInfo('Europe/Lisbon')
+        now = datetime.now(pt_tz)
+        
+        session_names = {
+            "fp1": "Treinos Livres 1",
+            "fp2": "Treinos Livres 2",
+            "fp3": "Treinos Livres 3",
+            "qualifying": "Qualificação",
+            "sprintQualifying": "Qualificação Sprint",
+            "sprint": "Sprint",
+            "gp": "Corrida"
+        }
+        
         weekdays = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"]
         months_pt = ["", "Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
         
-        for session_name, session_data in sessions:
-            if not session_data or 'date' not in session_data or 'time' not in session_data:
-                continue
+        for race in data.get("races", []):
+            race_name = race.get("name", "Grande Prémio")
+            sessions = race.get("sessions", {})
+            
+            for key, time_str in sessions.items():
+                if not time_str: continue
                 
-            time_str = session_data['time'].replace('Z', '')
-            utc_dt = datetime.strptime(f"{session_data['date']} {time_str}", "%Y-%m-%d %H:%M:%S")
-            utc_dt = utc_dt.replace(tzinfo=timezone.utc)
-            pt_dt = utc_dt.astimezone(pt_tz)
-            
-            # Ignora os dias de F1 que já passaram
-            if pt_dt.date() < datetime.now(pt_tz).date():
-                continue
-
-            date_val = f"{weekdays[pt_dt.weekday()]} {pt_dt.day} {months_pt[pt_dt.month]}"
-            time_val = f"{pt_dt.hour:02d}:{pt_dt.minute:02d}"
-            is_today = (pt_dt.date() == datetime.now(pt_tz).date())
-            
-            f1_games.append({
-                "sport": "f1",
-                "sort_date": pt_dt,
-                "date": date_val,
-                "time": time_val,
-                "is_today": is_today,
-                "match": f"{race_name} - {session_name}",
-                "competition": "Fórmula 1",
-                "flags": [],
-                "channels": ["SPORT.TV4"]
-            })
+                try:
+                    # Converte a hora UTC do ficheiro (ex: "2026-10-09T09:30:00Z") para um objeto datetime
+                    if time_str.endswith("Z"):
+                        utc_dt = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+                    else:
+                        utc_dt = datetime.fromisoformat(time_str)
+                except Exception:
+                    continue
+                    
+                # Converte para a hora em Portugal Continental
+                pt_dt = utc_dt.astimezone(pt_tz)
+                
+                # Regras de limite temporal
+                delta_days = (pt_dt.date() - now.date()).days
+                
+                # 1. Se for negativo, já passou. 2. Se for superior a 10 dias, é no futuro longo.
+                if delta_days < 0 or delta_days > 10:
+                    continue
+                    
+                session_title = session_names.get(key, key.title())
+                date_val = f"{weekdays[pt_dt.weekday()]} {pt_dt.day} {months_pt[pt_dt.month]}"
+                time_val = f"{pt_dt.hour:02d}:{pt_dt.minute:02d}"
+                is_today = (pt_dt.date() == now.date())
+                
+                f1_games.append({
+                    "sport": "f1",
+                    "sort_date": pt_dt,
+                    "date": date_val,
+                    "time": time_val,
+                    "is_today": is_today,
+                    "match": f"{race_name} - {session_title}",
+                    "competition": "Fórmula 1",
+                    "flags": [],
+                    "channels": ["SPORT.TV4"]
+                })
     except Exception as e:
         print("Aviso: Falha na extração de F1:", e)
         
@@ -170,10 +180,9 @@ def get_f1_events():
 if __name__ == "__main__":
     all_events = get_futebol_events() + get_f1_events()
     
-    # Ordenar cronologicamente misturando os desportos
+    # Ordena todos os jogos (Futebol e F1) com precisão cronológica
     all_events.sort(key=lambda x: x["sort_date"])
     
-    # Limpar o campo de ordenação antes de guardar no ficheiro para manter o JSON limpo
     for idx, event in enumerate(all_events):
         event["id"] = idx
         event.pop("sort_date", None)
