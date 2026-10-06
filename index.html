@@ -43,7 +43,6 @@
             
             const gameTimeInMins = (gameH * 60) + gameM;
             
-            // F1 tem tolerância de 120 minutos (Corridas/Treinos). Futebol tem 115 minutos.
             const tolerance = sport === 'f1' ? 120 : 115;
             return nowInMins >= gameTimeInMins && nowInMins <= (gameTimeInMins + tolerance);
         }
@@ -78,16 +77,15 @@
 
                     const todayTag = game.is_today ? `<span class="text-red-400 font-bold ml-1 text-xs">hoje</span>` : '';
                     
-                    // Lógica visual da marca de água 
-                    const icon = game.sport === 'f1' ? '🏎️' : '⚽';
+                    // Lógica visual da marca de água adaptada por desporto
+                    const watermark = game.sport === 'f1'
+                        ? '<div class="absolute top-1/2 -translate-y-1/2 -right-2 text-[120px] sm:text-[140px] leading-none opacity-5 grayscale select-none pointer-events-none z-0">🏎️️</div>'
+                        : '<div class="absolute top-1/2 -translate-y-1/2 -right-6 text-[90px] sm:text-[110px] leading-none opacity-10 grayscale select-none pointer-events-none z-0">⚽</div>';
 
                     return `
                     <div class="relative overflow-hidden rounded-lg p-3 sm:p-4 transition-all duration-300 hover:bg-slate-700/50 ${liveStyles}">
                         
-                        <!-- Marca de água do desporto -->
-                        <div class="absolute -right-4 -bottom-4 text-7xl sm:text-8xl opacity-10 grayscale select-none pointer-events-none z-0">
-                            ${icon}
-                        </div>
+                        ${watermark}
 
                         <!-- Conteúdo do Cartão -->
                         <div class="game-grid relative z-10">
