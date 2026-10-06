@@ -77,10 +77,10 @@
 
                     const todayTag = game.is_today ? `<span class="text-red-400 font-bold ml-1 text-xs">hoje</span>` : '';
                     
-                    // Lógica visual da marca de água adaptada por desporto
+                   // Lógica visual da marca de água adaptada por desporto
                     const watermark = game.sport === 'f1'
-                        ? '<div class="absolute top-1/2 right-0 -translate-y-1/2 translate-x-[45%] opacity-5 grayscale select-none pointer-events-none z-0"><div class="-rotate-90 text-[130px] sm:text-[150px] leading-none">🏎️</div></div>'
-                        : '<div class="absolute top-1/2 right-0 -translate-y-1/2 translate-x-[70%] text-[110px] sm:text-[130px] leading-none opacity-10 grayscale select-none pointer-events-none z-0">⚽</div>';
+                        ? '<div class="absolute top-1/2 -translate-y-1/2 -right-[45px] sm:-right-[55px] -rotate-90 text-[140px] sm:text-[160px] opacity-5 grayscale select-none pointer-events-none z-0">🏎️</div>'
+                        : '<div class="absolute top-1/2 -translate-y-1/2 -right-[60px] sm:-right-[70px] text-[130px] sm:text-[150px] opacity-10 grayscale select-none pointer-events-none z-0">⚽</div>';
 
                     return `
                     <div class="relative overflow-hidden rounded-lg p-3 sm:p-4 transition-all duration-300 hover:bg-slate-700/50 ${liveStyles}">
