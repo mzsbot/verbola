@@ -2,29 +2,15 @@
   {
     "sport": "futebol",
     "date": "Qui 8 Out",
-    "time": "00:30",
+    "time": "18:00",
     "is_today": true,
-    "match": "Botafogo - Vasco",
-    "competition": "Brasileirão 2026",
+    "match": "P. Baixos - Portugal",
+    "competition": "FUTSAL, FEMININO",
     "flags": [],
     "channels": [
-      "Canal 11",
-      "Betano"
+      "Canal 11"
     ],
     "id": 0
-  },
-  {
-    "sport": "futebol",
-    "date": "Qui 8 Out",
-    "time": "01:30",
-    "is_today": true,
-    "match": "Cruzeiro - S. Paulo",
-    "competition": "Brasileirão 2026",
-    "flags": [],
-    "channels": [
-      "Betano"
-    ],
-    "id": 1
   },
   {
     "sport": "futebol",
@@ -35,9 +21,10 @@
     "competition": "Brasileirão 2026",
     "flags": [],
     "channels": [
+      "Canal 11",
       "Betano"
     ],
-    "id": 2
+    "id": 1
   },
   {
     "sport": "futebol",
@@ -48,7 +35,21 @@
     "competition": "Brasileirão 2026",
     "flags": [],
     "channels": [
+      "Canal 11",
       "Betano"
+    ],
+    "id": 2
+  },
+  {
+    "sport": "futebol",
+    "date": "Sex 9 Out",
+    "time": "01:30",
+    "is_today": false,
+    "match": "Fluminense - Coritiba",
+    "competition": "Brasileirão 2026",
+    "flags": [],
+    "channels": [
+      "Canal 11"
     ],
     "id": 3
   },
@@ -172,9 +173,9 @@
   {
     "sport": "futebol",
     "date": "Sab 10 Out",
-    "time": "17:30",
+    "time": "15:00",
     "is_today": false,
-    "match": "Man. United - Tottenham",
+    "match": "Chelsea - Bournemouth",
     "competition": "Liga Inglaterra",
     "flags": [],
     "channels": [
@@ -187,13 +188,26 @@
     "date": "Sab 10 Out",
     "time": "17:30",
     "is_today": false,
+    "match": "Man. United - Tottenham",
+    "competition": "Liga Inglaterra",
+    "flags": [],
+    "channels": [
+      "dazn 1"
+    ],
+    "id": 14
+  },
+  {
+    "sport": "futebol",
+    "date": "Sab 10 Out",
+    "time": "17:30",
+    "is_today": false,
     "match": "Barcelona - Getafe",
     "competition": "Liga Espanha",
     "flags": [],
     "channels": [
       "dazn 2"
     ],
-    "id": 14
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -206,7 +220,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 15
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -219,7 +233,7 @@
     "channels": [
       "Sport.Tv3"
     ],
-    "id": 16
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -232,7 +246,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 17
+    "id": 18
   },
   {
     "sport": "f1",
@@ -245,7 +259,7 @@
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 18
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -258,7 +272,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 19
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -271,7 +285,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 20
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -284,7 +298,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 21
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -297,7 +311,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 22
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -310,7 +324,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 23
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -323,7 +337,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 24
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -336,7 +350,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 25
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -349,7 +363,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 26
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -358,19 +372,6 @@
     "is_today": false,
     "match": "Kobenhavn - Sp. Braga",
     "competition": "UEFA Liga Conferência",
-    "flags": [],
-    "channels": [
-      "N/D"
-    ],
-    "id": 27
-  },
-  {
-    "sport": "futebol",
-    "date": "Ter 20 Out",
-    "time": "20:00",
-    "is_today": false,
-    "match": "FC Porto - PSV",
-    "competition": "UEFA Liga Campeões",
     "flags": [],
     "channels": [
       "N/D"
@@ -395,13 +396,26 @@
     "date": "Ter 20 Out",
     "time": "20:00",
     "is_today": false,
-    "match": "Paris SG - Barcelona",
+    "match": "FC Porto - PSV",
     "competition": "UEFA Liga Campeões",
     "flags": [],
     "channels": [
       "N/D"
     ],
     "id": 30
+  },
+  {
+    "sport": "futebol",
+    "date": "Ter 20 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Paris SG - Barcelona",
+    "competition": "UEFA Liga Campeões",
+    "flags": [],
+    "channels": [
+      "N/D"
+    ],
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -414,7 +428,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 31
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -427,7 +441,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 32
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -440,7 +454,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 33
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -453,7 +467,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 34
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -466,7 +480,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 35
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -479,7 +493,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 36
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -492,7 +506,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 37
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -505,7 +519,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 38
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -518,7 +532,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 39
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -531,7 +545,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 40
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -544,7 +558,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 41
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -557,7 +571,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 42
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -570,7 +584,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 43
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -583,7 +597,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 44
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -596,7 +610,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 45
+    "id": 46
   },
   {
     "sport": "futebol",
@@ -609,7 +623,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 46
+    "id": 47
   },
   {
     "sport": "futebol",
@@ -622,7 +636,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 47
+    "id": 48
   },
   {
     "sport": "futebol",
@@ -635,7 +649,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 48
+    "id": 49
   },
   {
     "sport": "futebol",
@@ -648,7 +662,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 49
+    "id": 50
   },
   {
     "sport": "futebol",
@@ -661,7 +675,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 50
+    "id": 51
   },
   {
     "sport": "futebol",
@@ -674,7 +688,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 51
+    "id": 52
   },
   {
     "sport": "futebol",
@@ -687,7 +701,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 52
+    "id": 53
   },
   {
     "sport": "futebol",
@@ -700,7 +714,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 53
+    "id": 54
   },
   {
     "sport": "futebol",
@@ -713,7 +727,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 54
+    "id": 55
   },
   {
     "sport": "futebol",
@@ -726,6 +740,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 55
+    "id": 56
   }
 ]
