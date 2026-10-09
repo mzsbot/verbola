@@ -28,85 +28,6 @@
   {
     "sport": "futebol",
     "date": "Sex 9 Out",
-    "time": "14:30",
-    "is_today": true,
-    "match": "Brasil - Portugal",
-    "competition": "Fut. PRAIA, Mundialito",
-    "flags": [],
-    "channels": [
-      "Sport.Tv+"
-    ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
-    "date": "Sex 9 Out",
-    "time": "16:00",
-    "is_today": true,
-    "match": "Al Fateh - Al Ahli J.",
-    "competition": "Liga Arábia Saudita",
-    "flags": [],
-    "channels": [
-      "Sport.Tv1"
-    ],
-    "id": 3
-  },
-  {
-    "sport": "futebol",
-    "date": "Sex 9 Out",
-    "time": "18:45",
-    "is_today": true,
-    "match": "Moreirense - Gil Vicente",
-    "competition": "Liga Portugal, J8",
-    "flags": [],
-    "channels": [
-      "V+"
-    ],
-    "id": 4
-  },
-  {
-    "sport": "futebol",
-    "date": "Sex 9 Out",
-    "time": "19:00",
-    "is_today": true,
-    "match": "Irlanda N. - Portugal",
-    "competition": "FEMIN., Q. Mundial",
-    "flags": [],
-    "channels": [
-      "Canal 11"
-    ],
-    "id": 5
-  },
-  {
-    "sport": "futebol",
-    "date": "Sex 9 Out",
-    "time": "19:00",
-    "is_today": true,
-    "match": "Al Nassr - Al Diriyah",
-    "competition": "Liga Arábia Saudita",
-    "flags": [],
-    "channels": [
-      "Sport.Tv2"
-    ],
-    "id": 6
-  },
-  {
-    "sport": "futebol",
-    "date": "Sex 9 Out",
-    "time": "19:30",
-    "is_today": true,
-    "match": "Borussia Dortmund -",
-    "competition": "Werder Bremen",
-    "flags": [],
-    "channels": [
-      "dazn 1",
-      "Betano"
-    ],
-    "id": 7
-  },
-  {
-    "sport": "futebol",
-    "date": "Sex 9 Out",
     "time": "19:45",
     "is_today": true,
     "match": "Lens - Lyon",
@@ -116,7 +37,7 @@
       "Sport.Tv6",
       "Betano"
     ],
-    "id": 8
+    "id": 2
   },
   {
     "sport": "futebol",
@@ -127,9 +48,24 @@
     "competition": "Liga Portugal, J8",
     "flags": [],
     "channels": [
-      "Sport.Tv1"
+      "Sport.Tv1",
+      "Vídeo"
     ],
-    "id": 9
+    "id": 3
+  },
+  {
+    "sport": "futebol",
+    "date": "Sex 9 Out",
+    "time": "23:30",
+    "is_today": true,
+    "match": "Instituto - Boca Juniors",
+    "competition": "Liga Argentina",
+    "flags": [],
+    "channels": [
+      "Sport.Tv1",
+      "Betano"
+    ],
+    "id": 4
   },
   {
     "sport": "f1",
@@ -142,7 +78,7 @@
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 10
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -155,7 +91,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 11
+    "id": 6
   },
   {
     "sport": "f1",
@@ -168,7 +104,7 @@
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 12
+    "id": 7
   },
   {
     "sport": "futebol",
@@ -181,7 +117,20 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 13
+    "id": 8
+  },
+  {
+    "sport": "futebol",
+    "date": "Sab 10 Out",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Espanha - Portugal",
+    "competition": "Fut. PRAIA, Mundialito",
+    "flags": [],
+    "channels": [
+      "Sport.Tv5"
+    ],
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -195,7 +144,7 @@
       "dazn 2",
       "Betano"
     ],
-    "id": 14
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -208,7 +157,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 15
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -221,7 +170,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 16
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -232,9 +181,10 @@
     "competition": "Liga França",
     "flags": [],
     "channels": [
-      "Sport.Tv3"
+      "Sport.Tv3",
+      "Betano"
     ],
-    "id": 17
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -245,9 +195,10 @@
     "competition": "Liga Espanha",
     "flags": [],
     "channels": [
-      "dazn 1"
+      "dazn 1",
+      "Betano"
     ],
-    "id": 18
+    "id": 14
   },
   {
     "sport": "f1",
@@ -260,7 +211,7 @@
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 19
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -273,7 +224,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 20
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -286,7 +237,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 21
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -299,7 +250,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 22
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -312,7 +263,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 23
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -325,7 +276,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 24
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -338,7 +289,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 25
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -351,7 +302,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 26
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -364,7 +315,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 27
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -377,7 +328,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 28
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -390,7 +341,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 29
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -403,7 +354,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 30
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -416,7 +367,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 31
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -429,7 +380,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 32
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -442,20 +393,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 33
-  },
-  {
-    "sport": "futebol",
-    "date": "Qui 22 Out",
-    "time": "20:00",
-    "is_today": false,
-    "match": "Omonia - Benfica",
-    "competition": "UEFA Liga Europa",
-    "flags": [],
-    "channels": [
-      "N/D"
-    ],
-    "id": 34
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -468,7 +406,20 @@
     "channels": [
       "N/D"
     ],
-    "id": 35
+    "id": 30
+  },
+  {
+    "sport": "futebol",
+    "date": "Qui 22 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Omonia - Benfica",
+    "competition": "UEFA Liga Europa",
+    "flags": [],
+    "channels": [
+      "N/D"
+    ],
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -481,7 +432,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 36
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -494,7 +445,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 37
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -507,7 +458,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 38
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -520,7 +471,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 39
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -533,7 +484,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 40
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -546,7 +497,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 41
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -559,7 +510,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 42
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -572,7 +523,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 43
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -585,7 +536,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 44
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -598,7 +549,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 45
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -611,7 +562,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 46
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -624,7 +575,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 47
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -637,7 +588,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 48
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -650,7 +601,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 49
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -663,7 +614,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 50
+    "id": 46
   },
   {
     "sport": "futebol",
@@ -676,7 +627,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 51
+    "id": 47
   },
   {
     "sport": "futebol",
@@ -689,7 +640,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 52
+    "id": 48
   },
   {
     "sport": "futebol",
@@ -702,7 +653,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 53
+    "id": 49
   },
   {
     "sport": "futebol",
@@ -715,7 +666,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 54
+    "id": 50
   },
   {
     "sport": "futebol",
@@ -728,7 +679,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 55
+    "id": 51
   },
   {
     "sport": "futebol",
@@ -741,6 +692,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 56
+    "id": 52
   }
 ]
