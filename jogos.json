@@ -1,36 +1,9 @@
 [
   {
     "sport": "futebol",
-    "date": "Qui 8 Out",
-    "time": "18:00",
-    "is_today": true,
-    "match": "P. Baixos - Portugal",
-    "competition": "FUTSAL, FEMININO",
-    "flags": [],
-    "channels": [
-      "Canal 11"
-    ],
-    "id": 0
-  },
-  {
-    "sport": "futebol",
-    "date": "Qui 8 Out",
-    "time": "23:30",
-    "is_today": true,
-    "match": "Santos - Flamengo",
-    "competition": "Brasileirão 2026",
-    "flags": [],
-    "channels": [
-      "Canal 11",
-      "Betano"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
     "date": "Sex 9 Out",
     "time": "01:30",
-    "is_today": false,
+    "is_today": true,
     "match": "Palmeiras - Bahia",
     "competition": "Brasileirão 2026",
     "flags": [],
@@ -38,98 +11,98 @@
       "Canal 11",
       "Betano"
     ],
-    "id": 2
+    "id": 0
   },
   {
     "sport": "futebol",
     "date": "Sex 9 Out",
     "time": "01:30",
-    "is_today": false,
+    "is_today": true,
     "match": "Fluminense - Coritiba",
     "competition": "Brasileirão 2026",
     "flags": [],
     "channels": [
       "Canal 11"
     ],
-    "id": 3
+    "id": 1
   },
   {
     "sport": "f1",
     "date": "Sex 9 Out",
     "time": "09:30",
-    "is_today": false,
+    "is_today": true,
     "match": "Singapore - Treinos Livres 1",
     "competition": "Fórmula 1",
     "flags": [],
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 4
+    "id": 2
   },
   {
     "sport": "f1",
     "date": "Sex 9 Out",
     "time": "13:30",
-    "is_today": false,
+    "is_today": true,
     "match": "Singapore - Qualificação Sprint",
     "competition": "Fórmula 1",
     "flags": [],
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 5
+    "id": 3
   },
   {
     "sport": "futebol",
     "date": "Sex 9 Out",
     "time": "14:30",
-    "is_today": false,
+    "is_today": true,
     "match": "Brasil - Portugal",
     "competition": "Fut. PRAIA, Mundialito",
     "flags": [],
     "channels": [
       "Sport.Tv+"
     ],
-    "id": 6
+    "id": 4
   },
   {
     "sport": "futebol",
     "date": "Sex 9 Out",
     "time": "18:45",
-    "is_today": false,
+    "is_today": true,
     "match": "Moreirense - Gil Vicente",
     "competition": "Liga Portugal, J8",
     "flags": [],
     "channels": [
       "V+"
     ],
-    "id": 7
+    "id": 5
   },
   {
     "sport": "futebol",
     "date": "Sex 9 Out",
     "time": "19:00",
-    "is_today": false,
+    "is_today": true,
     "match": "Al Nassr - Al Diriyah",
     "competition": "Liga Arábia Saudita",
     "flags": [],
     "channels": [
       "Sport.Tv2"
     ],
-    "id": 8
+    "id": 6
   },
   {
     "sport": "futebol",
     "date": "Sex 9 Out",
     "time": "20:15",
-    "is_today": false,
+    "is_today": true,
     "match": "Sp. Braga - Sporting",
     "competition": "Liga Portugal, J8",
     "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 9
+    "id": 7
   },
   {
     "sport": "f1",
@@ -142,7 +115,7 @@
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 10
+    "id": 8
   },
   {
     "sport": "futebol",
@@ -155,7 +128,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 11
+    "id": 9
   },
   {
     "sport": "f1",
@@ -168,7 +141,7 @@
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 12
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -181,7 +154,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 13
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -194,7 +167,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 14
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -207,7 +180,7 @@
     "channels": [
       "dazn 2"
     ],
-    "id": 15
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -220,7 +193,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 16
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -233,7 +206,7 @@
     "channels": [
       "Sport.Tv3"
     ],
-    "id": 17
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -246,7 +219,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 18
+    "id": 16
   },
   {
     "sport": "f1",
@@ -259,7 +232,7 @@
     "channels": [
       "SPORT.TV4"
     ],
-    "id": 19
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -272,7 +245,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 20
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -285,7 +258,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 21
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -298,7 +271,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 22
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -311,7 +284,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 23
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -324,7 +297,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 24
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -337,7 +310,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 25
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -350,7 +323,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 26
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -363,7 +336,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 27
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -376,33 +349,33 @@
     "channels": [
       "N/D"
     ],
+    "id": 26
+  },
+  {
+    "sport": "futebol",
+    "date": "Ter 20 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "FC Porto - PSV",
+    "competition": "UEFA Liga Campeões",
+    "flags": [],
+    "channels": [
+      "N/D"
+    ],
+    "id": 27
+  },
+  {
+    "sport": "futebol",
+    "date": "Ter 20 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "FC Porto - PSV",
+    "competition": "UEFA Liga Campeões",
+    "flags": [],
+    "channels": [
+      "N/D"
+    ],
     "id": 28
-  },
-  {
-    "sport": "futebol",
-    "date": "Ter 20 Out",
-    "time": "20:00",
-    "is_today": false,
-    "match": "FC Porto - PSV",
-    "competition": "UEFA Liga Campeões",
-    "flags": [],
-    "channels": [
-      "N/D"
-    ],
-    "id": 29
-  },
-  {
-    "sport": "futebol",
-    "date": "Ter 20 Out",
-    "time": "20:00",
-    "is_today": false,
-    "match": "FC Porto - PSV",
-    "competition": "UEFA Liga Campeões",
-    "flags": [],
-    "channels": [
-      "N/D"
-    ],
-    "id": 30
   },
   {
     "sport": "futebol",
@@ -415,7 +388,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 31
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -428,7 +401,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 32
+    "id": 30
   },
   {
     "sport": "futebol",
@@ -441,7 +414,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 33
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -454,7 +427,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 34
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -467,7 +440,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 35
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -480,7 +453,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 36
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -493,7 +466,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 37
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -506,7 +479,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 38
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -519,7 +492,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 39
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -532,7 +505,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 40
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -545,7 +518,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 41
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -558,7 +531,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 42
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -571,7 +544,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 43
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -584,7 +557,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 44
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -597,7 +570,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 45
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -610,7 +583,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 46
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -623,7 +596,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 47
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -636,7 +609,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 48
+    "id": 46
   },
   {
     "sport": "futebol",
@@ -649,7 +622,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 49
+    "id": 47
   },
   {
     "sport": "futebol",
@@ -662,7 +635,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 50
+    "id": 48
   },
   {
     "sport": "futebol",
@@ -675,7 +648,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 51
+    "id": 49
   },
   {
     "sport": "futebol",
@@ -688,7 +661,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 52
+    "id": 50
   },
   {
     "sport": "futebol",
@@ -701,7 +674,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 53
+    "id": 51
   },
   {
     "sport": "futebol",
@@ -714,7 +687,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 54
+    "id": 52
   },
   {
     "sport": "futebol",
@@ -727,7 +700,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 55
+    "id": 53
   },
   {
     "sport": "futebol",
@@ -740,6 +713,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 56
+    "id": 54
   }
 ]
