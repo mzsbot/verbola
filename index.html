@@ -33,7 +33,7 @@
     </main>
 
     <script>
-        function checkIsLive(timeStr, isToday, sport) {
+        function checkIsLive(timeStr, isToday) {
             if (!isToday || !timeStr) return false;
             
             const now = new Date();
@@ -42,9 +42,7 @@
             if (isNaN(gameH) || isNaN(gameM)) return false;
             
             const gameTimeInMins = (gameH * 60) + gameM;
-            
-            // F1, MotoGP e SBK têm tolerância de 120 minutos
-            const tolerance = (sport === 'f1' || sport === 'motogp' || sport === 'sbk') ? 120 : 115;
+            const tolerance = 115;
             return nowInMins >= gameTimeInMins && nowInMins <= (gameTimeInMins + tolerance);
         }
 
@@ -61,7 +59,7 @@
                 }
 
                 container.innerHTML = games.map((game, index) => {
-                    const isLive = checkIsLive(game.time, game.is_today, game.sport);
+                    const isLive = checkIsLive(game.time, game.is_today);
                     const bgClass = index % 2 === 0 ? 'bg-slate-800/80' : 'bg-slate-800/40';
                     
                     const liveStyles = isLive 
@@ -78,16 +76,7 @@
 
                     const todayTag = game.is_today ? `<span class="text-red-400 font-bold ml-1 text-xs">hoje</span>` : '';
                     
-                   
-                   // Lógica visual da marca de água adaptada por desporto
-                    let watermark = '';
-                    if (game.sport === 'f1') {
-                        watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[45px] sm:-right-[55px] -rotate-90 text-[140px] sm:text-[160px] opacity-5 grayscale select-none pointer-events-none z-0">🏎️</div>';
-                    } else if (game.sport === 'motogp' || game.sport === 'sbk') {
-                        watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[50px] sm:-right-[60px] text-[120px] sm:text-[140px] opacity-5 grayscale select-none pointer-events-none z-0">🏍️</div>';
-                    } else {
-                        watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[75px] sm:-right-[85px] text-[130px] sm:text-[150px] opacity-10 grayscale select-none pointer-events-none z-0">⚽</div>';
-                    }
+                    const watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[75px] sm:-right-[85px] text-[130px] sm:text-[150px] opacity-10 grayscale select-none pointer-events-none z-0">⚽</div>';
 
                     return `
                     <div class="relative overflow-hidden rounded-lg p-3 sm:p-4 transition-all duration-300 hover:bg-slate-700/50 ${liveStyles}">
@@ -120,7 +109,7 @@
                     `;
                 }).join('');
             } catch (error) {
-                container.innerHTML = '<div class="text-center text-red-400 mt-10 p-4 bg-red-900/20 rounded-lg">Erro de ligação ao ficheiro JSON.</div>';
+                container.innerHTML = '<div class="text-center text-red-400 mt-10 p-4 bg-red-950/40 border border-red-800/50 rounded-lg">Erro de ligação ao ficheiro JSON.</div>';
             }
         }
         
