@@ -164,76 +164,15 @@ def get_f1_events():
                     "match": f"{race_name} - {session_title}",
                     "competition": "Fórmula 1",
                     "flags": [],
-                    "channels": ["DAZN 5"]  # Canal corrigido
+                    "channels": ["DAZN 5"]
                 })
     except Exception as e:
         print("Aviso: Falha na extração de F1:", e)
         
     return f1_games
 
-def get_moto_events(sport_key, repo_name, comp_title):
-    events = []
-    try:
-        url = f"https://raw.githubusercontent.com/sportstimes/{repo_name}/main/_db/{repo_name}/2026.json"
-        res = requests.get(url, timeout=10)
-        if res.status_code != 200:
-            return []
-            
-        data = res.json()
-        pt_tz = ZoneInfo('Europe/Lisbon')
-        now = datetime.now(pt_tz)
-        
-        weekdays = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"]
-        months_pt = ["", "Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
-        
-        for race in data.get("races", []):
-            race_name = race.get("name", "GP")
-            sessions = race.get("sessions", {})
-            
-            for key, time_str in sessions.items():
-                if not time_str: continue
-                
-                try:
-                    if time_str.endswith("Z"):
-                        utc_dt = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-                    else:
-                        utc_dt = datetime.fromisoformat(time_str)
-                except Exception:
-                    continue
-                    
-                pt_dt = utc_dt.astimezone(pt_tz)
-                delta_days = (pt_dt.date() - now.date()).days
-                
-                if delta_days < 0 or delta_days > 10:
-                    continue
-                    
-                date_val = f"{weekdays[pt_dt.weekday()]} {pt_dt.day} {months_pt[pt_dt.month]}"
-                time_val = f"{pt_dt.hour:02d}:{pt_dt.minute:02d}"
-                is_today = (pt_dt.date() == now.date())
-                
-                events.append({
-                    "sport": sport_key,
-                    "sort_date": pt_dt,
-                    "date": date_val,
-                    "time": time_val,
-                    "is_today": is_today,
-                    "match": f"{race_name} - {key.title()}",
-                    "competition": comp_title,
-                    "flags": [],
-                    "channels": ["SPORT.TV4"]
-                })
-    except Exception as e:
-        print(f"Aviso: Falha na extração de {comp_title}:", e)
-        
-    return events
-
 if __name__ == "__main__":
-    futebol = get_futebol_events()
-    f1 = get_f1_events()
-    motogp = get_moto_events("motogp", "motogp", "MotoGP")
-    sbk = get_moto_events("sbk", "wsbk", "Superbikes")
-    
-    all_events = futebol + f1 + motogp + sbk
+    all_events = get_futebol_events() + get_f1_events()
     all_events.sort(key=lambda x: x["sort_date"])
     
     for idx, event in enumerate(all_events):
