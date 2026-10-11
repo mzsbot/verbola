@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-from datetime import datetime, timezone
+from datetime import datetime
 from zoneinfo import ZoneInfo
 
 URL = "https://ondebola.com/"
@@ -44,7 +44,7 @@ def get_futebol_events():
     games = []
     rows = soup.select('tr')
     
-    for idx, row in enumerate(rows):
+    for row in rows:
         cols = row.find_all('td')
         if len(cols) >= 3 and 'pub' not in row.get('class', []):
             try:
@@ -105,74 +105,8 @@ def get_futebol_events():
                 continue
     return games
 
-def get_f1_events():
-    f1_games = []
-    try:
-        res = requests.get("https://raw.githubusercontent.com/sportstimes/f1/main/_db/f1/2026.json", timeout=10)
-        if res.status_code != 200:
-            return []
-            
-        data = res.json()
-        pt_tz = ZoneInfo('Europe/Lisbon')
-        now = datetime.now(pt_tz)
-        
-        session_names = {
-            "fp1": "Treinos Livres 1",
-            "fp2": "Treinos Livres 2",
-            "fp3": "Treinos Livres 3",
-            "qualifying": "Qualificação",
-            "sprintQualifying": "Qualificação Sprint",
-            "sprint": "Sprint",
-            "gp": "Corrida"
-        }
-        
-        weekdays = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"]
-        months_pt = ["", "Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
-        
-        for race in data.get("races", []):
-            race_name = race.get("name", "GP")
-            sessions = race.get("sessions", {})
-            
-            for key, time_str in sessions.items():
-                if not time_str: continue
-                
-                try:
-                    if time_str.endswith("Z"):
-                        utc_dt = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-                    else:
-                        utc_dt = datetime.fromisoformat(time_str)
-                except Exception:
-                    continue
-                    
-                pt_dt = utc_dt.astimezone(pt_tz)
-                delta_days = (pt_dt.date() - now.date()).days
-                
-                if delta_days < 0 or delta_days > 10:
-                    continue
-                    
-                session_title = session_names.get(key, key.title())
-                date_val = f"{weekdays[pt_dt.weekday()]} {pt_dt.day} {months_pt[pt_dt.month]}"
-                time_val = f"{pt_dt.hour:02d}:{pt_dt.minute:02d}"
-                is_today = (pt_dt.date() == now.date())
-                
-                f1_games.append({
-                    "sport": "f1",
-                    "sort_date": pt_dt,
-                    "date": date_val,
-                    "time": time_val,
-                    "is_today": is_today,
-                    "match": f"{race_name} - {session_title}",
-                    "competition": "Fórmula 1",
-                    "flags": [],
-                    "channels": ["DAZN 5"]
-                })
-    except Exception as e:
-        print("Aviso: Falha na extração de F1:", e)
-        
-    return f1_games
-
 if __name__ == "__main__":
-    all_events = get_futebol_events() + get_f1_events()
+    all_events = get_futebol_events()
     all_events.sort(key=lambda x: x["sort_date"])
     
     for idx, event in enumerate(all_events):
