@@ -43,7 +43,8 @@
             
             const gameTimeInMins = (gameH * 60) + gameM;
             
-            const tolerance = sport === 'f1' ? 120 : 115;
+            // F1, MotoGP e SBK têm tolerância de 120 minutos
+            const tolerance = (sport === 'f1' || sport === 'motogp' || sport === 'sbk') ? 120 : 115;
             return nowInMins >= gameTimeInMins && nowInMins <= (gameTimeInMins + tolerance);
         }
 
@@ -77,10 +78,16 @@
 
                     const todayTag = game.is_today ? `<span class="text-red-400 font-bold ml-1 text-xs">hoje</span>` : '';
                     
+                   
                    // Lógica visual da marca de água adaptada por desporto
-                    const watermark = game.sport === 'f1'
-                        ? '<div class="absolute top-1/2 -translate-y-1/2 -right-[45px] sm:-right-[55px] -rotate-90 text-[140px] sm:text-[160px] opacity-5 grayscale select-none pointer-events-none z-0">🏎️</div>'
-                        : '<div class="absolute top-1/2 -translate-y-1/2 -right-[75px] sm:-right-[85px] text-[130px] sm:text-[150px] opacity-10 grayscale select-none pointer-events-none z-0">⚽</div>';
+                    let watermark = '';
+                    if (game.sport === 'f1') {
+                        watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[45px] sm:-right-[55px] -rotate-90 text-[140px] sm:text-[160px] opacity-5 grayscale select-none pointer-events-none z-0">🏎️</div>';
+                    } else if (game.sport === 'motogp' || game.sport === 'sbk') {
+                        watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[50px] sm:-right-[60px] text-[120px] sm:text-[140px] opacity-5 grayscale select-none pointer-events-none z-0">🏍️</div>';
+                    } else {
+                        watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[75px] sm:-right-[85px] text-[130px] sm:text-[150px] opacity-10 grayscale select-none pointer-events-none z-0">⚽</div>';
+                    }
 
                     return `
                     <div class="relative overflow-hidden rounded-lg p-3 sm:p-4 transition-all duration-300 hover:bg-slate-700/50 ${liveStyles}">
