@@ -2,69 +2,16 @@
   {
     "sport": "futebol",
     "date": "Dom 11 Out",
-    "time": "16:30",
-    "is_today": true,
-    "match": "Liverpool - Manchester City",
-    "competition": "Liga Inglaterra",
-    "flags": [],
-    "channels": [
-      "dazn 1"
-    ],
-    "id": 0
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "17:00",
-    "is_today": true,
-    "match": "Sassuolo - AC Milan",
-    "competition": "Liga Itália",
-    "flags": [],
-    "channels": [
-      "Sport.Tv2",
-      "Betano"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "17:30",
-    "is_today": true,
-    "match": "Portugal - Paraguai",
-    "competition": "Fut. PRAIA, Mundialito",
-    "flags": [],
-    "channels": [
-      "Sport.Tv2"
-    ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
     "time": "18:00",
     "is_today": true,
     "match": "Benfica - V. Guimarães",
-    "competition": "Liga Portugal, J8",
+    "competition": "Liga Portugal, 2 a 0",
     "flags": [],
     "channels": [
-      "Benfica.Tv"
+      "Benfica.Tv",
+      "Vídeo"
     ],
-    "id": 3
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "18:00",
-    "is_today": true,
-    "match": "Betis - Osasuna",
-    "competition": "Liga Espanha",
-    "flags": [],
-    "channels": [
-      "dazn 3",
-      "Betano"
-    ],
-    "id": 4
+    "id": 0
   },
   {
     "sport": "futebol",
@@ -78,7 +25,7 @@
       "Sport.Tv2",
       "Betano"
     ],
-    "id": 5
+    "id": 1
   },
   {
     "sport": "futebol",
@@ -92,7 +39,21 @@
       "Sport.Tv3",
       "Betano"
     ],
-    "id": 6
+    "id": 2
+  },
+  {
+    "sport": "futebol",
+    "date": "Dom 11 Out",
+    "time": "20:00",
+    "is_today": true,
+    "match": "Racing - Valencia",
+    "competition": "Liga Espanha",
+    "flags": [],
+    "channels": [
+      "dazn 1",
+      "Betano"
+    ],
+    "id": 3
   },
   {
     "sport": "futebol",
@@ -105,7 +66,7 @@
     "channels": [
       "Betano"
     ],
-    "id": 7
+    "id": 4
   },
   {
     "sport": "futebol",
@@ -118,7 +79,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 8
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -131,7 +92,7 @@
     "channels": [
       "Betano"
     ],
-    "id": 9
+    "id": 6
   },
   {
     "sport": "futebol",
@@ -144,6 +105,46 @@
     "channels": [
       "Canal 11",
       "Betano"
+    ],
+    "id": 7
+  },
+  {
+    "sport": "futebol",
+    "date": "Dom 11 Out",
+    "time": "21:30",
+    "is_today": true,
+    "match": "Grêmio - Internacional",
+    "competition": "Brasileirão 2026",
+    "flags": [],
+    "channels": [
+      "Betano"
+    ],
+    "id": 8
+  },
+  {
+    "sport": "futebol",
+    "date": "Dom 11 Out",
+    "time": "23:30",
+    "is_today": true,
+    "match": "Bahia - Mirassol",
+    "competition": "Brasileirão 2026",
+    "flags": [],
+    "channels": [
+      "Canal 11",
+      "Betano"
+    ],
+    "id": 9
+  },
+  {
+    "sport": "futebol",
+    "date": "Seg 12 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Coventry - Newcastle",
+    "competition": "Liga Inglaterra",
+    "flags": [],
+    "channels": [
+      "dazn 1"
     ],
     "id": 10
   },
