@@ -1,165 +1,43 @@
 [
   {
     "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "18:00",
+    "date": "Seg 12 Out",
+    "time": "19:15",
     "is_today": true,
-    "match": "Benfica - V. Guimarães",
-    "competition": "Liga Portugal, 2 a 0",
+    "match": "Al Nassr - Neftchi",
+    "competition": "Asian Champ. League",
     "flags": [],
     "channels": [
-      "Benfica.Tv",
-      "Vídeo"
+      "Canal 11",
+      "Betano"
     ],
     "id": 0
   },
   {
     "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "19:45",
-    "is_today": true,
-    "match": "Cagliari - Juventus",
-    "competition": "Liga Itália",
-    "flags": [],
-    "channels": [
-      "Sport.Tv2",
-      "Betano"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "19:45",
-    "is_today": true,
-    "match": "Troyes - Marselha",
-    "competition": "Liga França",
-    "flags": [],
-    "channels": [
-      "Sport.Tv3",
-      "Betano"
-    ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Racing - Valencia",
-    "competition": "Liga Espanha",
-    "flags": [],
-    "channels": [
-      "dazn 1",
-      "Betano"
-    ],
-    "id": 3
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Atl. MG - Santos",
-    "competition": "Brasileirão 2026",
-    "flags": [],
-    "channels": [
-      "Betano"
-    ],
-    "id": 4
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "20:30",
-    "is_today": true,
-    "match": "Arouca - E. Amadora",
-    "competition": "Liga Portugal, J8",
-    "flags": [],
-    "channels": [
-      "Sport.Tv1"
-    ],
-    "id": 5
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "21:30",
-    "is_today": true,
-    "match": "Flamengo - Fluminense",
-    "competition": "Brasileirão 2026",
-    "flags": [],
-    "channels": [
-      "Betano"
-    ],
-    "id": 6
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "21:30",
-    "is_today": true,
-    "match": "Palmeiras - Corinthians",
-    "competition": "Brasileirão 2026",
-    "flags": [],
-    "channels": [
-      "Canal 11",
-      "Betano"
-    ],
-    "id": 7
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "21:30",
-    "is_today": true,
-    "match": "Grêmio - Internacional",
-    "competition": "Brasileirão 2026",
-    "flags": [],
-    "channels": [
-      "Betano"
-    ],
-    "id": 8
-  },
-  {
-    "sport": "futebol",
-    "date": "Dom 11 Out",
-    "time": "23:30",
-    "is_today": true,
-    "match": "Bahia - Mirassol",
-    "competition": "Brasileirão 2026",
-    "flags": [],
-    "channels": [
-      "Canal 11",
-      "Betano"
-    ],
-    "id": 9
-  },
-  {
-    "sport": "futebol",
     "date": "Seg 12 Out",
     "time": "20:00",
-    "is_today": false,
+    "is_today": true,
     "match": "Coventry - Newcastle",
     "competition": "Liga Inglaterra",
     "flags": [],
     "channels": [
       "dazn 1"
     ],
-    "id": 10
+    "id": 1
   },
   {
     "sport": "futebol",
     "date": "Seg 12 Out",
     "time": "20:15",
-    "is_today": false,
+    "is_today": true,
     "match": "Famalicão - FC Alverca",
     "competition": "Liga Portugal, J8",
     "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 11
+    "id": 2
   },
   {
     "sport": "futebol",
@@ -172,7 +50,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 12
+    "id": 3
   },
   {
     "sport": "futebol",
@@ -185,7 +63,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 13
+    "id": 4
   },
   {
     "sport": "futebol",
@@ -198,7 +76,7 @@
     "channels": [
       "dazn 2"
     ],
-    "id": 14
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -211,7 +89,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 15
+    "id": 6
   },
   {
     "sport": "futebol",
@@ -224,7 +102,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 16
+    "id": 7
   },
   {
     "sport": "futebol",
@@ -237,7 +115,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 17
+    "id": 8
   },
   {
     "sport": "futebol",
@@ -250,7 +128,7 @@
     "channels": [
       "dazn 2"
     ],
-    "id": 18
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -263,7 +141,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 19
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -276,7 +154,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 20
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -289,7 +167,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 21
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -302,7 +180,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 22
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -315,7 +193,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 23
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -328,7 +206,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 24
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -341,7 +219,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 25
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -354,7 +232,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 26
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -367,7 +245,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 27
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -380,7 +258,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 28
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -393,7 +271,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 29
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -406,7 +284,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 30
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -419,7 +297,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 31
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -432,7 +310,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 32
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -445,7 +323,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 33
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -458,7 +336,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 34
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -471,7 +349,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 35
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -484,7 +362,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 36
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -497,7 +375,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 37
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -510,7 +388,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 38
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -523,7 +401,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 39
+    "id": 30
   },
   {
     "sport": "futebol",
@@ -536,7 +414,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 40
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -549,7 +427,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 41
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -562,7 +440,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 42
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -575,7 +453,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 43
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -588,7 +466,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 44
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -601,7 +479,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 45
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -614,7 +492,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 46
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -627,7 +505,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 47
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -640,7 +518,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 48
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -653,7 +531,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 49
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -666,7 +544,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 50
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -679,7 +557,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 51
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -692,7 +570,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 52
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -705,7 +583,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 53
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -718,7 +596,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 54
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -731,7 +609,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 55
+    "id": 46
   },
   {
     "sport": "futebol",
@@ -744,7 +622,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 56
+    "id": 47
   },
   {
     "sport": "futebol",
@@ -757,7 +635,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 57
+    "id": 48
   },
   {
     "sport": "futebol",
@@ -770,7 +648,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 58
+    "id": 49
   },
   {
     "sport": "futebol",
@@ -783,7 +661,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 59
+    "id": 50
   },
   {
     "sport": "futebol",
@@ -796,7 +674,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 60
+    "id": 51
   },
   {
     "sport": "futebol",
@@ -809,6 +687,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 61
+    "id": 52
   }
 ]
