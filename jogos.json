@@ -2,13 +2,14 @@
   {
     "sport": "futebol",
     "date": "Ter 13 Out",
-    "time": "12:00",
+    "time": "17:00",
     "is_today": true,
-    "match": "Lens - Sporting",
-    "competition": "SUB19, Liga Jovem",
+    "match": "Al Sadd - Al Hilal",
+    "competition": "Asian Champ. League",
     "flags": [],
     "channels": [
-      "Sporting Tv"
+      "Canal 11",
+      "Betano"
     ],
     "id": 0
   },
