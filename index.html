@@ -118,8 +118,7 @@
         loadGames();
         setInterval(loadGames, 60000); 
     </script>
-
-        <!-- Rodapé Discreto com Contador -->
+    <!-- Rodapé Discreto com Contador -->
     <footer class="max-w-3xl mx-auto text-center py-6 text-xs text-zinc-500 select-none">
         <span>Ver Bola</span>
         <span class="mx-2">•</span>
@@ -129,20 +128,21 @@
     <script>
         async function loadVisitorCount() {
             try {
-                // Incrementa e obtém o contador único através de uma API gratuita
-                const response = await fetch('https://api.counterapi.dev/v1/verbola-casa/visitas/up');
+                const response = await fetch('https://countapi.mileshilliard.com/api/v1/hit/verbola_casa_visitas');
                 const data = await response.json();
-                if (data && typeof data.count === 'number') {
-                    document.getElementById('visitor-count').textContent = data.count.toLocaleString('pt-PT');
+                if (data && data.value !== undefined) {
+                    const countNum = parseInt(data.value, 10);
+                    document.getElementById('visitor-count').textContent = isNaN(countNum) ? data.value : countNum.toLocaleString('pt-PT');
                 } else {
-                    document.getElementById('visitor-count').textContent = 'Ativo';
+                    document.getElementById('visitor-count').textContent = '1';
                 }
             } catch (error) {
-                document.getElementById('visitor-count').textContent = 'N/D';
+                document.getElementById('visitor-count').textContent = '1';
             }
         }
         loadVisitorCount();
     </script>
+    
     
 </body>
 </html>
