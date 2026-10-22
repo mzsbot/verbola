@@ -118,5 +118,31 @@
         loadGames();
         setInterval(loadGames, 60000); 
     </script>
+
+        <!-- Rodapé Discreto com Contador -->
+    <footer class="max-w-3xl mx-auto text-center py-6 text-xs text-zinc-500 select-none">
+        <span>Ver Bola</span>
+        <span class="mx-2">•</span>
+        <span>Visitas únicas: <span id="visitor-count" class="font-mono text-zinc-400">...</span></span>
+    </footer>
+
+    <script>
+        async function loadVisitorCount() {
+            try {
+                // Incrementa e obtém o contador único através de uma API gratuita
+                const response = await fetch('https://api.counterapi.dev/v1/verbola-casa/visitas/up');
+                const data = await response.json();
+                if (data && typeof data.count === 'number') {
+                    document.getElementById('visitor-count').textContent = data.count.toLocaleString('pt-PT');
+                } else {
+                    document.getElementById('visitor-count').textContent = 'Ativo';
+                }
+            } catch (error) {
+                document.getElementById('visitor-count').textContent = 'N/D';
+            }
+        }
+        loadVisitorCount();
+    </script>
+    
 </body>
 </html>
