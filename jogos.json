@@ -2,9 +2,9 @@
   {
     "sport": "futebol",
     "date": "Sex 23 Out",
-    "time": "14:30",
+    "time": "16:30",
     "is_today": true,
-    "match": "Al Faysaly - Al Nassr",
+    "match": "Al Ittihad J. - Al Diriyah",
     "competition": "Liga Arábia Saudita",
     "flags": [],
     "channels": [
@@ -15,28 +15,15 @@
   {
     "sport": "futebol",
     "date": "Sex 23 Out",
-    "time": "15:00",
+    "time": "19:00",
     "is_today": true,
-    "match": "Sp. Braga - Benfica",
-    "competition": "SUB23, Liga NextGen",
-    "flags": [],
-    "channels": [
-      "Canal 11"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
-    "date": "Sex 23 Out",
-    "time": "16:30",
-    "is_today": true,
-    "match": "Al Ittihad J. - Al Diriyah",
+    "match": "Al Qad. - Al Hilal",
     "competition": "Liga Arábia Saudita",
     "flags": [],
     "channels": [
-      "Sport.Tv1"
+      "Sport.Tv6"
     ],
-    "id": 2
+    "id": 1
   },
   {
     "sport": "futebol",
@@ -50,7 +37,7 @@
       "Sport.Tv3",
       "Betano"
     ],
-    "id": 3
+    "id": 2
   },
   {
     "sport": "futebol",
@@ -63,7 +50,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 4
+    "id": 3
   },
   {
     "sport": "futebol",
@@ -75,6 +62,20 @@
     "flags": [],
     "channels": [
       "Sport.Tv1"
+    ],
+    "id": 4
+  },
+  {
+    "sport": "futebol",
+    "date": "Sab 24 Out",
+    "time": "00:00",
+    "is_today": false,
+    "match": "Cruzeiro - Remo",
+    "competition": "Brasileirão 2026",
+    "flags": [],
+    "channels": [
+      "Canal 11",
+      "Betano"
     ],
     "id": 5
   },
