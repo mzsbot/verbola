@@ -2,45 +2,6 @@
   {
     "sport": "futebol",
     "date": "Sab 24 Out",
-    "time": "11:00",
-    "is_today": true,
-    "match": "FC Porto - V. Guimarães",
-    "competition": "FEMININO, Liga BPI",
-    "flags": [],
-    "channels": [
-      "Canal 11"
-    ],
-    "id": 0
-  },
-  {
-    "sport": "futebol",
-    "date": "Sab 24 Out",
-    "time": "12:30",
-    "is_today": true,
-    "match": "Aston Villa - Manchester City",
-    "competition": "Liga Inglaterra",
-    "flags": [],
-    "channels": [
-      "dazn 1"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
-    "date": "Sab 24 Out",
-    "time": "15:00",
-    "is_today": true,
-    "match": "Arsenal - Everton",
-    "competition": "Liga Inglaterra",
-    "flags": [],
-    "channels": [
-      "dazn 1"
-    ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
-    "date": "Sab 24 Out",
     "time": "15:30",
     "is_today": true,
     "match": "Benfica - Sporting",
@@ -49,7 +10,7 @@
     "channels": [
       "Canal 11"
     ],
-    "id": 3
+    "id": 0
   },
   {
     "sport": "futebol",
@@ -62,7 +23,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 4
+    "id": 1
   },
   {
     "sport": "futebol",
@@ -76,7 +37,7 @@
       "Sport.Tv3",
       "Betano"
     ],
-    "id": 5
+    "id": 2
   },
   {
     "sport": "futebol",
@@ -89,7 +50,35 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 6
+    "id": 3
+  },
+  {
+    "sport": "futebol",
+    "date": "Sab 24 Out",
+    "time": "17:30",
+    "is_today": true,
+    "match": "Valencia - Villarreal",
+    "competition": "Liga Espanha",
+    "flags": [],
+    "channels": [
+      "dazn 2",
+      "Betano"
+    ],
+    "id": 4
+  },
+  {
+    "sport": "futebol",
+    "date": "Sab 24 Out",
+    "time": "17:30",
+    "is_today": true,
+    "match": "Dortmund - Frankfurt",
+    "competition": "Liga Alemanha",
+    "flags": [],
+    "channels": [
+      "dazn 4",
+      "Betano"
+    ],
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -101,6 +90,20 @@
     "flags": [],
     "channels": [
       "Sport.Tv2"
+    ],
+    "id": 6
+  },
+  {
+    "sport": "futebol",
+    "date": "Sab 24 Out",
+    "time": "19:45",
+    "is_today": true,
+    "match": "Lazio - Parma",
+    "competition": "Liga Itália",
+    "flags": [],
+    "channels": [
+      "Sport.Tv3",
+      "Betano"
     ],
     "id": 7
   },
@@ -207,7 +210,8 @@
     "competition": "Liga França",
     "flags": [],
     "channels": [
-      "Sport.Tv4"
+      "Sport.Tv4",
+      "Betano"
     ],
     "id": 15
   },
@@ -220,7 +224,8 @@
     "competition": "Clássico, Liga ESP",
     "flags": [],
     "channels": [
-      "dazn 1"
+      "dazn 1",
+      "Betano"
     ],
     "id": 16
   },
