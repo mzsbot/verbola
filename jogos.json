@@ -2,6 +2,48 @@
   {
     "sport": "futebol",
     "date": "Seg 26 Out",
+    "time": "13:45",
+    "is_today": true,
+    "match": "Neftchi - Al Ittihad J.",
+    "competition": "Asian Champ. League",
+    "flags": [],
+    "channels": [
+      "Canal 11",
+      "Betano"
+    ],
+    "id": 0
+  },
+  {
+    "sport": "futebol",
+    "date": "Seg 26 Out",
+    "time": "16:00",
+    "is_today": true,
+    "match": "Al Ahli J. - Al Gharafa",
+    "competition": "Asian Champ. League",
+    "flags": [],
+    "channels": [
+      "Canal 11",
+      "Betano"
+    ],
+    "id": 1
+  },
+  {
+    "sport": "futebol",
+    "date": "Seg 26 Out",
+    "time": "18:30",
+    "is_today": true,
+    "match": "Galatasaray - Fenerbahçe",
+    "competition": "Superliga Turca",
+    "flags": [],
+    "channels": [
+      "Sport.Tv3",
+      "Betano"
+    ],
+    "id": 2
+  },
+  {
+    "sport": "futebol",
+    "date": "Seg 26 Out",
     "time": "18:45",
     "is_today": true,
     "match": "Santa Clara - Benfica",
@@ -10,7 +52,35 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 0
+    "id": 3
+  },
+  {
+    "sport": "futebol",
+    "date": "Seg 26 Out",
+    "time": "19:30",
+    "is_today": true,
+    "match": "PSG - Lyon",
+    "competition": "Liga França",
+    "flags": [],
+    "channels": [
+      "Sport.Tv2",
+      "Betano"
+    ],
+    "id": 4
+  },
+  {
+    "sport": "futebol",
+    "date": "Seg 26 Out",
+    "time": "20:00",
+    "is_today": true,
+    "match": "Cerimónia -",
+    "competition": "Bola de Ouro 2026",
+    "flags": [],
+    "channels": [
+      "dazn 1",
+      "Live"
+    ],
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -21,10 +91,51 @@
     "competition": "Liga Espanha",
     "flags": [],
     "channels": [
-      "dazn 1",
+      "dazn 2",
       "Betano"
     ],
-    "id": 1
+    "id": 6
+  },
+  {
+    "sport": "futebol",
+    "date": "Seg 26 Out",
+    "time": "23:00",
+    "is_today": true,
+    "match": "Flamengo - At. Mineiro",
+    "competition": "Brasileirão 2026",
+    "flags": [],
+    "channels": [
+      "Betano"
+    ],
+    "id": 7
+  },
+  {
+    "sport": "futebol",
+    "date": "Ter 27 Out",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Roma - Cagliari",
+    "competition": "Liga Itália",
+    "flags": [],
+    "channels": [
+      "Sport.Tv2",
+      "Betano"
+    ],
+    "id": 8
+  },
+  {
+    "sport": "futebol",
+    "date": "Ter 27 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Fl. Town - Arsenal",
+    "competition": "Taça Liga Inglaterra",
+    "flags": [],
+    "channels": [
+      "Sport.Tv3",
+      "Betano"
+    ],
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -37,7 +148,20 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 2
+    "id": 10
+  },
+  {
+    "sport": "futebol",
+    "date": "Qua 28 Out",
+    "time": "16:00",
+    "is_today": false,
+    "match": "Sporting - Stalitsa",
+    "competition": "FUTSAL, Liga Campeões",
+    "flags": [],
+    "channels": [
+      "Canal 11"
+    ],
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -50,20 +174,34 @@
     "channels": [
       "N/D"
     ],
-    "id": 3
+    "id": 12
   },
   {
     "sport": "futebol",
     "date": "Qua 28 Out",
-    "time": "16:00",
+    "time": "20:00",
     "is_today": false,
-    "match": "Sporting - Stalitsa",
-    "competition": "FUTSAL, Liga Campeões",
+    "match": "Liverpool - Chelsea",
+    "competition": "Taça Liga Inglaterra",
     "flags": [],
     "channels": [
-      "N/D"
+      "Sport.Tv3"
     ],
-    "id": 4
+    "id": 13
+  },
+  {
+    "sport": "futebol",
+    "date": "Qua 28 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Arsenal - Benfica",
+    "competition": "FEMININO, L. Campeões",
+    "flags": [],
+    "channels": [
+      "RTP 2",
+      "Disney+"
+    ],
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -76,7 +214,33 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 5
+    "id": 15
+  },
+  {
+    "sport": "futebol",
+    "date": "Qui 29 Out",
+    "time": "16:00",
+    "is_today": false,
+    "match": "ElPozo - Benfica",
+    "competition": "FUTSAL, Liga Campeões",
+    "flags": [],
+    "channels": [
+      "Canal 11"
+    ],
+    "id": 16
+  },
+  {
+    "sport": "futebol",
+    "date": "Qui 29 Out",
+    "time": "16:00",
+    "is_today": false,
+    "match": "Sporting - Etoile",
+    "competition": "FUTSAL, Liga Campeões",
+    "flags": [],
+    "channels": [
+      "N/D"
+    ],
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -89,7 +253,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 6
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -102,20 +266,20 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 7
+    "id": 19
   },
   {
     "sport": "futebol",
     "date": "Sab 31 Out",
     "time": "20:30",
     "is_today": false,
-    "match": "FC Porto - Estoril",
+    "match": "FC Porto - Estoril Praia",
     "competition": "Liga Portugal, J10",
     "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 8
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -128,7 +292,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 9
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -141,7 +305,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 10
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -154,7 +318,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 11
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -167,7 +331,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 12
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -180,7 +344,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 13
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -193,7 +357,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 14
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -206,7 +370,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 15
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -219,7 +383,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 16
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -232,7 +396,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 17
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -245,7 +409,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 18
+    "id": 30
   },
   {
     "sport": "futebol",
@@ -258,7 +422,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 19
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -271,7 +435,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 20
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -284,7 +448,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 21
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -297,7 +461,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 22
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -310,7 +474,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 23
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -323,7 +487,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 24
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -336,7 +500,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 25
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -349,7 +513,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 26
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -362,7 +526,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 27
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -375,7 +539,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 28
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -388,7 +552,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 29
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -401,7 +565,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 30
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -414,7 +578,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 31
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -427,7 +591,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 32
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -440,6 +604,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 33
+    "id": 45
   }
 ]
