@@ -2,57 +2,16 @@
   {
     "sport": "futebol",
     "date": "Seg 26 Out",
-    "time": "13:45",
-    "is_today": true,
-    "match": "Neftchi - Al Ittihad J.",
-    "competition": "Asian Champ. League",
-    "flags": [],
-    "channels": [
-      "Canal 11",
-      "Betano"
-    ],
-    "id": 0
-  },
-  {
-    "sport": "futebol",
-    "date": "Seg 26 Out",
-    "time": "16:00",
-    "is_today": true,
-    "match": "Al Ahli J. - Al Gharafa",
-    "competition": "Asian Champ. League",
-    "flags": [],
-    "channels": [
-      "Canal 11",
-      "Betano"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
-    "date": "Seg 26 Out",
-    "time": "18:30",
-    "is_today": true,
-    "match": "Galatasaray - Fenerbahçe",
-    "competition": "Superliga Turca",
-    "flags": [],
-    "channels": [
-      "Sport.Tv3",
-      "Betano"
-    ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
-    "date": "Seg 26 Out",
     "time": "18:45",
     "is_today": true,
     "match": "Santa Clara - Benfica",
-    "competition": "Liga Portugal, J9",
+    "competition": "Liga Portugal, 1 a 2",
     "flags": [],
     "channels": [
-      "Sport.Tv1"
+      "Sport.Tv1",
+      "Vídeo"
     ],
-    "id": 3
+    "id": 0
   },
   {
     "sport": "futebol",
@@ -66,7 +25,7 @@
       "Sport.Tv2",
       "Betano"
     ],
-    "id": 4
+    "id": 1
   },
   {
     "sport": "futebol",
@@ -78,9 +37,9 @@
     "flags": [],
     "channels": [
       "dazn 1",
-      "Live"
+      "Vídeo"
     ],
-    "id": 5
+    "id": 2
   },
   {
     "sport": "futebol",
@@ -94,7 +53,7 @@
       "dazn 2",
       "Betano"
     ],
-    "id": 6
+    "id": 3
   },
   {
     "sport": "futebol",
@@ -107,7 +66,7 @@
     "channels": [
       "Betano"
     ],
-    "id": 7
+    "id": 4
   },
   {
     "sport": "futebol",
@@ -121,7 +80,7 @@
       "Sport.Tv2",
       "Betano"
     ],
-    "id": 8
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -135,7 +94,7 @@
       "Sport.Tv3",
       "Betano"
     ],
-    "id": 9
+    "id": 6
   },
   {
     "sport": "futebol",
@@ -148,7 +107,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 10
+    "id": 7
   },
   {
     "sport": "futebol",
@@ -161,7 +120,7 @@
     "channels": [
       "Canal 11"
     ],
-    "id": 11
+    "id": 8
   },
   {
     "sport": "futebol",
@@ -174,7 +133,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 12
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -187,7 +146,7 @@
     "channels": [
       "Sport.Tv3"
     ],
-    "id": 13
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -201,7 +160,7 @@
       "RTP 2",
       "Disney+"
     ],
-    "id": 14
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -214,7 +173,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 15
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -227,7 +186,7 @@
     "channels": [
       "Canal 11"
     ],
-    "id": 16
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -240,7 +199,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 17
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -253,7 +212,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 18
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -266,7 +225,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 19
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -279,7 +238,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 20
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -292,7 +251,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 21
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -305,7 +264,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 22
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -318,7 +277,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 23
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -331,7 +290,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 24
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -344,7 +303,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 25
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -357,7 +316,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 26
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -370,7 +329,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 27
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -383,7 +342,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 28
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -396,7 +355,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 29
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -409,7 +368,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 30
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -422,7 +381,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 31
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -435,7 +394,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 32
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -448,7 +407,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 33
+    "id": 30
   },
   {
     "sport": "futebol",
@@ -461,7 +420,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 34
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -474,7 +433,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 35
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -487,7 +446,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 36
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -500,7 +459,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 37
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -513,7 +472,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 38
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -526,7 +485,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 39
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -539,7 +498,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 40
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -552,7 +511,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 41
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -565,7 +524,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 42
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -578,7 +537,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 43
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -591,7 +550,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 44
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -604,6 +563,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 45
+    "id": 42
   }
 ]
