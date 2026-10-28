@@ -1,4 +1,4 @@
-name: Atualizar Dados Verbola
+name: Atualizar Verbola
 
 on:
     push:
