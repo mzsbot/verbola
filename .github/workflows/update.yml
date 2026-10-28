@@ -8,14 +8,18 @@ on:
     - cron: "0 2,8,14,20 * * *"
     workflow_dispatch:
 
-permissions:
-    contents: write
-    pages: write
-    id-token: write
+# Evita dois deploys em simultâneo (ex.: cron e push ao mesmo tempo)
+concurrency:
+    group: pages
+    cancel-in-progress: false
 
 jobs:
-    scrape-and-deploy:
+    scrape:
+        # Num push só é preciso o build; os dados já estão no repositório
+        if: github.event_name != 'push'
         runs-on: ubuntu-latest
+        permissions:
+            contents: write
         steps:
             - name: Checkout Repositório
               uses: actions/checkout@v4
@@ -27,15 +31,41 @@ jobs:
               run: pip install -r requirements.txt
             - name: Executar Scraper
               run: python scraper.py
-            - name: Build da página
-              run: npm ci && npm run build
-            - name: Guardar e Publicar Alterações
+            - name: Guardar Alterações
               run: |
                 git config --global user.name "github-actions[bot]"
                 git config --global user.email "github-actions[bot]@users.noreply.github.com"
                 git add ./data/jogos.json
                 git commit -m "auto: atualização da lista de jogos" || exit 0
                 git push
+            - name: Passar dados ao build
+              uses: actions/upload-artifact@v4
+              with:
+                name: data
+                path: data/
+
+    build:
+        needs: scrape
+        # Corre se o scrape teve sucesso ou foi saltado (push), nunca se falhou
+        if: ${{ !cancelled() && needs.scrape.result != 'failure' }}
+        runs-on: ubuntu-latest
+        permissions:
+            pages: write
+            id-token: write
+        environment:
+            name: github-pages
+            url: ${{ steps.deploy.outputs.page_url }}
+        steps:
+            - name: Checkout Repositório
+              uses: actions/checkout@v4
+            - name: Receber dados do scrape
+              if: needs.scrape.result == 'success'
+              uses: actions/download-artifact@v4
+              with:
+                name: data
+                path: data/
+            - name: Build da página
+              run: npm ci && npm run build
             - name: Preparar site
               run: |
                 mkdir _site
@@ -43,6 +73,7 @@ jobs:
             - name: Enviar site para o Pages
               uses: actions/upload-pages-artifact@v3
               with:
-               path: _site
+                path: _site
             - name: Publicar
+              id: deploy
               uses: actions/deploy-pages@v4
