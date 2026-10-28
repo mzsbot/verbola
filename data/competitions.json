@@ -2,61 +2,73 @@
   "liga-campeoes": {
     "name": "Liga dos Campeões",
     "icon": "assets/icons/competicoes/liga-campeoes.png",
+    "api_football_ids": [2],
     "aliases": ["UEFA Liga Campeões", "UEFA Champions League", "Liga Campeões", "L. Campeões", "Champions League"]
   },
   "liga-europa": {
     "name": "Liga Europa",
     "icon": "assets/icons/competicoes/liga-europa.png",
+    "api_football_ids": [3],
     "aliases": ["UEFA Liga Europa", "UEFA Europa League", "Liga Europa", "L. Europa", "Europa League"]
   },
   "liga-conferencia": {
     "name": "Liga Conferência",
     "icon": "assets/icons/competicoes/liga-conferencia.png",
+    "api_football_ids": [848],
     "aliases": ["UEFA Conference League", "Liga Conferência", "L. Conferência", "Conference League"]
   },
   "liga-inglesa": {
     "name": "Liga Inglesa",
     "icon": "assets/icons/competicoes/liga-inglesa.png",
+    "api_football_ids": [39],
     "aliases": ["Liga Inglaterra", "Premier League"]
   },
   "liga-espanhola": {
     "name": "Liga Espanhola",
     "icon": "assets/icons/competicoes/liga-espanhola.png",
+    "api_football_ids": [140],
     "aliases": ["Liga Espanha", "LaLiga", "La Liga"]
   },
   "liga-portugal": {
     "name": "Liga Portugal",
     "icon": "assets/icons/competicoes/liga-portugal.png",
+    "api_football_ids": [94],
     "aliases": ["Liga Portugal", "Liga Portugal Betclic"]
   },
   "liga-italiana": {
     "name": "Serie A",
     "icon": "assets/icons/competicoes/liga-italiana.png",
+    "api_football_ids": [135],
     "aliases": ["Liga Itália", "Serie A", "Liga Italiana"]
   },
   "liga-nacoes": {
     "name": "Liga das Nações",
     "icon": "assets/icons/competicoes/liga-nacoes.png",
+    "api_football_ids": [5],
     "aliases": ["UEFA Liga Nações", "Liga Nações", "UEFA Nations League", "Nations League"]
   },
   "taca-liga-inglesa": {
     "name": "Taça da Liga Inglesa",
     "icon": "assets/icons/competicoes/taca-liga-inglesa.png",
+    "api_football_ids": [48],
     "aliases": ["Taça Liga Inglaterra", "EFL Cup", "Carabao Cup"]
   },
   "taca-alemanha": {
     "name": "Taça da Alemanha",
     "icon": "assets/icons/competicoes/taca-alemanha.png",
+    "api_football_ids": [81],
     "aliases": ["Taça Alemanha", "DFB-Pokal", "DFB Pokal"]
   },
   "brasileirao": {
     "name": "Brasileirão",
     "icon": "assets/icons/competicoes/brasileirao.png",
+    "api_football_ids": [71],
     "aliases": ["Brasileirão", "Brasileirão 2026", "Brazilian Serie A"]
   },
   "liga-campeoes-feminina": {
     "name": "Liga dos Campeões Feminina",
     "icon": "assets/icons/competicoes/liga-campeoes-feminina.png",
+    "api_football_ids": [525],
     "aliases": ["FEMININO, L. Campeões", "UEFA Women's Champions League", "Liga dos Campeões Feminina"]
   }
 }

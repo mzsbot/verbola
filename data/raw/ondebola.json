@@ -1,0 +1,531 @@
+{
+  "scraped_at": "2026-10-28T16:26:55.317312+00:00",
+  "games": [
+    {
+      "source_id": "60056",
+      "kickoff": "2026-10-28T16:00:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "16:00",
+      "home": "Sporting",
+      "away": "Stalitsa",
+      "competition": "FUTSAL, Liga Campeões",
+      "channels": [
+        "Canal 11"
+      ]
+    },
+    {
+      "source_id": "59824",
+      "kickoff": "2026-10-28T16:00:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "16:00",
+      "home": "Benfica",
+      "away": "HIT Kiev",
+      "competition": "FUTSAL, Liga Campeões",
+      "channels": [
+        "Canal 11 Youtub",
+        "Live"
+      ]
+    },
+    {
+      "source_id": "60067",
+      "kickoff": "2026-10-28T16:00:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "16:00",
+      "home": "Benfica",
+      "away": "Pafos",
+      "competition": "SUB19, Youth League",
+      "channels": [
+        "Benfica.Tv"
+      ]
+    },
+    {
+      "source_id": "59877",
+      "kickoff": "2026-10-28T17:30:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "17:30",
+      "home": "AC Milan",
+      "away": "Bolonha",
+      "competition": "Liga Itália",
+      "channels": [
+        "Sport.Tv1",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "59878",
+      "kickoff": "2026-10-28T17:30:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "17:30",
+      "home": "Veneza",
+      "away": "Inter Milão",
+      "competition": "Liga Itália",
+      "channels": [
+        "Sport.Tv2",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60139",
+      "kickoff": "2026-10-28T19:30:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "19:30",
+      "home": "Man. City",
+      "away": "Brighton",
+      "competition": "Taça Liga Inglaterra",
+      "channels": [
+        "Sport.Tv6",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60270",
+      "kickoff": "2026-10-28T19:45:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "19:45",
+      "home": "Bournemouth",
+      "away": "Aston Villa",
+      "competition": "",
+      "channels": [
+        "Sport.Tv5",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60222",
+      "kickoff": "2026-10-28T19:45:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "19:45",
+      "home": "Bayern M.",
+      "away": "Magde",
+      "competition": "Taça Alemanha",
+      "channels": [
+        "dazn 1",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "59880",
+      "kickoff": "2026-10-28T19:45:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "19:45",
+      "home": "Génova",
+      "away": "Juventus",
+      "competition": "Liga Itália",
+      "channels": [
+        "Sport.Tv2",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60140",
+      "kickoff": "2026-10-28T20:00:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "20:00",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "competition": "Taça Liga Inglaterra",
+      "channels": [
+        "Sport.Tv3",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "59814",
+      "kickoff": "2026-10-28T20:00:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "20:00",
+      "home": "Arsenal",
+      "away": "Benfica",
+      "competition": "FEMININO, L. Campeões",
+      "channels": [
+        "RTP 2",
+        "Disney+"
+      ]
+    },
+    {
+      "source_id": "59338",
+      "kickoff": "2026-10-28T20:30:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "20:30",
+      "home": "FC Porto",
+      "away": "Académico Viseu",
+      "competition": "Taça Liga PT Allianz",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60205",
+      "kickoff": "2026-10-28T22:30:00+00:00",
+      "date": "Qua 28 Out",
+      "time": "22:30",
+      "home": "Santos",
+      "away": "Palmeiras",
+      "competition": "Brasileirão 2026",
+      "channels": [
+        "Canal 11",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "59887",
+      "kickoff": "2026-10-29T16:00:00+00:00",
+      "date": "Qui 29 Out",
+      "time": "16:00",
+      "home": "ElPozo",
+      "away": "Benfica",
+      "competition": "FUTSAL, Liga Campeões",
+      "channels": [
+        "Canal 11"
+      ]
+    },
+    {
+      "source_id": "60196",
+      "kickoff": "2026-10-29T16:00:00+00:00",
+      "date": "Qui 29 Out",
+      "time": "16:00",
+      "home": "Sporting",
+      "away": "Etoile",
+      "competition": "FUTSAL, Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59150",
+      "kickoff": "2026-10-29T20:45:00+00:00",
+      "date": "Qui 29 Out",
+      "time": "20:45",
+      "home": "Benfica",
+      "away": "Gil Vicente",
+      "competition": "Taça Liga PT Allianz",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "59487",
+      "kickoff": "2026-10-30T20:15:00+00:00",
+      "date": "Sex 30 Out",
+      "time": "20:15",
+      "home": "Casa Pia",
+      "away": "Sporting",
+      "competition": "Liga Portugal, J10",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "59491",
+      "kickoff": "2026-10-31T20:30:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "20:30",
+      "home": "FC Porto",
+      "away": "Estoril Praia",
+      "competition": "Liga Portugal, J10",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "59492",
+      "kickoff": "2026-11-02T20:15:00+00:00",
+      "date": "Seg 2 Nov",
+      "time": "20:15",
+      "home": "Benfica",
+      "away": "FC Alverca",
+      "competition": "Liga Portugal, J10",
+      "channels": [
+        "Benfica.Tv"
+      ]
+    },
+    {
+      "source_id": "59919",
+      "kickoff": "2026-11-03T17:45:00+00:00",
+      "date": "Ter 3 Nov",
+      "time": "17:45",
+      "home": "Shakhtar",
+      "away": "Sporting",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59684",
+      "kickoff": "2026-11-04T17:45:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "17:45",
+      "home": "AEK",
+      "away": "Real Madrid",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn"
+      ]
+    },
+    {
+      "source_id": "59915",
+      "kickoff": "2026-11-04T20:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "20:00",
+      "home": "FC Porto",
+      "away": "Nápoles",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59287",
+      "kickoff": "2026-11-05T20:00:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "20:00",
+      "home": "Benfica",
+      "away": "Lech P.",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59500",
+      "kickoff": "2026-11-07T20:30:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "20:30",
+      "home": "Sporting",
+      "away": "Moreirense",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "59501",
+      "kickoff": "2026-11-08T18:00:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "18:00",
+      "home": "V. Guimarães",
+      "away": "FC Porto",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv"
+      ]
+    },
+    {
+      "source_id": "59494",
+      "kickoff": "2026-11-08T20:30:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "20:30",
+      "home": "E. Amadora",
+      "away": "Benfica",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv"
+      ]
+    },
+    {
+      "source_id": "58524",
+      "kickoff": "2026-11-14T19:45:00+00:00",
+      "date": "Sab 14 Nov",
+      "time": "19:45",
+      "home": "Portugal",
+      "away": "Dinamarca",
+      "competition": "UEFA Liga Nações",
+      "channels": [
+        "RTP 1"
+      ]
+    },
+    {
+      "source_id": "59914",
+      "kickoff": "2026-11-17T19:45:00+00:00",
+      "date": "Ter 17 Nov",
+      "time": "19:45",
+      "home": "País Gales",
+      "away": "Portugal",
+      "competition": "UEFA Liga Nações",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59916",
+      "kickoff": "2026-11-24T20:00:00+00:00",
+      "date": "Ter 24 Nov",
+      "time": "20:00",
+      "home": "Feyenoord",
+      "away": "FC Porto",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59920",
+      "kickoff": "2026-11-25T20:00:00+00:00",
+      "date": "Qua 25 Nov",
+      "time": "20:00",
+      "home": "Sporting",
+      "away": "Manchester United",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59286",
+      "kickoff": "2026-11-26T17:45:00+00:00",
+      "date": "Qui 26 Nov",
+      "time": "17:45",
+      "home": "Plzen",
+      "away": "Benfica",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59917",
+      "kickoff": "2026-11-29T20:30:00+00:00",
+      "date": "Dom 29 Nov",
+      "time": "20:30",
+      "home": "FC Porto",
+      "away": "Sporting",
+      "competition": "Liga Portugal, J12",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "59509",
+      "kickoff": "2026-11-30T20:15:00+00:00",
+      "date": "Seg 30 Nov",
+      "time": "20:15",
+      "home": "Benfica",
+      "away": "Famalicão",
+      "competition": "Liga Portugal, J12",
+      "channels": [
+        "Benfica.Tv"
+      ]
+    },
+    {
+      "source_id": "59921",
+      "kickoff": "2026-12-08T20:00:00+00:00",
+      "date": "Ter 8 Dez",
+      "time": "20:00",
+      "home": "Roma",
+      "away": "Sporting",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59918",
+      "kickoff": "2026-12-09T20:00:00+00:00",
+      "date": "Qua 9 Dez",
+      "time": "20:00",
+      "home": "Liverpool",
+      "away": "FC Porto",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59285",
+      "kickoff": "2026-12-10T20:00:00+00:00",
+      "date": "Qui 10 Dez",
+      "time": "20:00",
+      "home": "Benfica",
+      "away": "OFI",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59924",
+      "kickoff": "2026-12-27T00:00:00+00:00",
+      "date": "Dom 27 Dez",
+      "time": "provisório",
+      "home": "Benfica",
+      "away": "Sporting",
+      "competition": "Liga Portugal, J16",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59926",
+      "kickoff": "2027-01-19T20:00:00+00:00",
+      "date": "Ter 19 Jan",
+      "time": "20:00",
+      "home": "FC Porto",
+      "away": "Slavia P.",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59922",
+      "kickoff": "2027-01-20T20:00:00+00:00",
+      "date": "Qua 20 Jan",
+      "time": "20:00",
+      "home": "Sporting",
+      "away": "Barcelona",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59288",
+      "kickoff": "2027-01-21T17:45:00+00:00",
+      "date": "Qui 21 Jan",
+      "time": "17:45",
+      "home": "NEC",
+      "away": "Benfica",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59923",
+      "kickoff": "2027-01-27T20:00:00+00:00",
+      "date": "Qua 27 Jan",
+      "time": "20:00",
+      "home": "Man. City",
+      "away": "Sporting",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59925",
+      "kickoff": "2027-01-27T20:00:00+00:00",
+      "date": "Qua 27 Jan",
+      "time": "20:00",
+      "home": "LASK L.",
+      "away": "FC Porto",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59927",
+      "kickoff": "2027-01-28T20:00:00+00:00",
+      "date": "Qui 28 Jan",
+      "time": "20:00",
+      "home": "Benfica",
+      "away": "AZ Alkmaar",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "N/D"
+      ]
+    }
+  ]
+}

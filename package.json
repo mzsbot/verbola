@@ -22,7 +22,9 @@
     "py:setup": "python -m venv .venv && .venv\\Scripts\\python -m pip install -r requirements.txt",
     "py:add": ".venv\\Scripts\\python -m pip install",
     "py:install": ".venv\\Scripts\\python -m pip install -r requirements.txt",
-    "scrape": ".venv\\Scripts\\python scraper.py",
+    "scrape:channels": ".venv\\Scripts\\python scrape_channels.py",
+    "scrape:games": ".venv\\Scripts\\python fetch_games.py",
+    "scrape": "npm run scrape:channels && npm run scrape:games",
     "serve": "npx --yes http-server . -a 0.0.0.0 -p 8000 -c-1"
   },
   "devDependencies": {

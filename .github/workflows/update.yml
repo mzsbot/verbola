@@ -4,8 +4,9 @@ on:
     push:
         branches: [main]
     schedule:
-    # Executa de 6 em 6 horas, garantindo a captura matinal em Portugal
-    - cron: "0 2,8,14,20 * * *"
+    # De 15 em 15 min: os canais (ondebola) só são atualizados de 3 em 3 horas e a
+    # API-Football só é chamada com jogos a decorrer (ver scrape_channels.py e fetch_games.py)
+    - cron: "*/15 * * * *"
     workflow_dispatch:
 
 # Evita dois deploys em simultâneo (ex.: cron e push ao mesmo tempo)
@@ -20,6 +21,8 @@ jobs:
         runs-on: ubuntu-latest
         permissions:
             contents: write
+        outputs:
+            changed: ${{ steps.save.outputs.changed }}
         steps:
             - name: Checkout Repositório
               uses: actions/checkout@v4
@@ -29,15 +32,28 @@ jobs:
                 python-version: '3.10'
             - name: Instalar Dependências
               run: pip install -r requirements.txt
-            - name: Executar Scraper
-              run: python scraper.py
+            - name: Extrair Canais (ondebola)
+              # Se o ondebola falhar, continua com os canais da última extração
+              continue-on-error: true
+              run: python scrape_channels.py
+            - name: Obter Jogos (API-Football) e Gerar jogos.json
+              env:
+                API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+              run: python fetch_games.py
             - name: Guardar Alterações
+              id: save
               run: |
                 git config --global user.name "github-actions[bot]"
                 git config --global user.email "github-actions[bot]@users.noreply.github.com"
-                git add ./data/jogos.json
-                git commit -m "auto: atualização da lista de jogos" || exit 0
+                git add ./data/jogos.json ./data/raw/
+                if git diff --cached --quiet; then
+                  echo "changed=false" >> "$GITHUB_OUTPUT"
+                  exit 0
+                fi
+                git commit -m "auto: atualização da lista de jogos"
+                git pull --rebase
                 git push
+                echo "changed=true" >> "$GITHUB_OUTPUT"
             - name: Passar dados ao build
               uses: actions/upload-artifact@v4
               with:
@@ -46,8 +62,8 @@ jobs:
 
     build:
         needs: scrape
-        # Corre se o scrape teve sucesso ou foi saltado (push), nunca se falhou
-        if: ${{ !cancelled() && needs.scrape.result != 'failure' }}
+        # Num push (scrape saltado), no botão manual ou quando os dados mudaram; nunca se o scrape falhou
+        if: ${{ !cancelled() && needs.scrape.result != 'failure' && (needs.scrape.result == 'skipped' || github.event_name == 'workflow_dispatch' || needs.scrape.outputs.changed == 'true') }}
         runs-on: ubuntu-latest
         permissions:
             pages: write

@@ -1,6 +1,7 @@
 [
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T16:00:00+00:00",
     "date": "Qua 28 Out",
     "time": "16:00",
     "is_today": true,
@@ -8,14 +9,18 @@
     "competition": "FUTSAL, Liga Campeões",
     "competition_key": null,
     "competition_icon": null,
-    "flags": [],
     "channels": [
       "Canal 11"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 0
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T16:00:00+00:00",
     "date": "Qua 28 Out",
     "time": "16:00",
     "is_today": true,
@@ -23,15 +28,19 @@
     "competition": "FUTSAL, Liga Campeões",
     "competition_key": null,
     "competition_icon": null,
-    "flags": [],
     "channels": [
       "Canal 11 Youtub",
       "Live"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 1
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T16:00:00+00:00",
     "date": "Qua 28 Out",
     "time": "16:00",
     "is_today": true,
@@ -39,14 +48,21 @@
     "competition": "SUB19, Youth League",
     "competition_key": null,
     "competition_icon": null,
-    "flags": [],
     "channels": [
       "Benfica.Tv"
     ],
+    "fixture_id": 1638842,
+    "status": "1H",
+    "elapsed": 28,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "id": 2
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T17:30:00+00:00",
     "date": "Qua 28 Out",
     "time": "17:30",
     "is_today": true,
@@ -54,15 +70,19 @@
     "competition": "Liga Itália",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "flags": [],
     "channels": [
       "Sport.Tv1",
       "Betano"
     ],
+    "fixture_id": 1550167,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 3
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T17:30:00+00:00",
     "date": "Qua 28 Out",
     "time": "17:30",
     "is_today": true,
@@ -70,15 +90,19 @@
     "competition": "Liga Itália",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "flags": [],
     "channels": [
       "Sport.Tv2",
       "Betano"
     ],
+    "fixture_id": 1550176,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 4
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T19:30:00+00:00",
     "date": "Qua 28 Out",
     "time": "19:30",
     "is_today": true,
@@ -86,31 +110,39 @@
     "competition": "Taça Liga Inglaterra",
     "competition_key": "taca-liga-inglesa",
     "competition_icon": "assets/icons/competicoes/taca-liga-inglesa.png",
-    "flags": [],
     "channels": [
       "Sport.Tv6",
       "Betano"
     ],
+    "fixture_id": 1640575,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 5
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T19:45:00+00:00",
     "date": "Qua 28 Out",
     "time": "19:45",
     "is_today": true,
-    "match": "Bournemouth -",
-    "competition": "Aston Villa",
-    "competition_key": null,
-    "competition_icon": null,
-    "flags": [],
+    "match": "Bournemouth - Aston Villa",
+    "competition": "Taça da Liga Inglesa",
+    "competition_key": "taca-liga-inglesa",
+    "competition_icon": "assets/icons/competicoes/taca-liga-inglesa.png",
     "channels": [
       "Sport.Tv5",
       "Betano"
     ],
+    "fixture_id": 1640383,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 6
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T19:45:00+00:00",
     "date": "Qua 28 Out",
     "time": "19:45",
     "is_today": true,
@@ -118,15 +150,19 @@
     "competition": "Taça Alemanha",
     "competition_key": "taca-alemanha",
     "competition_icon": "assets/icons/competicoes/taca-alemanha.png",
-    "flags": [],
     "channels": [
       "dazn 1",
       "Betano"
     ],
+    "fixture_id": 1638558,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 7
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T19:45:00+00:00",
     "date": "Qua 28 Out",
     "time": "19:45",
     "is_today": true,
@@ -134,15 +170,19 @@
     "competition": "Liga Itália",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "flags": [],
     "channels": [
       "Sport.Tv2",
       "Betano"
     ],
+    "fixture_id": 1550171,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 8
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T20:00:00+00:00",
     "date": "Qua 28 Out",
     "time": "20:00",
     "is_today": true,
@@ -150,15 +190,19 @@
     "competition": "Taça Liga Inglaterra",
     "competition_key": "taca-liga-inglesa",
     "competition_icon": "assets/icons/competicoes/taca-liga-inglesa.png",
-    "flags": [],
     "channels": [
       "Sport.Tv3",
       "Betano"
     ],
+    "fixture_id": 1640388,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 9
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T20:00:00+00:00",
     "date": "Qua 28 Out",
     "time": "20:00",
     "is_today": true,
@@ -166,15 +210,19 @@
     "competition": "FEMININO, L. Campeões",
     "competition_key": "liga-campeoes-feminina",
     "competition_icon": "assets/icons/competicoes/liga-campeoes-feminina.png",
-    "flags": [],
     "channels": [
       "RTP 2",
       "Disney+"
     ],
+    "fixture_id": 1638287,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 10
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T20:30:00+00:00",
     "date": "Qua 28 Out",
     "time": "20:30",
     "is_today": true,
@@ -182,14 +230,18 @@
     "competition": "Taça Liga PT Allianz",
     "competition_key": null,
     "competition_icon": null,
-    "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
+    "fixture_id": 1589437,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 11
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-28T22:30:00+00:00",
     "date": "Qua 28 Out",
     "time": "22:30",
     "is_today": true,
@@ -197,15 +249,19 @@
     "competition": "Brasileirão 2026",
     "competition_key": "brasileirao",
     "competition_icon": "assets/icons/competicoes/brasileirao.png",
-    "flags": [],
     "channels": [
       "Canal 11",
       "Betano"
     ],
+    "fixture_id": 1492438,
+    "status": "NS",
+    "elapsed": null,
+    "score": null,
     "id": 12
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-29T16:00:00+00:00",
     "date": "Qui 29 Out",
     "time": "16:00",
     "is_today": false,
@@ -213,14 +269,18 @@
     "competition": "FUTSAL, Liga Campeões",
     "competition_key": null,
     "competition_icon": null,
-    "flags": [],
     "channels": [
       "Canal 11"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 13
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-29T16:00:00+00:00",
     "date": "Qui 29 Out",
     "time": "16:00",
     "is_today": false,
@@ -228,14 +288,18 @@
     "competition": "FUTSAL, Liga Campeões",
     "competition_key": null,
     "competition_icon": null,
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 14
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-29T20:45:00+00:00",
     "date": "Qui 29 Out",
     "time": "20:45",
     "is_today": false,
@@ -243,14 +307,18 @@
     "competition": "Taça Liga PT Allianz",
     "competition_key": null,
     "competition_icon": null,
-    "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 15
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-30T20:15:00+00:00",
     "date": "Sex 30 Out",
     "time": "20:15",
     "is_today": false,
@@ -258,14 +326,18 @@
     "competition": "Liga Portugal, J10",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 16
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-10-31T20:30:00+00:00",
     "date": "Sab 31 Out",
     "time": "20:30",
     "is_today": false,
@@ -273,14 +345,18 @@
     "competition": "Liga Portugal, J10",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 17
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-02T20:15:00+00:00",
     "date": "Seg 2 Nov",
     "time": "20:15",
     "is_today": false,
@@ -288,14 +364,18 @@
     "competition": "Liga Portugal, J10",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "Benfica.Tv"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 18
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-03T17:45:00+00:00",
     "date": "Ter 3 Nov",
     "time": "17:45",
     "is_today": false,
@@ -303,14 +383,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 19
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-04T17:45:00+00:00",
     "date": "Qua 4 Nov",
     "time": "17:45",
     "is_today": false,
@@ -318,14 +402,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "dazn"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 20
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-04T20:00:00+00:00",
     "date": "Qua 4 Nov",
     "time": "20:00",
     "is_today": false,
@@ -333,14 +421,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 21
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-05T20:00:00+00:00",
     "date": "Qui 5 Nov",
     "time": "20:00",
     "is_today": false,
@@ -348,14 +440,18 @@
     "competition": "UEFA Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 22
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-07T20:30:00+00:00",
     "date": "Sab 7 Nov",
     "time": "20:30",
     "is_today": false,
@@ -363,14 +459,18 @@
     "competition": "Liga Portugal, J11",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 23
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-08T18:00:00+00:00",
     "date": "Dom 8 Nov",
     "time": "18:00",
     "is_today": false,
@@ -378,14 +478,18 @@
     "competition": "Liga Portugal, J11",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "Sport.Tv"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 24
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-08T20:30:00+00:00",
     "date": "Dom 8 Nov",
     "time": "20:30",
     "is_today": false,
@@ -393,14 +497,18 @@
     "competition": "Liga Portugal, J11",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "Sport.Tv"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 25
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-14T19:45:00+00:00",
     "date": "Sab 14 Nov",
     "time": "19:45",
     "is_today": false,
@@ -408,14 +516,18 @@
     "competition": "UEFA Liga Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "flags": [],
     "channels": [
       "RTP 1"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 26
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-17T19:45:00+00:00",
     "date": "Ter 17 Nov",
     "time": "19:45",
     "is_today": false,
@@ -423,14 +535,18 @@
     "competition": "UEFA Liga Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 27
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-24T20:00:00+00:00",
     "date": "Ter 24 Nov",
     "time": "20:00",
     "is_today": false,
@@ -438,14 +554,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 28
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-25T20:00:00+00:00",
     "date": "Qua 25 Nov",
     "time": "20:00",
     "is_today": false,
@@ -453,14 +573,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 29
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-26T17:45:00+00:00",
     "date": "Qui 26 Nov",
     "time": "17:45",
     "is_today": false,
@@ -468,14 +592,18 @@
     "competition": "UEFA Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 30
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-29T20:30:00+00:00",
     "date": "Dom 29 Nov",
     "time": "20:30",
     "is_today": false,
@@ -483,14 +611,18 @@
     "competition": "Liga Portugal, J12",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "Sport.Tv1"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 31
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-11-30T20:15:00+00:00",
     "date": "Seg 30 Nov",
     "time": "20:15",
     "is_today": false,
@@ -498,14 +630,18 @@
     "competition": "Liga Portugal, J12",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "Benfica.Tv"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 32
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-12-08T20:00:00+00:00",
     "date": "Ter 8 Dez",
     "time": "20:00",
     "is_today": false,
@@ -513,14 +649,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 33
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-12-09T20:00:00+00:00",
     "date": "Qua 9 Dez",
     "time": "20:00",
     "is_today": false,
@@ -528,14 +668,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 34
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-12-10T20:00:00+00:00",
     "date": "Qui 10 Dez",
     "time": "20:00",
     "is_today": false,
@@ -543,29 +687,37 @@
     "competition": "UEFA Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 35
   },
   {
     "sport": "futebol",
+    "kickoff": "2026-12-27T00:00:00+00:00",
     "date": "Dom 27 Dez",
-    "time": "provisório",
+    "time": "00:00",
     "is_today": false,
     "match": "Benfica - Sporting",
     "competition": "Liga Portugal, J16",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 36
   },
   {
     "sport": "futebol",
+    "kickoff": "2027-01-19T20:00:00+00:00",
     "date": "Ter 19 Jan",
     "time": "20:00",
     "is_today": false,
@@ -573,14 +725,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 37
   },
   {
     "sport": "futebol",
+    "kickoff": "2027-01-20T20:00:00+00:00",
     "date": "Qua 20 Jan",
     "time": "20:00",
     "is_today": false,
@@ -588,14 +744,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 38
   },
   {
     "sport": "futebol",
+    "kickoff": "2027-01-21T17:45:00+00:00",
     "date": "Qui 21 Jan",
     "time": "17:45",
     "is_today": false,
@@ -603,14 +763,18 @@
     "competition": "UEFA Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 39
   },
   {
     "sport": "futebol",
+    "kickoff": "2027-01-27T20:00:00+00:00",
     "date": "Qua 27 Jan",
     "time": "20:00",
     "is_today": false,
@@ -618,14 +782,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 40
   },
   {
     "sport": "futebol",
+    "kickoff": "2027-01-27T20:00:00+00:00",
     "date": "Qua 27 Jan",
     "time": "20:00",
     "is_today": false,
@@ -633,14 +801,18 @@
     "competition": "UEFA Liga Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 41
   },
   {
     "sport": "futebol",
+    "kickoff": "2027-01-28T20:00:00+00:00",
     "date": "Qui 28 Jan",
     "time": "20:00",
     "is_today": false,
@@ -648,10 +820,13 @@
     "competition": "UEFA Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "flags": [],
     "channels": [
       "N/D"
     ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
     "id": 42
   }
 ]
