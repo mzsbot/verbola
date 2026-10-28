@@ -6,6 +6,8 @@ const clearBtn  = document.getElementById('search-clear');
 const hint      = document.getElementById('search-hint');
 const meta      = document.getElementById('search-meta');
 
+const UNKNOWN_COMPETITION_ICON = '../assets/icons/competicoes/desconhecida.svg';
+
 // Minúsculas e sem acentos: "milao" encontra "Milão"
 const fold = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
@@ -96,6 +98,10 @@ async function loadGames() {
                 ? 'border-l-4 border-l-red-500 border-t border-b border-r border-zinc-800 shadow-[inset_4px_0_0_0_rgba(239,68,68,1),0_0_15px_rgba(239,68,68,0.12)] bg-zinc-900' 
                 : `border border-zinc-800/80 ${bgClass}`;
 
+            // Ícone da competição; sem correspondência (ou imagem em falta) usa o genérico
+            const competitionIcon = game.competition_icon ? `../${game.competition_icon}` : UNKNOWN_COMPETITION_ICON;
+            const competitionIconHtml = `<img src="${competitionIcon}" onerror="this.onerror=null;this.src='${UNKNOWN_COMPETITION_ICON}'" alt="" title="${escapeHtml(game.competition || 'Competição desconhecida')}" class="h-10 w-10 sm:h-11 sm:w-11 shrink-0 rounded-md bg-zinc-800/80 p-1 object-contain" loading="lazy">`;
+
             const flagsHtml = game.flags && game.flags.length > 0 
                 ? `<div class="flex gap-1 ml-2 opacity-90">${game.flags.map(f => `<img src="${f}" class="h-4 object-contain rounded-xs" loading="lazy">`).join('')}</div>` 
                 : '';
@@ -125,12 +131,15 @@ async function loadGames() {
                         </div>
                     </div>
 
-                    <div class="flex flex-col justify-center pl-1 sm:pl-2 min-w-0">
-                        <div class="flex items-center">
-                            <span class="text-[15px] font-bold text-zinc-100 truncate">${highlight(game.match, terms)}</span>
-                            ${flagsHtml}
+                    <div class="flex items-center gap-2.5 sm:gap-3 pl-1 sm:pl-2 min-w-0">
+                        ${competitionIconHtml}
+                        <div class="flex flex-col justify-center min-w-0">
+                            <div class="flex items-center">
+                                <span class="text-[15px] font-bold text-zinc-100 truncate">${highlight(game.match, terms)}</span>
+                                ${flagsHtml}
+                            </div>
+                            <span class="text-xs text-zinc-400 italic truncate mt-0.5">${highlight(game.competition, terms)}</span>
                         </div>
-                        <span class="text-xs text-zinc-400 italic truncate mt-0.5">${highlight(game.competition, terms)}</span>
                     </div>
 
                     <div class="channels-col flex sm:flex-col lg:flex-row flex-wrap gap-1.5 justify-end items-end sm:items-center">
@@ -142,6 +151,7 @@ async function loadGames() {
         }).join('');
     } catch (error) {
         container.innerHTML = '<div class="text-center text-red-400 mt-10 p-4 bg-red-950/20 border border-red-900/40 rounded-lg">Erro de ligação ao ficheiro JSON.</div>';
+        console.log(error);
     }
 }
 
