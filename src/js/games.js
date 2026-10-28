@@ -168,7 +168,7 @@ function setQuery(value) {
 }
 
 input.addEventListener('input', e => setQuery(e.target.value));
-clearBtn.addEventListener('click', () => { setQuery(''); input.focus(); });
+clearBtn.addEventListener('click', () => { setQuery(''); });
 
 container.addEventListener('click', e => {
     const chip = e.target.closest('.team-chip');
