@@ -1,0 +1,27 @@
+{
+  "name": "verbola",
+  "version": "1.0.0",
+  "description": "A clean, lightning-fast, and ad-free football schedule aggregator",
+  "homepage": "https://github.com/mzsbot/verbola#readme",
+  "bugs": {
+    "url": "https://github.com/mzsbot/verbola/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzsbot/verbola.git"
+  },
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/app.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/app.css --minify"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.3.3",
+    "@tailwindcss/cli": "^4.3.3"
+  },
+  "dependencies": {
+  }
+}

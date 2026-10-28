@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.game-grid {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: 12px;
+    align-items: center;
+}
+@media (max-width: 480px) {
+    .game-grid {
+        grid-template-columns: 70px 1fr;
+    }
+    .channels-col {
+        grid-column: 1 / -1;
+        justify-content: flex-start !important;
+        padding-top: 8px;
+        border-top: 1px solid #27272a;
+    }
+}
+
+mark {
+    background: rgba(239, 68, 68, 0.22);
+    color: #fecaca;
+    border-radius: 2px;
+    padding: 0 1px;
+}
+#search-input::-webkit-search-cancel-button { display: none; }

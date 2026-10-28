@@ -8,121 +8,55 @@
     <!-- Favicons e Ícone para iOS -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="alternate icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="icon-180.png">
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .game-grid {
-            display: grid;
-            grid-template-columns: 80px 1fr auto;
-            gap: 12px;
-            align-items: center;
-        }
-        @media (max-width: 480px) {
-            .game-grid {
-                grid-template-columns: 70px 1fr;
-            }
-            .channels-col {
-                grid-column: 1 / -1;
-                justify-content: flex-start !important;
-                padding-top: 8px;
-                border-top: 1px solid #27272a;
-            }
-        }
-    </style>
+    <link rel="apple-touch-icon" href="./assets/icon-180.png">
+    <link rel="stylesheet" href="./src/css/app.css" />
 </head>
 <body class="bg-[#121214] text-zinc-200 font-sans min-h-screen p-2 sm:p-4 select-none cursor-default">
+
+    <!-- Barra de Pesquisa (nova funcionalidade) -->
+    <div class="sticky top-0 z-20 -mx-2 sm:-mx-4 px-2 sm:px-4 pt-1 pb-2 bg-[#121214]/90 backdrop-blur">
+        <div class="max-w-3xl mx-auto">
+            <label class="relative flex items-center">
+                <svg 
+                    class="absolute left-3 h-4 w-4 text-zinc-500 pointer-events-none" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2.2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round"
+                >
+                    <circle cx="11" cy="11" r="7"/>
+                    <path d="m20 20-3.5-3.5"/>
+                </svg>
+                <input 
+                    id="search-input" 
+                    type="search" 
+                    autocomplete="off" 
+                    spellcheck="false"
+                    placeholder="Pesquisar equipa, competição ou canal..."
+                    class="w-full bg-zinc-900/90 border border-zinc-800/80 rounded-lg pl-9 pr-20 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-500 outline-none focus:border-zinc-600 focus:bg-zinc-900 transition-colors"
+                >
+                <kbd id="search-hint" class="absolute right-3 hidden sm:inline-block text-[10px] font-mono text-zinc-500 border border-zinc-700/60 rounded px-1.5 py-0.5">/</kbd>
+                <button 
+                    id="search-clear" 
+                    type="button" 
+                    aria-label="Limpar pesquisa"
+                    class="absolute right-2 hidden text-zinc-400 hover:text-zinc-100 text-xs font-semibold uppercase tracking-wider px-2 py-1 rounded hover:bg-zinc-800"
+                >
+                    Limpar
+                </button>
+            </label>
+            <div id="search-meta" class="hidden mt-1.5 px-1 text-[11px] text-zinc-500"></div>
+        </div>
+    </div>
     
     <main class="max-w-3xl mx-auto space-y-2" id="games-container">
         <div class="text-center text-zinc-500 mt-10 animate-pulse">A carregar horários...</div>
     </main>
 
-    <script>
-        function checkIsLive(timeStr, isToday) {
-            if (!isToday || !timeStr) return false;
-            
-            const now = new Date();
-            const nowInMins = (now.getHours() * 60) + now.getMinutes();
-            const [gameH, gameM] = timeStr.split(':').map(Number);
-            if (isNaN(gameH) || isNaN(gameM)) return false;
-            
-            const gameTimeInMins = (gameH * 60) + gameM;
-            const tolerance = 115;
-            return nowInMins >= gameTimeInMins && nowInMins <= (gameTimeInMins + tolerance);
-        }
+    <script src="./src/js/games.js"></script>
 
-        async function loadGames() {
-            const container = document.getElementById('games-container');
-            
-            try {
-                const response = await fetch(`jogos.json?t=${new Date().getTime()}`);
-                const games = await response.json();
-                
-                if (games.length === 0) {
-                    container.innerHTML = '<div class="text-center text-zinc-500 mt-10">Nenhum evento agendado.</div>';
-                    return;
-                }
-
-                container.innerHTML = games.map((game, index) => {
-                    const isLive = checkIsLive(game.time, game.is_today);
-                    
-                    // Alternância entre tons de cinzento neutro e elegante
-                    const bgClass = index % 2 === 0 ? 'bg-zinc-900/90' : 'bg-zinc-900/50';
-                    
-                    const liveStyles = isLive 
-                        ? 'border-l-4 border-l-red-500 border-t border-b border-r border-zinc-800 shadow-[inset_4px_0_0_0_rgba(239,68,68,1),0_0_15px_rgba(239,68,68,0.12)] bg-zinc-900' 
-                        : `border border-zinc-800/80 ${bgClass}`;
-
-                    const flagsHtml = game.flags && game.flags.length > 0 
-                        ? `<div class="flex gap-1 ml-2 opacity-90">${game.flags.map(f => `<img src="${f}" class="h-4 object-contain rounded-[2px]" loading="lazy">`).join('')}</div>` 
-                        : '';
-
-                    const channelsHtml = game.channels && game.channels.length > 0
-                        ? game.channels.map(c => `<span class="bg-zinc-800/80 text-zinc-300 border border-zinc-700/60 text-[11px] px-2 py-0.5 rounded uppercase tracking-wider font-semibold whitespace-nowrap">${c}</span>`).join('')
-                        : '<span class="text-zinc-600 text-xs font-semibold">N/D</span>';
-
-                    const todayTag = game.is_today ? `<span class="text-red-400 font-bold ml-1 text-xs">hoje</span>` : '';
-                    
-                    const watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[75px] sm:-right-[85px] text-[130px] sm:text-[150px] opacity-[0.07] grayscale select-none pointer-events-none z-0">⚽</div>';
-
-                    return `
-                    <div class="relative overflow-hidden rounded-lg p-3 sm:p-4 ${liveStyles}">
-                        
-                        ${watermark}
-
-                        <!-- Conteúdo do Cartão -->
-                        <div class="game-grid relative z-10">
-                            <div class="flex flex-col border-r border-zinc-800 pr-2">
-                                <span class="text-sm font-semibold text-zinc-400 whitespace-nowrap">${game.date}</span>
-                                <div class="flex items-baseline">
-                                    <span class="text-sm font-bold text-zinc-100">${game.time}</span>
-                                    ${todayTag}
-                                </div>
-                            </div>
-
-                            <div class="flex flex-col justify-center pl-1 sm:pl-2 min-w-0">
-                                <div class="flex items-center">
-                                    <span class="text-[15px] font-bold text-zinc-100 truncate">${game.match}</span>
-                                    ${flagsHtml}
-                                </div>
-                                <span class="text-xs text-zinc-400 italic truncate mt-0.5">${game.competition}</span>
-                            </div>
-
-                            <div class="channels-col flex sm:flex-col lg:flex-row flex-wrap gap-1.5 justify-end items-end sm:items-center">
-                                ${channelsHtml}
-                            </div>
-                        </div>
-                    </div>
-                    `;
-                }).join('');
-            } catch (error) {
-                container.innerHTML = '<div class="text-center text-red-400 mt-10 p-4 bg-red-950/20 border border-red-900/40 rounded-lg">Erro de ligação ao ficheiro JSON.</div>';
-            }
-        }
-        
-        loadGames();
-        setInterval(loadGames, 60000); 
-    </script>
     <!-- Rodapé Discreto com Contador -->
     <footer class="max-w-3xl mx-auto text-center py-6 text-xs text-zinc-500 select-none">
         <span>Ver Bola</span>
@@ -130,24 +64,6 @@
         <span>Visitas únicas: <span id="visitor-count" class="font-mono text-zinc-400">...</span></span>
     </footer>
 
-    <script>
-        async function loadVisitorCount() {
-            try {
-                const response = await fetch('https://countapi.mileshilliard.com/api/v1/hit/verbola_casa_visitas');
-                const data = await response.json();
-                if (data && data.value !== undefined) {
-                    const countNum = parseInt(data.value, 10);
-                    document.getElementById('visitor-count').textContent = isNaN(countNum) ? data.value : countNum.toLocaleString('pt-PT');
-                } else {
-                    document.getElementById('visitor-count').textContent = '1';
-                }
-            } catch (error) {
-                document.getElementById('visitor-count').textContent = '1';
-            }
-        }
-        loadVisitorCount();
-    </script>
-    
-    
+    <script src="./src/js/visitors.js"></script> 
 </body>
 </html>
