@@ -3,16 +3,29 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from pathlib import Path
 
-URL = "https://ondebola.com/"
-OUTPUT_FILE = "jogos.json"
+URL         = "https://ondebola.com/"
+OUTPUT_FILE = "./assets/data/jogos.json"
 
 def parse_pt_date(date_str, time_str):
     try:
-        months = {"Jan": 1, "Fev": 2, "Mar": 3, "Abr": 4, "Mai": 5, "Jun": 6, 
-                  "Jul": 7, "Ago": 8, "Set": 9, "Out": 10, "Nov": 11, "Dez": 12}
+        months = {
+            "Jan": 1, 
+            "Fev": 2, 
+            "Mar": 3, 
+            "Abr": 4, 
+            "Mai": 5, 
+            "Jun": 6, 
+            "Jul": 7, 
+            "Ago": 8, 
+            "Set": 9, 
+            "Out": 10, 
+            "Nov": 11, 
+            "Dez": 12
+        }
         parts = date_str.split()
-        day = int(parts[1]) if len(parts) > 1 else 1
+        day   = int(parts[1]) if len(parts) > 1 else 1
         month = months.get(parts[2], 1) if len(parts) > 2 else 1
         
         h, m = 0, 0
@@ -20,8 +33,8 @@ def parse_pt_date(date_str, time_str):
             h, m = map(int, time_str.split(':'))
             
         pt_tz = ZoneInfo('Europe/Lisbon')
-        now = datetime.now(pt_tz)
-        year = now.year
+        now   = datetime.now(pt_tz)
+        year  = now.year
         
         if month < now.month - 1:
             year += 1
@@ -40,9 +53,9 @@ def get_futebol_events():
     if response.status_code != 200:
         return []
 
-    soup = BeautifulSoup(response.text, 'html.parser')
+    soup  = BeautifulSoup(response.text, 'html.parser')
     games = []
-    rows = soup.select('tr')
+    rows  = soup.select('tr')
     
     for row in rows:
         cols = row.find_all('td')
@@ -112,6 +125,8 @@ if __name__ == "__main__":
     for idx, event in enumerate(all_events):
         event["id"] = idx
         event.pop("sort_date", None)
-        
+
+    output = Path(OUTPUT_FILE)
+    output.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_events, f, ensure_ascii=False, indent=2)

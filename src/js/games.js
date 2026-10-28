@@ -61,7 +61,7 @@ function checkIsLive(timeStr, isToday) {
 
 async function loadGames() {    
     try {
-        const allGames = await fetch(`jogos.json?t=${new Date().getTime()}`)
+        const allGames = await fetch(`/data/jogos.json?t=${new Date().getTime()}`)
             .then((response) => response.json());
         const terms = fold(query).split(/\s+/).filter(Boolean);
         const games = terms.length ? allGames.filter(g => matchesGame(g, terms)) : allGames;

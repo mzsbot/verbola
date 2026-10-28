@@ -13,15 +13,24 @@
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/app.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/app.css --minify"
+    "dev:css": "tailwindcss -i ./src/css/app.css -o ./dist/css/app.css --watch=always",
+    "dev:js": "esbuild ./src/js/*.js --outdir=./dist/js --watch",
+    "dev": "concurrently -n css,js -c blue,yellow \"npm:dev:css\" \"npm:dev:js\"",
+    "build:css": "tailwindcss -i ./src/css/app.css -o ./dist/css/app.css --minify",
+    "build:js": "esbuild ./src/js/*.js --outdir=./dist/js --minify",
+    "build": "npm run build:css && npm run build:js",
+    "py:setup": "python -m venv .venv && .venv\\Scripts\\python -m pip install -r requirements.txt",
+    "py:add": ".venv\\Scripts\\python -m pip install",
+    "py:install": ".venv\\Scripts\\python -m pip install -r requirements.txt",
+    "scrape": ".venv\\Scripts\\python scraper.py",
+    "serve": "npx --yes http-server . -a 0.0.0.0 -p 8000 -c-1"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "concurrently": "^10.0.6",
+    "esbuild": "^0.28.2",
     "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
-    "tailwindcss": "^4.3.3",
-    "@tailwindcss/cli": "^4.3.3"
-  },
-  "dependencies": {
+    "tailwindcss": "^4.3.3"
   }
 }
