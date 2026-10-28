@@ -1,39 +1,48 @@
 name: Atualizar Dados Verbola
 
 on:
-  schedule:
+    push:
+        branches: [main]
+    schedule:
     # Executa de 6 em 6 horas, garantindo a captura matinal em Portugal
     - cron: "0 2,8,14,20 * * *"
-  workflow_dispatch:
+    workflow_dispatch:
 
 permissions:
-  contents: write
+    contents: write
+    pages: write
+    id-token: write
 
 jobs:
-  scrape-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repositório
-        uses: actions/checkout@v4
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Instalar Dependências
-        run: pip install -r requirements.txt
-
-      - name: Executar Scraper
-        run: python scraper.py
-
-      - name: Build da página
-        run: npm ci && npm run build
-
-      - name: Guardar e Publicar Alterações
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add ./data/jogos.json
-          git commit -m "auto: atualização da lista de jogos" || exit 0
-          git push
+    scrape-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Repositório
+              uses: actions/checkout@v4
+            - name: Configurar Python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.10'
+            - name: Instalar Dependências
+              run: pip install -r requirements.txt
+            - name: Executar Scraper
+              run: python scraper.py
+            - name: Build da página
+              run: npm ci && npm run build
+            - name: Guardar e Publicar Alterações
+              run: |
+                git config --global user.name "github-actions[bot]"
+                git config --global user.email "github-actions[bot]@users.noreply.github.com"
+                git add ./data/jogos.json
+                git commit -m "auto: atualização da lista de jogos" || exit 0
+                git push
+            - name: Preparar site
+              run: |
+                mkdir _site
+                cp -r index.html favicon.ico CNAME assets data dist _site/
+            - name: Enviar site para o Pages
+              uses: actions/upload-pages-artifact@v3
+              with:
+               path: _site
+            - name: Publicar
+              uses: actions/deploy-pages@v4
