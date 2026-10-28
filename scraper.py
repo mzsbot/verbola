@@ -1,12 +1,41 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import re
+import unicodedata
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
 
-URL         = "https://ondebola.com/"
-OUTPUT_FILE = "./assets/data/jogos.json"
+URL               = "https://ondebola.com/"
+OUTPUT_FILE       = "./data/jogos.json"
+COMPETITIONS_FILE = "./data/competitions.json"
+
+def fold(text):
+    # Minúsculas, sem acentos e sem espaços repetidos: "UEFA Liga  Campeões" -> "uefa liga campeoes"
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(c for c in text if not unicodedata.combining(c))
+    return ' '.join(text.lower().split())
+
+def load_competitions():
+    # Devolve {alias normalizado: (chave, ícone)} a partir do competitions.json
+    with open(COMPETITIONS_FILE, encoding="utf-8") as f:
+        competitions = json.load(f)
+
+    lookup = {}
+    for key, info in competitions.items():
+        icon = info.get("icon")
+        if icon and not Path(icon).exists():
+            print(f"Ícone em falta para '{key}': {icon}")
+            icon = None
+        for alias in info.get("aliases", []):
+            lookup[fold(alias)] = (key, icon)
+    return lookup
+
+def match_competition(competition, lookup):
+    # Ignora a jornada no fim ("Liga Portugal, J10" -> "Liga Portugal") antes de comparar
+    base = re.sub(r',\s*J\d+$', '', competition.strip())
+    return lookup.get(fold(base), (None, None))
 
 def parse_pt_date(date_str, time_str):
     try:
@@ -43,7 +72,7 @@ def parse_pt_date(date_str, time_str):
     except Exception:
         return datetime.now(ZoneInfo('Europe/Lisbon'))
 
-def get_futebol_events():
+def get_futebol_events(competitions):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     try:
         response = requests.get(URL, headers=headers, timeout=10)
@@ -103,6 +132,8 @@ def get_futebol_events():
                         
                 if not channels: channels = ["N/D"]
 
+                competition_key, competition_icon = match_competition(competition, competitions)
+
                 games.append({
                     "sport": "futebol",
                     "sort_date": parse_pt_date(date_val, time_val),
@@ -111,6 +142,8 @@ def get_futebol_events():
                     "is_today": is_today,
                     "match": match_teams,
                     "competition": competition,
+                    "competition_key": competition_key,
+                    "competition_icon": competition_icon,
                     "flags": flags,
                     "channels": channels
                 })
@@ -119,8 +152,14 @@ def get_futebol_events():
     return games
 
 if __name__ == "__main__":
-    all_events = get_futebol_events()
+    competitions = load_competitions()
+    all_events   = get_futebol_events(competitions)
     all_events.sort(key=lambda x: x["sort_date"])
+
+    # Aparece no log do workflow: indica que aliases/ícones falta acrescentar
+    unmatched = sorted({e["competition"] for e in all_events if e["competition"] and not e["competition_key"]})
+    for name in unmatched:
+        print(f"Competição sem correspondência: {name}")
     
     for idx, event in enumerate(all_events):
         event["id"] = idx

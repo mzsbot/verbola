@@ -6,6 +6,8 @@
     "is_today": true,
     "match": "Sporting - Stalitsa",
     "competition": "FUTSAL, Liga Campeões",
+    "competition_key": null,
+    "competition_icon": null,
     "flags": [],
     "channels": [
       "Canal 11"
@@ -19,6 +21,8 @@
     "is_today": true,
     "match": "Benfica - HIT Kiev",
     "competition": "FUTSAL, Liga Campeões",
+    "competition_key": null,
+    "competition_icon": null,
     "flags": [],
     "channels": [
       "Canal 11 Youtub",
@@ -33,6 +37,8 @@
     "is_today": true,
     "match": "Benfica - Pafos",
     "competition": "SUB19, Youth League",
+    "competition_key": null,
+    "competition_icon": null,
     "flags": [],
     "channels": [
       "Benfica.Tv"
@@ -46,6 +52,8 @@
     "is_today": true,
     "match": "AC Milan - Bolonha",
     "competition": "Liga Itália",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
     "flags": [],
     "channels": [
       "Sport.Tv1",
@@ -60,6 +68,8 @@
     "is_today": true,
     "match": "Veneza - Inter Milão",
     "competition": "Liga Itália",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
     "flags": [],
     "channels": [
       "Sport.Tv2",
@@ -74,6 +84,8 @@
     "is_today": true,
     "match": "Man. City - Brighton",
     "competition": "Taça Liga Inglaterra",
+    "competition_key": "taca-liga-inglesa",
+    "competition_icon": "assets/icons/competicoes/taca-liga-inglesa.png",
     "flags": [],
     "channels": [
       "Sport.Tv6",
@@ -88,6 +100,8 @@
     "is_today": true,
     "match": "Bournemouth -",
     "competition": "Aston Villa",
+    "competition_key": null,
+    "competition_icon": null,
     "flags": [],
     "channels": [
       "Sport.Tv5",
@@ -102,6 +116,8 @@
     "is_today": true,
     "match": "Bayern M. - Magde",
     "competition": "Taça Alemanha",
+    "competition_key": "taca-alemanha",
+    "competition_icon": "assets/icons/competicoes/taca-alemanha.png",
     "flags": [],
     "channels": [
       "dazn 1",
@@ -116,6 +132,8 @@
     "is_today": true,
     "match": "Génova - Juventus",
     "competition": "Liga Itália",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
     "flags": [],
     "channels": [
       "Sport.Tv2",
@@ -130,6 +148,8 @@
     "is_today": true,
     "match": "Liverpool - Chelsea",
     "competition": "Taça Liga Inglaterra",
+    "competition_key": "taca-liga-inglesa",
+    "competition_icon": "assets/icons/competicoes/taca-liga-inglesa.png",
     "flags": [],
     "channels": [
       "Sport.Tv3",
@@ -144,6 +164,8 @@
     "is_today": true,
     "match": "Arsenal - Benfica",
     "competition": "FEMININO, L. Campeões",
+    "competition_key": "liga-campeoes-feminina",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes-feminina.png",
     "flags": [],
     "channels": [
       "RTP 2",
@@ -158,6 +180,8 @@
     "is_today": true,
     "match": "FC Porto - Académico Viseu",
     "competition": "Taça Liga PT Allianz",
+    "competition_key": null,
+    "competition_icon": null,
     "flags": [],
     "channels": [
       "Sport.Tv1"
@@ -171,6 +195,8 @@
     "is_today": true,
     "match": "Santos - Palmeiras",
     "competition": "Brasileirão 2026",
+    "competition_key": "brasileirao",
+    "competition_icon": "assets/icons/competicoes/brasileirao.png",
     "flags": [],
     "channels": [
       "Canal 11",
@@ -185,6 +211,8 @@
     "is_today": false,
     "match": "ElPozo - Benfica",
     "competition": "FUTSAL, Liga Campeões",
+    "competition_key": null,
+    "competition_icon": null,
     "flags": [],
     "channels": [
       "Canal 11"
@@ -198,6 +226,8 @@
     "is_today": false,
     "match": "Sporting - Etoile",
     "competition": "FUTSAL, Liga Campeões",
+    "competition_key": null,
+    "competition_icon": null,
     "flags": [],
     "channels": [
       "N/D"
@@ -211,6 +241,8 @@
     "is_today": false,
     "match": "Benfica - Gil Vicente",
     "competition": "Taça Liga PT Allianz",
+    "competition_key": null,
+    "competition_icon": null,
     "flags": [],
     "channels": [
       "Sport.Tv1"
@@ -224,6 +256,8 @@
     "is_today": false,
     "match": "Casa Pia - Sporting",
     "competition": "Liga Portugal, J10",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "Sport.Tv1"
@@ -237,6 +271,8 @@
     "is_today": false,
     "match": "FC Porto - Estoril Praia",
     "competition": "Liga Portugal, J10",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "Sport.Tv1"
@@ -250,6 +286,8 @@
     "is_today": false,
     "match": "Benfica - FC Alverca",
     "competition": "Liga Portugal, J10",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "Benfica.Tv"
@@ -263,6 +301,8 @@
     "is_today": false,
     "match": "Shakhtar - Sporting",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -276,6 +316,8 @@
     "is_today": false,
     "match": "AEK - Real Madrid",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "dazn"
@@ -289,6 +331,8 @@
     "is_today": false,
     "match": "FC Porto - Nápoles",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -302,6 +346,8 @@
     "is_today": false,
     "match": "Benfica - Lech P.",
     "competition": "UEFA Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -315,6 +361,8 @@
     "is_today": false,
     "match": "Sporting - Moreirense",
     "competition": "Liga Portugal, J11",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "Sport.Tv1"
@@ -328,6 +376,8 @@
     "is_today": false,
     "match": "V. Guimarães - FC Porto",
     "competition": "Liga Portugal, J11",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "Sport.Tv"
@@ -341,6 +391,8 @@
     "is_today": false,
     "match": "E. Amadora - Benfica",
     "competition": "Liga Portugal, J11",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "Sport.Tv"
@@ -354,6 +406,8 @@
     "is_today": false,
     "match": "Portugal - Dinamarca",
     "competition": "UEFA Liga Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "flags": [],
     "channels": [
       "RTP 1"
@@ -367,6 +421,8 @@
     "is_today": false,
     "match": "País Gales - Portugal",
     "competition": "UEFA Liga Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -380,6 +436,8 @@
     "is_today": false,
     "match": "Feyenoord - FC Porto",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -393,6 +451,8 @@
     "is_today": false,
     "match": "Sporting - Manchester United",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -406,6 +466,8 @@
     "is_today": false,
     "match": "Plzen - Benfica",
     "competition": "UEFA Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -419,6 +481,8 @@
     "is_today": false,
     "match": "FC Porto - Sporting",
     "competition": "Liga Portugal, J12",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "Sport.Tv1"
@@ -432,6 +496,8 @@
     "is_today": false,
     "match": "Benfica - Famalicão",
     "competition": "Liga Portugal, J12",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "Benfica.Tv"
@@ -445,6 +511,8 @@
     "is_today": false,
     "match": "Roma - Sporting",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -458,6 +526,8 @@
     "is_today": false,
     "match": "Liverpool - FC Porto",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -471,6 +541,8 @@
     "is_today": false,
     "match": "Benfica - OFI",
     "competition": "UEFA Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -484,6 +556,8 @@
     "is_today": false,
     "match": "Benfica - Sporting",
     "competition": "Liga Portugal, J16",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -497,6 +571,8 @@
     "is_today": false,
     "match": "FC Porto - Slavia P.",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -510,6 +586,8 @@
     "is_today": false,
     "match": "Sporting - Barcelona",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -523,6 +601,8 @@
     "is_today": false,
     "match": "NEC - Benfica",
     "competition": "UEFA Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -536,6 +616,8 @@
     "is_today": false,
     "match": "Man. City - Sporting",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -549,6 +631,8 @@
     "is_today": false,
     "match": "LASK L. - FC Porto",
     "competition": "UEFA Liga Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "flags": [],
     "channels": [
       "N/D"
@@ -562,6 +646,8 @@
     "is_today": false,
     "match": "Benfica - AZ Alkmaar",
     "competition": "UEFA Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "flags": [],
     "channels": [
       "N/D"

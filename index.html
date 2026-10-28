@@ -16,37 +16,42 @@
     <!-- Barra de Pesquisa (nova funcionalidade) -->
     <div class="sticky top-0 z-20 -mx-2 sm:-mx-4 px-2 sm:px-4 pt-1 pb-2 bg-[#121214]/90 backdrop-blur">
         <div class="max-w-3xl mx-auto">
-            <label class="relative flex items-center">
-                <svg 
-                    class="absolute left-3 h-4 w-4 text-zinc-500 pointer-events-none" 
-                    viewBox="0 0 24 24" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    stroke-width="2.2" 
-                    stroke-linecap="round" 
-                    stroke-linejoin="round"
-                >
-                    <circle cx="11" cy="11" r="7"/>
-                    <path d="m20 20-3.5-3.5"/>
-                </svg>
-                <input 
-                    id="search-input" 
-                    type="search" 
-                    autocomplete="off" 
-                    spellcheck="false"
-                    placeholder="Pesquisar equipa, competição ou canal..."
-                    class="w-full bg-zinc-900/90 border border-zinc-800/80 rounded-lg pl-9 pr-20 py-2.5 text-base sm:text-sm text-zinc-100 placeholder:text-zinc-500 outline-none focus:border-zinc-600 focus:bg-zinc-900 transition-colors"
-                >
-                <kbd id="search-hint" class="absolute right-3 hidden sm:inline-block text-[10px] font-mono text-zinc-500 border border-zinc-700/60 rounded px-1.5 py-0.5">/</kbd>
-                <button 
-                    id="search-clear" 
-                    type="button" 
-                    aria-label="Limpar pesquisa"
-                    class="absolute right-2 hidden text-zinc-400 hover:text-zinc-100 text-xs font-semibold uppercase tracking-wider px-2 py-1 rounded hover:bg-zinc-800"
-                >
-                    Limpar
-                </button>
-            </label>
+            <div class="flex items-center gap-2">
+                <a href="./" class="shrink-0" aria-label="Ver Bola">
+                    <img src="../assets/icons/app/icon.svg" alt="" class="h-10.5 w-10.5 rounded-lg">
+                </a>
+                <label class="relative flex items-center grow">
+                    <svg 
+                        class="absolute left-3 h-4 w-4 text-zinc-500 pointer-events-none" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2.2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round"
+                    >
+                        <circle cx="11" cy="11" r="7"/>
+                        <path d="m20 20-3.5-3.5"/>
+                    </svg>
+                    <input 
+                        id="search-input" 
+                        type="search" 
+                        autocomplete="off" 
+                        spellcheck="false"
+                        placeholder="Pesquisar equipa, competição ou canal..."
+                        class="w-full bg-zinc-900/90 border border-zinc-800/80 rounded-lg pl-9 pr-20 py-2.5 text-base sm:text-sm text-zinc-100 placeholder:text-zinc-500 outline-none focus:border-zinc-600 focus:bg-zinc-900 transition-colors"
+                    >
+                    <kbd id="search-hint" class="absolute right-3 hidden sm:inline-block text-[10px] font-mono text-zinc-500 border border-zinc-700/60 rounded px-1.5 py-0.5">/</kbd>
+                    <button 
+                        id="search-clear" 
+                        type="button" 
+                        aria-label="Limpar pesquisa"
+                        class="absolute right-2 hidden text-zinc-400 hover:text-zinc-100 text-xs font-semibold uppercase tracking-wider px-2 py-1 rounded hover:bg-zinc-800"
+                    >
+                        Limpar
+                    </button>
+                </label>
+            </div>
             <div id="search-meta" class="hidden mt-1.5 px-1 text-[11px] text-zinc-500"></div>
         </div>
     </div>
