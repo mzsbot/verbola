@@ -107,8 +107,12 @@ async function loadGames() {
                 : '';
 
             const channelsHtml = game.channels && game.channels.length > 0
-                ? game.channels.map(c => `<button type="button" data-channel="${escapeHtml(c)}" class="channel-chip bg-zinc-800/80 text-zinc-300 border border-zinc-700/60 hover:border-zinc-500 hover:text-zinc-100 text-[11px] px-2 py-0.5 rounded uppercase tracking-wider font-semibold whitespace-nowrap transition-colors">${highlight(c, terms)}</button>`).join('')
+                ? game.channels.map(c => `<span class="bg-zinc-800/80 text-zinc-300 border border-zinc-700/60 text-[11px] px-2 py-0.5 rounded uppercase tracking-wider font-semibold whitespace-nowrap">${highlight(c, terms)}</span>`).join('')
                 : '<span class="text-zinc-600 text-xs font-semibold">N/D</span>';
+
+            // Equipas clicáveis: pesquisa rápida pela equipa
+            const teamButton = team => `<button type="button" data-team="${escapeHtml(team)}" class="team-chip cursor-pointer hover:text-white hover:underline underline-offset-2 decoration-zinc-500">${highlight(team, terms)}</button>`;
+            const matchHtml  = game.match.split(' - ').map(t => t.trim()).filter(Boolean).map(teamButton).join(' - ');
 
             const todayTag = game.is_today 
                 ? `<span class="text-red-400 font-bold ml-1 text-xs">hoje</span>` 
@@ -135,7 +139,7 @@ async function loadGames() {
                         ${competitionIconHtml}
                         <div class="flex flex-col justify-center min-w-0">
                             <div class="flex items-center">
-                                <span class="text-[15px] font-bold text-zinc-100 truncate">${highlight(game.match, terms)}</span>
+                                <span class="text-[15px] font-bold text-zinc-100 truncate">${matchHtml}</span>
                                 ${flagsHtml}
                             </div>
                             <span class="text-xs text-zinc-400 italic truncate mt-0.5">${highlight(game.competition, terms)}</span>
@@ -167,8 +171,8 @@ input.addEventListener('input', e => setQuery(e.target.value));
 clearBtn.addEventListener('click', () => { setQuery(''); input.focus(); });
 
 container.addEventListener('click', e => {
-    const chip = e.target.closest('.channel-chip');
-    if (chip) setQuery(chip.dataset.channel);
+    const chip = e.target.closest('.team-chip');
+    if (chip) setQuery(chip.dataset.team);
 });
 
 // "/" foca a pesquisa, "Esc" limpa
