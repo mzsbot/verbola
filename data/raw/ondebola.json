@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-29T14:16:09.041618+00:00",
+  "scraped_at": "2026-10-29T19:25:53.527236+00:00",
   "games": [
     {
       "source_id": "59887",
@@ -22,7 +22,8 @@
       "away": "Etoile",
       "competition": "FUTSAL, Liga Campeões",
       "channels": [
-        "N/D"
+        "C11 Youtub",
+        "Vídeo"
       ]
     },
     {
@@ -88,6 +89,18 @@
       ]
     },
     {
+      "source_id": "60141",
+      "kickoff": "2026-10-29T20:00:00+00:00",
+      "date": "Qui 29 Out",
+      "time": "20:00",
+      "home": "Vários",
+      "away": "Jogos",
+      "competition": "FEMININO, L. Campeões",
+      "channels": [
+        "Disney+"
+      ]
+    },
+    {
       "source_id": "59150",
       "kickoff": "2026-10-29T20:45:00+00:00",
       "date": "Qui 29 Out",
@@ -117,7 +130,7 @@
       "kickoff": "2026-10-29T23:00:00+00:00",
       "date": "Qui 29 Out",
       "time": "23:00",
-      "home": "Vasco",
+      "home": "Vasco Gama",
       "away": "Flamengo",
       "competition": "Brasileirão 2026",
       "channels": [
