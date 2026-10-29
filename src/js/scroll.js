@@ -17,8 +17,15 @@ async function firstGameScroll()
         return nowInMins <= gameTimeInMins || nowInMins <= (gameTimeInMins + tolerance);
     });
 
-    const gameEl = document.getElementById(game?.id);
-    gameEl.scrollIntoView();
+    if(game !== undefined)
+    {
+        const gameEl = document.getElementById(game?.id);
+        const topBar = document.getElementById("top-bar");
+
+        let yScrollTo = gameEl.offsetTop - topBar.clientHeight;
+        console.log(gameEl.scrollHeight + topBar.clientHeight);
+        window.scrollTo(0, yScrollTo);
+    }
 }
 
-firstGameScroll()
+firstGameScroll();

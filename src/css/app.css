@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+html { scroll-behavior: smooth; }
+
 .game-grid {
     display: grid;
     /* Largura fixa para alinhar os cartões, mas cresce se a data não couber */
