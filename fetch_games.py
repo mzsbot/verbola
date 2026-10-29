@@ -110,12 +110,15 @@ def build_games(games, fixtures, competitions_by_league, lookup, now):
         fixture = find_fixture(game, fixtures)
 
         competition = game["competition"]
-        competition_key, competition_icon = match_competition(competition, lookup)
+        competition_key, name, competition_icon = match_competition(competition, lookup)
 
         # Sem correspondência pelo nome do ondebola, tenta pelo id da liga na API
         if fixture and not competition_key and fixture["league_id"] in competitions_by_league:
             competition_key, name, competition_icon = competitions_by_league[fixture["league_id"]]
-            competition = competition or name
+
+        # O nome vem do competitions.json; sem correspondência fica o do ondebola
+        if competition_key:
+            competition = name
 
         kickoff = datetime.fromisoformat(fixture["kickoff"] if fixture else game["kickoff"])
 
@@ -144,7 +147,7 @@ def build_games(games, fixtures, competitions_by_league, lookup, now):
 def competitions_by_api_league(lookup):
     # {id da liga na API: (chave, nome, ícone)} a partir do campo "api_football_ids"
     result = {}
-    icons  = {key: icon for key, icon in lookup.values()}
+    icons  = {key: icon for key, _, icon in lookup.values()}
     for key, info in (read_json(COMPETITIONS_FILE, {}) or {}).items():
         for league_id in info.get("api_football_ids", []):
             result[league_id] = (key, info.get("name"), icons.get(key))

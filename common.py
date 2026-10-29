@@ -46,7 +46,7 @@ def fold(text):
     return ' '.join(text.lower().split())
 
 def load_competitions():
-    # Devolve {alias normalizado: (chave, ícone)} a partir do competitions.json
+    # Devolve {alias normalizado: (chave, nome, ícone)} a partir do competitions.json
     competitions = read_json(COMPETITIONS_FILE, {})
 
     lookup = {}
@@ -56,10 +56,10 @@ def load_competitions():
             print(f"Ícone em falta para '{key}': {icon}")
             icon = None
         for alias in info.get("aliases", []):
-            lookup[fold(alias)] = (key, icon)
+            lookup[fold(alias)] = (key, info.get("name"), icon)
     return lookup
 
 def match_competition(competition, lookup):
     # Ignora a jornada no fim ("Liga Portugal, J10" -> "Liga Portugal") antes de comparar
     base = re.sub(r',\s*J\d+$', '', competition.strip())
-    return lookup.get(fold(base), (None, None))
+    return lookup.get(fold(base), (None, None, None))

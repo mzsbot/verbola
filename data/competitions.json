@@ -18,13 +18,13 @@
     "aliases": ["UEFA Conference League", "Liga Conferência", "L. Conferência", "Conference League"]
   },
   "liga-inglesa": {
-    "name": "Liga Inglesa",
+    "name": "Premier League",
     "icon": "assets/icons/competicoes/liga-inglesa.png",
     "api_football_ids": [39],
     "aliases": ["Liga Inglaterra", "Premier League"]
   },
   "liga-espanhola": {
-    "name": "Liga Espanhola",
+    "name": "LA Liga",
     "icon": "assets/icons/competicoes/liga-espanhola.png",
     "api_football_ids": [140],
     "aliases": ["Liga Espanha", "LaLiga", "La Liga"]
@@ -90,7 +90,7 @@
     "aliases": ["FEMININO, Europa Cup", "UEFA Europa Cup - Women"]
   },
   "liga-francesa": {
-    "name": "Liga Francesa",
+    "name": "Ligue 1",
     "icon": "assets/icons/competicoes/liga-francesa.png",
     "api_football_ids": [61],
     "aliases": ["Liga França", "Ligue 1"]

@@ -44,7 +44,7 @@ function highlight(text, terms) {
 }
 
 function matchesGame(game, terms) {
-    const haystack = fold([game.match, game.competition, ...(game.channels || []), game.date].join(' '));
+    const haystack = fold([game.match, game.competition, game.date].join(' '));
     return terms.every(t => haystack.includes(t));
 }
 
@@ -107,7 +107,7 @@ async function loadGames() {
                 : '';
 
             const channelsHtml = game.channels && game.channels.length > 0
-                ? game.channels.map(c => `<span class="bg-zinc-800/80 text-zinc-300 border border-zinc-700/60 text-[11px] px-2 py-0.5 rounded uppercase tracking-wider font-semibold whitespace-nowrap">${highlight(c, terms)}</span>`).join('')
+                ? game.channels.map(c => `<span class="bg-zinc-800/80 text-zinc-300 border border-zinc-700/60 text-[11px] px-2 py-0.5 rounded uppercase tracking-wider font-semibold whitespace-nowrap">${c}</span>`).join('')
                 : '<span class="text-zinc-600 text-xs font-semibold">N/D</span>';
 
             // Equipas clicáveis: pesquisa rápida pela equipa
