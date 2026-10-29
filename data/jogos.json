@@ -45,7 +45,7 @@
     "time": "17:00",
     "is_today": true,
     "match": "S. Praga - Torreense",
-    "competition": "FEMININO, Europa Cup",
+    "competition": "Europa Cup Feminina",
     "competition_key": "europa-cup-feminina",
     "competition_icon": "assets/icons/competicoes/europa-cup-feminina.png",
     "channels": [
@@ -89,7 +89,7 @@
     "time": "18:45",
     "is_today": true,
     "match": "Sp. Braga - Famalicão",
-    "competition": "Taça Liga PT Allianz",
+    "competition": "Taça da Liga",
     "competition_key": "taca-liga",
     "competition_icon": "assets/icons/competicoes/taca-liga.png",
     "channels": [
@@ -111,7 +111,7 @@
     "time": "19:45",
     "is_today": true,
     "match": "Fiorentina - Atalanta",
-    "competition": "Liga Itália",
+    "competition": "Serie A",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
     "channels": [
@@ -131,7 +131,7 @@
     "time": "19:45",
     "is_today": true,
     "match": "Everton - Newcastle",
-    "competition": "Taça Liga Inglaterra",
+    "competition": "Taça da Liga Inglesa",
     "competition_key": "taca-liga-inglesa",
     "competition_icon": "assets/icons/competicoes/taca-liga-inglesa.png",
     "channels": [
@@ -151,7 +151,7 @@
     "time": "20:00",
     "is_today": true,
     "match": "Vários - Jogos",
-    "competition": "FEMININO, L. Campeões",
+    "competition": "Liga dos Campeões Feminina",
     "competition_key": "liga-campeoes-feminina",
     "competition_icon": "assets/icons/competicoes/liga-campeoes-feminina.png",
     "channels": [
@@ -170,7 +170,7 @@
     "time": "20:45",
     "is_today": true,
     "match": "Benfica - Gil Vicente",
-    "competition": "Taça Liga PT Allianz",
+    "competition": "Taça da Liga",
     "competition_key": "taca-liga",
     "competition_icon": "assets/icons/competicoes/taca-liga.png",
     "channels": [
@@ -189,7 +189,7 @@
     "time": "22:30",
     "is_today": true,
     "match": "At. Mineiro - Cruzeiro",
-    "competition": "Brasileirão 2026",
+    "competition": "Brasileirão",
     "competition_key": "brasileirao",
     "competition_icon": "assets/icons/competicoes/brasileirao.png",
     "channels": [
@@ -209,7 +209,7 @@
     "time": "23:00",
     "is_today": true,
     "match": "Vasco Gama - Flamengo",
-    "competition": "Brasileirão 2026",
+    "competition": "Brasileirão",
     "competition_key": "brasileirao",
     "competition_icon": "assets/icons/competicoes/brasileirao.png",
     "channels": [
@@ -229,7 +229,7 @@
     "time": "18:00",
     "is_today": false,
     "match": "Le Havre - PSG",
-    "competition": "Liga França",
+    "competition": "Ligue 1",
     "competition_key": "liga-francesa",
     "competition_icon": "assets/icons/competicoes/liga-francesa.png",
     "channels": [
@@ -249,7 +249,7 @@
     "time": "20:15",
     "is_today": false,
     "match": "Casa Pia - Sporting",
-    "competition": "Liga Portugal, J10",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -268,7 +268,7 @@
     "time": "20:30",
     "is_today": false,
     "match": "FC Porto - Estoril Praia",
-    "competition": "Liga Portugal, J10",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -287,7 +287,7 @@
     "time": "20:15",
     "is_today": false,
     "match": "Benfica - FC Alverca",
-    "competition": "Liga Portugal, J10",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -306,7 +306,7 @@
     "time": "17:45",
     "is_today": false,
     "match": "Shakhtar - Sporting",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -325,7 +325,7 @@
     "time": "17:45",
     "is_today": false,
     "match": "AEK - Real Madrid",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -344,7 +344,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "FC Porto - Nápoles",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -363,7 +363,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Benfica - Lech P.",
-    "competition": "UEFA Liga Europa",
+    "competition": "Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "channels": [
@@ -382,7 +382,7 @@
     "time": "20:30",
     "is_today": false,
     "match": "Sporting - Moreirense",
-    "competition": "Liga Portugal, J11",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -401,7 +401,7 @@
     "time": "18:00",
     "is_today": false,
     "match": "V. Guimarães - FC Porto",
-    "competition": "Liga Portugal, J11",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -420,7 +420,7 @@
     "time": "20:30",
     "is_today": false,
     "match": "E. Amadora - Benfica",
-    "competition": "Liga Portugal, J11",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -439,7 +439,7 @@
     "time": "19:45",
     "is_today": false,
     "match": "Portugal - Dinamarca",
-    "competition": "UEFA Liga Nações",
+    "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
@@ -458,7 +458,7 @@
     "time": "19:45",
     "is_today": false,
     "match": "País Gales - Portugal",
-    "competition": "UEFA Liga Nações",
+    "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
@@ -477,7 +477,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Feyenoord - FC Porto",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -496,7 +496,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Sporting - Manchester United",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -515,7 +515,7 @@
     "time": "17:45",
     "is_today": false,
     "match": "Plzen - Benfica",
-    "competition": "UEFA Liga Europa",
+    "competition": "Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "channels": [
@@ -534,7 +534,7 @@
     "time": "20:30",
     "is_today": false,
     "match": "FC Porto - Sporting",
-    "competition": "Liga Portugal, J12",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -553,7 +553,7 @@
     "time": "20:15",
     "is_today": false,
     "match": "Benfica - Famalicão",
-    "competition": "Liga Portugal, J12",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -572,7 +572,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Roma - Sporting",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -591,7 +591,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Liverpool - FC Porto",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -610,7 +610,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Benfica - OFI",
-    "competition": "UEFA Liga Europa",
+    "competition": "Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "channels": [
@@ -629,7 +629,7 @@
     "time": "00:00",
     "is_today": false,
     "match": "Benfica - Sporting",
-    "competition": "Liga Portugal, J16",
+    "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
@@ -648,7 +648,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "FC Porto - Slavia P.",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -667,7 +667,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Sporting - Barcelona",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -686,7 +686,7 @@
     "time": "17:45",
     "is_today": false,
     "match": "NEC - Benfica",
-    "competition": "UEFA Liga Europa",
+    "competition": "Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "channels": [
@@ -705,7 +705,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Man. City - Sporting",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -724,7 +724,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "LASK L. - FC Porto",
-    "competition": "UEFA Liga Campeões",
+    "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
@@ -743,7 +743,7 @@
     "time": "20:00",
     "is_today": false,
     "match": "Benfica - AZ Alkmaar",
-    "competition": "UEFA Liga Europa",
+    "competition": "Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "channels": [
