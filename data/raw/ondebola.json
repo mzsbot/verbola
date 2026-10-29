@@ -1,44 +1,6 @@
 {
-  "scraped_at": "2026-10-29T01:10:17.384804+00:00",
+  "scraped_at": "2026-10-29T07:02:37.669875+00:00",
   "games": [
-    {
-      "source_id": "60205",
-      "kickoff": "2026-10-28T22:30:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "22:30",
-      "home": "Santos",
-      "away": "Palmeiras",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60268",
-      "kickoff": "2026-10-28T22:30:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "22:30",
-      "home": "Vários",
-      "away": "Jogos",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "59993",
-      "kickoff": "2026-10-29T00:10:00+00:00",
-      "date": "Qui 29 Out",
-      "time": "00:10",
-      "home": "Tucumán",
-      "away": "Platense",
-      "competition": "Taça Argentina",
-      "channels": [
-        "Sport.Tv2",
-        "Betano"
-      ]
-    },
     {
       "source_id": "60269",
       "kickoff": "2026-10-29T00:30:00+00:00",
