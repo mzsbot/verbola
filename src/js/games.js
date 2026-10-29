@@ -51,13 +51,13 @@ function matchesGame(game, terms) {
 function checkIsLive(timeStr, isToday) {
     if (!isToday || !timeStr) return false;
     
-    const now = new Date();
-    const nowInMins = (now.getHours() * 60) + now.getMinutes();
+    const now            = new Date();
+    const nowInMins      = (now.getHours() * 60) + now.getMinutes();
     const [gameH, gameM] = timeStr.split(':').map(Number);
     if (isNaN(gameH) || isNaN(gameM)) return false;
     
     const gameTimeInMins = (gameH * 60) + gameM;
-    const tolerance = 115;
+    const tolerance      = 115;
     return nowInMins >= gameTimeInMins && nowInMins <= (gameTimeInMins + tolerance);
 }
 
@@ -121,7 +121,7 @@ async function loadGames() {
             const watermark = '<div class="absolute top-1/2 -translate-y-1/2 -right-[75px] sm:-right-[85px] text-[130px] sm:text-[150px] opacity-[0.07] grayscale select-none pointer-events-none z-0">⚽</div>';
 
             return `
-            <div class="relative overflow-hidden rounded-lg p-3 sm:p-4 ${liveStyles}">
+            <div id="${game.id}" class="relative overflow-hidden rounded-lg p-3 sm:p-4 ${liveStyles}">
                 
                 ${watermark}
 
