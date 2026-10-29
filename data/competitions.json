@@ -70,5 +70,29 @@
     "icon": "assets/icons/competicoes/liga-campeoes-feminina.png",
     "api_football_ids": [525],
     "aliases": ["FEMININO, L. Campeões", "UEFA Women's Champions League", "Liga dos Campeões Feminina"]
+  },
+  "taca-liga": {
+    "name": "Taça da Liga",
+    "icon": "assets/icons/competicoes/taca-liga.png",
+    "api_football_ids": [97],
+    "aliases": ["Taça Liga PT Allianz", "Taça da Liga", "Taça Liga"]
+  },
+  "liga-arabia-saudita": {
+    "name": "Liga Arábia Saudita",
+    "icon": "assets/icons/competicoes/liga-arabia-saudita.png",
+    "api_football_ids": [307],
+    "aliases": ["Liga Arábia Saudita", "Saudi Pro League", "Pro League"]
+  },
+  "europa-cup-feminina": {
+    "name": "Europa Cup Feminina",
+    "icon": "assets/icons/competicoes/europa-cup-feminina.png",
+    "api_football_ids": [1191],
+    "aliases": ["FEMININO, Europa Cup", "UEFA Europa Cup - Women"]
+  },
+  "liga-francesa": {
+    "name": "Liga Francesa",
+    "icon": "assets/icons/competicoes/liga-francesa.png",
+    "api_football_ids": [61],
+    "aliases": ["Liga França", "Ligue 1"]
   }
 }
