@@ -1,169 +1,15 @@
 {
-  "scraped_at": "2026-10-28T16:26:55.317312+00:00",
+  "scraped_at": "2026-10-29T07:02:37.669875+00:00",
   "games": [
     {
-      "source_id": "60056",
-      "kickoff": "2026-10-28T16:00:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "16:00",
-      "home": "Sporting",
-      "away": "Stalitsa",
-      "competition": "FUTSAL, Liga Campeões",
-      "channels": [
-        "Canal 11"
-      ]
-    },
-    {
-      "source_id": "59824",
-      "kickoff": "2026-10-28T16:00:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "16:00",
-      "home": "Benfica",
-      "away": "HIT Kiev",
-      "competition": "FUTSAL, Liga Campeões",
-      "channels": [
-        "Canal 11 Youtub",
-        "Live"
-      ]
-    },
-    {
-      "source_id": "60067",
-      "kickoff": "2026-10-28T16:00:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "16:00",
-      "home": "Benfica",
-      "away": "Pafos",
-      "competition": "SUB19, Youth League",
-      "channels": [
-        "Benfica.Tv"
-      ]
-    },
-    {
-      "source_id": "59877",
-      "kickoff": "2026-10-28T17:30:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "17:30",
-      "home": "AC Milan",
-      "away": "Bolonha",
-      "competition": "Liga Itália",
-      "channels": [
-        "Sport.Tv1",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "59878",
-      "kickoff": "2026-10-28T17:30:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "17:30",
-      "home": "Veneza",
-      "away": "Inter Milão",
-      "competition": "Liga Itália",
-      "channels": [
-        "Sport.Tv2",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60139",
-      "kickoff": "2026-10-28T19:30:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "19:30",
-      "home": "Man. City",
-      "away": "Brighton",
-      "competition": "Taça Liga Inglaterra",
-      "channels": [
-        "Sport.Tv6",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60270",
-      "kickoff": "2026-10-28T19:45:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "19:45",
-      "home": "Bournemouth",
-      "away": "Aston Villa",
-      "competition": "",
-      "channels": [
-        "Sport.Tv5",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60222",
-      "kickoff": "2026-10-28T19:45:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "19:45",
-      "home": "Bayern M.",
-      "away": "Magde",
-      "competition": "Taça Alemanha",
-      "channels": [
-        "dazn 1",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "59880",
-      "kickoff": "2026-10-28T19:45:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "19:45",
-      "home": "Génova",
-      "away": "Juventus",
-      "competition": "Liga Itália",
-      "channels": [
-        "Sport.Tv2",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60140",
-      "kickoff": "2026-10-28T20:00:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "20:00",
-      "home": "Liverpool",
-      "away": "Chelsea",
-      "competition": "Taça Liga Inglaterra",
-      "channels": [
-        "Sport.Tv3",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "59814",
-      "kickoff": "2026-10-28T20:00:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "20:00",
-      "home": "Arsenal",
-      "away": "Benfica",
-      "competition": "FEMININO, L. Campeões",
-      "channels": [
-        "RTP 2",
-        "Disney+"
-      ]
-    },
-    {
-      "source_id": "59338",
-      "kickoff": "2026-10-28T20:30:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "20:30",
-      "home": "FC Porto",
-      "away": "Académico Viseu",
-      "competition": "Taça Liga PT Allianz",
-      "channels": [
-        "Sport.Tv1"
-      ]
-    },
-    {
-      "source_id": "60205",
-      "kickoff": "2026-10-28T22:30:00+00:00",
-      "date": "Qua 28 Out",
-      "time": "22:30",
-      "home": "Santos",
-      "away": "Palmeiras",
+      "source_id": "60269",
+      "kickoff": "2026-10-29T00:30:00+00:00",
+      "date": "Qui 29 Out",
+      "time": "00:30",
+      "home": "Vários",
+      "away": "Jogos",
       "competition": "Brasileirão 2026",
       "channels": [
-        "Canal 11",
         "Betano"
       ]
     },
@@ -248,7 +94,7 @@
       "away": "Sporting",
       "competition": "UEFA Liga Campeões",
       "channels": [
-        "N/D"
+        "Sport.Tv5"
       ]
     },
     {
@@ -272,7 +118,7 @@
       "away": "Nápoles",
       "competition": "UEFA Liga Campeões",
       "channels": [
-        "N/D"
+        "Sport.Tv5"
       ]
     },
     {

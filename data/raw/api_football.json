@@ -1,156 +1,16 @@
 {
-  "fetched_at": "2026-10-28T16:29:07.609571+00:00",
-  "date": "2026-10-28",
+  "fetched_at": "2026-10-29T07:02:37.813140+00:00",
+  "date": "2026-10-29",
   "fixtures": [
     {
-      "id": 1638842,
-      "kickoff": "2026-10-28T16:00:00+00:00",
-      "status": "1H",
-      "elapsed": 28,
-      "league_id": 14,
-      "league": "UEFA Youth League",
-      "home": "Benfica U19",
-      "away": "Pafos U19",
-      "goals": {
-        "home": 0,
-        "away": 0
-      }
-    },
-    {
-      "id": 1550167,
-      "kickoff": "2026-10-28T17:30:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "AC Milan",
-      "away": "Bologna",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1550176,
-      "kickoff": "2026-10-28T17:30:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Venezia",
-      "away": "Inter",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1640575,
-      "kickoff": "2026-10-28T19:30:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 48,
-      "league": "League Cup",
-      "home": "Manchester City",
-      "away": "Brighton",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1550171,
-      "kickoff": "2026-10-28T19:45:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Genoa",
-      "away": "Juventus",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1638558,
-      "kickoff": "2026-10-28T19:45:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 81,
-      "league": "DFB Pokal",
-      "home": "Bayern München",
-      "away": "1. FC Magdeburg",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1640383,
-      "kickoff": "2026-10-28T19:45:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 48,
-      "league": "League Cup",
-      "home": "Bournemouth",
-      "away": "Aston Villa",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1638287,
-      "kickoff": "2026-10-28T20:00:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 525,
-      "league": "UEFA Champions League Women",
-      "home": "Arsenal W",
-      "away": "SL Benfica W",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1640388,
-      "kickoff": "2026-10-28T20:00:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 48,
-      "league": "League Cup",
-      "home": "Liverpool",
-      "away": "Chelsea",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1589437,
-      "kickoff": "2026-10-28T20:30:00+00:00",
+      "id": 1589435,
+      "kickoff": "2026-10-29T20:45:00+00:00",
       "status": "NS",
       "elapsed": null,
       "league_id": 97,
       "league": "Taça da Liga",
-      "home": "FC Porto",
-      "away": "Academico Viseu",
-      "goals": {
-        "home": null,
-        "away": null
-      }
-    },
-    {
-      "id": 1492438,
-      "kickoff": "2026-10-28T22:30:00+00:00",
-      "status": "NS",
-      "elapsed": null,
-      "league_id": 71,
-      "league": "Serie A",
-      "home": "Santos",
-      "away": "Palmeiras",
+      "home": "Benfica",
+      "away": "GIL Vicente",
       "goals": {
         "home": null,
         "away": null
