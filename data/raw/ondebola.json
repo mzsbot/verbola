@@ -1,69 +1,6 @@
 {
-  "scraped_at": "2026-10-29T23:45:50.070977+00:00",
+  "scraped_at": "2026-10-30T04:09:12.239086+00:00",
   "games": [
-    {
-      "source_id": "60143",
-      "kickoff": "2026-10-29T19:45:00+00:00",
-      "date": "Qui 29 Out",
-      "time": "19:45",
-      "home": "Everton",
-      "away": "Newcastle",
-      "competition": "Taça Liga Inglaterra",
-      "channels": [
-        "Sport.Tv7",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60141",
-      "kickoff": "2026-10-29T20:00:00+00:00",
-      "date": "Qui 29 Out",
-      "time": "20:00",
-      "home": "Vários",
-      "away": "Jogos",
-      "competition": "FEMININO, L. Campeões",
-      "channels": [
-        "Disney+"
-      ]
-    },
-    {
-      "source_id": "59150",
-      "kickoff": "2026-10-29T20:45:00+00:00",
-      "date": "Qui 29 Out",
-      "time": "20:45",
-      "home": "Benfica",
-      "away": "Gil Vicente",
-      "competition": "Taça Liga PT Allianz",
-      "channels": [
-        "Sport.Tv1"
-      ]
-    },
-    {
-      "source_id": "60225",
-      "kickoff": "2026-10-29T22:30:00+00:00",
-      "date": "Qui 29 Out",
-      "time": "22:30",
-      "home": "At. Mineiro",
-      "away": "Cruzeiro",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60224",
-      "kickoff": "2026-10-29T23:00:00+00:00",
-      "date": "Qui 29 Out",
-      "time": "23:00",
-      "home": "Vasco Gama",
-      "away": "Flamengo",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
     {
       "source_id": "60144",
       "kickoff": "2026-10-30T18:00:00+00:00",
@@ -87,6 +24,19 @@
       "competition": "Liga Portugal, J10",
       "channels": [
         "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60228",
+      "kickoff": "2026-10-30T23:00:00+00:00",
+      "date": "Sex 30 Out",
+      "time": "23:00",
+      "home": "Corinthians",
+      "away": "Mirassol",
+      "competition": "Brasileirão 2026",
+      "channels": [
+        "Canal 11",
+        "Betano"
       ]
     },
     {
