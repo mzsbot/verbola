@@ -148,7 +148,8 @@
     "competition_key": null,
     "competition_icon": null,
     "channels": [
-      "dazn 1"
+      "dazn 1",
+      "Betano"
     ],
     "fixture_id": null,
     "status": null,
@@ -205,7 +206,8 @@
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
     "channels": [
-      "Sport.Tv3"
+      "Sport.Tv3",
+      "Betano"
     ],
     "fixture_id": null,
     "status": null,
@@ -224,7 +226,8 @@
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
     "channels": [
-      "dazn 1"
+      "dazn 1",
+      "Betano"
     ],
     "fixture_id": null,
     "status": null,

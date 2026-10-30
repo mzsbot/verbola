@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-30T10:51:18.231416+00:00",
+  "scraped_at": "2026-10-30T16:55:45.404715+00:00",
   "games": [
     {
       "source_id": "60145",
@@ -99,7 +99,8 @@
       "away": "Borussia Dortmund",
       "competition": "",
       "channels": [
-        "dazn 1"
+        "dazn 1",
+        "Betano"
       ]
     },
     {
@@ -135,7 +136,8 @@
       "away": "Inter Milão",
       "competition": "Liga Itália",
       "channels": [
-        "Sport.Tv3"
+        "Sport.Tv3",
+        "Betano"
       ]
     },
     {
@@ -147,7 +149,8 @@
       "away": "Alavés",
       "competition": "Liga Espanha",
       "channels": [
-        "dazn 1"
+        "dazn 1",
+        "Betano"
       ]
     },
     {
