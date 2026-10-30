@@ -5,6 +5,26 @@
     "date": "Sex 30 Out",
     "time": "18:00",
     "is_today": true,
+    "match": "Al Shabab - Al Ahli J.",
+    "competition": "Liga Arábia Saudita",
+    "competition_key": "liga-arabia-saudita",
+    "competition_icon": "assets/icons/competicoes/liga-arabia-saudita.png",
+    "channels": [
+      "Sport.Tv3",
+      "Betano"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 0
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-30T18:00:00+00:00",
+    "date": "Sex 30 Out",
+    "time": "18:00",
+    "is_today": true,
     "match": "Le Havre - PSG",
     "competition": "Ligue 1",
     "competition_key": "liga-francesa",
@@ -17,7 +37,47 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 0
+    "id": 1
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-30T20:00:00+00:00",
+    "date": "Sex 30 Out",
+    "time": "20:00",
+    "is_today": true,
+    "match": "Lille - Lens",
+    "competition": "Liga Francesa",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "Sport.Tv3",
+      "Betano"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 2
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-30T20:00:00+00:00",
+    "date": "Sex 30 Out",
+    "time": "20:00",
+    "is_today": true,
+    "match": "Villarreal - Espanyol",
+    "competition": "LA Liga",
+    "competition_key": "liga-espanhola",
+    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
+    "channels": [
+      "dazn 2",
+      "Betano"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 3
   },
   {
     "sport": "futebol",
@@ -36,7 +96,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 1
+    "id": 4
   },
   {
     "sport": "futebol",
@@ -56,7 +116,121 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 2
+    "id": 5
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-31T12:30:00+00:00",
+    "date": "Sab 31 Out",
+    "time": "12:30",
+    "is_today": false,
+    "match": "Chelsea - Manchester United",
+    "competition": "Premier League",
+    "competition_key": "liga-inglesa",
+    "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
+    "channels": [
+      "dazn 1"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 6
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-31T17:30:00+00:00",
+    "date": "Sab 31 Out",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Bayern Munich - Borussia Dortmund",
+    "competition": "",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "dazn 1"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 7
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-31T19:15:00+00:00",
+    "date": "Sab 31 Out",
+    "time": "19:15",
+    "is_today": false,
+    "match": "Olmissum - Sporting",
+    "competition": "FUTSAL, Liga Campeões",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "Canal 11"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 8
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-31T19:30:00+00:00",
+    "date": "Sab 31 Out",
+    "time": "19:30",
+    "is_today": false,
+    "match": "Tigers - Benfica",
+    "competition": "FUTSAL, Liga Campeões",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "N/D"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 9
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-31T19:45:00+00:00",
+    "date": "Sab 31 Out",
+    "time": "19:45",
+    "is_today": false,
+    "match": "AC Milan - Inter Milão",
+    "competition": "Serie A",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
+    "channels": [
+      "Sport.Tv3"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 10
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-31T20:00:00+00:00",
+    "date": "Sab 31 Out",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Barcelona - Alavés",
+    "competition": "LA Liga",
+    "competition_key": "liga-espanhola",
+    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
+    "channels": [
+      "dazn 1"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -75,7 +249,83 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 3
+    "id": 12
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-01T15:15:00+00:00",
+    "date": "Dom 1 Nov",
+    "time": "15:15",
+    "is_today": false,
+    "match": "Racing - Real Madrid",
+    "competition": "LA Liga",
+    "competition_key": "liga-espanhola",
+    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
+    "channels": [
+      "dazn 2"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 13
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-01T16:30:00+00:00",
+    "date": "Dom 1 Nov",
+    "time": "16:30",
+    "is_today": false,
+    "match": "Liverpool - Arsenal",
+    "competition": "Premier League",
+    "competition_key": "liga-inglesa",
+    "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
+    "channels": [
+      "dazn 1"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 14
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-01T19:45:00+00:00",
+    "date": "Dom 1 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Juventus - Nápoles",
+    "competition": "Serie A",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
+    "channels": [
+      "Sport.Tv3"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 15
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-01T20:30:00+00:00",
+    "date": "Dom 1 Nov",
+    "time": "20:30",
+    "is_today": false,
+    "match": "Sp. Braga - Famalicão",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "channels": [
+      "Sport.Tv1"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -94,7 +344,26 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 4
+    "id": 17
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-02T20:15:00+00:00",
+    "date": "Seg 2 Nov",
+    "time": "20:15",
+    "is_today": false,
+    "match": "Gil Vicente - V. Guimarães",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "channels": [
+      "Sport.Tv1"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -113,7 +382,26 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 5
+    "id": 19
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-03T20:00:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Vários - Jogos",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "dazn"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -132,7 +420,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 6
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -151,7 +439,45 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 7
+    "id": 22
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-04T20:00:00+00:00",
+    "date": "Qua 4 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Vários - Jogos",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "dazn"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 23
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-05T17:45:00+00:00",
+    "date": "Qui 5 Nov",
+    "time": "17:45",
+    "is_today": false,
+    "match": "AGF Aarhus - Sp. Braga",
+    "competition": "UEFA Liga Conferência",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "dazn 1"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -159,18 +485,56 @@
     "date": "Qui 5 Nov",
     "time": "20:00",
     "is_today": false,
-    "match": "Benfica - Lech P.",
+    "match": "Benfica - Lech Poznan",
     "competition": "Liga Europa",
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "channels": [
-      "N/D"
+      "Sport.Tv5"
     ],
     "fixture_id": null,
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 8
+    "id": 25
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-05T20:00:00+00:00",
+    "date": "Qui 5 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Torreense - Ararat",
+    "competition": "Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
+    "channels": [
+      "dazn 1"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 26
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-05T20:00:00+00:00",
+    "date": "Qui 5 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Vários - Jogos",
+    "competition": "Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
+    "channels": [
+      "dazn"
+    ],
+    "fixture_id": null,
+    "status": null,
+    "elapsed": null,
+    "score": null,
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -189,7 +553,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 9
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -208,7 +572,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 10
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -227,7 +591,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 11
+    "id": 30
   },
   {
     "sport": "futebol",
@@ -246,7 +610,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 12
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -265,7 +629,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 13
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -284,7 +648,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 14
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -303,7 +667,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 15
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -322,7 +686,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 16
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -341,7 +705,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 17
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -360,7 +724,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 18
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -379,7 +743,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 19
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -398,7 +762,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 20
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -417,7 +781,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 21
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -436,7 +800,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 22
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -455,7 +819,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 23
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -474,7 +838,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 24
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -493,7 +857,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 25
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -512,7 +876,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 26
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -531,7 +895,7 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 27
+    "id": 46
   },
   {
     "sport": "futebol",
@@ -550,6 +914,6 @@
     "status": null,
     "elapsed": null,
     "score": null,
-    "id": 28
+    "id": 47
   }
 ]

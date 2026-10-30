@@ -1,6 +1,19 @@
 {
-  "scraped_at": "2026-10-30T04:09:12.239086+00:00",
+  "scraped_at": "2026-10-30T10:51:18.231416+00:00",
   "games": [
+    {
+      "source_id": "60145",
+      "kickoff": "2026-10-30T18:00:00+00:00",
+      "date": "Sex 30 Out",
+      "time": "18:00",
+      "home": "Al Shabab",
+      "away": "Al Ahli J.",
+      "competition": "Liga Arábia Saudita",
+      "channels": [
+        "Sport.Tv3",
+        "Betano"
+      ]
+    },
     {
       "source_id": "60144",
       "kickoff": "2026-10-30T18:00:00+00:00",
@@ -11,6 +24,32 @@
       "competition": "Liga França",
       "channels": [
         "Sport.Tv2",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "59900",
+      "kickoff": "2026-10-30T20:00:00+00:00",
+      "date": "Sex 30 Out",
+      "time": "20:00",
+      "home": "Lille",
+      "away": "Lens",
+      "competition": "Liga Francesa",
+      "channels": [
+        "Sport.Tv3",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60227",
+      "kickoff": "2026-10-30T20:00:00+00:00",
+      "date": "Sex 30 Out",
+      "time": "20:00",
+      "home": "Villarreal",
+      "away": "Espanyol",
+      "competition": "Liga Espanha",
+      "channels": [
+        "dazn 2",
         "Betano"
       ]
     },
@@ -40,12 +79,132 @@
       ]
     },
     {
+      "source_id": "60229",
+      "kickoff": "2026-10-31T12:30:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "12:30",
+      "home": "Chelsea",
+      "away": "Manchester United",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60234",
+      "kickoff": "2026-10-31T17:30:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "17:30",
+      "home": "Bayern Munich",
+      "away": "Borussia Dortmund",
+      "competition": "",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60303",
+      "kickoff": "2026-10-31T19:15:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "19:15",
+      "home": "Olmissum",
+      "away": "Sporting",
+      "competition": "FUTSAL, Liga Campeões",
+      "channels": [
+        "Canal 11"
+      ]
+    },
+    {
+      "source_id": "59936",
+      "kickoff": "2026-10-31T19:30:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "19:30",
+      "home": "Tigers",
+      "away": "Benfica",
+      "competition": "FUTSAL, Liga Campeões",
+      "channels": [
+        "N/D"
+      ]
+    },
+    {
+      "source_id": "59941",
+      "kickoff": "2026-10-31T19:45:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "19:45",
+      "home": "AC Milan",
+      "away": "Inter Milão",
+      "competition": "Liga Itália",
+      "channels": [
+        "Sport.Tv3"
+      ]
+    },
+    {
+      "source_id": "60236",
+      "kickoff": "2026-10-31T20:00:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "20:00",
+      "home": "Barcelona",
+      "away": "Alavés",
+      "competition": "Liga Espanha",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
       "source_id": "59491",
       "kickoff": "2026-10-31T20:30:00+00:00",
       "date": "Sab 31 Out",
       "time": "20:30",
       "home": "FC Porto",
       "away": "Estoril Praia",
+      "competition": "Liga Portugal, J10",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60239",
+      "kickoff": "2026-11-01T15:15:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "15:15",
+      "home": "Racing",
+      "away": "Real Madrid",
+      "competition": "Liga Espanha",
+      "channels": [
+        "dazn 2"
+      ]
+    },
+    {
+      "source_id": "60240",
+      "kickoff": "2026-11-01T16:30:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "16:30",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
+      "source_id": "59945",
+      "kickoff": "2026-11-01T19:45:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "19:45",
+      "home": "Juventus",
+      "away": "Nápoles",
+      "competition": "Liga Itália",
+      "channels": [
+        "Sport.Tv3"
+      ]
+    },
+    {
+      "source_id": "59486",
+      "kickoff": "2026-11-01T20:30:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "20:30",
+      "home": "Sp. Braga",
+      "away": "Famalicão",
       "competition": "Liga Portugal, J10",
       "channels": [
         "Sport.Tv1"
@@ -64,6 +223,18 @@
       ]
     },
     {
+      "source_id": "59488",
+      "kickoff": "2026-11-02T20:15:00+00:00",
+      "date": "Seg 2 Nov",
+      "time": "20:15",
+      "home": "Gil Vicente",
+      "away": "V. Guimarães",
+      "competition": "Liga Portugal, J10",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
       "source_id": "59919",
       "kickoff": "2026-11-03T17:45:00+00:00",
       "date": "Ter 3 Nov",
@@ -73,6 +244,18 @@
       "competition": "UEFA Liga Campeões",
       "channels": [
         "Sport.Tv5"
+      ]
+    },
+    {
+      "source_id": "60287",
+      "kickoff": "2026-11-03T20:00:00+00:00",
+      "date": "Ter 3 Nov",
+      "time": "20:00",
+      "home": "Vários",
+      "away": "Jogos",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn"
       ]
     },
     {
@@ -100,15 +283,63 @@
       ]
     },
     {
+      "source_id": "60309",
+      "kickoff": "2026-11-04T20:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "20:00",
+      "home": "Vários",
+      "away": "Jogos",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn"
+      ]
+    },
+    {
+      "source_id": "60292",
+      "kickoff": "2026-11-05T17:45:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "17:45",
+      "home": "AGF Aarhus",
+      "away": "Sp. Braga",
+      "competition": "UEFA Liga Conferência",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
       "source_id": "59287",
       "kickoff": "2026-11-05T20:00:00+00:00",
       "date": "Qui 5 Nov",
       "time": "20:00",
       "home": "Benfica",
-      "away": "Lech P.",
+      "away": "Lech Poznan",
       "competition": "UEFA Liga Europa",
       "channels": [
-        "N/D"
+        "Sport.Tv5"
+      ]
+    },
+    {
+      "source_id": "59994",
+      "kickoff": "2026-11-05T20:00:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "20:00",
+      "home": "Torreense",
+      "away": "Ararat",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60310",
+      "kickoff": "2026-11-05T20:00:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "20:00",
+      "home": "Vários",
+      "away": "Jogos",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "dazn"
       ]
     },
     {
