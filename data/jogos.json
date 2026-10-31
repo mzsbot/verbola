@@ -4,7 +4,7 @@
     "kickoff": "2026-10-29T16:00:00+00:00",
     "date": "Qui 29 Out",
     "time": "16:00",
-    "is_today": true,
+    "is_today": false,
     "match": "ElPozo - Benfica",
     "competition": "FUTSAL, Liga Campeões",
     "competition_key": null,
@@ -12,10 +12,6 @@
     "channels": [
       "Canal 11"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 0
   },
   {
@@ -23,7 +19,7 @@
     "kickoff": "2026-10-29T16:00:00+00:00",
     "date": "Qui 29 Out",
     "time": "16:00",
-    "is_today": true,
+    "is_today": false,
     "match": "Sporting - Etoile",
     "competition": "FUTSAL, Liga Campeões",
     "competition_key": null,
@@ -32,10 +28,6 @@
       "C11 Youtub",
       "Vídeo"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 1
   },
   {
@@ -43,7 +35,7 @@
     "kickoff": "2026-10-29T17:00:00+00:00",
     "date": "Qui 29 Out",
     "time": "17:00",
-    "is_today": true,
+    "is_today": false,
     "match": "S. Praga - Torreense",
     "competition": "Europa Cup Feminina",
     "competition_key": "europa-cup-feminina",
@@ -51,13 +43,6 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": 1644155,
-    "status": "FT",
-    "elapsed": 90,
-    "score": {
-      "home": 2,
-      "away": 2
-    },
     "id": 2
   },
   {
@@ -65,7 +50,7 @@
     "kickoff": "2026-10-29T18:00:00+00:00",
     "date": "Qui 29 Out",
     "time": "18:00",
-    "is_today": true,
+    "is_today": false,
     "match": "Al Nassr - Al Kholood",
     "competition": "Liga Arábia Saudita",
     "competition_key": "liga-arabia-saudita",
@@ -73,13 +58,6 @@
     "channels": [
       "Sport.Tv4"
     ],
-    "fixture_id": 1603076,
-    "status": "2H",
-    "elapsed": 64,
-    "score": {
-      "home": 2,
-      "away": 2
-    },
     "id": 3
   },
   {
@@ -87,7 +65,7 @@
     "kickoff": "2026-10-29T18:45:00+00:00",
     "date": "Qui 29 Out",
     "time": "18:45",
-    "is_today": true,
+    "is_today": false,
     "match": "Sp. Braga - Famalicão",
     "competition": "Taça da Liga",
     "competition_key": "taca-liga",
@@ -95,13 +73,6 @@
     "channels": [
       "Sport.Tv2"
     ],
-    "fixture_id": 1589436,
-    "status": "1H",
-    "elapsed": 39,
-    "score": {
-      "home": 1,
-      "away": 1
-    },
     "id": 4
   },
   {
@@ -109,7 +80,7 @@
     "kickoff": "2026-10-29T19:45:00+00:00",
     "date": "Qui 29 Out",
     "time": "19:45",
-    "is_today": true,
+    "is_today": false,
     "match": "Fiorentina - Atalanta",
     "competition": "Serie A",
     "competition_key": "liga-italiana",
@@ -118,10 +89,6 @@
       "Sport.Tv3",
       "Betano"
     ],
-    "fixture_id": 1550169,
-    "status": "NS",
-    "elapsed": null,
-    "score": null,
     "id": 5
   },
   {
@@ -129,7 +96,7 @@
     "kickoff": "2026-10-29T19:45:00+00:00",
     "date": "Qui 29 Out",
     "time": "19:45",
-    "is_today": true,
+    "is_today": false,
     "match": "Everton - Newcastle",
     "competition": "Taça da Liga Inglesa",
     "competition_key": "taca-liga-inglesa",
@@ -138,10 +105,6 @@
       "Sport.Tv7",
       "Betano"
     ],
-    "fixture_id": 1640385,
-    "status": "NS",
-    "elapsed": null,
-    "score": null,
     "id": 6
   },
   {
@@ -149,7 +112,7 @@
     "kickoff": "2026-10-29T20:00:00+00:00",
     "date": "Qui 29 Out",
     "time": "20:00",
-    "is_today": true,
+    "is_today": false,
     "match": "Vários - Jogos",
     "competition": "Liga dos Campeões Feminina",
     "competition_key": "liga-campeoes-feminina",
@@ -157,10 +120,6 @@
     "channels": [
       "Disney+"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 7
   },
   {
@@ -168,7 +127,7 @@
     "kickoff": "2026-10-29T20:45:00+00:00",
     "date": "Qui 29 Out",
     "time": "20:45",
-    "is_today": true,
+    "is_today": false,
     "match": "Benfica - Gil Vicente",
     "competition": "Taça da Liga",
     "competition_key": "taca-liga",
@@ -176,10 +135,6 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": 1589435,
-    "status": "NS",
-    "elapsed": null,
-    "score": null,
     "id": 8
   },
   {
@@ -187,7 +142,7 @@
     "kickoff": "2026-10-29T22:30:00+00:00",
     "date": "Qui 29 Out",
     "time": "22:30",
-    "is_today": true,
+    "is_today": false,
     "match": "At. Mineiro - Cruzeiro",
     "competition": "Brasileirão",
     "competition_key": "brasileirao",
@@ -196,10 +151,6 @@
       "Canal 11",
       "Betano"
     ],
-    "fixture_id": 1492430,
-    "status": "NS",
-    "elapsed": null,
-    "score": null,
     "id": 9
   },
   {
@@ -207,7 +158,7 @@
     "kickoff": "2026-10-29T23:00:00+00:00",
     "date": "Qui 29 Out",
     "time": "23:00",
-    "is_today": true,
+    "is_today": false,
     "match": "Vasco Gama - Flamengo",
     "competition": "Brasileirão",
     "competition_key": "brasileirao",
@@ -216,10 +167,6 @@
       "Canal 11",
       "Betano"
     ],
-    "fixture_id": 1492439,
-    "status": "NS",
-    "elapsed": null,
-    "score": null,
     "id": 10
   },
   {
@@ -231,15 +178,11 @@
     "match": "Le Havre - PSG",
     "competition": "Ligue 1",
     "competition_key": "liga-francesa",
-    "competition_icon": "assets/icons/competicoes/liga-francesa.png",
+    "competition_icon": null,
     "channels": [
       "Sport.Tv2",
       "Betano"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 11
   },
   {
@@ -255,10 +198,6 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 12
   },
   {
@@ -266,7 +205,7 @@
     "kickoff": "2026-10-31T20:30:00+00:00",
     "date": "Sab 31 Out",
     "time": "20:30",
-    "is_today": false,
+    "is_today": true,
     "match": "FC Porto - Estoril Praia",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
@@ -274,10 +213,6 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 13
   },
   {
@@ -293,10 +228,6 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 14
   },
   {
@@ -312,10 +243,6 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 15
   },
   {
@@ -331,10 +258,6 @@
     "channels": [
       "dazn"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 16
   },
   {
@@ -350,10 +273,6 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 17
   },
   {
@@ -369,10 +288,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 18
   },
   {
@@ -388,10 +303,6 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 19
   },
   {
@@ -407,10 +318,6 @@
     "channels": [
       "Sport.Tv"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 20
   },
   {
@@ -426,10 +333,6 @@
     "channels": [
       "Sport.Tv"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 21
   },
   {
@@ -445,10 +348,6 @@
     "channels": [
       "RTP 1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 22
   },
   {
@@ -464,10 +363,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 23
   },
   {
@@ -483,10 +378,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 24
   },
   {
@@ -502,10 +393,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 25
   },
   {
@@ -521,10 +408,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 26
   },
   {
@@ -540,10 +423,6 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 27
   },
   {
@@ -559,10 +438,6 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 28
   },
   {
@@ -578,10 +453,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 29
   },
   {
@@ -597,10 +468,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 30
   },
   {
@@ -616,10 +483,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 31
   },
   {
@@ -635,10 +498,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 32
   },
   {
@@ -654,10 +513,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 33
   },
   {
@@ -673,10 +528,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 34
   },
   {
@@ -692,10 +543,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 35
   },
   {
@@ -711,10 +558,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 36
   },
   {
@@ -730,10 +573,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 37
   },
   {
@@ -749,10 +588,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 38
   }
 ]

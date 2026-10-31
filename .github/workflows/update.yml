@@ -4,8 +4,7 @@ on:
     push:
         branches: [main]
     schedule:
-    # De 15 em 15 min: os canais (ondebola) só são atualizados de 3 em 3 horas e a
-    # API-Football só é chamada com jogos a decorrer (ver scrape_channels.py e fetch_games.py)
+    # De 15 em 15 min: os canais (ondebola) só são atualizados de 3 em 3 horas (ver scrape_channels.py)
     - cron: "*/15 * * * *"
     workflow_dispatch:
 
@@ -36,10 +35,8 @@ jobs:
               # Se o ondebola falhar, continua com os canais da última extração
               continue-on-error: true
               run: python scrape_channels.py
-            - name: Obter Jogos (API-Football) e Gerar jogos.json
-              env:
-                API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-              run: python fetch_games.py
+            - name: Gerar jogos.json
+              run: python build_games.py
             - name: Guardar Alterações
               id: save
               run: |
