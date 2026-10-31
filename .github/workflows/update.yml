@@ -5,7 +5,7 @@ on:
         branches: [main]
     schedule:
     # De 15 em 15 min: os canais (ondebola) só são atualizados de 3 em 3 horas (ver scrape_channels.py)
-    - cron: "*/15 * * * *"
+    - cron: "0 * * * *"
     workflow_dispatch:
 
 # Evita dois deploys em simultâneo (ex.: cron e push ao mesmo tempo)
