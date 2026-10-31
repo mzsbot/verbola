@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-31T06:37:37.135270+00:00",
+  "scraped_at": "2026-10-31T13:05:01.716649+00:00",
   "games": [
     {
       "source_id": "60229",
@@ -7,7 +7,7 @@
       "date": "Sab 31 Out",
       "time": "12:30",
       "home": "Chelsea",
-      "away": "Manchester United",
+      "away": "Man United",
       "competition": "Liga Inglaterra",
       "channels": [
         "dazn 1"
@@ -44,8 +44,8 @@
       "date": "Sab 31 Out",
       "time": "15:30",
       "home": "Moreirense",
-      "away": "E. Amadora",
-      "competition": "Liga Portugal, J10",
+      "away": "Estrela Amadora",
+      "competition": "",
       "channels": [
         "V+"
       ]
@@ -147,7 +147,8 @@
       "away": "Real Madrid",
       "competition": "Liga Espanha",
       "channels": [
-        "dazn 2"
+        "dazn 2",
+        "Betano"
       ]
     },
     {

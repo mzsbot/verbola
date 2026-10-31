@@ -5,7 +5,7 @@
     "date": "Sab 31 Out",
     "time": "12:30",
     "is_today": true,
-    "match": "Chelsea - Manchester United",
+    "match": "Chelsea - Man United",
     "competition": "Premier League",
     "competition_key": "liga-inglesa",
     "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
@@ -63,10 +63,10 @@
     "date": "Sab 31 Out",
     "time": "15:30",
     "is_today": true,
-    "match": "Moreirense - E. Amadora",
-    "competition": "Liga Portugal",
-    "competition_key": "liga-portugal",
-    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "match": "Moreirense - Estrela Amadora",
+    "competition": "",
+    "competition_key": null,
+    "competition_icon": null,
     "channels": [
       "V+"
     ],
@@ -224,7 +224,8 @@
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
     "channels": [
-      "dazn 2"
+      "dazn 2",
+      "Betano"
     ],
     "fixture_id": null,
     "status": null,
