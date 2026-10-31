@@ -1,32 +1,6 @@
 {
-  "scraped_at": "2026-10-31T00:56:04.854640+00:00",
+  "scraped_at": "2026-10-31T06:37:37.135270+00:00",
   "games": [
-    {
-      "source_id": "60228",
-      "kickoff": "2026-10-30T23:00:00+00:00",
-      "date": "Sex 30 Out",
-      "time": "23:00",
-      "home": "Corinthians",
-      "away": "Mirassol",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60060",
-      "kickoff": "2026-10-31T00:15:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "00:15",
-      "home": "Racing",
-      "away": "Aldosivi",
-      "competition": "Liga Argentina",
-      "channels": [
-        "Sport.Tv1",
-        "Betano"
-      ]
-    },
     {
       "source_id": "60229",
       "kickoff": "2026-10-31T12:30:00+00:00",
@@ -77,18 +51,6 @@
       ]
     },
     {
-      "source_id": "59982",
-      "kickoff": "2026-10-31T17:30:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "17:30",
-      "home": "Tottenham",
-      "away": "Crystal P.",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn"
-      ]
-    },
-    {
       "source_id": "60234",
       "kickoff": "2026-10-31T17:30:00+00:00",
       "date": "Sab 31 Out",
@@ -99,6 +61,18 @@
       "channels": [
         "dazn 1",
         "Betano"
+      ]
+    },
+    {
+      "source_id": "59982",
+      "kickoff": "2026-10-31T17:30:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "17:30",
+      "home": "Tottenham",
+      "away": "Crystal P.",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn"
       ]
     },
     {
