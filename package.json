@@ -23,7 +23,8 @@
     "py:add": ".venv\\Scripts\\python -m pip install",
     "py:install": ".venv\\Scripts\\python -m pip install -r requirements.txt",
     "scrape:channels": ".venv\\Scripts\\python scrape_channels.py",
-    "scrape:games": ".venv\\Scripts\\python fetch_games.py",
+    "scrape:games": ".venv\\Scripts\\python build_games.py",
+    "icons": ".venv\\Scripts\\python download_icons.py",
     "scrape": "npm run scrape:channels && npm run scrape:games",
     "serve": "npx --yes http-server . -a 0.0.0.0 -p 8000 -c-1"
   },

@@ -15,7 +15,7 @@
     "name": "Liga Conferência",
     "icon": "assets/icons/competicoes/liga-conferencia.png",
     "api_football_ids": [848],
-    "aliases": ["UEFA Conference League", "Liga Conferência", "L. Conferência", "Conference League"]
+    "aliases": ["UEFA Conference League", "Liga Conferência", "L. Conferência", "UEFA Liga Conferência", "Conference League"]
   },
   "liga-inglesa": {
     "name": "Premier League",
