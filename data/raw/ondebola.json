@@ -1,55 +1,6 @@
 {
-  "scraped_at": "2026-10-31T14:10:52.635180+00:00",
+  "scraped_at": "2026-10-31T19:38:17.752215+00:00",
   "games": [
-    {
-      "source_id": "60229",
-      "kickoff": "2026-10-31T12:30:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "12:30",
-      "home": "Chelsea",
-      "away": "Man United",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 1"
-      ]
-    },
-    {
-      "source_id": "60230",
-      "kickoff": "2026-10-31T13:00:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "13:00",
-      "home": "Levante",
-      "away": "Atl. Madrid",
-      "competition": "Liga Espanha",
-      "channels": [
-        "dazn 2",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60232",
-      "kickoff": "2026-10-31T15:00:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "15:00",
-      "home": "Man. City",
-      "away": "Brighton",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 1"
-      ]
-    },
-    {
-      "source_id": "59490",
-      "kickoff": "2026-10-31T15:30:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "15:30",
-      "home": "Moreirense",
-      "away": "Estrela Amadora",
-      "competition": "",
-      "channels": [
-        "V+"
-      ]
-    },
     {
       "source_id": "59938",
       "kickoff": "2026-10-31T17:00:00+00:00",
@@ -86,6 +37,18 @@
       "channels": [
         "dazn 1",
         "Betano"
+      ]
+    },
+    {
+      "source_id": "59939",
+      "kickoff": "2026-10-31T18:00:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "18:00",
+      "home": "Al Hilal",
+      "away": "Al Fateh",
+      "competition": "Liga Arábia Saudita",
+      "channels": [
+        "Sport.Tv6"
       ]
     },
     {
@@ -137,6 +100,18 @@
       "channels": [
         "dazn 1",
         "Betano"
+      ]
+    },
+    {
+      "source_id": "60235",
+      "kickoff": "2026-10-31T20:00:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "20:00",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 2"
       ]
     },
     {
