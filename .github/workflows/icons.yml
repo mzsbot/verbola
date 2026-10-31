@@ -1,0 +1,40 @@
+name: Descarregar Ícones de Competições
+
+on:
+    schedule:
+    - cron: "0 5 * * *"
+    workflow_dispatch:
+
+jobs:
+    icons:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+            actions: write
+        steps:
+            - name: Checkout Repositório
+              uses: actions/checkout@v4
+            - name: Configurar Python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.10'
+            - name: Instalar Dependências
+              run: pip install -r requirements.txt
+            - name: Descarregar ícones em falta
+              run: python download_icons.py
+            - name: Guardar Alterações
+              env:
+                GH_TOKEN: ${{ github.token }}
+              run: |
+                git config --global user.name "github-actions[bot]"
+                git config --global user.email "github-actions[bot]@users.noreply.github.com"
+                git add ./assets/icons/competicoes/
+                if git diff --cached --quiet; then
+                  echo "Sem ícones novos"
+                  exit 0
+                fi
+                git commit -m "auto: novos ícones de competições"
+                git pull --rebase
+                git push
+                # Pushes feitos com o GITHUB_TOKEN não disparam outros workflows; publica o site à mão
+                gh workflow run update.yml

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-31T13:05:01.716649+00:00",
+  "scraped_at": "2026-10-31T14:10:52.635180+00:00",
   "games": [
     {
       "source_id": "60229",
@@ -51,15 +51,15 @@
       ]
     },
     {
-      "source_id": "60234",
-      "kickoff": "2026-10-31T17:30:00+00:00",
+      "source_id": "59938",
+      "kickoff": "2026-10-31T17:00:00+00:00",
       "date": "Sab 31 Out",
-      "time": "17:30",
-      "home": "Bayern Munich",
-      "away": "Borussia Dortmund",
-      "competition": "",
+      "time": "17:00",
+      "home": "Udinese",
+      "away": "Roma",
+      "competition": "Liga Itália",
       "channels": [
-        "dazn 1",
+        "Sport.Tv3",
         "Betano"
       ]
     },
@@ -73,6 +73,19 @@
       "competition": "Liga Inglaterra",
       "channels": [
         "dazn"
+      ]
+    },
+    {
+      "source_id": "60234",
+      "kickoff": "2026-10-31T17:30:00+00:00",
+      "date": "Sab 31 Out",
+      "time": "17:30",
+      "home": "Bayern Munich",
+      "away": "Borussia Dortmund",
+      "competition": "",
+      "channels": [
+        "dazn 1",
+        "Betano"
       ]
     },
     {
@@ -172,7 +185,8 @@
       "away": "Nápoles",
       "competition": "Liga Itália",
       "channels": [
-        "Sport.Tv3"
+        "Sport.Tv3",
+        "Betano"
       ]
     },
     {

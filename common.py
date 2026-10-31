@@ -1,5 +1,4 @@
 import json
-import os
 import re
 import unicodedata
 from datetime import datetime
@@ -9,22 +8,10 @@ from pathlib import Path
 LISBON            = ZoneInfo('Europe/Lisbon')
 COMPETITIONS_FILE = "./data/competitions.json"
 CHANNELS_FILE     = "./data/raw/ondebola.json"
-FIXTURES_FILE     = "./data/raw/api_football.json"
 OUTPUT_FILE       = "./data/jogos.json"
 
 def now_lisbon():
     return datetime.now(LISBON)
-
-def load_env(path=".env"):
-    # Lê variáveis de um .env local (ex.: API_FOOTBALL_KEY); no GitHub vêm dos secrets
-    env_file = Path(path)
-    if not env_file.exists():
-        return
-    for line in env_file.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if line and not line.startswith('#') and '=' in line:
-            key, value = line.split('=', 1)
-            os.environ.setdefault(key.strip(), value.strip().strip('"\''))
 
 def read_json(path, default=None):
     try:
@@ -51,8 +38,9 @@ def load_competitions():
 
     lookup = {}
     for key, info in competitions.items():
-        icon = info.get("icon")
-        if icon and not Path(icon).exists():
+        # Sem "icon" definido, usa o caminho por omissão (onde o download_icons.py guarda)
+        icon = info.get("icon") or f"assets/icons/competicoes/{key}.png"
+        if not Path(icon).exists():
             print(f"Ícone em falta para '{key}': {icon}")
             icon = None
         for alias in info.get("aliases", []):

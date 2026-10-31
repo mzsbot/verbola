@@ -12,10 +12,6 @@
     "channels": [
       "dazn 1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 0
   },
   {
@@ -32,10 +28,6 @@
       "dazn 2",
       "Betano"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 1
   },
   {
@@ -51,10 +43,6 @@
     "channels": [
       "dazn 1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 2
   },
   {
@@ -70,30 +58,22 @@
     "channels": [
       "V+"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 3
   },
   {
     "sport": "futebol",
-    "kickoff": "2026-10-31T17:30:00+00:00",
+    "kickoff": "2026-10-31T17:00:00+00:00",
     "date": "Sab 31 Out",
-    "time": "17:30",
+    "time": "17:00",
     "is_today": true,
-    "match": "Bayern Munich - Borussia Dortmund",
-    "competition": "",
-    "competition_key": null,
-    "competition_icon": null,
+    "match": "Udinese - Roma",
+    "competition": "Serie A",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
     "channels": [
-      "dazn 1",
+      "Sport.Tv3",
       "Betano"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 4
   },
   {
@@ -109,11 +89,23 @@
     "channels": [
       "dazn"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
     "id": 5
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-10-31T17:30:00+00:00",
+    "date": "Sab 31 Out",
+    "time": "17:30",
+    "is_today": true,
+    "match": "Bayern Munich - Borussia Dortmund",
+    "competition": "",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "dazn 1",
+      "Betano"
+    ],
+    "id": 6
   },
   {
     "sport": "futebol",
@@ -128,11 +120,7 @@
     "channels": [
       "Canal 11"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 6
+    "id": 7
   },
   {
     "sport": "futebol",
@@ -148,11 +136,7 @@
       "C11 Youtub",
       "Live"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 7
+    "id": 8
   },
   {
     "sport": "futebol",
@@ -168,11 +152,7 @@
       "Sport.Tv3",
       "Betano"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 8
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -188,11 +168,7 @@
       "dazn 1",
       "Betano"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 9
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -207,11 +183,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 10
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -227,11 +199,7 @@
       "dazn 2",
       "Betano"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 11
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -246,11 +214,7 @@
     "channels": [
       "dazn 1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 12
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -263,13 +227,10 @@
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
     "channels": [
-      "Sport.Tv3"
+      "Sport.Tv3",
+      "Betano"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 13
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -284,11 +245,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 14
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -303,11 +260,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 15
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -322,11 +275,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 16
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -341,11 +290,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 17
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -360,11 +305,7 @@
     "channels": [
       "dazn"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 18
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -379,11 +320,7 @@
     "channels": [
       "dazn"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 19
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -398,11 +335,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 20
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -417,11 +350,7 @@
     "channels": [
       "dazn"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 21
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -430,17 +359,13 @@
     "time": "17:45",
     "is_today": false,
     "match": "AGF Aarhus - Sp. Braga",
-    "competition": "UEFA Liga Conferência",
-    "competition_key": null,
-    "competition_icon": null,
+    "competition": "Liga Conferência",
+    "competition_key": "liga-conferencia",
+    "competition_icon": "assets/icons/competicoes/liga-conferencia.png",
     "channels": [
       "dazn 1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 22
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -455,11 +380,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 23
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -474,11 +395,7 @@
     "channels": [
       "dazn 1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 24
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -493,11 +410,7 @@
     "channels": [
       "dazn"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 25
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -512,11 +425,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 26
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -531,11 +440,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 27
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -550,11 +455,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 28
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -569,11 +470,7 @@
     "channels": [
       "RTP 1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 29
+    "id": 30
   },
   {
     "sport": "futebol",
@@ -588,11 +485,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 30
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -607,11 +500,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 31
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -626,11 +515,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 32
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -645,11 +530,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 33
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -664,11 +545,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 34
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -683,11 +560,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 35
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -702,11 +575,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 36
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -721,11 +590,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 37
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -740,11 +605,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 38
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -759,11 +620,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 39
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -778,11 +635,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 40
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -797,11 +650,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 41
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -816,11 +665,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 42
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -835,11 +680,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 43
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -854,11 +695,7 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 44
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -873,10 +710,6 @@
     "channels": [
       "N/D"
     ],
-    "fixture_id": null,
-    "status": null,
-    "elapsed": null,
-    "score": null,
-    "id": 45
+    "id": 46
   }
 ]
