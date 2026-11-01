@@ -1,57 +1,6 @@
 {
-  "scraped_at": "2026-11-01T15:35:58.553113+00:00",
+  "scraped_at": "2026-11-01T19:58:47.982649+00:00",
   "games": [
-    {
-      "source_id": "59943",
-      "kickoff": "2026-11-01T14:00:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "14:00",
-      "home": "Lazio",
-      "away": "Cagliari",
-      "competition": "Liga Itálita",
-      "channels": [
-        "Sport.Tv2",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60153",
-      "kickoff": "2026-11-01T14:00:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "14:00",
-      "home": "Estrasburgo",
-      "away": "Auxerre",
-      "competition": "Liga França",
-      "channels": [
-        "Sport.Tv3",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60239",
-      "kickoff": "2026-11-01T15:15:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "15:15",
-      "home": "Racing",
-      "away": "Real Madrid",
-      "competition": "Liga Espanha",
-      "channels": [
-        "dazn 2",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "59485",
-      "kickoff": "2026-11-01T15:30:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "15:30",
-      "home": "Arouca",
-      "away": "Nacional",
-      "competition": "Liga Portugal, J10",
-      "channels": [
-        "Sport.Tv1"
-      ]
-    },
     {
       "source_id": "60253",
       "kickoff": "2026-11-01T16:10:00+00:00",
