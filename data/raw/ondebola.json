@@ -1,79 +1,29 @@
 {
-  "scraped_at": "2026-10-31T22:56:07.467279+00:00",
+  "scraped_at": "2026-11-01T08:25:46.341808+00:00",
   "games": [
     {
-      "source_id": "60303",
-      "kickoff": "2026-10-31T19:15:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "19:15",
-      "home": "Olmissum",
-      "away": "Sporting",
-      "competition": "FUTSAL, Liga Campeões",
+      "source_id": "60151",
+      "kickoff": "2026-11-01T11:00:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "11:00",
+      "home": "Marítimo",
+      "away": "FC Porto",
+      "competition": "FEMININO, Liga PT",
       "channels": [
         "Canal 11"
       ]
     },
     {
-      "source_id": "59936",
-      "kickoff": "2026-10-31T19:30:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "19:30",
-      "home": "Tigers",
-      "away": "Benfica",
-      "competition": "FUTSAL, Liga Campeões",
-      "channels": [
-        "C11 Youtub",
-        "Vídeo"
-      ]
-    },
-    {
-      "source_id": "59941",
-      "kickoff": "2026-10-31T19:45:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "19:45",
-      "home": "AC Milan",
-      "away": "Inter Milão",
-      "competition": "Liga Itália",
-      "channels": [
-        "Sport.Tv3",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60236",
-      "kickoff": "2026-10-31T20:00:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "20:00",
-      "home": "Barcelona",
-      "away": "Alavés",
+      "source_id": "60237",
+      "kickoff": "2026-11-01T13:00:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "13:00",
+      "home": "Getafe",
+      "away": "Sevilha",
       "competition": "Liga Espanha",
       "channels": [
-        "dazn 1",
+        "dazn 2",
         "Betano"
-      ]
-    },
-    {
-      "source_id": "60235",
-      "kickoff": "2026-10-31T20:00:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "20:00",
-      "home": "Aston Villa",
-      "away": "Fulham",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 2"
-      ]
-    },
-    {
-      "source_id": "59491",
-      "kickoff": "2026-10-31T20:30:00+00:00",
-      "date": "Sab 31 Out",
-      "time": "20:30",
-      "home": "FC Porto",
-      "away": "Estoril Praia",
-      "competition": "Liga Portugal, J10",
-      "channels": [
-        "Sport.Tv1"
       ]
     },
     {
@@ -99,6 +49,19 @@
       "competition": "Liga Portugal, J10",
       "channels": [
         "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60253",
+      "kickoff": "2026-11-01T16:10:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "16:10",
+      "home": "Lyon",
+      "away": "Angers",
+      "competition": "Liga França",
+      "channels": [
+        "Sport.Tv3",
+        "Betano"
       ]
     },
     {
