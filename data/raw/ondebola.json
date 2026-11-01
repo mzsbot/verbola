@@ -1,80 +1,6 @@
 {
-  "scraped_at": "2026-11-01T19:58:47.982649+00:00",
+  "scraped_at": "2026-11-01T23:23:41.113581+00:00",
   "games": [
-    {
-      "source_id": "60253",
-      "kickoff": "2026-11-01T16:10:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "16:10",
-      "home": "Lyon",
-      "away": "Angers",
-      "competition": "Liga França",
-      "channels": [
-        "Sport.Tv3",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60240",
-      "kickoff": "2026-11-01T16:30:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "16:30",
-      "home": "Liverpool",
-      "away": "Arsenal",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 1"
-      ]
-    },
-    {
-      "source_id": "60157",
-      "kickoff": "2026-11-01T17:30:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "17:30",
-      "home": "Sporting",
-      "away": "V. Gaia",
-      "competition": "FEMININO, Liga PT",
-      "channels": [
-        "Canal 11"
-      ]
-    },
-    {
-      "source_id": "60311",
-      "kickoff": "2026-11-01T18:00:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "18:00",
-      "home": "Boca Juniors",
-      "away": "River Plate",
-      "competition": "Liga Argentina",
-      "channels": [
-        "Sport.Tv1",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "59489",
-      "kickoff": "2026-11-01T18:00:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "18:00",
-      "home": "Marítimo",
-      "away": "S. Clara",
-      "competition": "Liga Portugal, J10",
-      "channels": [
-        "Sport.Tv2"
-      ]
-    },
-    {
-      "source_id": "59484",
-      "kickoff": "2026-11-01T18:00:00+00:00",
-      "date": "Dom 1 Nov",
-      "time": "18:00",
-      "home": "Académico",
-      "away": "Rio Ave",
-      "competition": "Liga Portugal, J10",
-      "channels": [
-        "Sport.Tv4"
-      ]
-    },
     {
       "source_id": "59945",
       "kickoff": "2026-11-01T19:45:00+00:00",
@@ -85,6 +11,32 @@
       "competition": "Liga Itália",
       "channels": [
         "Sport.Tv3",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60158",
+      "kickoff": "2026-11-01T19:45:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "19:45",
+      "home": "Marselha",
+      "away": "Toulouse",
+      "competition": "Liga França",
+      "channels": [
+        "Sport.Tv6",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60243",
+      "kickoff": "2026-11-01T20:00:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "20:00",
+      "home": "Ath. Bilbao",
+      "away": "Real Soc.",
+      "competition": "Liga Espanha",
+      "channels": [
+        "dazn 1",
         "Betano"
       ]
     },
