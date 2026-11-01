@@ -1,28 +1,29 @@
 {
-  "scraped_at": "2026-11-01T08:25:46.341808+00:00",
+  "scraped_at": "2026-11-01T15:35:58.553113+00:00",
   "games": [
     {
-      "source_id": "60151",
-      "kickoff": "2026-11-01T11:00:00+00:00",
+      "source_id": "59943",
+      "kickoff": "2026-11-01T14:00:00+00:00",
       "date": "Dom 1 Nov",
-      "time": "11:00",
-      "home": "Marítimo",
-      "away": "FC Porto",
-      "competition": "FEMININO, Liga PT",
+      "time": "14:00",
+      "home": "Lazio",
+      "away": "Cagliari",
+      "competition": "Liga Itálita",
       "channels": [
-        "Canal 11"
+        "Sport.Tv2",
+        "Betano"
       ]
     },
     {
-      "source_id": "60237",
-      "kickoff": "2026-11-01T13:00:00+00:00",
+      "source_id": "60153",
+      "kickoff": "2026-11-01T14:00:00+00:00",
       "date": "Dom 1 Nov",
-      "time": "13:00",
-      "home": "Getafe",
-      "away": "Sevilha",
-      "competition": "Liga Espanha",
+      "time": "14:00",
+      "home": "Estrasburgo",
+      "away": "Auxerre",
+      "competition": "Liga França",
       "channels": [
-        "dazn 2",
+        "Sport.Tv3",
         "Betano"
       ]
     },
@@ -74,6 +75,55 @@
       "competition": "Liga Inglaterra",
       "channels": [
         "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60157",
+      "kickoff": "2026-11-01T17:30:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "17:30",
+      "home": "Sporting",
+      "away": "V. Gaia",
+      "competition": "FEMININO, Liga PT",
+      "channels": [
+        "Canal 11"
+      ]
+    },
+    {
+      "source_id": "60311",
+      "kickoff": "2026-11-01T18:00:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "18:00",
+      "home": "Boca Juniors",
+      "away": "River Plate",
+      "competition": "Liga Argentina",
+      "channels": [
+        "Sport.Tv1",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "59489",
+      "kickoff": "2026-11-01T18:00:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "18:00",
+      "home": "Marítimo",
+      "away": "S. Clara",
+      "competition": "Liga Portugal, J10",
+      "channels": [
+        "Sport.Tv2"
+      ]
+    },
+    {
+      "source_id": "59484",
+      "kickoff": "2026-11-01T18:00:00+00:00",
+      "date": "Dom 1 Nov",
+      "time": "18:00",
+      "home": "Académico",
+      "away": "Rio Ave",
+      "competition": "Liga Portugal, J10",
+      "channels": [
+        "Sport.Tv4"
       ]
     },
     {
