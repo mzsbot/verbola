@@ -1,13 +1,13 @@
 {
-  "scraped_at": "2026-11-02T11:50:46.082219+00:00",
+  "scraped_at": "2026-11-02T21:06:26.134099+00:00",
   "games": [
     {
-      "source_id": "60321",
-      "kickoff": "2026-11-02T13:45:00+00:00",
+      "source_id": "60322",
+      "kickoff": "2026-11-02T18:15:00+00:00",
       "date": "Seg 2 Nov",
-      "time": "13:45",
-      "home": "Pakhtakor",
-      "away": "Al Nassr",
+      "time": "18:15",
+      "home": "Al Ittihad J.",
+      "away": "Al Ain",
       "competition": "Asian Champ. League",
       "channels": [
         "Canal 11",
@@ -15,28 +15,15 @@
       ]
     },
     {
-      "source_id": "60378",
-      "kickoff": "2026-11-02T16:00:00+00:00",
+      "source_id": "60161",
+      "kickoff": "2026-11-02T19:45:00+00:00",
       "date": "Seg 2 Nov",
-      "time": "16:00",
-      "home": "Al Sadd",
-      "away": "Al Ahli J.",
-      "competition": "Asian Champ. League",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60159",
-      "kickoff": "2026-11-02T17:30:00+00:00",
-      "date": "Seg 2 Nov",
-      "time": "17:30",
-      "home": "Sassuolo",
-      "away": "Fiorentina",
+      "time": "19:45",
+      "home": "Atalanta",
+      "away": "Parma",
       "competition": "Liga Itália",
       "channels": [
-        "Sport.Tv1",
+        "Sport.Tv2",
         "Betano"
       ]
     },
