@@ -1,73 +1,10 @@
 [
   {
     "sport": "futebol",
-    "kickoff": "2026-11-01T19:45:00+00:00",
-    "date": "Dom 1 Nov",
-    "time": "19:45",
-    "is_today": true,
-    "match": "Juventus - Nápoles",
-    "competition": "Serie A",
-    "competition_key": "liga-italiana",
-    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "channels": [
-      "Sport.Tv3",
-      "Betano"
-    ],
-    "id": 0
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-01T19:45:00+00:00",
-    "date": "Dom 1 Nov",
-    "time": "19:45",
-    "is_today": true,
-    "match": "Marselha - Toulouse",
-    "competition": "Ligue 1",
-    "competition_key": "liga-francesa",
-    "competition_icon": "assets/icons/competicoes/liga-francesa.png",
-    "channels": [
-      "Sport.Tv6",
-      "Betano"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-01T20:00:00+00:00",
-    "date": "Dom 1 Nov",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Ath. Bilbao - Real Soc.",
-    "competition": "LA Liga",
-    "competition_key": "liga-espanhola",
-    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
-    "channels": [
-      "dazn 1",
-      "Betano"
-    ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-01T20:30:00+00:00",
-    "date": "Dom 1 Nov",
-    "time": "20:30",
-    "is_today": true,
-    "match": "Sp. Braga - Famalicão",
-    "competition": "Liga Portugal",
-    "competition_key": "liga-portugal",
-    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "channels": [
-      "Sport.Tv1"
-    ],
-    "id": 3
-  },
-  {
-    "sport": "futebol",
     "kickoff": "2026-11-02T20:15:00+00:00",
     "date": "Seg 2 Nov",
     "time": "20:15",
-    "is_today": false,
+    "is_today": true,
     "match": "Benfica - FC Alverca",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
@@ -75,14 +12,14 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 4
+    "id": 0
   },
   {
     "sport": "futebol",
     "kickoff": "2026-11-02T20:15:00+00:00",
     "date": "Seg 2 Nov",
     "time": "20:15",
-    "is_today": false,
+    "is_today": true,
     "match": "Gil Vicente - V. Guimarães",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
@@ -90,7 +27,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 5
+    "id": 1
   },
   {
     "sport": "futebol",
@@ -105,7 +42,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 6
+    "id": 2
   },
   {
     "sport": "futebol",
@@ -120,7 +57,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 7
+    "id": 3
   },
   {
     "sport": "futebol",
@@ -135,7 +72,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 8
+    "id": 4
   },
   {
     "sport": "futebol",
@@ -150,7 +87,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 9
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -165,7 +102,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 10
+    "id": 6
   },
   {
     "sport": "futebol",
@@ -180,7 +117,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 11
+    "id": 7
   },
   {
     "sport": "futebol",
@@ -195,7 +132,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 12
+    "id": 8
   },
   {
     "sport": "futebol",
@@ -210,7 +147,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 13
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -225,7 +162,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 14
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -240,7 +177,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 15
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -255,7 +192,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 16
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -270,7 +207,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 17
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -285,7 +222,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 18
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -300,7 +237,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 19
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -315,7 +252,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 20
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -330,7 +267,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 21
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -345,7 +282,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 22
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -360,7 +297,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 23
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -375,7 +312,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 24
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -390,7 +327,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 25
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -405,7 +342,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 26
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -420,7 +357,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 27
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -435,7 +372,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 28
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -450,7 +387,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 29
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -465,7 +402,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 30
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -480,7 +417,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 31
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -495,7 +432,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 32
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -510,7 +447,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 33
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -525,6 +462,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 34
+    "id": 30
   }
 ]
