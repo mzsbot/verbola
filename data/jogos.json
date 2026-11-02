@@ -1,6 +1,69 @@
 [
   {
     "sport": "futebol",
+    "kickoff": "2026-11-02T13:45:00+00:00",
+    "date": "Seg 2 Nov",
+    "time": "13:45",
+    "is_today": true,
+    "match": "Pakhtakor - Al Nassr",
+    "competition": "Asian Champ. League",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "Canal 11",
+      "Betano"
+    ],
+    "id": 0
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-02T16:00:00+00:00",
+    "date": "Seg 2 Nov",
+    "time": "16:00",
+    "is_today": true,
+    "match": "Al Sadd - Al Ahli J.",
+    "competition": "Asian Champ. League",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "Canal 11",
+      "Betano"
+    ],
+    "id": 1
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-02T17:30:00+00:00",
+    "date": "Seg 2 Nov",
+    "time": "17:30",
+    "is_today": true,
+    "match": "Sassuolo - Fiorentina",
+    "competition": "Serie A",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
+    "channels": [
+      "Sport.Tv1",
+      "Betano"
+    ],
+    "id": 2
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-02T20:00:00+00:00",
+    "date": "Seg 2 Nov",
+    "time": "20:00",
+    "is_today": true,
+    "match": "Newcastle - Everton",
+    "competition": "Premier League",
+    "competition_key": "liga-inglesa",
+    "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
+    "channels": [
+      "dazn 1"
+    ],
+    "id": 3
+  },
+  {
+    "sport": "futebol",
     "kickoff": "2026-11-02T20:15:00+00:00",
     "date": "Seg 2 Nov",
     "time": "20:15",
@@ -12,7 +75,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 0
+    "id": 4
   },
   {
     "sport": "futebol",
@@ -27,7 +90,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 1
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -35,14 +98,14 @@
     "date": "Ter 3 Nov",
     "time": "17:45",
     "is_today": false,
-    "match": "Shakhtar - Sporting",
+    "match": "Shakhtar Donetsk - Sporting",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 2
+    "id": 6
   },
   {
     "sport": "futebol",
@@ -50,14 +113,59 @@
     "date": "Ter 3 Nov",
     "time": "20:00",
     "is_today": false,
-    "match": "Vários - Jogos",
+    "match": "Man. United - Roma",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "dazn"
+      "dazn 1"
     ],
-    "id": 3
+    "id": 7
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-03T20:00:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Barcelona - Aston Villa",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "dazn 2"
+    ],
+    "id": 8
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-03T20:00:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Atl. Madrid - Bayern",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "dazn 3"
+    ],
+    "id": 9
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-03T20:00:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Villarreal - PSG",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "dazn 4"
+    ],
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -70,9 +178,9 @@
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "dazn"
+      "dazn 1"
     ],
-    "id": 4
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -87,7 +195,22 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 5
+    "id": 12
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-04T20:00:00+00:00",
+    "date": "Qua 4 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Leipzig - Man City",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "dazn 1"
+    ],
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -102,7 +225,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 6
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -117,7 +240,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 7
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -132,7 +255,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 8
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -147,7 +270,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 9
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -160,9 +283,9 @@
     "competition_key": "liga-europa",
     "competition_icon": "assets/icons/competicoes/liga-europa.png",
     "channels": [
-      "dazn"
+      "dazn online"
     ],
-    "id": 10
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -177,7 +300,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 11
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -190,9 +313,24 @@
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
-      "Sport.Tv"
+      "Sport.Tv1"
     ],
-    "id": 12
+    "id": 20
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-08T20:00:00+00:00",
+    "date": "Dom 8 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Atlético Madrid - Barcelona",
+    "competition": "LA Liga",
+    "competition_key": "liga-espanhola",
+    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
+    "channels": [
+      "dazn 1"
+    ],
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -200,14 +338,44 @@
     "date": "Dom 8 Nov",
     "time": "20:30",
     "is_today": false,
-    "match": "E. Amadora - Benfica",
+    "match": "Estrela Amadora - Benfica",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
+      "Sport.Tv2"
+    ],
+    "id": 22
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-08T20:30:00+00:00",
+    "date": "Dom 8 Nov",
+    "time": "20:30",
+    "is_today": false,
+    "match": "Rio Ave - Sp. Braga",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "channels": [
+      "Sport.Tv3"
+    ],
+    "id": 23
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-12T17:00:00+00:00",
+    "date": "Qui 12 Nov",
+    "time": "17:00",
+    "is_today": false,
+    "match": "Vários - Jogos",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
       "Sport.Tv"
     ],
-    "id": 13
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -222,7 +390,37 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 14
+    "id": 25
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-15T20:30:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "20:30",
+    "is_today": false,
+    "match": "Sporting - BTS",
+    "competition": "FUTSAL, Intercontinental",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "N/D"
+    ],
+    "id": 26
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-17T19:00:00+00:00",
+    "date": "Ter 17 Nov",
+    "time": "19:00",
+    "is_today": false,
+    "match": "Libéria - Cabo Verde",
+    "competition": "CAN África, Qual.",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "Sport.Tv5"
+    ],
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -235,9 +433,84 @@
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
-      "N/D"
+      "RTP 1"
     ],
-    "id": 15
+    "id": 28
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-17T20:00:00+00:00",
+    "date": "Ter 17 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Vários - Jogos",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "Sport.Tv"
+    ],
+    "id": 29
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-20T20:45:00+00:00",
+    "date": "Sex 20 Nov",
+    "time": "20:45",
+    "is_today": false,
+    "match": "FC Porto - Paredes",
+    "competition": "Taça Portugal, 4ª El.",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "RTP 1"
+    ],
+    "id": 30
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-21T18:00:00+00:00",
+    "date": "Sab 21 Nov",
+    "time": "18:00",
+    "is_today": false,
+    "match": "Sporting - União Serra",
+    "competition": "Taça Portugal, 4ª El.",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "Sport.Tv1"
+    ],
+    "id": 31
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-21T20:30:00+00:00",
+    "date": "Sab 21 Nov",
+    "time": "20:30",
+    "is_today": false,
+    "match": "V. Guimarães - Sp. Braga",
+    "competition": "Taça Portugal, 4ª El.",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "Sport.Tv1"
+    ],
+    "id": 32
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-22T20:45:00+00:00",
+    "date": "Dom 22 Nov",
+    "time": "20:45",
+    "is_today": false,
+    "match": "Torreense - Benfica",
+    "competition": "Taça Portugal, 4ª El.",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "RTP 1"
+    ],
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -252,7 +525,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 16
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -267,7 +540,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 17
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -282,7 +555,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 18
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -297,7 +570,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 19
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -312,7 +585,22 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 20
+    "id": 38
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-30T20:15:00+00:00",
+    "date": "Seg 30 Nov",
+    "time": "20:15",
+    "is_today": false,
+    "match": "Casa Pia - Sp. Braga",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "channels": [
+      "Sport.Tv1"
+    ],
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -327,7 +615,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 21
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -342,7 +630,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 22
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -357,7 +645,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 23
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -372,7 +660,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 24
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -387,7 +675,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 25
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -402,7 +690,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 26
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -417,7 +705,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 27
+    "id": 46
   },
   {
     "sport": "futebol",
@@ -432,7 +720,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 28
+    "id": 47
   },
   {
     "sport": "futebol",
@@ -447,7 +735,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 29
+    "id": 48
   },
   {
     "sport": "futebol",
@@ -462,6 +750,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 30
+    "id": 49
   }
 ]
