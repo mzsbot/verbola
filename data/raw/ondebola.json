@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-03T03:11:08.256768+00:00",
+  "scraped_at": "2026-11-03T11:29:03.562380+00:00",
   "games": [
     {
       "source_id": "60279",
@@ -36,6 +36,18 @@
       "competition": "UEFA Liga Campeões",
       "channels": [
         "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60160",
+      "kickoff": "2026-11-03T19:45:00+00:00",
+      "date": "Ter 3 Nov",
+      "time": "19:45",
+      "home": "Torreense",
+      "away": "Benfica",
+      "competition": "FEMININO, Liga PT",
+      "channels": [
+        "Canal 11"
       ]
     },
     {
@@ -87,15 +99,64 @@
       ]
     },
     {
-      "source_id": "60287",
+      "source_id": "60383",
       "kickoff": "2026-11-03T20:00:00+00:00",
       "date": "Ter 3 Nov",
       "time": "20:00",
-      "home": "Vários",
-      "away": "Jogos",
+      "home": "Feyenoord",
+      "away": "Inter Milão",
       "competition": "UEFA Liga Campeões",
       "channels": [
         "dazn online"
+      ]
+    },
+    {
+      "source_id": "60384",
+      "kickoff": "2026-11-03T20:00:00+00:00",
+      "date": "Ter 3 Nov",
+      "time": "20:00",
+      "home": "Bodo/Glimt",
+      "away": "Lille",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn online"
+      ]
+    },
+    {
+      "source_id": "60385",
+      "kickoff": "2026-11-03T20:00:00+00:00",
+      "date": "Ter 3 Nov",
+      "time": "20:00",
+      "home": "LASK",
+      "away": "Slovan Br.",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn online"
+      ]
+    },
+    {
+      "source_id": "60068",
+      "kickoff": "2026-11-04T12:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "12:00",
+      "home": "Pafos",
+      "away": "Benfica",
+      "competition": "SUB19, Youth League",
+      "channels": [
+        "Benfica.Tv"
+      ]
+    },
+    {
+      "source_id": "60285",
+      "kickoff": "2026-11-04T12:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "12:00",
+      "home": "FC Porto",
+      "away": "Nápoles",
+      "competition": "SUB19, Youth League",
+      "channels": [
+        "dazn 1",
+        "Porto Canal"
       ]
     },
     {
