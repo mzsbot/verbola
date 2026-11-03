@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-03T18:50:02.128689+00:00",
+  "scraped_at": "2026-11-03T23:48:41.668404+00:00",
   "games": [
     {
       "source_id": "59919",
@@ -8,21 +8,10 @@
       "time": "17:45",
       "home": "Shakhtar Donetsk",
       "away": "Sporting",
-      "competition": "UEFA Liga Campeões",
+      "competition": "Liga Campeões, 0 a 1",
       "channels": [
-        "Sport.Tv5"
-      ]
-    },
-    {
-      "source_id": "59989",
-      "kickoff": "2026-11-03T17:45:00+00:00",
-      "date": "Ter 3 Nov",
-      "time": "17:45",
-      "home": "Galatasaray",
-      "away": "Estugarda",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn 1"
+        "Sport.Tv5",
+        "Vídeo"
       ]
     },
     {
@@ -66,7 +55,7 @@
       "kickoff": "2026-11-03T20:00:00+00:00",
       "date": "Ter 3 Nov",
       "time": "20:00",
-      "home": "Atl. Madrid",
+      "home": "Atletico Madrid",
       "away": "Bayern",
       "competition": "UEFA Liga Campeões",
       "channels": [
@@ -180,6 +169,30 @@
       "competition": "UEFA Liga Campeões",
       "channels": [
         "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60290",
+      "kickoff": "2026-11-04T20:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "20:00",
+      "home": "Slavia P.",
+      "away": "Arsenal",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn 2"
+      ]
+    },
+    {
+      "source_id": "60291",
+      "kickoff": "2026-11-04T20:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "20:00",
+      "home": "Dortmund",
+      "away": "Betis",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn 3"
       ]
     },
     {
