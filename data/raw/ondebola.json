@@ -1,66 +1,17 @@
 {
-  "scraped_at": "2026-11-02T21:06:26.134099+00:00",
+  "scraped_at": "2026-11-03T03:11:08.256768+00:00",
   "games": [
     {
-      "source_id": "60322",
-      "kickoff": "2026-11-02T18:15:00+00:00",
-      "date": "Seg 2 Nov",
-      "time": "18:15",
-      "home": "Al Ittihad J.",
-      "away": "Al Ain",
-      "competition": "Asian Champ. League",
+      "source_id": "60279",
+      "kickoff": "2026-11-03T12:00:00+00:00",
+      "date": "Ter 3 Nov",
+      "time": "12:00",
+      "home": "Shakhtar",
+      "away": "Sporting",
+      "competition": "SUB19, Youth League",
       "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60161",
-      "kickoff": "2026-11-02T19:45:00+00:00",
-      "date": "Seg 2 Nov",
-      "time": "19:45",
-      "home": "Atalanta",
-      "away": "Parma",
-      "competition": "Liga Itália",
-      "channels": [
-        "Sport.Tv2",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60277",
-      "kickoff": "2026-11-02T20:00:00+00:00",
-      "date": "Seg 2 Nov",
-      "time": "20:00",
-      "home": "Newcastle",
-      "away": "Everton",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 1"
-      ]
-    },
-    {
-      "source_id": "59492",
-      "kickoff": "2026-11-02T20:15:00+00:00",
-      "date": "Seg 2 Nov",
-      "time": "20:15",
-      "home": "Benfica",
-      "away": "FC Alverca",
-      "competition": "Liga Portugal, J10",
-      "channels": [
-        "Benfica.Tv"
-      ]
-    },
-    {
-      "source_id": "59488",
-      "kickoff": "2026-11-02T20:15:00+00:00",
-      "date": "Seg 2 Nov",
-      "time": "20:15",
-      "home": "Gil Vicente",
-      "away": "V. Guimarães",
-      "competition": "Liga Portugal, J10",
-      "channels": [
-        "Sport.Tv1"
+        "dazn 1",
+        "SCP.Tv"
       ]
     },
     {
@@ -73,6 +24,18 @@
       "competition": "UEFA Liga Campeões",
       "channels": [
         "Sport.Tv5"
+      ]
+    },
+    {
+      "source_id": "59989",
+      "kickoff": "2026-11-03T17:45:00+00:00",
+      "date": "Ter 3 Nov",
+      "time": "17:45",
+      "home": "Galatasaray",
+      "away": "Estugarda",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn 1"
       ]
     },
     {
@@ -121,6 +84,18 @@
       "competition": "UEFA Liga Campeões",
       "channels": [
         "dazn 4"
+      ]
+    },
+    {
+      "source_id": "60287",
+      "kickoff": "2026-11-03T20:00:00+00:00",
+      "date": "Ter 3 Nov",
+      "time": "20:00",
+      "home": "Vários",
+      "away": "Jogos",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn online"
       ]
     },
     {

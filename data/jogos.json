@@ -1,46 +1,45 @@
 [
   {
     "sport": "futebol",
-    "kickoff": "2026-11-02T18:15:00+00:00",
-    "date": "Seg 2 Nov",
-    "time": "18:15",
+    "kickoff": "2026-11-03T12:00:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "12:00",
     "is_today": true,
-    "match": "Al Ittihad J. - Al Ain",
-    "competition": "Asian Champ. League",
+    "match": "Shakhtar - Sporting",
+    "competition": "SUB19, Youth League",
     "competition_key": null,
     "competition_icon": null,
     "channels": [
-      "Canal 11",
-      "Betano"
+      "dazn 1",
+      "SCP.Tv"
     ],
     "id": 0
   },
   {
     "sport": "futebol",
-    "kickoff": "2026-11-02T19:45:00+00:00",
-    "date": "Seg 2 Nov",
-    "time": "19:45",
+    "kickoff": "2026-11-03T17:45:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "17:45",
     "is_today": true,
-    "match": "Atalanta - Parma",
-    "competition": "Serie A",
-    "competition_key": "liga-italiana",
-    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
+    "match": "Shakhtar Donetsk - Sporting",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "Sport.Tv2",
-      "Betano"
+      "Sport.Tv5"
     ],
     "id": 1
   },
   {
     "sport": "futebol",
-    "kickoff": "2026-11-02T20:00:00+00:00",
-    "date": "Seg 2 Nov",
-    "time": "20:00",
+    "kickoff": "2026-11-03T17:45:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "17:45",
     "is_today": true,
-    "match": "Newcastle - Everton",
-    "competition": "Premier League",
-    "competition_key": "liga-inglesa",
-    "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
+    "match": "Galatasaray - Estugarda",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
       "dazn 1"
     ],
@@ -48,46 +47,46 @@
   },
   {
     "sport": "futebol",
-    "kickoff": "2026-11-02T20:15:00+00:00",
-    "date": "Seg 2 Nov",
-    "time": "20:15",
+    "kickoff": "2026-11-03T20:00:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "20:00",
     "is_today": true,
-    "match": "Benfica - FC Alverca",
-    "competition": "Liga Portugal",
-    "competition_key": "liga-portugal",
-    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "match": "Man. United - Roma",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "Benfica.Tv"
+      "dazn 1"
     ],
     "id": 3
   },
   {
     "sport": "futebol",
-    "kickoff": "2026-11-02T20:15:00+00:00",
-    "date": "Seg 2 Nov",
-    "time": "20:15",
+    "kickoff": "2026-11-03T20:00:00+00:00",
+    "date": "Ter 3 Nov",
+    "time": "20:00",
     "is_today": true,
-    "match": "Gil Vicente - V. Guimarães",
-    "competition": "Liga Portugal",
-    "competition_key": "liga-portugal",
-    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "match": "Barcelona - Aston Villa",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "Sport.Tv1"
+      "dazn 2"
     ],
     "id": 4
   },
   {
     "sport": "futebol",
-    "kickoff": "2026-11-03T17:45:00+00:00",
+    "kickoff": "2026-11-03T20:00:00+00:00",
     "date": "Ter 3 Nov",
-    "time": "17:45",
-    "is_today": false,
-    "match": "Shakhtar Donetsk - Sporting",
+    "time": "20:00",
+    "is_today": true,
+    "match": "Atl. Madrid - Bayern",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "Sport.Tv5"
+      "dazn 3"
     ],
     "id": 5
   },
@@ -96,13 +95,13 @@
     "kickoff": "2026-11-03T20:00:00+00:00",
     "date": "Ter 3 Nov",
     "time": "20:00",
-    "is_today": false,
-    "match": "Man. United - Roma",
+    "is_today": true,
+    "match": "Villarreal - PSG",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "dazn 1"
+      "dazn 4"
     ],
     "id": 6
   },
@@ -111,45 +110,15 @@
     "kickoff": "2026-11-03T20:00:00+00:00",
     "date": "Ter 3 Nov",
     "time": "20:00",
-    "is_today": false,
-    "match": "Barcelona - Aston Villa",
+    "is_today": true,
+    "match": "Vários - Jogos",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "dazn 2"
+      "dazn online"
     ],
     "id": 7
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-03T20:00:00+00:00",
-    "date": "Ter 3 Nov",
-    "time": "20:00",
-    "is_today": false,
-    "match": "Atl. Madrid - Bayern",
-    "competition": "Liga dos Campeões",
-    "competition_key": "liga-campeoes",
-    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "channels": [
-      "dazn 3"
-    ],
-    "id": 8
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-03T20:00:00+00:00",
-    "date": "Ter 3 Nov",
-    "time": "20:00",
-    "is_today": false,
-    "match": "Villarreal - PSG",
-    "competition": "Liga dos Campeões",
-    "competition_key": "liga-campeoes",
-    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "channels": [
-      "dazn 4"
-    ],
-    "id": 9
   },
   {
     "sport": "futebol",
@@ -164,7 +133,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 10
+    "id": 8
   },
   {
     "sport": "futebol",
@@ -179,7 +148,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 11
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -194,7 +163,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 12
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -209,7 +178,7 @@
     "channels": [
       "dazn"
     ],
-    "id": 13
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -224,7 +193,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 14
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -239,7 +208,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 15
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -254,7 +223,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 16
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -269,7 +238,7 @@
     "channels": [
       "dazn online"
     ],
-    "id": 17
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -284,7 +253,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 18
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -299,7 +268,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 19
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -314,7 +283,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 20
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -329,7 +298,7 @@
     "channels": [
       "Sport.Tv2"
     ],
-    "id": 21
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -344,7 +313,7 @@
     "channels": [
       "Sport.Tv3"
     ],
-    "id": 22
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -359,7 +328,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 23
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -374,7 +343,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 24
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -389,7 +358,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 25
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -404,7 +373,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 26
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -419,7 +388,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 27
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -434,7 +403,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 28
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -449,7 +418,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 29
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -464,7 +433,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 30
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -479,7 +448,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 31
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -494,7 +463,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 32
+    "id": 30
   },
   {
     "sport": "futebol",
@@ -509,7 +478,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 33
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -524,7 +493,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 34
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -539,7 +508,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 35
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -554,7 +523,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 36
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -569,7 +538,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 37
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -584,7 +553,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 38
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -599,7 +568,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 39
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -614,7 +583,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 40
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -629,7 +598,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 41
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -644,7 +613,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 42
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -659,7 +628,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 43
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -674,7 +643,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 44
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -689,7 +658,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 45
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -704,7 +673,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 46
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -719,7 +688,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 47
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -734,6 +703,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 48
+    "id": 46
   }
 ]
