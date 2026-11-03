@@ -1,19 +1,6 @@
 {
-  "scraped_at": "2026-11-03T11:29:03.562380+00:00",
+  "scraped_at": "2026-11-03T18:50:02.128689+00:00",
   "games": [
-    {
-      "source_id": "60279",
-      "kickoff": "2026-11-03T12:00:00+00:00",
-      "date": "Ter 3 Nov",
-      "time": "12:00",
-      "home": "Shakhtar",
-      "away": "Sporting",
-      "competition": "SUB19, Youth League",
-      "channels": [
-        "dazn 1",
-        "SCP.Tv"
-      ]
-    },
     {
       "source_id": "59919",
       "kickoff": "2026-11-03T17:45:00+00:00",
