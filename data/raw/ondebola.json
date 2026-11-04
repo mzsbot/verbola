@@ -1,44 +1,6 @@
 {
-  "scraped_at": "2026-11-04T11:50:32.701218+00:00",
+  "scraped_at": "2026-11-04T19:06:13.691963+00:00",
   "games": [
-    {
-      "source_id": "60068",
-      "kickoff": "2026-11-04T12:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "12:00",
-      "home": "Pafos",
-      "away": "Benfica",
-      "competition": "SUB19, Youth League",
-      "channels": [
-        "Benfica.Tv"
-      ]
-    },
-    {
-      "source_id": "60285",
-      "kickoff": "2026-11-04T12:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "12:00",
-      "home": "FC Porto",
-      "away": "Nápoles",
-      "competition": "SUB19, Youth League",
-      "channels": [
-        "dazn 1",
-        "Porto Canal"
-      ]
-    },
-    {
-      "source_id": "60324",
-      "kickoff": "2026-11-04T12:15:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "12:15",
-      "home": "Buriram",
-      "away": "Kashima",
-      "competition": "Asian Champ. League",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
     {
       "source_id": "59684",
       "kickoff": "2026-11-04T17:45:00+00:00",
@@ -61,6 +23,18 @@
       "competition": "UEFA Liga Campeões",
       "channels": [
         "dazn 2"
+      ]
+    },
+    {
+      "source_id": "60380",
+      "kickoff": "2026-11-04T19:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "19:00",
+      "home": "Brasil",
+      "away": "Nigéria",
+      "competition": "FEMININO, SUB17",
+      "channels": [
+        "N/D"
       ]
     },
     {
@@ -124,15 +98,27 @@
       ]
     },
     {
-      "source_id": "60309",
+      "source_id": "60386",
       "kickoff": "2026-11-04T20:00:00+00:00",
       "date": "Qua 4 Nov",
       "time": "20:00",
-      "home": "Vários",
-      "away": "Jogos",
+      "home": "Lens",
+      "away": "Como",
       "competition": "UEFA Liga Campeões",
       "channels": [
-        "dazn  online"
+        "dazn online"
+      ]
+    },
+    {
+      "source_id": "60387",
+      "kickoff": "2026-11-04T20:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "20:00",
+      "home": "Viking",
+      "away": "Sabah",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn online"
       ]
     },
     {
@@ -145,6 +131,18 @@
       "competition": "Brasileirão 2026",
       "channels": [
         "Canal 11",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60389",
+      "kickoff": "2026-11-04T22:30:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "22:30",
+      "home": "Flamengo",
+      "away": "Grêmio",
+      "competition": "Brasileirão 2026",
+      "channels": [
         "Betano"
       ]
     },
@@ -218,7 +216,8 @@
       "away": "Remo",
       "competition": "Brasileirão 2026",
       "channels": [
-        "Canal 11"
+        "Canal 11",
+        "Betano"
       ]
     },
     {

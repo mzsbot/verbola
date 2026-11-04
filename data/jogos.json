@@ -1,53 +1,6 @@
 [
   {
     "sport": "futebol",
-    "kickoff": "2026-11-04T12:00:00+00:00",
-    "date": "Qua 4 Nov",
-    "time": "12:00",
-    "is_today": true,
-    "match": "Pafos - Benfica",
-    "competition": "SUB19, Youth League",
-    "competition_key": null,
-    "competition_icon": null,
-    "channels": [
-      "Benfica.Tv"
-    ],
-    "id": 0
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-04T12:00:00+00:00",
-    "date": "Qua 4 Nov",
-    "time": "12:00",
-    "is_today": true,
-    "match": "FC Porto - Nápoles",
-    "competition": "SUB19, Youth League",
-    "competition_key": null,
-    "competition_icon": null,
-    "channels": [
-      "dazn 1",
-      "Porto Canal"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-04T12:15:00+00:00",
-    "date": "Qua 4 Nov",
-    "time": "12:15",
-    "is_today": true,
-    "match": "Buriram - Kashima",
-    "competition": "Asian Champ. League",
-    "competition_key": null,
-    "competition_icon": null,
-    "channels": [
-      "Canal 11",
-      "Betano"
-    ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
     "kickoff": "2026-11-04T17:45:00+00:00",
     "date": "Qua 4 Nov",
     "time": "17:45",
@@ -59,7 +12,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 3
+    "id": 0
   },
   {
     "sport": "futebol",
@@ -74,7 +27,22 @@
     "channels": [
       "dazn 2"
     ],
-    "id": 4
+    "id": 1
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-04T19:00:00+00:00",
+    "date": "Qua 4 Nov",
+    "time": "19:00",
+    "is_today": true,
+    "match": "Brasil - Nigéria",
+    "competition": "FEMININO, SUB17",
+    "competition_key": null,
+    "competition_icon": null,
+    "channels": [
+      "N/D"
+    ],
+    "id": 2
   },
   {
     "sport": "futebol",
@@ -89,7 +57,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 5
+    "id": 3
   },
   {
     "sport": "futebol",
@@ -104,7 +72,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 6
+    "id": 4
   },
   {
     "sport": "futebol",
@@ -119,7 +87,7 @@
     "channels": [
       "dazn 2"
     ],
-    "id": 7
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -134,7 +102,7 @@
     "channels": [
       "dazn 3"
     ],
-    "id": 8
+    "id": 6
   },
   {
     "sport": "futebol",
@@ -149,7 +117,7 @@
     "channels": [
       "dazn 4"
     ],
-    "id": 9
+    "id": 7
   },
   {
     "sport": "futebol",
@@ -157,14 +125,29 @@
     "date": "Qua 4 Nov",
     "time": "20:00",
     "is_today": true,
-    "match": "Vários - Jogos",
+    "match": "Lens - Como",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
-      "dazn  online"
+      "dazn online"
     ],
-    "id": 10
+    "id": 8
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-04T20:00:00+00:00",
+    "date": "Qua 4 Nov",
+    "time": "20:00",
+    "is_today": true,
+    "match": "Viking - Sabah",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "dazn online"
+    ],
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -178,6 +161,21 @@
     "competition_icon": "assets/icons/competicoes/brasileirao.png",
     "channels": [
       "Canal 11",
+      "Betano"
+    ],
+    "id": 10
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-04T22:30:00+00:00",
+    "date": "Qua 4 Nov",
+    "time": "22:30",
+    "is_today": true,
+    "match": "Flamengo - Grêmio",
+    "competition": "Brasileirão",
+    "competition_key": "brasileirao",
+    "competition_icon": "assets/icons/competicoes/brasileirao.png",
+    "channels": [
       "Betano"
     ],
     "id": 11
@@ -269,7 +267,8 @@
     "competition_key": "brasileirao",
     "competition_icon": "assets/icons/competicoes/brasileirao.png",
     "channels": [
-      "Canal 11"
+      "Canal 11",
+      "Betano"
     ],
     "id": 17
   },
