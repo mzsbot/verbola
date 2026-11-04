@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-04T03:57:22.432313+00:00",
+  "scraped_at": "2026-11-04T11:50:32.701218+00:00",
   "games": [
     {
       "source_id": "60068",
@@ -27,6 +27,19 @@
       ]
     },
     {
+      "source_id": "60324",
+      "kickoff": "2026-11-04T12:15:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "12:15",
+      "home": "Buriram",
+      "away": "Kashima",
+      "competition": "Asian Champ. League",
+      "channels": [
+        "Canal 11",
+        "Betano"
+      ]
+    },
+    {
       "source_id": "59684",
       "kickoff": "2026-11-04T17:45:00+00:00",
       "date": "Qua 4 Nov",
@@ -36,6 +49,18 @@
       "competition": "UEFA Liga Campeões",
       "channels": [
         "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60288",
+      "kickoff": "2026-11-04T17:45:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "17:45",
+      "home": "Fenerbahçe",
+      "away": "Liverpool",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn 2"
       ]
     },
     {
@@ -87,6 +112,18 @@
       ]
     },
     {
+      "source_id": "59990",
+      "kickoff": "2026-11-04T20:00:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "20:00",
+      "home": "PSV",
+      "away": "Brugge",
+      "competition": "UEFA Liga Campeões",
+      "channels": [
+        "dazn 4"
+      ]
+    },
+    {
       "source_id": "60309",
       "kickoff": "2026-11-04T20:00:00+00:00",
       "date": "Qua 4 Nov",
@@ -95,7 +132,33 @@
       "away": "Jogos",
       "competition": "UEFA Liga Campeões",
       "channels": [
-        "dazn"
+        "dazn  online"
+      ]
+    },
+    {
+      "source_id": "60327",
+      "kickoff": "2026-11-04T22:30:00+00:00",
+      "date": "Qua 4 Nov",
+      "time": "22:30",
+      "home": "Ath. Paran.",
+      "away": "Vasco",
+      "competition": "Brasileirão 2026",
+      "channels": [
+        "Canal 11",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60390",
+      "kickoff": "2026-11-05T00:30:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "00:30",
+      "home": "Botafogo",
+      "away": "Atl. MG",
+      "competition": "Brasileirão 2026",
+      "channels": [
+        "tvglobo",
+        "Betano"
       ]
     },
     {
@@ -144,6 +207,30 @@
       "competition": "UEFA Liga Europa",
       "channels": [
         "dazn online"
+      ]
+    },
+    {
+      "source_id": "60328",
+      "kickoff": "2026-11-05T22:30:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "22:30",
+      "home": "Palmeiras",
+      "away": "Remo",
+      "competition": "Brasileirão 2026",
+      "channels": [
+        "Canal 11"
+      ]
+    },
+    {
+      "source_id": "60379",
+      "kickoff": "2026-11-06T12:00:00+00:00",
+      "date": "Sex 6 Nov",
+      "time": "12:00",
+      "home": "Convocatória",
+      "away": "Seleção Portugal",
+      "competition": "",
+      "channels": [
+        "N/D"
       ]
     },
     {
