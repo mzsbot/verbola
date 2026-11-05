@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-05T15:56:28.533777+00:00",
+  "scraped_at": "2026-11-05T21:44:03.477313+00:00",
   "games": [
     {
       "source_id": "60292",
@@ -47,6 +47,18 @@
       "competition": "UEFA Liga Europa",
       "channels": [
         "dazn 4"
+      ]
+    },
+    {
+      "source_id": "60415",
+      "kickoff": "2026-11-05T17:45:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "17:45",
+      "home": "Sparta",
+      "away": "Bournemouth",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "dazn online"
       ]
     },
     {
@@ -122,6 +134,18 @@
       ]
     },
     {
+      "source_id": "60418",
+      "kickoff": "2026-11-05T20:00:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "20:00",
+      "home": "Vários",
+      "away": "Jogos",
+      "competition": "UEFA Liga Conferência",
+      "channels": [
+        "dazn online"
+      ]
+    },
+    {
       "source_id": "60328",
       "kickoff": "2026-11-05T22:30:00+00:00",
       "date": "Qui 5 Nov",
@@ -153,7 +177,7 @@
       "date": "Sex 6 Nov",
       "time": "12:00",
       "home": "Convocatória",
-      "away": "Seleção Nacional Portugal",
+      "away": "Seleção Portugal",
       "competition": "",
       "channels": [
         "RTP desporto"
@@ -169,6 +193,55 @@
       "competition": "Liga Portugal, J11",
       "channels": [
         "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60419",
+      "kickoff": "2026-11-06T21:30:00+00:00",
+      "date": "Sex 6 Nov",
+      "time": "21:30",
+      "home": "Espanha",
+      "away": "Portugal",
+      "competition": "FUTSAL, Finalissima",
+      "channels": [
+        "Canal 11",
+        "UEFA.Tv"
+      ]
+    },
+    {
+      "source_id": "60335",
+      "kickoff": "2026-11-07T12:30:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "12:30",
+      "home": "Leeds",
+      "away": "Tottenham",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60168",
+      "kickoff": "2026-11-07T19:45:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "19:45",
+      "home": "PSG",
+      "away": "Troyes",
+      "competition": "Liga França",
+      "channels": [
+        "Sport.Tv4"
+      ]
+    },
+    {
+      "source_id": "60344",
+      "kickoff": "2026-11-07T20:00:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "20:00",
+      "home": "Valencia",
+      "away": "Real Madrid",
+      "competition": "Liga Espanha",
+      "channels": [
+        "dazn 1"
       ]
     },
     {
@@ -244,15 +317,124 @@
       ]
     },
     {
-      "source_id": "60190",
-      "kickoff": "2026-11-12T17:00:00+00:00",
+      "source_id": "60421",
+      "kickoff": "2026-11-08T20:30:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "20:30",
+      "home": "Jogo",
+      "away": "FINAL",
+      "competition": "FUTSAL, Finalissima",
+      "channels": [
+        "Canal 11",
+        "UEFA.Tv"
+      ]
+    },
+    {
+      "source_id": "60434",
+      "kickoff": "2026-11-12T16:00:00+00:00",
       "date": "Qui 12 Nov",
-      "time": "17:00",
+      "time": "16:00",
+      "home": "Madagáscar",
+      "away": "Guiné Bissau",
+      "competition": "CAN África, Qual.",
+      "channels": [
+        "Sport.Tv4"
+      ]
+    },
+    {
+      "source_id": "60107",
+      "kickoff": "2026-11-12T19:45:00+00:00",
+      "date": "Qui 12 Nov",
+      "time": "19:45",
+      "home": "Itália",
+      "away": "França",
+      "competition": "UEFA Liga Nações",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60109",
+      "kickoff": "2026-11-12T19:45:00+00:00",
+      "date": "Qui 12 Nov",
+      "time": "19:45",
+      "home": "Chéquia",
+      "away": "Espanha",
+      "competition": "UEFA Liga Nações",
+      "channels": [
+        "Sport.Tv2"
+      ]
+    },
+    {
+      "source_id": "60108",
+      "kickoff": "2026-11-12T19:45:00+00:00",
+      "date": "Qui 12 Nov",
+      "time": "19:45",
+      "home": "Inglaterra",
+      "away": "Croácia",
+      "competition": "UEFA Liga Nações",
+      "channels": [
+        "Sport.Tv3"
+      ]
+    },
+    {
+      "source_id": "60190",
+      "kickoff": "2026-11-12T20:00:00+00:00",
+      "date": "Qui 12 Nov",
+      "time": "20:00",
       "home": "Vários",
       "away": "Jogos",
       "competition": "UEFA Liga Nações",
       "channels": [
         "Sport.Tv"
+      ]
+    },
+    {
+      "source_id": "60110",
+      "kickoff": "2026-11-13T16:00:00+00:00",
+      "date": "Sex 13 Nov",
+      "time": "16:00",
+      "home": "Cabo Verde",
+      "away": "Libéria",
+      "competition": "CAN África, Qual.",
+      "channels": [
+        "Sport.Tv2"
+      ]
+    },
+    {
+      "source_id": "60111",
+      "kickoff": "2026-11-13T19:45:00+00:00",
+      "date": "Sex 13 Nov",
+      "time": "19:45",
+      "home": "Sérvia",
+      "away": "Alemanha",
+      "competition": "UEFA Liga Nações",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "59714",
+      "kickoff": "2026-11-14T10:15:00+00:00",
+      "date": "Sab 14 Nov",
+      "time": "10:15",
+      "home": "Japão",
+      "away": "Brasil",
+      "competition": "Jogo Preparação",
+      "channels": [
+        "ge tv"
+      ]
+    },
+    {
+      "source_id": "60210",
+      "kickoff": "2026-11-14T19:00:00+00:00",
+      "date": "Sab 14 Nov",
+      "time": "19:00",
+      "home": "Angola",
+      "away": "Sudão Sul",
+      "competition": "CAN África, Qual.",
+      "channels": [
+        "Sport.Tv6"
       ]
     },
     {
@@ -268,6 +450,18 @@
       ]
     },
     {
+      "source_id": "60213",
+      "kickoff": "2026-11-14T20:00:00+00:00",
+      "date": "Sab 14 Nov",
+      "time": "20:00",
+      "home": "Vários",
+      "away": "Jogos",
+      "competition": "UEFA Liga Nações",
+      "channels": [
+        "Sport.Tv"
+      ]
+    },
+    {
       "source_id": "60373",
       "kickoff": "2026-11-15T20:30:00+00:00",
       "date": "Dom 15 Nov",
@@ -277,6 +471,30 @@
       "competition": "FUTSAL, Intercontinental",
       "channels": [
         "N/D"
+      ]
+    },
+    {
+      "source_id": "60437",
+      "kickoff": "2026-11-16T20:00:00+00:00",
+      "date": "Seg 16 Nov",
+      "time": "20:00",
+      "home": "Vários",
+      "away": "Jogos",
+      "competition": "UEFA Liga Nações",
+      "channels": [
+        "Sport.Tv"
+      ]
+    },
+    {
+      "source_id": "60432",
+      "kickoff": "2026-11-17T10:00:00+00:00",
+      "date": "Ter 17 Nov",
+      "time": "10:00",
+      "home": "Singapura",
+      "away": "Brasil",
+      "competition": "Jogo Preparação",
+      "channels": [
+        "ge tv"
       ]
     },
     {
@@ -304,7 +522,7 @@
       ]
     },
     {
-      "source_id": "60388",
+      "source_id": "60438",
       "kickoff": "2026-11-17T20:00:00+00:00",
       "date": "Ter 17 Nov",
       "time": "20:00",
@@ -436,6 +654,42 @@
       ]
     },
     {
+      "source_id": "60441",
+      "kickoff": "2026-12-04T20:15:00+00:00",
+      "date": "Sex 4 Dez",
+      "time": "20:15",
+      "home": "Sporting",
+      "away": "Marítimo",
+      "competition": "Liga Portugal, J13",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60442",
+      "kickoff": "2026-12-05T15:30:00+00:00",
+      "date": "Sab 5 Dez",
+      "time": "15:30",
+      "home": "Nacional",
+      "away": "Benfica",
+      "competition": "Liga Portugal, J13",
+      "channels": [
+        "Sport.Tv"
+      ]
+    },
+    {
+      "source_id": "60439",
+      "kickoff": "2026-12-05T18:00:00+00:00",
+      "date": "Sab 5 Dez",
+      "time": "18:00",
+      "home": "S. Clara",
+      "away": "FC Porto",
+      "competition": "Liga Portugal, J13",
+      "channels": [
+        "Sport.Tv"
+      ]
+    },
+    {
       "source_id": "59921",
       "kickoff": "2026-12-08T20:00:00+00:00",
       "date": "Ter 8 Dez",
@@ -469,6 +723,42 @@
       "competition": "UEFA Liga Europa",
       "channels": [
         "N/D"
+      ]
+    },
+    {
+      "source_id": "60455",
+      "kickoff": "2026-12-12T20:30:00+00:00",
+      "date": "Sab 12 Dez",
+      "time": "20:30",
+      "home": "Gil Vicente",
+      "away": "Sporting",
+      "competition": "Liga Portugal, J14",
+      "channels": [
+        "Sport.Tv"
+      ]
+    },
+    {
+      "source_id": "60456",
+      "kickoff": "2026-12-13T20:30:00+00:00",
+      "date": "Dom 13 Dez",
+      "time": "20:30",
+      "home": "FC Porto",
+      "away": "E. Amadora",
+      "competition": "Liga Portugal, J14",
+      "channels": [
+        "Sport.Tv"
+      ]
+    },
+    {
+      "source_id": "60448",
+      "kickoff": "2026-12-14T20:15:00+00:00",
+      "date": "Seg 14 Dez",
+      "time": "20:15",
+      "home": "Benfica",
+      "away": "Sp. Braga",
+      "competition": "Liga Portugal, J14",
+      "channels": [
+        "Benfica.Tv"
       ]
     },
     {
