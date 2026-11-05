@@ -1,126 +1,6 @@
 {
-  "scraped_at": "2026-11-04T19:06:13.691963+00:00",
+  "scraped_at": "2026-11-05T00:39:34.241554+00:00",
   "games": [
-    {
-      "source_id": "59684",
-      "kickoff": "2026-11-04T17:45:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "17:45",
-      "home": "AEK",
-      "away": "Real Madrid",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn 1"
-      ]
-    },
-    {
-      "source_id": "60288",
-      "kickoff": "2026-11-04T17:45:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "17:45",
-      "home": "Fenerbahçe",
-      "away": "Liverpool",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn 2"
-      ]
-    },
-    {
-      "source_id": "60380",
-      "kickoff": "2026-11-04T19:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "19:00",
-      "home": "Brasil",
-      "away": "Nigéria",
-      "competition": "FEMININO, SUB17",
-      "channels": [
-        "N/D"
-      ]
-    },
-    {
-      "source_id": "59915",
-      "kickoff": "2026-11-04T20:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "20:00",
-      "home": "FC Porto",
-      "away": "Nápoles",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "Sport.Tv5"
-      ]
-    },
-    {
-      "source_id": "60289",
-      "kickoff": "2026-11-04T20:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "20:00",
-      "home": "Leipzig",
-      "away": "Man City",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn 1"
-      ]
-    },
-    {
-      "source_id": "60290",
-      "kickoff": "2026-11-04T20:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "20:00",
-      "home": "Slavia P.",
-      "away": "Arsenal",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn 2"
-      ]
-    },
-    {
-      "source_id": "60291",
-      "kickoff": "2026-11-04T20:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "20:00",
-      "home": "Dortmund",
-      "away": "Betis",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn 3"
-      ]
-    },
-    {
-      "source_id": "59990",
-      "kickoff": "2026-11-04T20:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "20:00",
-      "home": "PSV",
-      "away": "Brugge",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn 4"
-      ]
-    },
-    {
-      "source_id": "60386",
-      "kickoff": "2026-11-04T20:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "20:00",
-      "home": "Lens",
-      "away": "Como",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn online"
-      ]
-    },
-    {
-      "source_id": "60387",
-      "kickoff": "2026-11-04T20:00:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "20:00",
-      "home": "Viking",
-      "away": "Sabah",
-      "competition": "UEFA Liga Campeões",
-      "channels": [
-        "dazn online"
-      ]
-    },
     {
       "source_id": "60327",
       "kickoff": "2026-11-04T22:30:00+00:00",
@@ -160,6 +40,18 @@
       ]
     },
     {
+      "source_id": "60404",
+      "kickoff": "2026-11-05T00:30:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "00:30",
+      "home": "S. Paulo",
+      "away": "Corinthians",
+      "competition": "Brasileirão 2026",
+      "channels": [
+        "Betano"
+      ]
+    },
+    {
       "source_id": "60292",
       "kickoff": "2026-11-05T17:45:00+00:00",
       "date": "Qui 5 Nov",
@@ -169,6 +61,18 @@
       "competition": "UEFA Liga Conferência",
       "channels": [
         "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60293",
+      "kickoff": "2026-11-05T17:45:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "17:45",
+      "home": "AC Milan",
+      "away": "Ferencváros",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "dazn 2"
       ]
     },
     {
@@ -193,6 +97,30 @@
       "competition": "UEFA Liga Europa",
       "channels": [
         "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60295",
+      "kickoff": "2026-11-05T20:00:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "20:00",
+      "home": "Leverkusen",
+      "away": "Marselha",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "dazn 2"
+      ]
+    },
+    {
+      "source_id": "60296",
+      "kickoff": "2026-11-05T20:00:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "20:00",
+      "home": "AZ Alkmaar",
+      "away": "Juventus",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "dazn 3"
       ]
     },
     {
