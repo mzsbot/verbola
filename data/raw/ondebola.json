@@ -1,31 +1,6 @@
 {
-  "scraped_at": "2026-11-05T00:39:34.241554+00:00",
+  "scraped_at": "2026-11-05T07:34:36.070868+00:00",
   "games": [
-    {
-      "source_id": "60327",
-      "kickoff": "2026-11-04T22:30:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "22:30",
-      "home": "Ath. Paran.",
-      "away": "Vasco",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60389",
-      "kickoff": "2026-11-04T22:30:00+00:00",
-      "date": "Qua 4 Nov",
-      "time": "22:30",
-      "home": "Flamengo",
-      "away": "Grêmio",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Betano"
-      ]
-    },
     {
       "source_id": "60390",
       "kickoff": "2026-11-05T00:30:00+00:00",
