@@ -1,31 +1,6 @@
 {
-  "scraped_at": "2026-11-05T07:34:36.070868+00:00",
+  "scraped_at": "2026-11-05T15:56:28.533777+00:00",
   "games": [
-    {
-      "source_id": "60390",
-      "kickoff": "2026-11-05T00:30:00+00:00",
-      "date": "Qui 5 Nov",
-      "time": "00:30",
-      "home": "Botafogo",
-      "away": "Atl. MG",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "tvglobo",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60404",
-      "kickoff": "2026-11-05T00:30:00+00:00",
-      "date": "Qui 5 Nov",
-      "time": "00:30",
-      "home": "S. Paulo",
-      "away": "Corinthians",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Betano"
-      ]
-    },
     {
       "source_id": "60292",
       "kickoff": "2026-11-05T17:45:00+00:00",
@@ -51,6 +26,30 @@
       ]
     },
     {
+      "source_id": "60294",
+      "kickoff": "2026-11-05T17:45:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "17:45",
+      "home": "Real Soc.",
+      "away": "Lyon",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "dazn 3"
+      ]
+    },
+    {
+      "source_id": "60382",
+      "kickoff": "2026-11-05T17:45:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "17:45",
+      "home": "Crystal P",
+      "away": "TSG Hof.",
+      "competition": "UEFA Liga Europa",
+      "channels": [
+        "dazn 4"
+      ]
+    },
+    {
       "source_id": "59287",
       "kickoff": "2026-11-05T20:00:00+00:00",
       "date": "Qui 5 Nov",
@@ -68,7 +67,7 @@
       "date": "Qui 5 Nov",
       "time": "20:00",
       "home": "Torreense",
-      "away": "Ararat",
+      "away": "FC Ararat",
       "competition": "UEFA Liga Europa",
       "channels": [
         "dazn 1"
@@ -111,6 +110,18 @@
       ]
     },
     {
+      "source_id": "60297",
+      "kickoff": "2026-11-05T20:00:00+00:00",
+      "date": "Qui 5 Nov",
+      "time": "20:00",
+      "home": "Monaco",
+      "away": "Nordsj.",
+      "competition": "UEFA Liga Conferência",
+      "channels": [
+        "dazn 4"
+      ]
+    },
+    {
       "source_id": "60328",
       "kickoff": "2026-11-05T22:30:00+00:00",
       "date": "Qui 5 Nov",
@@ -124,15 +135,40 @@
       ]
     },
     {
+      "source_id": "60329",
+      "kickoff": "2026-11-06T00:30:00+00:00",
+      "date": "Sex 6 Nov",
+      "time": "00:30",
+      "home": "Cruzeiro",
+      "away": "Bahia",
+      "competition": "Brasileirão 2026",
+      "channels": [
+        "Canal 11",
+        "Betano"
+      ]
+    },
+    {
       "source_id": "60379",
       "kickoff": "2026-11-06T12:00:00+00:00",
       "date": "Sex 6 Nov",
       "time": "12:00",
       "home": "Convocatória",
-      "away": "Seleção Portugal",
+      "away": "Seleção Nacional Portugal",
       "competition": "",
       "channels": [
-        "N/D"
+        "RTP desporto"
+      ]
+    },
+    {
+      "source_id": "59496",
+      "kickoff": "2026-11-06T20:45:00+00:00",
+      "date": "Sex 6 Nov",
+      "time": "20:45",
+      "home": "Famalicão",
+      "away": "Arouca",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv1"
       ]
     },
     {
@@ -145,6 +181,18 @@
       "competition": "Liga Portugal, J11",
       "channels": [
         "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60347",
+      "kickoff": "2026-11-08T14:00:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "14:00",
+      "home": "Crystal P.",
+      "away": "Liverpool",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 1"
       ]
     },
     {
