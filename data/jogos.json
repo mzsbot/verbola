@@ -1,190 +1,10 @@
 [
   {
     "sport": "futebol",
-    "kickoff": "2026-11-05T17:45:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "17:45",
-    "is_today": true,
-    "match": "AGF Aarhus - Sp. Braga",
-    "competition": "Liga Conferência",
-    "competition_key": "liga-conferencia",
-    "competition_icon": "assets/icons/competicoes/liga-conferencia.png",
-    "channels": [
-      "dazn 1"
-    ],
-    "id": 0
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T17:45:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "17:45",
-    "is_today": true,
-    "match": "AC Milan - Ferencváros",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "dazn 2"
-    ],
-    "id": 1
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T17:45:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "17:45",
-    "is_today": true,
-    "match": "Real Soc. - Lyon",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "dazn 3"
-    ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T17:45:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "17:45",
-    "is_today": true,
-    "match": "Crystal P - TSG Hof.",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "dazn 4"
-    ],
-    "id": 3
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T17:45:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "17:45",
-    "is_today": true,
-    "match": "Sparta - Bournemouth",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "dazn online"
-    ],
-    "id": 4
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T20:00:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Benfica - Lech Poznan",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "Sport.Tv5"
-    ],
-    "id": 5
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T20:00:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Torreense - FC Ararat",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "dazn 1"
-    ],
-    "id": 6
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T20:00:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Leverkusen - Marselha",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "dazn 2"
-    ],
-    "id": 7
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T20:00:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "20:00",
-    "is_today": true,
-    "match": "AZ Alkmaar - Juventus",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "dazn 3"
-    ],
-    "id": 8
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T20:00:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Vários - Jogos",
-    "competition": "Liga Europa",
-    "competition_key": "liga-europa",
-    "competition_icon": "assets/icons/competicoes/liga-europa.png",
-    "channels": [
-      "dazn online"
-    ],
-    "id": 9
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T20:00:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Monaco - Nordsj.",
-    "competition": "Liga Conferência",
-    "competition_key": "liga-conferencia",
-    "competition_icon": "assets/icons/competicoes/liga-conferencia.png",
-    "channels": [
-      "dazn 4"
-    ],
-    "id": 10
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-05T20:00:00+00:00",
-    "date": "Qui 5 Nov",
-    "time": "20:00",
-    "is_today": true,
-    "match": "Vários - Jogos",
-    "competition": "Liga Conferência",
-    "competition_key": "liga-conferencia",
-    "competition_icon": "assets/icons/competicoes/liga-conferencia.png",
-    "channels": [
-      "dazn online"
-    ],
-    "id": 11
-  },
-  {
-    "sport": "futebol",
     "kickoff": "2026-11-05T22:30:00+00:00",
     "date": "Qui 5 Nov",
     "time": "22:30",
-    "is_today": true,
+    "is_today": false,
     "match": "Palmeiras - Remo",
     "competition": "Brasileirão",
     "competition_key": "brasileirao",
@@ -193,14 +13,14 @@
       "Canal 11",
       "Betano"
     ],
-    "id": 12
+    "id": 0
   },
   {
     "sport": "futebol",
     "kickoff": "2026-11-06T00:30:00+00:00",
     "date": "Sex 6 Nov",
     "time": "00:30",
-    "is_today": false,
+    "is_today": true,
     "match": "Cruzeiro - Bahia",
     "competition": "Brasileirão",
     "competition_key": "brasileirao",
@@ -209,14 +29,14 @@
       "Canal 11",
       "Betano"
     ],
-    "id": 13
+    "id": 1
   },
   {
     "sport": "futebol",
     "kickoff": "2026-11-06T12:00:00+00:00",
     "date": "Sex 6 Nov",
     "time": "12:00",
-    "is_today": false,
+    "is_today": true,
     "match": "Convocatória - Seleção Portugal",
     "competition": "",
     "competition_key": null,
@@ -224,14 +44,14 @@
     "channels": [
       "RTP desporto"
     ],
-    "id": 14
+    "id": 2
   },
   {
     "sport": "futebol",
     "kickoff": "2026-11-06T20:45:00+00:00",
     "date": "Sex 6 Nov",
     "time": "20:45",
-    "is_today": false,
+    "is_today": true,
     "match": "Famalicão - Arouca",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
@@ -239,14 +59,14 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 15
+    "id": 3
   },
   {
     "sport": "futebol",
     "kickoff": "2026-11-06T21:30:00+00:00",
     "date": "Sex 6 Nov",
     "time": "21:30",
-    "is_today": false,
+    "is_today": true,
     "match": "Espanha - Portugal",
     "competition": "FUTSAL, Finalissima",
     "competition_key": null,
@@ -255,7 +75,7 @@
       "Canal 11",
       "UEFA.Tv"
     ],
-    "id": 16
+    "id": 4
   },
   {
     "sport": "futebol",
@@ -270,7 +90,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 17
+    "id": 5
   },
   {
     "sport": "futebol",
@@ -285,7 +105,7 @@
     "channels": [
       "Sport.Tv4"
     ],
-    "id": 18
+    "id": 6
   },
   {
     "sport": "futebol",
@@ -300,7 +120,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 19
+    "id": 7
   },
   {
     "sport": "futebol",
@@ -315,7 +135,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 20
+    "id": 8
   },
   {
     "sport": "futebol",
@@ -330,7 +150,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 21
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -345,7 +165,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 22
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -360,7 +180,7 @@
     "channels": [
       "dazn 1"
     ],
-    "id": 23
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -375,7 +195,7 @@
     "channels": [
       "Sport.Tv2"
     ],
-    "id": 24
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -390,7 +210,7 @@
     "channels": [
       "Sport.Tv3"
     ],
-    "id": 25
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -406,7 +226,7 @@
       "Canal 11",
       "UEFA.Tv"
     ],
-    "id": 26
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -421,7 +241,7 @@
     "channels": [
       "Sport.Tv4"
     ],
-    "id": 27
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -436,7 +256,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 28
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -451,7 +271,7 @@
     "channels": [
       "Sport.Tv2"
     ],
-    "id": 29
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -466,7 +286,7 @@
     "channels": [
       "Sport.Tv3"
     ],
-    "id": 30
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -481,7 +301,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 31
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -496,7 +316,7 @@
     "channels": [
       "Sport.Tv2"
     ],
-    "id": 32
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -511,7 +331,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 33
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -526,7 +346,7 @@
     "channels": [
       "ge tv"
     ],
-    "id": 34
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -541,7 +361,7 @@
     "channels": [
       "Sport.Tv6"
     ],
-    "id": 35
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -556,7 +376,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 36
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -571,7 +391,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 37
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -586,7 +406,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 38
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -601,7 +421,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 39
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -616,7 +436,7 @@
     "channels": [
       "ge tv"
     ],
-    "id": 40
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -631,7 +451,7 @@
     "channels": [
       "Sport.Tv5"
     ],
-    "id": 41
+    "id": 29
   },
   {
     "sport": "futebol",
@@ -646,7 +466,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 42
+    "id": 30
   },
   {
     "sport": "futebol",
@@ -661,7 +481,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 43
+    "id": 31
   },
   {
     "sport": "futebol",
@@ -676,7 +496,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 44
+    "id": 32
   },
   {
     "sport": "futebol",
@@ -691,7 +511,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 45
+    "id": 33
   },
   {
     "sport": "futebol",
@@ -706,7 +526,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 46
+    "id": 34
   },
   {
     "sport": "futebol",
@@ -721,7 +541,7 @@
     "channels": [
       "RTP 1"
     ],
-    "id": 47
+    "id": 35
   },
   {
     "sport": "futebol",
@@ -736,7 +556,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 48
+    "id": 36
   },
   {
     "sport": "futebol",
@@ -751,7 +571,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 49
+    "id": 37
   },
   {
     "sport": "futebol",
@@ -766,7 +586,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 50
+    "id": 38
   },
   {
     "sport": "futebol",
@@ -781,7 +601,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 51
+    "id": 39
   },
   {
     "sport": "futebol",
@@ -796,7 +616,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 52
+    "id": 40
   },
   {
     "sport": "futebol",
@@ -811,7 +631,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 53
+    "id": 41
   },
   {
     "sport": "futebol",
@@ -826,7 +646,7 @@
     "channels": [
       "Sport.Tv1"
     ],
-    "id": 54
+    "id": 42
   },
   {
     "sport": "futebol",
@@ -841,7 +661,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 55
+    "id": 43
   },
   {
     "sport": "futebol",
@@ -856,7 +676,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 56
+    "id": 44
   },
   {
     "sport": "futebol",
@@ -871,7 +691,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 57
+    "id": 45
   },
   {
     "sport": "futebol",
@@ -886,7 +706,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 58
+    "id": 46
   },
   {
     "sport": "futebol",
@@ -901,7 +721,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 59
+    "id": 47
   },
   {
     "sport": "futebol",
@@ -916,7 +736,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 60
+    "id": 48
   },
   {
     "sport": "futebol",
@@ -931,7 +751,7 @@
     "channels": [
       "Sport.Tv"
     ],
-    "id": 61
+    "id": 49
   },
   {
     "sport": "futebol",
@@ -946,7 +766,7 @@
     "channels": [
       "Benfica.Tv"
     ],
-    "id": 62
+    "id": 50
   },
   {
     "sport": "futebol",
@@ -961,7 +781,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 63
+    "id": 51
   },
   {
     "sport": "futebol",
@@ -976,7 +796,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 64
+    "id": 52
   },
   {
     "sport": "futebol",
@@ -991,7 +811,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 65
+    "id": 53
   },
   {
     "sport": "futebol",
@@ -1006,7 +826,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 66
+    "id": 54
   },
   {
     "sport": "futebol",
@@ -1021,7 +841,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 67
+    "id": 55
   },
   {
     "sport": "futebol",
@@ -1036,7 +856,7 @@
     "channels": [
       "N/D"
     ],
-    "id": 68
+    "id": 56
   },
   {
     "sport": "futebol",
@@ -1051,6 +871,6 @@
     "channels": [
       "N/D"
     ],
-    "id": 69
+    "id": 57
   }
 ]
