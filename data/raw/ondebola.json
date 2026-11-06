@@ -1,19 +1,6 @@
 {
-  "scraped_at": "2026-11-06T01:56:19.743397+00:00",
+  "scraped_at": "2026-11-06T08:51:09.620127+00:00",
   "games": [
-    {
-      "source_id": "60328",
-      "kickoff": "2026-11-05T22:30:00+00:00",
-      "date": "Qui 5 Nov",
-      "time": "22:30",
-      "home": "Palmeiras",
-      "away": "Remo",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
     {
       "source_id": "60329",
       "kickoff": "2026-11-06T00:30:00+00:00",
@@ -23,8 +10,7 @@
       "away": "Bahia",
       "competition": "Brasileirão 2026",
       "channels": [
-        "Canal 11",
-        "Betano"
+        "Canal 11"
       ]
     },
     {
