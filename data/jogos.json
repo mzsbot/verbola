@@ -1,16 +1,17 @@
 [
   {
     "sport": "futebol",
-    "kickoff": "2026-11-06T15:00:00+00:00",
+    "kickoff": "2026-11-06T19:45:00+00:00",
     "date": "Sex 6 Nov",
-    "time": "15:00",
+    "time": "19:45",
     "is_today": true,
-    "match": "Al Hazem - Al Nassr",
-    "competition": "JOGO ADIADO!",
-    "competition_key": null,
-    "competition_icon": null,
+    "match": "Toulouse - Strasbourg",
+    "competition": "Ligue 1",
+    "competition_key": "liga-francesa",
+    "competition_icon": "assets/icons/competicoes/liga-francesa.png",
     "channels": [
-      "Sport.Tv1"
+      "Sport.Tv3",
+      "Betano"
     ],
     "id": 0
   },
