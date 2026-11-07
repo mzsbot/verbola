@@ -1,45 +1,6 @@
 {
-  "scraped_at": "2026-11-07T01:27:32.235203+00:00",
+  "scraped_at": "2026-11-07T08:00:36.587906+00:00",
   "games": [
-    {
-      "source_id": "60419",
-      "kickoff": "2026-11-06T21:30:00+00:00",
-      "date": "Sex 6 Nov",
-      "time": "21:30",
-      "home": "Espanha",
-      "away": "Portugal",
-      "competition": "FUTSAL, Finalissima",
-      "channels": [
-        "Canal 11",
-        "UEFA.Tv"
-      ]
-    },
-    {
-      "source_id": "60333",
-      "kickoff": "2026-11-06T23:00:00+00:00",
-      "date": "Sex 6 Nov",
-      "time": "23:00",
-      "home": "Vitória",
-      "away": "Fluminense",
-      "competition": "Brasileirão 2026",
-      "channels": [
-        "Canal 11",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60420",
-      "kickoff": "2026-11-07T00:30:00+00:00",
-      "date": "Sab 7 Nov",
-      "time": "00:30",
-      "home": "Brasil",
-      "away": "Argentina",
-      "competition": "FUTSAL, Finalissima",
-      "channels": [
-        "Canal 11",
-        "UEFA.Tv"
-      ]
-    },
     {
       "source_id": "60164",
       "kickoff": "2026-11-07T11:00:00+00:00",
