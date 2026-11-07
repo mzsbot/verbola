@@ -1,56 +1,6 @@
 {
-  "scraped_at": "2026-11-06T21:53:09.844297+00:00",
+  "scraped_at": "2026-11-07T01:27:32.235203+00:00",
   "games": [
-    {
-      "source_id": "60163",
-      "kickoff": "2026-11-06T19:45:00+00:00",
-      "date": "Sex 6 Nov",
-      "time": "19:45",
-      "home": "Toulouse",
-      "away": "Strasbourg",
-      "competition": "Liga França",
-      "channels": [
-        "Sport.Tv3",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60331",
-      "kickoff": "2026-11-06T20:00:00+00:00",
-      "date": "Sex 6 Nov",
-      "time": "20:00",
-      "home": "Everton",
-      "away": "Coventry",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 1"
-      ]
-    },
-    {
-      "source_id": "60332",
-      "kickoff": "2026-11-06T20:00:00+00:00",
-      "date": "Sex 6 Nov",
-      "time": "20:00",
-      "home": "Sevilha",
-      "away": "Alavés",
-      "competition": "Liga Espanha",
-      "channels": [
-        "dazn 2",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "59496",
-      "kickoff": "2026-11-06T20:45:00+00:00",
-      "date": "Sex 6 Nov",
-      "time": "20:45",
-      "home": "Famalicão",
-      "away": "Arouca",
-      "competition": "Liga Portugal, J11",
-      "channels": [
-        "Sport.Tv1"
-      ]
-    },
     {
       "source_id": "60419",
       "kickoff": "2026-11-06T21:30:00+00:00",
@@ -88,6 +38,18 @@
       "channels": [
         "Canal 11",
         "UEFA.Tv"
+      ]
+    },
+    {
+      "source_id": "60164",
+      "kickoff": "2026-11-07T11:00:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "11:00",
+      "home": "Sporting",
+      "away": "Rio Ave",
+      "competition": "FEMININO, Taça L.",
+      "channels": [
+        "Canal 11"
       ]
     },
     {
