@@ -1,18 +1,6 @@
 {
-  "scraped_at": "2026-11-07T08:00:36.587906+00:00",
+  "scraped_at": "2026-11-07T15:16:29.965081+00:00",
   "games": [
-    {
-      "source_id": "60164",
-      "kickoff": "2026-11-07T11:00:00+00:00",
-      "date": "Sab 7 Nov",
-      "time": "11:00",
-      "home": "Sporting",
-      "away": "Rio Ave",
-      "competition": "FEMININO, Taça L.",
-      "channels": [
-        "Canal 11"
-      ]
-    },
     {
       "source_id": "60335",
       "kickoff": "2026-11-07T12:30:00+00:00",
@@ -23,6 +11,104 @@
       "competition": "Liga Inglaterra",
       "channels": [
         "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60337",
+      "kickoff": "2026-11-07T14:30:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "14:30",
+      "home": "Mainz",
+      "away": "Bayern M.",
+      "competition": "Liga Alemanha",
+      "channels": [
+        "dazn 4",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60338",
+      "kickoff": "2026-11-07T15:00:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "15:00",
+      "home": "Arsenal",
+      "away": "Hull City",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60339",
+      "kickoff": "2026-11-07T15:00:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "15:00",
+      "home": "Fulham",
+      "away": "Newcastle",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 2"
+      ]
+    },
+    {
+      "source_id": "60406",
+      "kickoff": "2026-11-07T15:00:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "15:00",
+      "home": "Portugal",
+      "away": "Chile",
+      "competition": "RUGBY, Nations Cup",
+      "channels": [
+        "dazn online"
+      ]
+    },
+    {
+      "source_id": "59497",
+      "kickoff": "2026-11-07T15:30:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "15:30",
+      "home": "Nacional",
+      "away": "Académico",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60341",
+      "kickoff": "2026-11-07T17:30:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "17:30",
+      "home": "N. Forest",
+      "away": "Man. City",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
+      "source_id": "59493",
+      "kickoff": "2026-11-07T18:00:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "18:00",
+      "home": "Alverca",
+      "away": "Casa Pia",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv2"
+      ]
+    },
+    {
+      "source_id": "60030",
+      "kickoff": "2026-11-07T19:45:00+00:00",
+      "date": "Sab 7 Nov",
+      "time": "19:45",
+      "home": "Roma",
+      "away": "Sassuolo",
+      "competition": "Liga Itália",
+      "channels": [
+        "Sport.Tv3",
+        "Betano"
       ]
     },
     {
@@ -76,6 +162,19 @@
       ]
     },
     {
+      "source_id": "60429",
+      "kickoff": "2026-11-08T17:30:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "17:30",
+      "home": "Argentina",
+      "away": "Portugal",
+      "competition": "FUTSAL, Finalissima, 3L",
+      "channels": [
+        "Canal 11",
+        "UEFA.Tv"
+      ]
+    },
+    {
       "source_id": "59501",
       "kickoff": "2026-11-08T18:00:00+00:00",
       "date": "Dom 8 Nov",
@@ -96,7 +195,8 @@
       "away": "Barcelona",
       "competition": "Liga Espanha",
       "channels": [
-        "dazn 1"
+        "dazn 1",
+        "Betano"
       ]
     },
     {
@@ -128,8 +228,8 @@
       "kickoff": "2026-11-08T20:30:00+00:00",
       "date": "Dom 8 Nov",
       "time": "20:30",
-      "home": "Jogo",
-      "away": "FINAL",
+      "home": "Brasil",
+      "away": "Espanha [Final]",
       "competition": "FUTSAL, Finalissima",
       "channels": [
         "Canal 11",
