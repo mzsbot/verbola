@@ -1,81 +1,6 @@
 {
-  "scraped_at": "2026-11-08T16:51:58.836254+00:00",
+  "scraped_at": "2026-11-08T20:54:01.414236+00:00",
   "games": [
-    {
-      "source_id": "60347",
-      "kickoff": "2026-11-08T14:00:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "14:00",
-      "home": "Crystal P.",
-      "away": "Liverpool",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 1",
-        "Vídeo"
-      ]
-    },
-    {
-      "source_id": "60035",
-      "kickoff": "2026-11-08T14:00:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "14:00",
-      "home": "Génova",
-      "away": "AC Milan",
-      "competition": "Liga Itália",
-      "channels": [
-        "Sport.Tv1",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60423",
-      "kickoff": "2026-11-08T15:30:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "15:30",
-      "home": "Estoril",
-      "away": "Marítimo",
-      "competition": "Liga Portugal, J11",
-      "channels": [
-        "Sport.Tv2"
-      ]
-    },
-    {
-      "source_id": "59499",
-      "kickoff": "2026-11-08T15:30:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "15:30",
-      "home": "S. Clara",
-      "away": "Gil Vicente",
-      "competition": "Liga Portugal, J11",
-      "channels": [
-        "Sport.Tv3"
-      ]
-    },
-    {
-      "source_id": "60351",
-      "kickoff": "2026-11-08T16:30:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "16:30",
-      "home": "Man. United",
-      "away": "Aston Villa",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 1"
-      ]
-    },
-    {
-      "source_id": "60174",
-      "kickoff": "2026-11-08T17:00:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "17:00",
-      "home": "Inter Milão",
-      "away": "Como",
-      "competition": "Liga Itália",
-      "channels": [
-        "Sport.Tv6",
-        "Betano"
-      ]
-    },
     {
       "source_id": "60429",
       "kickoff": "2026-11-08T17:30:00+00:00",
@@ -111,6 +36,19 @@
       "competition": "Liga Itália",
       "channels": [
         "Sport.Tv4",
+        "Betano"
+      ]
+    },
+    {
+      "source_id": "60177",
+      "kickoff": "2026-11-08T19:45:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "19:45",
+      "home": "Lens",
+      "away": "Marselha",
+      "competition": "Liga França",
+      "channels": [
+        "Sport.Tv7",
         "Betano"
       ]
     },
