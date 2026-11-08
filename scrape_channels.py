@@ -6,7 +6,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
-from common import LISBON, EPG_FILE, SEARCH_CHANNELS_FILE, now_lisbon, read_json, write_json, fold
+from common import LISBON, EPG_FILE, SEARCH_CHANNELS_FILE, DAYS_AHEAD, now_lisbon, read_json, write_json, fold
 
 URL = "https://iptv-epg.org/files/epg-pt.xml"
 
@@ -82,6 +82,8 @@ def scrape(channels, window_start, window_end):
                             "start": start.isoformat(),
                             "stop": stop.isoformat(),
                             "title": title,
+                            # Ex.: "Assiste ao jogo da UEFA Champions League entre ..." (para a competição)
+                            "info": desc.splitlines()[-1][:200] if desc else "",
                             "home": home,
                             "away": away
                         })
@@ -103,9 +105,10 @@ if __name__ == "__main__":
             print(f"EPG atualizado há {int(age.total_seconds() // 60)} min; download saltado (usa --force para forçar)")
             sys.exit(0)
 
-    # Hoje e amanhã (até à meia-noite de depois de amanhã), em Lisboa
-    window_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
-    window_end   = window_start + timedelta(days=2)
+    # De ontem até DAYS_AHEAD dias depois de hoje, em Lisboa
+    today        = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    window_start = today - timedelta(days=1)
+    window_end   = today + timedelta(days=DAYS_AHEAD + 1)
 
     # Canais a pesquisar no EPG: {id do XMLTV: nome mostrado no site}
     channels = {c["id"]: c["name"] for c in read_json(SEARCH_CHANNELS_FILE, [])}
@@ -118,6 +121,14 @@ if __name__ == "__main__":
         # Não substitui dados bons por uma lista vazia (ex.: o EPG mudou de formato)
         print("Nenhum jogo de futebol encontrado no EPG; dados anteriores mantidos")
         sys.exit(1)
+
+    # O EPG vai largando os programas que já passaram; as emissões de ontem que já
+    # não vêm no ficheiro mantêm-se da extração anterior
+    seen = {(p["channel"], p["start"]) for p in programmes}
+    for p in (previous or {}).get("programmes", []):
+        if (p["channel"], p["start"]) not in seen and datetime.fromisoformat(p["start"]) >= window_start:
+            programmes.append(p)
+    programmes.sort(key=lambda p: (p["start"], p["channel"]))
 
     write_json(EPG_FILE, {"scraped_at": now.isoformat(), "programmes": programmes})
     print(f"{len(programmes)} emissões de futebol guardadas em {EPG_FILE}")

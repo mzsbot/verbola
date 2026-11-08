@@ -3,6 +3,7 @@
     "name": "Liga dos Campeões",
     "icon": "assets/icons/competicoes/liga-campeoes.png",
     "api_football_ids": [2],
+    "football_data_code": "CL",
     "aliases": ["UEFA Liga Campeões", "UEFA Champions League", "Liga Campeões", "L. Campeões", "Champions League"]
   },
   "liga-europa": {
@@ -21,31 +22,35 @@
     "name": "Premier League",
     "icon": "assets/icons/competicoes/liga-inglesa.png",
     "api_football_ids": [39],
+    "football_data_code": "PL",
     "aliases": ["Liga Inglaterra", "Premier League"]
   },
   "liga-espanhola": {
     "name": "LA Liga",
     "icon": "assets/icons/competicoes/liga-espanhola.png",
     "api_football_ids": [140],
-    "aliases": ["Liga Espanha", "LaLiga", "La Liga"]
+    "football_data_code": "PD",
+    "aliases": ["Liga Espanha", "LaLiga", "La Liga", "LaLiga EA Sports"]
   },
   "liga-portugal": {
     "name": "Liga Portugal",
     "icon": "assets/icons/competicoes/liga-portugal.png",
     "api_football_ids": [94],
+    "football_data_code": "PPL",
     "aliases": ["Liga Portugal", "Liga Portugal Betclic"]
   },
   "liga-italiana": {
     "name": "Serie A",
     "icon": "assets/icons/competicoes/liga-italiana.png",
     "api_football_ids": [135],
+    "football_data_code": "SA",
     "aliases": ["Liga Itália", "Serie A", "Liga Italiana"]
   },
   "liga-nacoes": {
     "name": "Liga das Nações",
     "icon": "assets/icons/competicoes/liga-nacoes.png",
     "api_football_ids": [5],
-    "aliases": ["UEFA Liga Nações", "Liga Nações", "UEFA Nations League", "Nations League"]
+    "aliases": ["UEFA Liga Nações", "Liga Nações", "UEFA Nations League", "Nations League", "Liga das Nações"]
   },
   "taca-liga-inglesa": {
     "name": "Taça da Liga Inglesa",
@@ -63,7 +68,8 @@
     "name": "Brasileirão",
     "icon": "assets/icons/competicoes/brasileirao.png",
     "api_football_ids": [71],
-    "aliases": ["Brasileirão", "Brasileirão 2026", "Brazilian Serie A"]
+    "football_data_code": "BSA",
+    "aliases": ["Brasileirão", "Brasileirão 2026", "Brazilian Serie A", "Campeonato Brasileiro Série A", "Brasileirão Série A"]
   },
   "liga-campeoes-feminina": {
     "name": "Liga dos Campeões Feminina",
@@ -87,24 +93,81 @@
     "name": "Europa Cup Feminina",
     "icon": "assets/icons/competicoes/europa-cup-feminina.png",
     "api_football_ids": [1191],
-    "aliases": ["FEMININO, Europa Cup", "UEFA Europa Cup - Women"]
+    "aliases": ["FEMININO, Europa Cup", "UEFA Europa Cup - Women", "UEFA Women's Europa Cup"]
   },
   "liga-francesa": {
     "name": "Ligue 1",
     "icon": "assets/icons/competicoes/liga-francesa.png",
     "api_football_ids": [61],
-    "aliases": ["Liga França", "Ligue 1"]
+    "football_data_code": "FL1",
+    "aliases": ["Liga França", "Ligue 1", "Liga Francesa"]
   },
   "liga-alema": {
     "name": "Bundesliga",
     "icon": "assets/icons/competicoes/liga-alema.png",
     "api_football_ids": [78],
+    "football_data_code": "BL1",
     "aliases": ["Liga Alemanha", "Bundesliga"]
   },
   "liga-holandesa": {
     "name": "Eredivisie",
     "icon": "assets/icons/competicoes/liga-holandesa.png",
     "api_football_ids": [88],
+    "football_data_code": "DED",
     "aliases": ["Liga Holanda", "Liga Países Baixos", "Eredivisie"]
+  },
+  "liga-portugal-2": {
+    "name": "Liga Portugal 2",
+    "icon": "assets/icons/competicoes/liga-portugal-2.png",
+    "api_football_ids": [95],
+    "aliases": ["Liga Portugal 2", "Segunda Liga"]
+  },
+  "liga-espanhola-2": {
+    "name": "LaLiga Hypermotion",
+    "icon": "assets/icons/competicoes/liga-espanhola-2.png",
+    "api_football_ids": [141],
+    "aliases": ["LaLiga Hypermotion", "Segunda División", "LaLiga 2"]
+  },
+  "bundesliga-2": {
+    "name": "2. Bundesliga",
+    "icon": "assets/icons/competicoes/bundesliga-2.png",
+    "api_football_ids": [79],
+    "aliases": ["2. Bundesliga"]
+  },
+  "mundial": {
+    "name": "Mundial",
+    "icon": "assets/icons/competicoes/mundial.png",
+    "api_football_ids": [1],
+    "aliases": ["Mundial", "Campeonato do Mundo", "FIFA World Cup", "World Cup", "Copa do Mundo"]
+  },
+  "qualificacao-mundial": {
+    "name": "Qualificação Mundial",
+    "icon": "assets/icons/competicoes/qualificacao-mundial.png",
+    "api_football_ids": [32],
+    "aliases": ["Qualificação Mundial", "Qualificação para o Mundial", "Apuramento Mundial", "Qualificação Campeonato do Mundo", "World Cup - Qualification Europe", "World Cup Qualifiers"]
+  },
+  "euro": {
+    "name": "Euro",
+    "icon": "assets/icons/competicoes/euro.png",
+    "api_football_ids": [4],
+    "aliases": ["UEFA Euro", "Euro Championship", "Campeonato da Europa", "Europeu"]
+  },
+  "qualificacao-euro": {
+    "name": "Qualificação Euro",
+    "icon": "assets/icons/competicoes/qualificacao-euro.png",
+    "api_football_ids": [960],
+    "aliases": ["Qualificação Euro", "Qualificação Europeu", "Apuramento Euro", "Euro Championship - Qualification", "Euro Qualifiers"]
+  },
+  "particulares": {
+    "name": "Jogos Particulares",
+    "icon": "assets/icons/competicoes/particulares.png",
+    "api_football_ids": [10],
+    "aliases": ["Jogo Particular", "Jogos Particulares", "Particular", "Amigável", "Friendlies", "International Friendly"]
+  },
+  "taca-inglaterra": {
+    "name": "Taça de Inglaterra",
+    "icon": "assets/icons/competicoes/taca-inglaterra.png",
+    "api_football_ids": [45],
+    "aliases": ["Taça de Inglaterra", "Taça Inglaterra", "FA Cup", "Emirates FA Cup"]
   }
 }

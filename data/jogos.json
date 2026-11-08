@@ -1,5 +1,126 @@
 [
   {
+    "id": 0,
+    "sport": "futebol",
+    "kickoff": "2026-11-07T17:30:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Nottingham - Man City",
+    "competition": "Premier League",
+    "competition_key": "liga-inglesa",
+    "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
+    "channels": [
+      "DAZN 1"
+    ]
+  },
+  {
+    "id": 1,
+    "sport": "futebol",
+    "kickoff": "2026-11-07T17:30:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Osasuna - Athletic",
+    "competition": "LA Liga",
+    "competition_key": "liga-espanhola",
+    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
+    "channels": [
+      "DAZN 2"
+    ]
+  },
+  {
+    "id": 2,
+    "sport": "futebol",
+    "kickoff": "2026-11-07T17:30:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Stuttgart - Bremen",
+    "competition": "Bundesliga",
+    "competition_key": "liga-alema",
+    "competition_icon": "assets/icons/competicoes/liga-alema.png",
+    "channels": [
+      "DAZN 3"
+    ]
+  },
+  {
+    "id": 3,
+    "sport": "futebol",
+    "kickoff": "2026-11-07T18:00:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "18:00",
+    "is_today": false,
+    "match": "Alverca - Casa Pia",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "channels": [
+      "SPORT TV 2"
+    ]
+  },
+  {
+    "id": 4,
+    "sport": "futebol",
+    "kickoff": "2026-11-07T19:45:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Roma - Sassuolo",
+    "competition": "Serie A",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
+    "channels": [
+      "SPORT TV 3"
+    ]
+  },
+  {
+    "id": 5,
+    "sport": "futebol",
+    "kickoff": "2026-11-07T20:00:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Valencia - Real Madrid",
+    "competition": "LA Liga",
+    "competition_key": "liga-espanhola",
+    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
+    "channels": [
+      "DAZN 1"
+    ]
+  },
+  {
+    "id": 6,
+    "sport": "futebol",
+    "kickoff": "2026-11-07T20:05:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "20:05",
+    "is_today": false,
+    "match": "PSG - Troyes",
+    "competition": "Ligue 1",
+    "competition_key": "liga-francesa",
+    "competition_icon": "assets/icons/competicoes/liga-francesa.png",
+    "channels": [
+      "SPORT TV 4"
+    ]
+  },
+  {
+    "id": 7,
+    "sport": "futebol",
+    "kickoff": "2026-11-07T20:30:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "20:30",
+    "is_today": false,
+    "match": "Sporting CP - Moreirense",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "channels": [
+      "SPORT TV 1"
+    ]
+  },
+  {
+    "id": 8,
     "sport": "futebol",
     "kickoff": "2026-11-08T11:15:00+00:00",
     "date": "Dom 8 Nov",
@@ -9,14 +130,12 @@
     "competition": "Eredivisie",
     "competition_key": "liga-holandesa",
     "competition_icon": "assets/icons/competicoes/liga-holandesa.png",
-    "league_id": 88,
     "channels": [
       "DAZN 1"
-    ],
-    "fixture_id": 1552221,
-    "id": 0
+    ]
   },
   {
+    "id": 9,
     "sport": "futebol",
     "kickoff": "2026-11-08T11:30:00+00:00",
     "date": "Dom 8 Nov",
@@ -26,14 +145,12 @@
     "competition": "Serie A",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "league_id": 135,
     "channels": [
       "SPORT TV 2"
-    ],
-    "fixture_id": 1550193,
-    "id": 1
+    ]
   },
   {
+    "id": 10,
     "sport": "futebol",
     "kickoff": "2026-11-08T13:00:00+00:00",
     "date": "Dom 8 Nov",
@@ -43,14 +160,12 @@
     "competition": "LA Liga",
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
-    "league_id": 140,
     "channels": [
       "DAZN 3"
-    ],
-    "fixture_id": 1570445,
-    "id": 2
+    ]
   },
   {
+    "id": 11,
     "sport": "futebol",
     "kickoff": "2026-11-08T14:00:00+00:00",
     "date": "Dom 8 Nov",
@@ -60,31 +175,27 @@
     "competition": "Premier League",
     "competition_key": "liga-inglesa",
     "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
-    "league_id": 39,
     "channels": [
       "DAZN 1"
-    ],
-    "fixture_id": 1557459,
-    "id": 3
+    ]
   },
   {
+    "id": 12,
     "sport": "futebol",
     "kickoff": "2026-11-08T14:00:00+00:00",
     "date": "Dom 8 Nov",
     "time": "14:00",
     "is_today": true,
-    "match": "Genoa - AC Milan",
+    "match": "Genoa - Milan",
     "competition": "Serie A",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "league_id": 135,
     "channels": [
       "SPORT TV 1"
-    ],
-    "fixture_id": 1550190,
-    "id": 4
+    ]
   },
   {
+    "id": 13,
     "sport": "futebol",
     "kickoff": "2026-11-08T14:00:00+00:00",
     "date": "Dom 8 Nov",
@@ -94,14 +205,12 @@
     "competition": "Serie A",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "league_id": 135,
     "channels": [
       "SPORT TV 7"
-    ],
-    "fixture_id": 1550192,
-    "id": 5
+    ]
   },
   {
+    "id": 14,
     "sport": "futebol",
     "kickoff": "2026-11-08T14:00:00+00:00",
     "date": "Dom 8 Nov",
@@ -111,31 +220,27 @@
     "competition": "Premier League",
     "competition_key": "liga-inglesa",
     "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
-    "league_id": 39,
     "channels": [
       "DAZN 2"
-    ],
-    "fixture_id": 1557466,
-    "id": 6
+    ]
   },
   {
+    "id": 15,
     "sport": "futebol",
     "kickoff": "2026-11-08T14:30:00+00:00",
     "date": "Dom 8 Nov",
     "time": "14:30",
     "is_today": true,
-    "match": "1. FC Köln - Bayer Leverkusen",
+    "match": "1. FC Köln - Leverkusen",
     "competition": "Bundesliga",
     "competition_key": "liga-alema",
     "competition_icon": "assets/icons/competicoes/liga-alema.png",
-    "league_id": 78,
     "channels": [
       "DAZN 4"
-    ],
-    "fixture_id": 1575219,
-    "id": 7
+    ]
   },
   {
+    "id": 16,
     "sport": "futebol",
     "kickoff": "2026-11-08T15:15:00+00:00",
     "date": "Dom 8 Nov",
@@ -145,116 +250,102 @@
     "competition": "LA Liga",
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
-    "league_id": 140,
     "channels": [
       "DAZN 3"
-    ],
-    "fixture_id": 1570449,
-    "id": 8
+    ]
   },
   {
+    "id": 17,
     "sport": "futebol",
     "kickoff": "2026-11-08T15:30:00+00:00",
     "date": "Dom 8 Nov",
     "time": "15:30",
     "is_today": true,
-    "match": "Estoril - Maritimo",
+    "match": "Santa Clara - Gil Vicente",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "league_id": 94,
-    "channels": [
-      "SPORT TV 2"
-    ],
-    "fixture_id": 1575537,
-    "id": 9
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-08T15:30:00+00:00",
-    "date": "Dom 8 Nov",
-    "time": "15:30",
-    "is_today": true,
-    "match": "Santa Clara - GIL Vicente",
-    "competition": "Liga Portugal",
-    "competition_key": "liga-portugal",
-    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "league_id": 94,
     "channels": [
       "SPORT TV 3"
-    ],
-    "fixture_id": 1575542,
-    "id": 10
+    ]
   },
   {
+    "id": 18,
     "sport": "futebol",
     "kickoff": "2026-11-08T16:15:00+00:00",
     "date": "Dom 8 Nov",
     "time": "16:15",
     "is_today": true,
-    "match": "Stade Brestois 29 - Lyon",
+    "match": "Brest - Olympique Lyon",
     "competition": "Ligue 1",
     "competition_key": "liga-francesa",
     "competition_icon": "assets/icons/competicoes/liga-francesa.png",
-    "league_id": 61,
     "channels": [
       "SPORT TV 7"
-    ],
-    "fixture_id": 1552812,
-    "id": 11
+    ]
   },
   {
+    "id": 19,
     "sport": "futebol",
     "kickoff": "2026-11-08T16:30:00+00:00",
     "date": "Dom 8 Nov",
     "time": "16:30",
     "is_today": true,
-    "match": "Manchester United - Aston Villa",
+    "match": "Man United - Aston Villa",
     "competition": "Premier League",
     "competition_key": "liga-inglesa",
     "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
-    "league_id": 39,
     "channels": [
       "DAZN 1"
-    ],
-    "fixture_id": 1557464,
-    "id": 12
+    ]
   },
   {
+    "id": 20,
     "sport": "futebol",
     "kickoff": "2026-11-08T17:00:00+00:00",
     "date": "Dom 8 Nov",
     "time": "17:00",
     "is_today": true,
-    "match": "Inter - Como",
+    "match": "Inter - Como 1907",
     "competition": "Serie A",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "league_id": 135,
     "channels": [
       "SPORT TV 6"
-    ],
-    "fixture_id": 1550191,
-    "id": 13
+    ]
   },
   {
+    "id": 21,
+    "sport": "futebol",
+    "kickoff": "2026-11-08T17:15:00+00:00",
+    "date": "Dom 8 Nov",
+    "time": "17:15",
+    "is_today": true,
+    "match": "Oldham - Sheffield Wednesday",
+    "competition": "Taça de Inglaterra",
+    "competition_key": "taca-inglaterra",
+    "competition_icon": "assets/icons/competicoes/taca-inglaterra.png",
+    "channels": [
+      "SPORT TV 5"
+    ]
+  },
+  {
+    "id": 22,
     "sport": "futebol",
     "kickoff": "2026-11-08T17:30:00+00:00",
     "date": "Dom 8 Nov",
     "time": "17:30",
     "is_today": true,
-    "match": "Celta Vigo - Levante",
+    "match": "Celta - Levante",
     "competition": "LA Liga",
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
-    "league_id": 140,
     "channels": [
       "DAZN 3"
-    ],
-    "fixture_id": 1570444,
-    "id": 14
+    ]
   },
   {
+    "id": 23,
     "sport": "futebol",
     "kickoff": "2026-11-08T17:30:00+00:00",
     "date": "Dom 8 Nov",
@@ -264,48 +355,42 @@
     "competition": "LA Liga",
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
-    "league_id": 140,
     "channels": [
       "DAZN 2"
-    ],
-    "fixture_id": 1570452,
-    "id": 15
+    ]
   },
   {
+    "id": 24,
     "sport": "futebol",
     "kickoff": "2026-11-08T18:00:00+00:00",
     "date": "Dom 8 Nov",
     "time": "18:00",
     "is_today": true,
-    "match": "Vitória SC - FC Porto",
+    "match": "Vitória SC - Porto",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "league_id": 94,
     "channels": [
       "SPORT TV 1"
-    ],
-    "fixture_id": 1575544,
-    "id": 16
+    ]
   },
   {
+    "id": 25,
     "sport": "futebol",
     "kickoff": "2026-11-08T18:30:00+00:00",
     "date": "Dom 8 Nov",
     "time": "18:30",
     "is_today": true,
-    "match": "1899 Hoffenheim - FC Schalke 04",
+    "match": "Hoffenheim - Schalke",
     "competition": "Bundesliga",
     "competition_key": "liga-alema",
     "competition_icon": "assets/icons/competicoes/liga-alema.png",
-    "league_id": 78,
     "channels": [
       "DAZN 4"
-    ],
-    "fixture_id": 1575215,
-    "id": 17
+    ]
   },
   {
+    "id": 26,
     "sport": "futebol",
     "kickoff": "2026-11-08T19:45:00+00:00",
     "date": "Dom 8 Nov",
@@ -315,79 +400,173 @@
     "competition": "Serie A",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "league_id": 135,
     "channels": [
       "SPORT TV 4"
-    ],
-    "fixture_id": 1550189,
-    "id": 18
+    ]
   },
   {
+    "id": 27,
     "sport": "futebol",
     "kickoff": "2026-11-08T19:45:00+00:00",
     "date": "Dom 8 Nov",
     "time": "19:45",
     "is_today": true,
-    "match": "Lens - Marseille",
+    "match": "RC Lens - Marseille",
     "competition": "Ligue 1",
     "competition_key": "liga-francesa",
     "competition_icon": "assets/icons/competicoes/liga-francesa.png",
-    "league_id": 61,
     "channels": [
       "SPORT TV 7"
-    ],
-    "fixture_id": 1552818,
-    "id": 19
+    ]
   },
   {
+    "id": 28,
     "sport": "futebol",
     "kickoff": "2026-11-08T20:00:00+00:00",
     "date": "Dom 8 Nov",
     "time": "20:00",
     "is_today": true,
-    "match": "Atletico Madrid - Barcelona",
+    "match": "Atleti - Barça",
     "competition": "LA Liga",
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
-    "league_id": 140,
     "channels": [
       "DAZN 1"
-    ],
-    "fixture_id": 1570443,
-    "id": 20
+    ]
   },
   {
+    "id": 29,
     "sport": "futebol",
     "kickoff": "2026-11-08T20:30:00+00:00",
     "date": "Dom 8 Nov",
     "time": "20:30",
     "is_today": true,
-    "match": "Estrela - Benfica",
+    "match": "Amadora - SL Benfica",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "league_id": 94,
     "channels": [
       "SPORT TV 2"
-    ],
-    "fixture_id": 1575538,
-    "id": 21
+    ]
   },
   {
+    "id": 30,
     "sport": "futebol",
     "kickoff": "2026-11-08T20:30:00+00:00",
     "date": "Dom 8 Nov",
     "time": "20:30",
     "is_today": true,
-    "match": "Rio Ave - SC Braga",
+    "match": "Rio Ave - Braga",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "league_id": 94,
     "channels": [
       "SPORT TV 3"
-    ],
-    "fixture_id": 1575541,
-    "id": 22
+    ]
+  },
+  {
+    "id": 31,
+    "sport": "futebol",
+    "kickoff": "2026-11-08T21:45:00+00:00",
+    "date": "Dom 8 Nov",
+    "time": "21:45",
+    "is_today": true,
+    "match": "Rennes - Lille",
+    "competition": "Ligue 1",
+    "competition_key": "liga-francesa",
+    "competition_icon": "assets/icons/competicoes/liga-francesa.png",
+    "channels": [
+      "SPORT TV 7"
+    ]
+  },
+  {
+    "id": 32,
+    "sport": "futebol",
+    "kickoff": "2026-11-12T17:00:00+00:00",
+    "date": "Qui 12 Nov",
+    "time": "17:00",
+    "is_today": false,
+    "match": "Arménia - Chipre",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 2"
+    ]
+  },
+  {
+    "id": 33,
+    "sport": "futebol",
+    "kickoff": "2026-11-12T17:00:00+00:00",
+    "date": "Qui 12 Nov",
+    "time": "17:00",
+    "is_today": false,
+    "match": "Turquia - Bélgica",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 1"
+    ]
+  },
+  {
+    "id": 34,
+    "sport": "futebol",
+    "kickoff": "2026-11-12T19:45:00+00:00",
+    "date": "Qui 12 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Albânia - Finlândia",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 4"
+    ]
+  },
+  {
+    "id": 35,
+    "sport": "futebol",
+    "kickoff": "2026-11-12T19:45:00+00:00",
+    "date": "Qui 12 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Chéquia - Espanha",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 2"
+    ]
+  },
+  {
+    "id": 36,
+    "sport": "futebol",
+    "kickoff": "2026-11-12T19:45:00+00:00",
+    "date": "Qui 12 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Inglaterra - Croácia",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 3"
+    ]
+  },
+  {
+    "id": 37,
+    "sport": "futebol",
+    "kickoff": "2026-11-12T19:45:00+00:00",
+    "date": "Qui 12 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Itália - França",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 1"
+    ]
   }
 ]
