@@ -1,52 +1,14 @@
 {
-  "scraped_at": "2026-11-07T23:15:37.218205+00:00",
+  "scraped_at": "2026-11-08T03:26:58.431823+00:00",
   "games": [
     {
-      "source_id": "60168",
-      "kickoff": "2026-11-07T19:45:00+00:00",
-      "date": "Sab 7 Nov",
-      "time": "19:45",
-      "home": "PSG",
-      "away": "Troyes",
-      "competition": "Liga França",
-      "channels": [
-        "Sport.Tv4",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "60344",
-      "kickoff": "2026-11-07T20:00:00+00:00",
-      "date": "Sab 7 Nov",
-      "time": "20:00",
-      "home": "Valencia",
-      "away": "Real Madrid",
-      "competition": "Liga Espanha",
-      "channels": [
-        "dazn 1",
-        "Betano"
-      ]
-    },
-    {
-      "source_id": "59500",
-      "kickoff": "2026-11-07T20:30:00+00:00",
-      "date": "Sab 7 Nov",
-      "time": "20:30",
-      "home": "Sporting",
-      "away": "Moreirense",
-      "competition": "Liga Portugal, J11",
-      "channels": [
-        "Sport.Tv1"
-      ]
-    },
-    {
-      "source_id": "60034",
-      "kickoff": "2026-11-07T20:30:00+00:00",
-      "date": "Sab 7 Nov",
-      "time": "20:30",
-      "home": "Boca Juniors",
-      "away": "Defensa",
-      "competition": "Liga Argentina",
+      "source_id": "60032",
+      "kickoff": "2026-11-08T11:30:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "11:30",
+      "home": "Nápoles",
+      "away": "Lazio",
+      "competition": "Liga Itália",
       "channels": [
         "Sport.Tv2",
         "Betano"
@@ -78,6 +40,54 @@
       ]
     },
     {
+      "source_id": "60348",
+      "kickoff": "2026-11-08T14:00:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "14:00",
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 2"
+      ]
+    },
+    {
+      "source_id": "60423",
+      "kickoff": "2026-11-08T15:30:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "15:30",
+      "home": "Estoril",
+      "away": "Marítimo",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv2"
+      ]
+    },
+    {
+      "source_id": "59499",
+      "kickoff": "2026-11-08T15:30:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "15:30",
+      "home": "S. Clara",
+      "away": "Gil Vicente",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv3"
+      ]
+    },
+    {
+      "source_id": "60351",
+      "kickoff": "2026-11-08T16:30:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "16:30",
+      "home": "Man. United",
+      "away": "Aston Villa",
+      "competition": "Liga Inglaterra",
+      "channels": [
+        "dazn 1"
+      ]
+    },
+    {
       "source_id": "60429",
       "kickoff": "2026-11-08T17:30:00+00:00",
       "date": "Dom 8 Nov",
@@ -100,6 +110,19 @@
       "competition": "Liga Portugal, J11",
       "channels": [
         "Sport.Tv1"
+      ]
+    },
+    {
+      "source_id": "60038",
+      "kickoff": "2026-11-08T19:45:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "19:45",
+      "home": "Fiorentina",
+      "away": "Juventus",
+      "competition": "Liga Itália",
+      "channels": [
+        "Sport.Tv4",
+        "Betano"
       ]
     },
     {
