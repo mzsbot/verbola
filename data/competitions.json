@@ -94,5 +94,17 @@
     "icon": "assets/icons/competicoes/liga-francesa.png",
     "api_football_ids": [61],
     "aliases": ["Liga França", "Ligue 1"]
+  },
+  "liga-alema": {
+    "name": "Bundesliga",
+    "icon": "assets/icons/competicoes/liga-alema.png",
+    "api_football_ids": [78],
+    "aliases": ["Liga Alemanha", "Bundesliga"]
+  },
+  "liga-holandesa": {
+    "name": "Eredivisie",
+    "icon": "assets/icons/competicoes/liga-holandesa.png",
+    "api_football_ids": [88],
+    "aliases": ["Liga Holanda", "Liga Países Baixos", "Eredivisie"]
   }
 }

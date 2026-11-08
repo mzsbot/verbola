@@ -1,116 +1,123 @@
+import io
+import re
 import sys
+import time
 import requests
-from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
-from common import LISBON, CHANNELS_FILE, now_lisbon, read_json, write_json
+from common import LISBON, EPG_FILE, SEARCH_CHANNELS_FILE, now_lisbon, read_json, write_json, fold
 
-URL = "https://ondebola.com/"
+URL = "https://iptv-epg.org/files/epg-pt.xml"
 
-# Os canais mudam pouco; evita pedir a página ao ondebola em todas as execuções de 15 em 15 min
+# O EPG muda pouco; evita descarregar os ~30 MB em todas as execuções do cron
 MAX_AGE = timedelta(hours=3)
 
-MONTHS = {
-    "Jan": 1,
-    "Fev": 2,
-    "Mar": 3,
-    "Abr": 4,
-    "Mai": 5,
-    "Jun": 6,
-    "Jul": 7,
-    "Ago": 8,
-    "Set": 9,
-    "Out": 10,
-    "Nov": 11,
-    "Dez": 12
-}
+# Programas que não são o jogo em si: antevisões, resumos, repetições, magazines
+NOT_LIVE = re.compile(
+    r'antevisao|aquecimento|rescaldo|resumo|summary|recorded|magazine|highlights|melhores momentos'
+)
+NOT_LIVE_DESC = re.compile(r'^(recorde|reveja|resumo|rescaldo|antevisao)')
 
-def parse_pt_date(date_str, time_str):
-    # "Qua 28 Out" + "16:00" -> datetime em Lisboa (o ano não vem na página)
-    parts = date_str.split()
-    day   = int(parts[1])
-    month = MONTHS[parts[2]]
+# Outras modalidades que a categoria "Futebol" também apanha
+OTHER_SPORTS = re.compile(r'futsal|futebol de praia|beach soccer|futebol americano|e-?sports|efootball')
 
-    h, m = 0, 0
-    if time_str and ':' in time_str:
-        h, m = map(int, time_str.split(':'))
+# "S1 — Sporting CP x Moreirense FC" ou "Sporting CP x Moreirense FC - Liga Portugal"
+TEAMS = re.compile(r'^(?:S\d+\s*[—–-]\s*)?(.+?)\s+(?:x|vs\.?)\s+(.+?)(?:\s+-\s+.*)?$', re.IGNORECASE)
 
-    now  = now_lisbon()
-    year = now.year
-    if month < now.month - 1:
-        year += 1
+def parse_time(value):
+    # "20261108162000 +0000" -> datetime em Lisboa
+    return datetime.strptime(value, "%Y%m%d%H%M%S %z").astimezone(LISBON)
 
-    return datetime(year, month, day, h, m, tzinfo=LISBON)
+def parse_teams(title, desc):
+    # A primeira linha da descrição é a fonte mais fiável (na Sport TV o título nem sempre tem equipas)
+    for text in (desc.split('\n')[0], re.sub(r'\s*\([^)]*\)$', '', title)):
+        match = TEAMS.match(text.strip())
+        if match:
+            return match.group(1).strip(" .,;"), match.group(2).strip(" .,;")
+    return None, None
 
-def parse_row(row):
-    date_col    = row.select_one('td.col-date')
-    desc_col    = row.select_one('td.col-desc')
-    channel_col = row.select_one('td.col-channel')
-    if not (date_col and desc_col and channel_col):
-        return None
+def is_live_football(title, desc, categories):
+    text = fold(f"{title} {desc}")
+    if OTHER_SPORTS.search(text):
+        return False
+    if not ("futebol" in categories or "futebol" in text):
+        return False
+    if NOT_LIVE.search(fold(title)) or NOT_LIVE_DESC.search(fold(desc.split('\n')[-1])):
+        return False
+    return True
 
-    date_strings = [s for s in date_col.stripped_strings if 'hoje' not in s.lower()]
-    date_val = date_strings[0] if len(date_strings) > 0 else ""
-    time_val = date_strings[1] if len(date_strings) > 1 else ""
-
-    # Equipas e competição pelas classes; a competição pode vir vazia
-    teams = [t.get_text(strip=True) for t in desc_col.select('.team')]
-    extra = desc_col.select_one('.extra')
-    competition = extra.get_text(strip=True) if extra else ""
-
-    channels = []
-    for c in channel_col.stripped_strings:
-        c_clean = c.strip()
-        if c_clean and 'livemodetv' not in c_clean.lower() and c_clean != '🔴':
-            channels.append(c_clean)
-
-    return {
-        "source_id": row.get('data-game-id'),
-        "kickoff": parse_pt_date(date_val, time_val).isoformat(),
-        "date": date_val,
-        "time": time_val,
-        "home": teams[0] if len(teams) > 0 else "",
-        "away": teams[1] if len(teams) > 1 else "",
-        "competition": competition,
-        "channels": channels or ["N/D"]
-    }
-
-def scrape():
-    headers  = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-    response = requests.get(URL, headers=headers, timeout=10)
-    response.raise_for_status()
-
-    soup  = BeautifulSoup(response.text, 'html.parser')
-    games = []
-    for row in soup.select('tr'):
-        if 'pub' in row.get('class', []):
-            continue
+def download(attempts=3):
+    # Descarrega o XML inteiro antes de o ler: uma ligação cortada a meio do ficheiro
+    # (~30 MB) falha aqui e volta a tentar, em vez de rebentar a meio do parse
+    for attempt in range(1, attempts + 1):
         try:
-            game = parse_row(row)
-        except Exception as e:
-            print(f"Linha ignorada: {e}")
-            continue
-        if game:
-            games.append(game)
+            response = requests.get(URL, headers={'User-Agent': 'verbola'}, timeout=60)
+            response.raise_for_status()
+            return response.content
+        except requests.RequestException as e:
+            print(f"Erro ao descarregar o EPG (tentativa {attempt}/{attempts}): {e}")
+            if attempt == attempts:
+                raise
+            time.sleep(5 * attempt)
 
-    games.sort(key=lambda g: g["kickoff"])
-    return games
+def scrape(channels, window_start, window_end):
+    programmes = []
+    for _, elem in ET.iterparse(io.BytesIO(download()), events=("end",)):
+        if elem.tag == "programme":
+            channel_id = elem.get("channel", "")
+            if channel_id in channels:
+                start = parse_time(elem.get("start"))
+                stop  = parse_time(elem.get("stop"))
+                title = elem.findtext("title", "").strip()
+                desc  = elem.findtext("desc", "").strip()
+                categories = {fold(c.text or "") for c in elem.findall("category")}
+
+                if start < window_end and stop > window_start and \
+                        is_live_football(title, desc, categories):
+                    home, away = parse_teams(title, desc)
+                    if home and away:
+                        programmes.append({
+                            "channel": channels[channel_id],
+                            "start": start.isoformat(),
+                            "stop": stop.isoformat(),
+                            "title": title,
+                            "home": home,
+                            "away": away
+                        })
+        if elem.tag in ("programme", "channel"):
+            elem.clear()
+
+    programmes.sort(key=lambda p: (p["start"], p["channel"]))
+    return programmes
 
 if __name__ == "__main__":
     force    = "--force" in sys.argv
-    previous = read_json(CHANNELS_FILE)
+    now      = now_lisbon()
+    previous = read_json(EPG_FILE)
 
     if previous and not force:
-        age = now_lisbon() - datetime.fromisoformat(previous["scraped_at"])
-        if age < MAX_AGE:
-            print(f"Canais atualizados há {int(age.total_seconds() // 60)} min; scraping saltado (usa --force para forçar)")
+        age = now - datetime.fromisoformat(previous["scraped_at"])
+        same_day = datetime.fromisoformat(previous["scraped_at"]).date() == now.date()
+        if age < MAX_AGE and same_day:
+            print(f"EPG atualizado há {int(age.total_seconds() // 60)} min; download saltado (usa --force para forçar)")
             sys.exit(0)
 
-    games = scrape()
-    if not games:
-        # Não substitui dados bons por uma lista vazia (ex.: o site mudou o HTML)
-        print("Nenhum jogo encontrado no ondebola; dados anteriores mantidos")
+    # Hoje e amanhã (até à meia-noite de depois de amanhã), em Lisboa
+    window_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    window_end   = window_start + timedelta(days=2)
+
+    # Canais a pesquisar no EPG: {id do XMLTV: nome mostrado no site}
+    channels = {c["id"]: c["name"] for c in read_json(SEARCH_CHANNELS_FILE, [])}
+    if not channels:
+        print(f"Sem canais definidos em {SEARCH_CHANNELS_FILE}")
         sys.exit(1)
 
-    write_json(CHANNELS_FILE, {"scraped_at": now_lisbon().isoformat(), "games": games})
-    print(f"{len(games)} jogos com canais guardados em {CHANNELS_FILE}")
+    programmes = scrape(channels, window_start, window_end)
+    if not programmes:
+        # Não substitui dados bons por uma lista vazia (ex.: o EPG mudou de formato)
+        print("Nenhum jogo de futebol encontrado no EPG; dados anteriores mantidos")
+        sys.exit(1)
+
+    write_json(EPG_FILE, {"scraped_at": now.isoformat(), "programmes": programmes})
+    print(f"{len(programmes)} emissões de futebol guardadas em {EPG_FILE}")

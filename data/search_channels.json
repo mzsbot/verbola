@@ -1,0 +1,22 @@
+[
+  {"id": "SPORTTV1.pt", "name": "SPORT TV 1"},
+  {"id": "SPORTTV2.pt", "name": "SPORT TV 2"},
+  {"id": "SPORTTV3.pt", "name": "SPORT TV 3"},
+  {"id": "SPORTTV4.pt", "name": "SPORT TV 4"},
+  {"id": "SPORTTV5.pt", "name": "SPORT TV 5"},
+  {"id": "SPORTTV6.pt", "name": "SPORT TV 6"},
+  {"id": "SPORTTV7.pt", "name": "SPORT TV 7"},
+  {"id": "SPORTTV+.pt", "name": "SPORT TV+"},
+  {"id": "DAZN1.pt", "name": "DAZN 1"},
+  {"id": "DAZN2.pt", "name": "DAZN 2"},
+  {"id": "DAZN3.pt", "name": "DAZN 3"},
+  {"id": "DAZN4.pt", "name": "DAZN 4"},
+  {"id": "DAZN5.pt", "name": "DAZN 5"},
+  {"id": "DAZN6.pt", "name": "DAZN 6"},
+  {"id": "BenficaTV.pt", "name": "Benfica TV"},
+  {"id": "RTP1.pt", "name": "RTP 1"},
+  {"id": "RTP2.pt", "name": "RTP 2"},
+  {"id": "RTP3.pt", "name": "RTP 3"},
+  {"id": "SIC.pt", "name": "SIC"},
+  {"id": "TVI.pt", "name": "TVI"}
+]
