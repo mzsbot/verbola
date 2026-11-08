@@ -3,6 +3,7 @@
     "name": "Liga dos Campeões",
     "icon": "assets/icons/competicoes/liga-campeoes.png",
     "api_football_ids": [2],
+    "football_data_code": "CL",
     "aliases": ["UEFA Liga Campeões", "UEFA Champions League", "Liga Campeões", "L. Campeões", "Champions League"]
   },
   "liga-europa": {
@@ -21,24 +22,28 @@
     "name": "Premier League",
     "icon": "assets/icons/competicoes/liga-inglesa.png",
     "api_football_ids": [39],
+    "football_data_code": "PL",
     "aliases": ["Liga Inglaterra", "Premier League"]
   },
   "liga-espanhola": {
     "name": "LA Liga",
     "icon": "assets/icons/competicoes/liga-espanhola.png",
     "api_football_ids": [140],
+    "football_data_code": "PD",
     "aliases": ["Liga Espanha", "LaLiga", "La Liga"]
   },
   "liga-portugal": {
     "name": "Liga Portugal",
     "icon": "assets/icons/competicoes/liga-portugal.png",
     "api_football_ids": [94],
+    "football_data_code": "PPL",
     "aliases": ["Liga Portugal", "Liga Portugal Betclic"]
   },
   "liga-italiana": {
     "name": "Serie A",
     "icon": "assets/icons/competicoes/liga-italiana.png",
     "api_football_ids": [135],
+    "football_data_code": "SA",
     "aliases": ["Liga Itália", "Serie A", "Liga Italiana"]
   },
   "liga-nacoes": {
@@ -63,6 +68,7 @@
     "name": "Brasileirão",
     "icon": "assets/icons/competicoes/brasileirao.png",
     "api_football_ids": [71],
+    "football_data_code": "BSA",
     "aliases": ["Brasileirão", "Brasileirão 2026", "Brazilian Serie A"]
   },
   "liga-campeoes-feminina": {
@@ -93,18 +99,21 @@
     "name": "Ligue 1",
     "icon": "assets/icons/competicoes/liga-francesa.png",
     "api_football_ids": [61],
+    "football_data_code": "FL1",
     "aliases": ["Liga França", "Ligue 1"]
   },
   "liga-alema": {
     "name": "Bundesliga",
     "icon": "assets/icons/competicoes/liga-alema.png",
     "api_football_ids": [78],
+    "football_data_code": "BL1",
     "aliases": ["Liga Alemanha", "Bundesliga"]
   },
   "liga-holandesa": {
     "name": "Eredivisie",
     "icon": "assets/icons/competicoes/liga-holandesa.png",
     "api_football_ids": [88],
+    "football_data_code": "DED",
     "aliases": ["Liga Holanda", "Liga Países Baixos", "Eredivisie"]
   }
 }

@@ -1,6 +1,142 @@
 [
   {
     "sport": "futebol",
+    "kickoff": "2026-11-07T17:30:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Nottingham - Man City",
+    "competition": "Premier League",
+    "competition_key": "liga-inglesa",
+    "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
+    "league_id": 39,
+    "channels": [
+      "DAZN 1"
+    ],
+    "fixture_id": "fd-560641",
+    "id": 0
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-07T17:30:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Osasuna - Athletic",
+    "competition": "LA Liga",
+    "competition_key": "liga-espanhola",
+    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
+    "league_id": 140,
+    "channels": [
+      "DAZN 2"
+    ],
+    "fixture_id": "fd-564739",
+    "id": 1
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-07T17:30:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "17:30",
+    "is_today": false,
+    "match": "Stuttgart - Bremen",
+    "competition": "Bundesliga",
+    "competition_key": "liga-alema",
+    "competition_icon": "assets/icons/competicoes/liga-alema.png",
+    "league_id": 78,
+    "channels": [
+      "DAZN 3"
+    ],
+    "fixture_id": "fd-565849",
+    "id": 2
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-07T18:00:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "18:00",
+    "is_today": false,
+    "match": "Alverca - Casa Pia",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "league_id": 94,
+    "channels": [
+      "SPORT TV 2"
+    ],
+    "fixture_id": "fd-567347",
+    "id": 3
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-07T19:45:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Roma - Sassuolo",
+    "competition": "Serie A",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
+    "league_id": 135,
+    "channels": [
+      "SPORT TV 3"
+    ],
+    "fixture_id": "fd-558531",
+    "id": 4
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-07T20:00:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Valencia - Real Madrid",
+    "competition": "LA Liga",
+    "competition_key": "liga-espanhola",
+    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
+    "league_id": 140,
+    "channels": [
+      "DAZN 1"
+    ],
+    "fixture_id": "fd-564741",
+    "id": 5
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-07T20:05:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "20:05",
+    "is_today": false,
+    "match": "PSG - Troyes",
+    "competition": "Ligue 1",
+    "competition_key": "liga-francesa",
+    "competition_icon": "assets/icons/competicoes/liga-francesa.png",
+    "league_id": 61,
+    "channels": [
+      "SPORT TV 4"
+    ],
+    "fixture_id": "fd-559635",
+    "id": 6
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-07T20:30:00+00:00",
+    "date": "Sáb 7 Nov",
+    "time": "20:30",
+    "is_today": false,
+    "match": "Sporting CP - Moreirense",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "league_id": 94,
+    "channels": [
+      "SPORT TV 1"
+    ],
+    "fixture_id": "fd-567350",
+    "id": 7
+  },
+  {
+    "sport": "futebol",
     "kickoff": "2026-11-08T11:15:00+00:00",
     "date": "Dom 8 Nov",
     "time": "11:15",
@@ -13,8 +149,8 @@
     "channels": [
       "DAZN 1"
     ],
-    "fixture_id": 1552221,
-    "id": 0
+    "fixture_id": "fd-558840",
+    "id": 8
   },
   {
     "sport": "futebol",
@@ -30,8 +166,8 @@
     "channels": [
       "SPORT TV 2"
     ],
-    "fixture_id": 1550193,
-    "id": 1
+    "fixture_id": "fd-558533",
+    "id": 9
   },
   {
     "sport": "futebol",
@@ -47,8 +183,8 @@
     "channels": [
       "DAZN 3"
     ],
-    "fixture_id": 1570445,
-    "id": 2
+    "fixture_id": "fd-564738",
+    "id": 10
   },
   {
     "sport": "futebol",
@@ -64,8 +200,8 @@
     "channels": [
       "DAZN 1"
     ],
-    "fixture_id": 1557459,
-    "id": 3
+    "fixture_id": "fd-560635",
+    "id": 11
   },
   {
     "sport": "futebol",
@@ -73,7 +209,7 @@
     "date": "Dom 8 Nov",
     "time": "14:00",
     "is_today": true,
-    "match": "Genoa - AC Milan",
+    "match": "Genoa - Milan",
     "competition": "Serie A",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
@@ -81,8 +217,8 @@
     "channels": [
       "SPORT TV 1"
     ],
-    "fixture_id": 1550190,
-    "id": 4
+    "fixture_id": "fd-558536",
+    "id": 12
   },
   {
     "sport": "futebol",
@@ -98,8 +234,8 @@
     "channels": [
       "SPORT TV 7"
     ],
-    "fixture_id": 1550192,
-    "id": 5
+    "fixture_id": "fd-558538",
+    "id": 13
   },
   {
     "sport": "futebol",
@@ -115,8 +251,8 @@
     "channels": [
       "DAZN 2"
     ],
-    "fixture_id": 1557466,
-    "id": 6
+    "fixture_id": "fd-560636",
+    "id": 14
   },
   {
     "sport": "futebol",
@@ -124,7 +260,7 @@
     "date": "Dom 8 Nov",
     "time": "14:30",
     "is_today": true,
-    "match": "1. FC Köln - Bayer Leverkusen",
+    "match": "1. FC Köln - Leverkusen",
     "competition": "Bundesliga",
     "competition_key": "liga-alema",
     "competition_icon": "assets/icons/competicoes/liga-alema.png",
@@ -132,8 +268,8 @@
     "channels": [
       "DAZN 4"
     ],
-    "fixture_id": 1575219,
-    "id": 7
+    "fixture_id": "fd-565855",
+    "id": 15
   },
   {
     "sport": "futebol",
@@ -149,8 +285,8 @@
     "channels": [
       "DAZN 3"
     ],
-    "fixture_id": 1570449,
-    "id": 8
+    "fixture_id": "fd-564743",
+    "id": 16
   },
   {
     "sport": "futebol",
@@ -158,24 +294,7 @@
     "date": "Dom 8 Nov",
     "time": "15:30",
     "is_today": true,
-    "match": "Estoril - Maritimo",
-    "competition": "Liga Portugal",
-    "competition_key": "liga-portugal",
-    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
-    "league_id": 94,
-    "channels": [
-      "SPORT TV 2"
-    ],
-    "fixture_id": 1575537,
-    "id": 9
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-08T15:30:00+00:00",
-    "date": "Dom 8 Nov",
-    "time": "15:30",
-    "is_today": true,
-    "match": "Santa Clara - GIL Vicente",
+    "match": "Santa Clara - Gil Vicente",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
@@ -183,8 +302,8 @@
     "channels": [
       "SPORT TV 3"
     ],
-    "fixture_id": 1575542,
-    "id": 10
+    "fixture_id": "fd-567351",
+    "id": 17
   },
   {
     "sport": "futebol",
@@ -192,7 +311,7 @@
     "date": "Dom 8 Nov",
     "time": "16:15",
     "is_today": true,
-    "match": "Stade Brestois 29 - Lyon",
+    "match": "Brest - Olympique Lyon",
     "competition": "Ligue 1",
     "competition_key": "liga-francesa",
     "competition_icon": "assets/icons/competicoes/liga-francesa.png",
@@ -200,8 +319,8 @@
     "channels": [
       "SPORT TV 7"
     ],
-    "fixture_id": 1552812,
-    "id": 11
+    "fixture_id": "fd-559632",
+    "id": 18
   },
   {
     "sport": "futebol",
@@ -209,7 +328,7 @@
     "date": "Dom 8 Nov",
     "time": "16:30",
     "is_today": true,
-    "match": "Manchester United - Aston Villa",
+    "match": "Man United - Aston Villa",
     "competition": "Premier League",
     "competition_key": "liga-inglesa",
     "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
@@ -217,8 +336,8 @@
     "channels": [
       "DAZN 1"
     ],
-    "fixture_id": 1557464,
-    "id": 12
+    "fixture_id": "fd-560639",
+    "id": 19
   },
   {
     "sport": "futebol",
@@ -226,7 +345,7 @@
     "date": "Dom 8 Nov",
     "time": "17:00",
     "is_today": true,
-    "match": "Inter - Como",
+    "match": "Inter - Como 1907",
     "competition": "Serie A",
     "competition_key": "liga-italiana",
     "competition_icon": "assets/icons/competicoes/liga-italiana.png",
@@ -234,8 +353,8 @@
     "channels": [
       "SPORT TV 6"
     ],
-    "fixture_id": 1550191,
-    "id": 13
+    "fixture_id": "fd-558530",
+    "id": 20
   },
   {
     "sport": "futebol",
@@ -243,7 +362,7 @@
     "date": "Dom 8 Nov",
     "time": "17:30",
     "is_today": true,
-    "match": "Celta Vigo - Levante",
+    "match": "Celta - Levante",
     "competition": "LA Liga",
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
@@ -251,8 +370,8 @@
     "channels": [
       "DAZN 3"
     ],
-    "fixture_id": 1570444,
-    "id": 14
+    "fixture_id": "fd-564742",
+    "id": 21
   },
   {
     "sport": "futebol",
@@ -268,8 +387,8 @@
     "channels": [
       "DAZN 2"
     ],
-    "fixture_id": 1570452,
-    "id": 15
+    "fixture_id": "fd-564747",
+    "id": 22
   },
   {
     "sport": "futebol",
@@ -277,7 +396,7 @@
     "date": "Dom 8 Nov",
     "time": "18:00",
     "is_today": true,
-    "match": "Vitória SC - FC Porto",
+    "match": "Vitória SC - Porto",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
@@ -285,8 +404,8 @@
     "channels": [
       "SPORT TV 1"
     ],
-    "fixture_id": 1575544,
-    "id": 16
+    "fixture_id": "fd-567349",
+    "id": 23
   },
   {
     "sport": "futebol",
@@ -294,7 +413,7 @@
     "date": "Dom 8 Nov",
     "time": "18:30",
     "is_today": true,
-    "match": "1899 Hoffenheim - FC Schalke 04",
+    "match": "Hoffenheim - Schalke",
     "competition": "Bundesliga",
     "competition_key": "liga-alema",
     "competition_icon": "assets/icons/competicoes/liga-alema.png",
@@ -302,8 +421,8 @@
     "channels": [
       "DAZN 4"
     ],
-    "fixture_id": 1575215,
-    "id": 17
+    "fixture_id": "fd-565856",
+    "id": 24
   },
   {
     "sport": "futebol",
@@ -319,8 +438,8 @@
     "channels": [
       "SPORT TV 4"
     ],
-    "fixture_id": 1550189,
-    "id": 18
+    "fixture_id": "fd-558529",
+    "id": 25
   },
   {
     "sport": "futebol",
@@ -328,7 +447,7 @@
     "date": "Dom 8 Nov",
     "time": "19:45",
     "is_today": true,
-    "match": "Lens - Marseille",
+    "match": "RC Lens - Marseille",
     "competition": "Ligue 1",
     "competition_key": "liga-francesa",
     "competition_icon": "assets/icons/competicoes/liga-francesa.png",
@@ -336,8 +455,8 @@
     "channels": [
       "SPORT TV 7"
     ],
-    "fixture_id": 1552818,
-    "id": 19
+    "fixture_id": "fd-559630",
+    "id": 26
   },
   {
     "sport": "futebol",
@@ -345,7 +464,7 @@
     "date": "Dom 8 Nov",
     "time": "20:00",
     "is_today": true,
-    "match": "Atletico Madrid - Barcelona",
+    "match": "Atleti - Barça",
     "competition": "LA Liga",
     "competition_key": "liga-espanhola",
     "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
@@ -353,8 +472,8 @@
     "channels": [
       "DAZN 1"
     ],
-    "fixture_id": 1570443,
-    "id": 20
+    "fixture_id": "fd-564746",
+    "id": 27
   },
   {
     "sport": "futebol",
@@ -362,7 +481,7 @@
     "date": "Dom 8 Nov",
     "time": "20:30",
     "is_today": true,
-    "match": "Estrela - Benfica",
+    "match": "Amadora - SL Benfica",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
@@ -370,8 +489,8 @@
     "channels": [
       "SPORT TV 2"
     ],
-    "fixture_id": 1575538,
-    "id": 21
+    "fixture_id": "fd-567355",
+    "id": 28
   },
   {
     "sport": "futebol",
@@ -379,7 +498,7 @@
     "date": "Dom 8 Nov",
     "time": "20:30",
     "is_today": true,
-    "match": "Rio Ave - SC Braga",
+    "match": "Rio Ave - Braga",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
@@ -387,7 +506,7 @@
     "channels": [
       "SPORT TV 3"
     ],
-    "fixture_id": 1575541,
-    "id": 22
+    "fixture_id": "fd-567354",
+    "id": 29
   }
 ]

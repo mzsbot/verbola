@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 
 from common import (
-    COMPETITIONS_FILE, EPG_FILE, FIXTURES_FILE, OUTPUT_FILE,
+    COMPETITIONS_FILE, EPG_FILE, FIXTURES_FILE, OUTPUT_FILE, DAYS_AHEAD,
     now_lisbon, read_json, write_json, fold, load_competitions, match_competition,
     load_allowed_leagues, is_allowed
 )
@@ -128,19 +128,28 @@ if __name__ == "__main__":
         print(f"Faltam dados em {EPG_FILE} ou {FIXTURES_FILE}; corre primeiro o scrape_channels.py e o fetch_games.py")
         sys.exit(1)
 
-    # Só hoje e amanhã (ignora jogos que ficaram de dias anteriores na cache) e só as
+    # De ontem em diante (ignora jogos mais antigos que ficaram na cache) e só as
     # competições permitidas, para retirar uma bastar editar o ficheiro, sem pedir à API
-    days    = {now.date(), now.date() + timedelta(days=1)}
+    window  = {now.date() + timedelta(days=d) for d in range(-1, DAYS_AHEAD + 1)}
     allowed = load_allowed_leagues()
-    lookup = load_competitions()
+    lookup  = load_competitions()
     result, unmatched = build_games(
         epg["programmes"],
         [f for f in fixtures["fixtures"]
-         if datetime.fromisoformat(f["kickoff"]).date() in days and is_allowed(f, allowed)],
+         if datetime.fromisoformat(f["kickoff"]).date() in window and is_allowed(f, allowed)],
         competitions_by_api_league(lookup), lookup, now
     )
+
+    # Ontem, hoje e o próximo dia com jogos (não necessariamente amanhã)
+    today  = now.date()
+    future = sorted({datetime.fromisoformat(g["kickoff"]).date() for g in result} - {today - timedelta(days=1), today})
+    days   = [today - timedelta(days=1), today] + [d for d in future if d > today][:1]
+    result = [g for g in result if datetime.fromisoformat(g["kickoff"]).date() in days]
+    for idx, game in enumerate(result):
+        game["id"] = idx
+
     write_json(OUTPUT_FILE, result)
-    print(f"{len(result)} jogos guardados em {OUTPUT_FILE}")
+    print(f"{len(result)} jogos guardados em {OUTPUT_FILE} ({', '.join(d.strftime('%d/%m') for d in days)})")
 
     # A DAZN não distingue direto de repetição, por isso as emissões dela sem jogo são esperadas
     for p in unmatched:

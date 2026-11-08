@@ -14,6 +14,10 @@ EPG_FILE             = "./data/raw/epg.json"
 FIXTURES_FILE        = "./data/raw/api_football.json"
 OUTPUT_FILE          = "./data/jogos.json"
 
+# O site mostra ontem, hoje e o próximo dia com jogos (que pode não ser amanhã);
+# este último procura-se até DAYS_AHEAD dias depois de hoje (EPG e football-data.org)
+DAYS_AHEAD = 7
+
 def now_lisbon():
     return datetime.now(LISBON)
 
