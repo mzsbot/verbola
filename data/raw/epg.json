@@ -1,11 +1,12 @@
 {
-  "scraped_at": "2026-11-08T22:14:09.635186+00:00",
+  "scraped_at": "2026-11-08T22:22:08.795814+00:00",
   "programmes": [
     {
       "channel": "DAZN 4",
       "start": "2026-11-07T16:40:00+00:00",
       "stop": "2026-11-07T17:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Shakhtar Donetsk x Sporting CP.",
       "home": "Shakhtar Donetsk",
       "away": "Sporting CP"
     },
@@ -14,6 +15,7 @@
       "start": "2026-11-07T17:20:00+00:00",
       "stop": "2026-11-07T19:30:00+00:00",
       "title": "Nottingham Forest x Manchester City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Nottingham Forest x Manchester City.",
       "home": "Nottingham Forest",
       "away": "Manchester City"
     },
@@ -22,6 +24,7 @@
       "start": "2026-11-07T17:20:00+00:00",
       "stop": "2026-11-07T19:30:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Osasuna x Athletic Club.",
       "home": "Osasuna",
       "away": "Athletic Club"
     },
@@ -30,6 +33,7 @@
       "start": "2026-11-07T17:20:00+00:00",
       "stop": "2026-11-07T19:25:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Stuttgart x Werder Bremen.",
       "home": "Stuttgart",
       "away": "Werder Bremen"
     },
@@ -38,6 +42,7 @@
       "start": "2026-11-07T17:46:00+00:00",
       "stop": "2026-11-07T20:20:00+00:00",
       "title": "Liga Portugal Betclic (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal Betclic de futebol, entre FC Alverca e Casa Pia.",
       "home": "FC Alverca",
       "away": "Casa Pia AC"
     },
@@ -46,6 +51,7 @@
       "start": "2026-11-07T19:25:00+00:00",
       "stop": "2026-11-07T21:30:00+00:00",
       "title": "2. Bundesliga",
+      "info": "Assiste ao jogo da 2 Bundesliga entre Hertha BSC x Wolfsburg.",
       "home": "Hertha BSC",
       "away": "Wolfsburg"
     },
@@ -54,6 +60,7 @@
       "start": "2026-11-07T19:30:00+00:00",
       "stop": "2026-11-07T19:40:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -62,6 +69,7 @@
       "start": "2026-11-07T19:30:00+00:00",
       "stop": "2026-11-07T21:30:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre RB Leipzig x Augsburg.",
       "home": "RB Leipzig",
       "away": "Augsburg"
     },
@@ -70,6 +78,7 @@
       "start": "2026-11-07T19:39:00+00:00",
       "stop": "2026-11-07T21:44:00+00:00",
       "title": "Serie A (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Italiana de futebol, entre AS Roma e Sassuolo.",
       "home": "AS Roma",
       "away": "Sassuolo"
     },
@@ -78,6 +87,7 @@
       "start": "2026-11-07T19:40:00+00:00",
       "stop": "2026-11-07T19:50:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Shakhtar Donetsk x Sporting CP.",
       "home": "Shakhtar Donetsk",
       "away": "Sporting CP"
     },
@@ -86,6 +96,7 @@
       "start": "2026-11-07T19:50:00+00:00",
       "stop": "2026-11-07T21:55:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Valencia x Real Madrid.",
       "home": "Valencia",
       "away": "Real Madrid"
     },
@@ -94,6 +105,7 @@
       "start": "2026-11-07T19:54:00+00:00",
       "stop": "2026-11-07T22:05:00+00:00",
       "title": "Futebol - Liga Francesa (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Francesa de futebol, entre PSG e Troyes.",
       "home": "Paris Saint-Germain",
       "away": "Troyes"
     },
@@ -102,6 +114,7 @@
       "start": "2026-11-07T19:54:00+00:00",
       "stop": "2026-11-07T21:57:00+00:00",
       "title": "LIGA ESCOCESA ST MIRREN X RANGERS FUTEBOL",
+      "info": "ST MIRREN X RANGERS.",
       "home": "ST MIRREN",
       "away": "RANGERS"
     },
@@ -110,6 +123,7 @@
       "start": "2026-11-07T20:18:00+00:00",
       "stop": "2026-11-07T22:30:00+00:00",
       "title": "Liga Portugal Betclic (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal Betclic de futebol, entre Sporting CP e Moreirense FC.",
       "home": "Sporting CP",
       "away": "Moreirense FC"
     },
@@ -118,6 +132,7 @@
       "start": "2026-11-07T20:20:00+00:00",
       "stop": "2026-11-07T22:30:00+00:00",
       "title": "Campeonato da Argentina (Live)",
+      "info": "Espaço dedicado à transmissão dos jogos do Campeonato da Argentina.",
       "home": "Boca Juniors",
       "away": "Defensa Y Justicia"
     },
@@ -126,6 +141,7 @@
       "start": "2026-11-07T21:30:00+00:00",
       "stop": "2026-11-07T23:20:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Borussia Dortmund x Elversberg.",
       "home": "Borussia Dortmund",
       "away": "Elversberg"
     },
@@ -134,6 +150,7 @@
       "start": "2026-11-07T21:45:00+00:00",
       "stop": "2026-11-07T23:45:00+00:00",
       "title": "Nottingham Forest x Manchester City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Nottingham Forest x Manchester City.",
       "home": "Nottingham Forest",
       "away": "Manchester City"
     },
@@ -142,6 +159,7 @@
       "start": "2026-11-07T22:30:00+00:00",
       "stop": "2026-11-08T00:30:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Osasuna x Athletic Club.",
       "home": "Osasuna",
       "away": "Athletic Club"
     },
@@ -150,6 +168,7 @@
       "start": "2026-11-07T23:10:00+00:00",
       "stop": "2026-11-07T23:20:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -158,6 +177,7 @@
       "start": "2026-11-07T23:20:00+00:00",
       "stop": "2026-11-08T01:15:00+00:00",
       "title": "Fulham x Newcastle United - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Fulham x Newcastle United.",
       "home": "Fulham",
       "away": "Newcastle United"
     },
@@ -166,6 +186,7 @@
       "start": "2026-11-07T23:45:00+00:00",
       "stop": "2026-11-08T02:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -174,6 +195,7 @@
       "start": "2026-11-08T00:30:00+00:00",
       "stop": "2026-11-08T02:25:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Paderborn x Eintracht Frankfurt.",
       "home": "Paderborn",
       "away": "Eintracht Frankfurt"
     },
@@ -182,6 +204,7 @@
       "start": "2026-11-08T02:00:00+00:00",
       "stop": "2026-11-08T04:00:00+00:00",
       "title": "Arsenal x Hull City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Arsenal v Hull City.",
       "home": "Arsenal",
       "away": "Hull City"
     },
@@ -190,6 +213,7 @@
       "start": "2026-11-08T03:00:00+00:00",
       "stop": "2026-11-08T05:00:00+00:00",
       "title": "2. Bundesliga",
+      "info": "Assiste ao jogo da 2 Bundesliga entre Hertha BSC x Wolfsburg.",
       "home": "Hertha BSC",
       "away": "Wolfsburg"
     },
@@ -198,6 +222,7 @@
       "start": "2026-11-08T04:00:00+00:00",
       "stop": "2026-11-08T06:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Mainz 05 x Bayern Munchen.",
       "home": "Mainz 05",
       "away": "Bayern München"
     },
@@ -206,6 +231,7 @@
       "start": "2026-11-08T05:00:00+00:00",
       "stop": "2026-11-08T07:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Málaga x Racing De Santander.",
       "home": "Málaga",
       "away": "Racing de Santander"
     },
@@ -214,6 +240,7 @@
       "start": "2026-11-08T06:00:00+00:00",
       "stop": "2026-11-08T08:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Espanyol x Deportivo de La Coruna.",
       "home": "Espanyol",
       "away": "Deportivo de La Coruña"
     },
@@ -222,6 +249,7 @@
       "start": "2026-11-08T07:30:00+00:00",
       "stop": "2026-11-08T09:30:00+00:00",
       "title": "Leeds United x Tottenham Hotspur - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Leeds United v Tottenham Hotspur.",
       "home": "Leeds United",
       "away": "Tottenham Hotspur"
     },
@@ -230,6 +258,7 @@
       "start": "2026-11-08T08:30:00+00:00",
       "stop": "2026-11-08T10:30:00+00:00",
       "title": "Fulham x Newcastle United - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Fulham x Newcastle United.",
       "home": "Fulham",
       "away": "Newcastle United"
     },
@@ -238,6 +267,7 @@
       "start": "2026-11-08T10:00:00+00:00",
       "stop": "2026-11-08T11:55:00+00:00",
       "title": "2. Bundesliga",
+      "info": "Assiste ao jogo da 2 Bundesliga entre Hertha BSC x Wolfsburg.",
       "home": "Hertha BSC",
       "away": "Wolfsburg"
     },
@@ -246,6 +276,7 @@
       "start": "2026-11-08T10:49:00+00:00",
       "stop": "2026-11-08T13:19:00+00:00",
       "title": "CD Feirense x Lourosa FC - Liga Portugal 2 (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal 2 de futebol, entre CD Feirense e Lourosa FC.",
       "home": "CD Feirense",
       "away": "Lourosa FC"
     },
@@ -254,6 +285,7 @@
       "start": "2026-11-08T11:10:00+00:00",
       "stop": "2026-11-08T13:10:00+00:00",
       "title": "Heerenveen x Feyenoord - Eredivisie",
+      "info": "Assiste ao jogo da Eredivisie entre Heerenveen x Feyenoord.",
       "home": "Heerenveen",
       "away": "Feyenoord"
     },
@@ -262,6 +294,7 @@
       "start": "2026-11-08T11:24:00+00:00",
       "stop": "2026-11-08T13:29:00+00:00",
       "title": "Serie A (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Italiana de futebol, entre Nápoles e SS Lazio.",
       "home": "Nápoles",
       "away": "Lazio"
     },
@@ -270,6 +303,7 @@
       "start": "2026-11-08T12:25:00+00:00",
       "stop": "2026-11-08T12:35:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -278,6 +312,7 @@
       "start": "2026-11-08T12:50:00+00:00",
       "stop": "2026-11-08T13:10:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -286,6 +321,7 @@
       "start": "2026-11-08T12:50:00+00:00",
       "stop": "2026-11-08T15:05:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Elche x Real Betis.",
       "home": "Elche",
       "away": "Real Betis"
     },
@@ -294,6 +330,7 @@
       "start": "2026-11-08T12:50:00+00:00",
       "stop": "2026-11-08T14:59:00+00:00",
       "title": "Superliga Turca (Live)",
+      "info": "Transmissão, em direto, do jogo da Superliga Turca de futebol, entre Çorum FK e Fenerbahçe.",
       "home": "Corum",
       "away": "Fenerbahçe"
     },
@@ -302,6 +339,7 @@
       "start": "2026-11-08T13:10:00+00:00",
       "stop": "2026-11-08T13:25:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Shakhtar Donetsk x Sporting CP.",
       "home": "Shakhtar Donetsk",
       "away": "Sporting CP"
     },
@@ -310,6 +348,7 @@
       "start": "2026-11-08T13:10:00+00:00",
       "stop": "2026-11-08T13:25:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
       "home": "Benfica",
       "away": "Lech Poznań"
     },
@@ -318,6 +357,7 @@
       "start": "2026-11-08T13:48:00+00:00",
       "stop": "2026-11-08T16:09:00+00:00",
       "title": "SERIE A MONZA X ATALANTA FUTEBOL",
+      "info": "MONZA X ATALANTA.",
       "home": "MONZA",
       "away": "ATALANTA"
     },
@@ -326,6 +366,7 @@
       "start": "2026-11-08T13:49:00+00:00",
       "stop": "2026-11-08T16:14:00+00:00",
       "title": "SC Farense x SL Benfica B - Liga Portugal 2 (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal 2 de futebol, entre SC Farense e Benfica B.",
       "home": "SC Farense",
       "away": "SL Benfica B"
     },
@@ -334,6 +375,7 @@
       "start": "2026-11-08T13:50:00+00:00",
       "stop": "2026-11-08T15:55:00+00:00",
       "title": "Crystal Palace x Liverpool - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Crystal Palace x Liverpool.",
       "home": "Crystal Palace",
       "away": "Liverpool"
     },
@@ -342,6 +384,7 @@
       "start": "2026-11-08T13:50:00+00:00",
       "stop": "2026-11-08T16:00:00+00:00",
       "title": "Sunderland x Chelsea - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Sunderland x Chelsea.",
       "home": "Sunderland",
       "away": "Chelsea"
     },
@@ -350,6 +393,7 @@
       "start": "2026-11-08T13:54:00+00:00",
       "stop": "2026-11-08T15:59:00+00:00",
       "title": "Serie A (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Italiana de futebol, entre Génova e AC Milan.",
       "home": "Génova",
       "away": "AC Milan"
     },
@@ -358,6 +402,7 @@
       "start": "2026-11-08T14:25:00+00:00",
       "stop": "2026-11-08T16:25:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Kõln x Bayer Leverkusen.",
       "home": "Köln",
       "away": "Bayer Leverkusen"
     },
@@ -366,6 +411,7 @@
       "start": "2026-11-08T15:05:00+00:00",
       "stop": "2026-11-08T17:10:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Real Sociedad x Rayo Vallecano.",
       "home": "Real Sociedad",
       "away": "Rayo Vallecano"
     },
@@ -374,6 +420,7 @@
       "start": "2026-11-08T15:18:00+00:00",
       "stop": "2026-11-08T17:51:00+00:00",
       "title": "Liga Portugal Betclic (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal Betclic de futebol, entre Estoril Praia e Marítimo.",
       "home": "Estoril Praia",
       "away": "Marítimo"
     },
@@ -382,6 +429,7 @@
       "start": "2026-11-08T15:18:00+00:00",
       "stop": "2026-11-08T17:49:00+00:00",
       "title": "Liga Portugal Betclic (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal Betclic de futebol, entre Santa Clara e Gil Vicente.",
       "home": "Santa Clara",
       "away": "Gil Vicente FC"
     },
@@ -390,6 +438,7 @@
       "start": "2026-11-08T15:55:00+00:00",
       "stop": "2026-11-08T16:10:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -398,6 +447,7 @@
       "start": "2026-11-08T16:09:00+00:00",
       "stop": "2026-11-08T18:13:00+00:00",
       "title": "LIGA FRANCESA BREST X LYON FUTEBOL",
+      "info": "BREST X LYON.",
       "home": "BREST",
       "away": "LYON"
     },
@@ -406,6 +456,7 @@
       "start": "2026-11-08T16:10:00+00:00",
       "stop": "2026-11-08T16:20:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
       "home": "Benfica",
       "away": "Lech Poznań"
     },
@@ -414,6 +465,7 @@
       "start": "2026-11-08T16:20:00+00:00",
       "stop": "2026-11-08T18:30:00+00:00",
       "title": "Manchester United x Aston Villa - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Manchester United x Aston Villa.",
       "home": "Manchester United",
       "away": "Aston Villa"
     },
@@ -422,6 +474,7 @@
       "start": "2026-11-08T16:54:00+00:00",
       "stop": "2026-11-08T18:58:00+00:00",
       "title": "Serie A (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Italiana de futebol, entre Inter de Milão e Como 1907.",
       "home": "Inter de Milão",
       "away": "Como"
     },
@@ -430,6 +483,7 @@
       "start": "2026-11-08T17:09:00+00:00",
       "stop": "2026-11-08T19:15:00+00:00",
       "title": "Futebol - Taça de Inglaterra (Live)",
+      "info": "Transmissão, em direto, do jogo da Taça de Inglaterra de futebol, entre Oldham Athletic e Sheffield Wednesday.",
       "home": "Oldham",
       "away": "Sheffield Wednesday"
     },
@@ -438,6 +492,7 @@
       "start": "2026-11-08T17:10:00+00:00",
       "stop": "2026-11-08T17:20:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Shakhtar Donetsk x Sporting CP.",
       "home": "Shakhtar Donetsk",
       "away": "Sporting CP"
     },
@@ -446,6 +501,7 @@
       "start": "2026-11-08T17:20:00+00:00",
       "stop": "2026-11-08T19:30:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Villarreal x Getafe.",
       "home": "Villarreal",
       "away": "Getafe"
     },
@@ -454,6 +510,7 @@
       "start": "2026-11-08T17:20:00+00:00",
       "stop": "2026-11-08T19:30:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Celta De Vigo x Levante.",
       "home": "Celta de Vigo",
       "away": "Levante"
     },
@@ -462,6 +519,7 @@
       "start": "2026-11-08T17:25:00+00:00",
       "stop": "2026-11-08T19:30:00+00:00",
       "title": "SLB x SC Farense - Liga Next Gen - Sub 23",
+      "info": "Transmissão, em direto, do jogo da Liga Next Gen, entre Benfica e SC Farense.",
       "home": "SLB",
       "away": "SC Farense"
     },
@@ -470,6 +528,7 @@
       "start": "2026-11-08T17:48:00+00:00",
       "stop": "2026-11-08T20:00:00+00:00",
       "title": "Liga Portugal Betclic (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portuguesa, entre Vitória SC e FC Porto.",
       "home": "Vitória SC",
       "away": "FC Porto"
     },
@@ -478,6 +537,7 @@
       "start": "2026-11-08T18:20:00+00:00",
       "stop": "2026-11-08T20:15:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Hoffenheim x Schalke 04.",
       "home": "Hoffenheim",
       "away": "Schalke 04"
     },
@@ -486,6 +546,7 @@
       "start": "2026-11-08T18:30:00+00:00",
       "stop": "2026-11-08T22:30:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA EA SPORTS entre Atl. Madrid x Barcelona.",
       "home": "Atl. Madrid",
       "away": "Barcelona"
     },
@@ -494,6 +555,7 @@
       "start": "2026-11-08T19:30:00+00:00",
       "stop": "2026-11-08T21:25:00+00:00",
       "title": "Brighton x Brentford - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Brighton x Brentford.",
       "home": "Brighton",
       "away": "Brentford"
     },
@@ -502,6 +564,7 @@
       "start": "2026-11-08T19:34:00+00:00",
       "stop": "2026-11-08T21:44:00+00:00",
       "title": "Serie A (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Italiana de futebol, entre Fiorentina e Juventus.",
       "home": "Fiorentina",
       "away": "Juventus"
     },
@@ -510,6 +573,7 @@
       "start": "2026-11-08T19:39:00+00:00",
       "stop": "2026-11-08T21:41:00+00:00",
       "title": "LIGA FRANCESA LENS X MARSELHA FUTEBOL",
+      "info": "LENS X MARSELHA.",
       "home": "LENS",
       "away": "MARSELHA"
     },
@@ -518,6 +582,7 @@
       "start": "2026-11-08T20:18:00+00:00",
       "stop": "2026-11-08T22:30:00+00:00",
       "title": "Liga Portugal Betclic (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal Betclic de futebol, entre Estrela Amadora e Benfica.",
       "home": "Estrela da Amadora",
       "away": "SL Benfica"
     },
@@ -526,6 +591,7 @@
       "start": "2026-11-08T20:18:00+00:00",
       "stop": "2026-11-08T22:49:00+00:00",
       "title": "Liga Portugal Betclic (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal Betclic de futebol, entre Rio Ave e SC Braga.",
       "home": "Rio Ave FC",
       "away": "SC Braga"
     },
@@ -534,6 +600,7 @@
       "start": "2026-11-08T20:30:00+00:00",
       "stop": "2026-11-08T22:25:00+00:00",
       "title": "Heerenveen x Feyenoord - Eredivisie",
+      "info": "Assiste ao jogo da Eredivisie entre Heerenveen x Feyenoord.",
       "home": "Heerenveen",
       "away": "Feyenoord"
     },
@@ -542,6 +609,7 @@
       "start": "2026-11-08T21:41:00+00:00",
       "stop": "2026-11-08T23:36:00+00:00",
       "title": "LIGA FRANCESA RENNES X LILLE FUTEBOL",
+      "info": "RENNES X LILLE.",
       "home": "RENNES",
       "away": "LILLE"
     },
@@ -550,6 +618,7 @@
       "start": "2026-11-08T22:30:00+00:00",
       "stop": "2026-11-09T00:25:00+00:00",
       "title": "Ipswich Town x AFC Bournemouth - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Ipswich Town x AFC Bournemouth.",
       "home": "Ipswich Town",
       "away": "AFC Bournemouth"
     },
@@ -558,6 +627,7 @@
       "start": "2026-11-08T23:20:00+00:00",
       "stop": "2026-11-09T01:15:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Freiburg x Union Berlin.",
       "home": "Freiburg",
       "away": "Union Berlin"
     },
@@ -566,6 +636,7 @@
       "start": "2026-11-09T00:55:00+00:00",
       "stop": "2026-11-09T01:05:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -574,6 +645,7 @@
       "start": "2026-11-09T01:05:00+00:00",
       "stop": "2026-11-09T03:10:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Villarreal x Getafe.",
       "home": "Villarreal",
       "away": "Getafe"
     },
@@ -582,6 +654,7 @@
       "start": "2026-11-09T04:00:00+00:00",
       "stop": "2026-11-09T06:00:00+00:00",
       "title": "Sunderland x Chelsea - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Sunderland x Chelsea.",
       "home": "Sunderland",
       "away": "Chelsea"
     },
@@ -590,6 +663,7 @@
       "start": "2026-11-09T05:45:00+00:00",
       "stop": "2026-11-09T06:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
       "home": "Benfica",
       "away": "Lech Poznań"
     },
@@ -598,6 +672,7 @@
       "start": "2026-11-09T06:00:00+00:00",
       "stop": "2026-11-09T08:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Elche x Real Betis.",
       "home": "Elche",
       "away": "Real Betis"
     },
@@ -606,6 +681,7 @@
       "start": "2026-11-09T06:00:00+00:00",
       "stop": "2026-11-09T08:00:00+00:00",
       "title": "Heerenveen x Feyenoord - Eredivisie",
+      "info": "Assiste ao jogo da Eredivisie entre Heerenveen x Feyenoord.",
       "home": "Heerenveen",
       "away": "Feyenoord"
     },
@@ -614,6 +690,7 @@
       "start": "2026-11-09T08:00:00+00:00",
       "stop": "2026-11-09T10:00:00+00:00",
       "title": "Ipswich Town x AFC Bournemouth - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Ipswich Town x AFC Bournemouth.",
       "home": "Ipswich Town",
       "away": "AFC Bournemouth"
     },
@@ -622,6 +699,7 @@
       "start": "2026-11-09T08:00:00+00:00",
       "stop": "2026-11-09T10:00:00+00:00",
       "title": "2. Bundesliga",
+      "info": "Assiste ao jogo da 2 Bundesliga entre Hertha BSC x Wolfsburg.",
       "home": "Hertha BSC",
       "away": "Wolfsburg"
     },
@@ -630,6 +708,7 @@
       "start": "2026-11-09T10:00:00+00:00",
       "stop": "2026-11-09T11:55:00+00:00",
       "title": "Monaco x Nordsjælland - UEFA Conference League",
+      "info": "Assiste ao jogo da UEFA Conference League entre Monaco x Nordsjælland.",
       "home": "Monaco",
       "away": "Nordsjælland"
     },
@@ -638,6 +717,7 @@
       "start": "2026-11-09T10:00:00+00:00",
       "stop": "2026-11-09T12:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Milan x Ferencváros.",
       "home": "Milan",
       "away": "Ferencváros"
     },
@@ -646,6 +726,7 @@
       "start": "2026-11-09T11:55:00+00:00",
       "stop": "2026-11-09T14:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Barcelona x Aston Villa.",
       "home": "Barcelona",
       "away": "Aston Villa"
     },
@@ -654,6 +735,7 @@
       "start": "2026-11-09T12:00:00+00:00",
       "stop": "2026-11-09T14:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Borussia Dortmund x Elversberg.",
       "home": "Borussia Dortmund",
       "away": "Elversberg"
     },
@@ -662,6 +744,7 @@
       "start": "2026-11-09T14:00:00+00:00",
       "stop": "2026-11-09T16:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Lens x Como.",
       "home": "Lens",
       "away": "Como"
     },
@@ -670,6 +753,7 @@
       "start": "2026-11-09T14:25:00+00:00",
       "stop": "2026-11-09T16:20:00+00:00",
       "title": "Arsenal x Hull City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Arsenal v Hull City.",
       "home": "Arsenal",
       "away": "Hull City"
     },
@@ -678,6 +762,7 @@
       "start": "2026-11-09T16:00:00+00:00",
       "stop": "2026-11-09T17:55:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre AZ x Juventus.",
       "home": "AZ",
       "away": "Juventus"
     },
@@ -686,6 +771,7 @@
       "start": "2026-11-09T17:00:00+00:00",
       "stop": "2026-11-09T17:15:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -694,6 +780,7 @@
       "start": "2026-11-09T17:15:00+00:00",
       "stop": "2026-11-09T19:15:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Manchester United x Roma.",
       "home": "Manchester United",
       "away": "Roma"
     },
@@ -702,6 +789,7 @@
       "start": "2026-11-09T19:00:00+00:00",
       "stop": "2026-11-09T21:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Mainz 05 x Bayern Munchen.",
       "home": "Mainz 05",
       "away": "Bayern München"
     },
@@ -710,6 +798,7 @@
       "start": "2026-11-09T19:15:00+00:00",
       "stop": "2026-11-09T19:25:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
       "home": "Benfica",
       "away": "Lech Poznań"
     },
@@ -718,6 +807,7 @@
       "start": "2026-11-09T19:25:00+00:00",
       "stop": "2026-11-09T21:25:00+00:00",
       "title": "LaLiga Hypermotion",
+      "info": "Assiste ao jogo da LALIGA Hypermotion entre Sabadell x Real Sociedad Ii.",
       "home": "Sabadell",
       "away": "Real Sociedad II"
     },
@@ -726,6 +816,7 @@
       "start": "2026-11-09T20:00:00+00:00",
       "stop": "2026-11-09T22:00:00+00:00",
       "title": "Nottingham Forest x Manchester City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Nottingham Forest x Manchester City.",
       "home": "Nottingham Forest",
       "away": "Manchester City"
     },
@@ -734,6 +825,7 @@
       "start": "2026-11-09T20:03:00+00:00",
       "stop": "2026-11-09T22:29:00+00:00",
       "title": "SCU Torreense x União de Leiria - Liga Portugal 2 (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga Portugal 2 de futebol, entre SCU Torreense e UD Leiria.",
       "home": "SCU Torreense",
       "away": "União de Leiria"
     },
@@ -742,6 +834,7 @@
       "start": "2026-11-09T21:00:00+00:00",
       "stop": "2026-11-09T23:05:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Celtic x Beşiktaş.",
       "home": "Celtic",
       "away": "Beşiktaş"
     },
@@ -750,6 +843,7 @@
       "start": "2026-11-09T22:00:00+00:00",
       "stop": "2026-11-10T00:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Borussia Dortmund x Real Betis.",
       "home": "Borussia Dortmund",
       "away": "Real Betis"
     },
@@ -758,6 +852,7 @@
       "start": "2026-11-09T23:00:00+00:00",
       "stop": "2026-11-10T01:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo UEFA Champions League entre AEK Athens x Real Madrid.",
       "home": "AEK Athens",
       "away": "Real Madrid"
     },
@@ -766,6 +861,7 @@
       "start": "2026-11-10T00:00:00+00:00",
       "stop": "2026-11-10T02:00:00+00:00",
       "title": "LaLiga Hypermotion",
+      "info": "Assiste ao jogo da LALIGA Hypermotion entre Sabadell x Real Sociedad Ii.",
       "home": "Sabadell",
       "away": "Real Sociedad II"
     },
@@ -774,6 +870,7 @@
       "start": "2026-11-10T01:00:00+00:00",
       "stop": "2026-11-10T01:10:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -782,6 +879,7 @@
       "start": "2026-11-10T01:10:00+00:00",
       "stop": "2026-11-10T03:05:00+00:00",
       "title": "Crystal Palace x Liverpool - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Crystal Palace x Liverpool.",
       "home": "Crystal Palace",
       "away": "Liverpool"
     },
@@ -790,6 +888,7 @@
       "start": "2026-11-10T02:00:00+00:00",
       "stop": "2026-11-10T04:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Stuttgart x Werder Bremen.",
       "home": "Stuttgart",
       "away": "Werder Bremen"
     },
@@ -798,6 +897,7 @@
       "start": "2026-11-10T04:00:00+00:00",
       "stop": "2026-11-10T06:00:00+00:00",
       "title": "Everton x Coventry City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Everton x Coventry City.",
       "home": "Everton",
       "away": "Coventry City"
     },
@@ -806,6 +906,7 @@
       "start": "2026-11-10T04:05:00+00:00",
       "stop": "2026-11-10T06:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Málaga x Racing De Santander.",
       "home": "Málaga",
       "away": "Racing de Santander"
     },
@@ -814,6 +915,7 @@
       "start": "2026-11-10T06:00:00+00:00",
       "stop": "2026-11-10T08:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Sunderland x Dinamo Zagreb.",
       "home": "Sunderland",
       "away": "Dinamo Zagreb"
     },
@@ -822,6 +924,7 @@
       "start": "2026-11-10T06:00:00+00:00",
       "stop": "2026-11-10T08:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Bodø/Glimt x Lille.",
       "home": "Bodø / Glimt",
       "away": "Lille"
     },
@@ -830,6 +933,7 @@
       "start": "2026-11-10T08:00:00+00:00",
       "stop": "2026-11-10T10:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Kõln x Bayer Leverkusen.",
       "home": "Köln",
       "away": "Bayer Leverkusen"
     },
@@ -838,6 +942,7 @@
       "start": "2026-11-10T08:00:00+00:00",
       "stop": "2026-11-10T10:00:00+00:00",
       "title": "Leeds United x Tottenham Hotspur - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Leeds United v Tottenham Hotspur.",
       "home": "Leeds United",
       "away": "Tottenham Hotspur"
     },
@@ -846,6 +951,7 @@
       "start": "2026-11-10T10:00:00+00:00",
       "stop": "2026-11-10T12:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Viking x Sabah.",
       "home": "Viking",
       "away": "Sabah"
     },
@@ -854,6 +960,7 @@
       "start": "2026-11-10T10:30:00+00:00",
       "stop": "2026-11-10T12:30:00+00:00",
       "title": "LaLiga Hypermotion",
+      "info": "Assiste ao jogo da LALIGA Hypermotion entre Sabadell x Real Sociedad Ii.",
       "home": "Sabadell",
       "away": "Real Sociedad II"
     },
@@ -862,6 +969,7 @@
       "start": "2026-11-10T12:00:00+00:00",
       "stop": "2026-11-10T14:00:00+00:00",
       "title": "AGF x Sporting Braga - UEFA Conference League",
+      "info": "Assiste ao jogo da UEFA Conference League entre AGF x Sporting Braga.",
       "home": "AGF",
       "away": "Sporting Braga"
     },
@@ -870,6 +978,7 @@
       "start": "2026-11-10T14:00:00+00:00",
       "stop": "2026-11-10T16:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Anderlecht x Salzburg.",
       "home": "Anderlecht",
       "away": "Salzburg"
     },
@@ -878,6 +987,7 @@
       "start": "2026-11-10T14:00:00+00:00",
       "stop": "2026-11-10T16:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Osasuna x Athletic Club.",
       "home": "Osasuna",
       "away": "Athletic Club"
     },
@@ -886,6 +996,7 @@
       "start": "2026-11-10T15:00:00+00:00",
       "stop": "2026-11-10T17:00:00+00:00",
       "title": "Brighton x Brentford - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Brighton x Brentford.",
       "home": "Brighton",
       "away": "Brentford"
     },
@@ -894,6 +1005,7 @@
       "start": "2026-11-10T16:00:00+00:00",
       "stop": "2026-11-10T18:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Freiburg x Union Berlin.",
       "home": "Freiburg",
       "away": "Union Berlin"
     },
@@ -902,6 +1014,7 @@
       "start": "2026-11-10T17:00:00+00:00",
       "stop": "2026-11-10T19:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Fenerbahçe x Liverpool.",
       "home": "Fenerbahçe",
       "away": "Liverpool"
     },
@@ -910,6 +1023,7 @@
       "start": "2026-11-10T18:00:00+00:00",
       "stop": "2026-11-10T20:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Real Sociedad x Rayo Vallecano.",
       "home": "Real Sociedad",
       "away": "Rayo Vallecano"
     },
@@ -918,6 +1032,7 @@
       "start": "2026-11-10T19:00:00+00:00",
       "stop": "2026-11-10T21:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -926,6 +1041,7 @@
       "start": "2026-11-10T20:00:00+00:00",
       "stop": "2026-11-10T22:00:00+00:00",
       "title": "Manchester United x Aston Villa - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Manchester United x Aston Villa.",
       "home": "Manchester United",
       "away": "Aston Villa"
     },
@@ -934,6 +1050,7 @@
       "start": "2026-11-10T20:00:00+00:00",
       "stop": "2026-11-10T22:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Mainz 05 x Bayern Munchen.",
       "home": "Mainz 05",
       "away": "Bayern München"
     },
@@ -942,6 +1059,7 @@
       "start": "2026-11-10T22:00:00+00:00",
       "stop": "2026-11-11T00:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre RB Leipzig x Manchester City.",
       "home": "RB Leipzig",
       "away": "Manchester City"
     },
@@ -950,6 +1068,7 @@
       "start": "2026-11-10T22:30:00+00:00",
       "stop": "2026-11-11T00:20:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Torreense x Ararat-Armenia.",
       "home": "Torreense",
       "away": "Ararat-Armenia"
     },
@@ -958,6 +1077,7 @@
       "start": "2026-11-10T23:00:00+00:00",
       "stop": "2026-11-11T01:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Borussia Dortmund x Elversberg.",
       "home": "Borussia Dortmund",
       "away": "Elversberg"
     },
@@ -966,6 +1086,7 @@
       "start": "2026-11-11T00:00:00+00:00",
       "stop": "2026-11-11T02:00:00+00:00",
       "title": "Sunderland x Chelsea - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Sunderland x Chelsea.",
       "home": "Sunderland",
       "away": "Chelsea"
     },
@@ -974,6 +1095,7 @@
       "start": "2026-11-11T00:20:00+00:00",
       "stop": "2026-11-11T02:10:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Shakhtar Donetsk x Sporting CP.",
       "home": "Shakhtar Donetsk",
       "away": "Sporting CP"
     },
@@ -982,6 +1104,7 @@
       "start": "2026-11-11T02:00:00+00:00",
       "stop": "2026-11-11T04:00:00+00:00",
       "title": "Panathinaikos x CSKA Sofia - UEFA Conference League",
+      "info": "Assiste ao jogo da UEFA Conference League entre Panathinaikos x Cska Sofia.",
       "home": "Panathinaikos",
       "away": "CSKA Sofia"
     },
@@ -990,6 +1113,7 @@
       "start": "2026-11-11T02:10:00+00:00",
       "stop": "2026-11-11T04:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Paderborn x Eintracht Frankfurt.",
       "home": "Paderborn",
       "away": "Eintracht Frankfurt"
     },
@@ -998,6 +1122,7 @@
       "start": "2026-11-11T04:00:00+00:00",
       "stop": "2026-11-11T06:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Galatasaray x Stuttgart.",
       "home": "Galatasaray",
       "away": "Stuttgart"
     },
@@ -1006,6 +1131,7 @@
       "start": "2026-11-11T04:00:00+00:00",
       "stop": "2026-11-11T06:00:00+00:00",
       "title": "2. Bundesliga",
+      "info": "Assiste ao jogo da 2 Bundesliga entre Eintracht Braunschweig x Energie Cottbus.",
       "home": "Eintracht Braunschweig",
       "away": "Energie Cottbus"
     },
@@ -1014,6 +1140,7 @@
       "start": "2026-11-11T06:00:00+00:00",
       "stop": "2026-11-11T08:00:00+00:00",
       "title": "Fulham x Newcastle United - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Fulham x Newcastle United.",
       "home": "Fulham",
       "away": "Newcastle United"
     },
@@ -1022,6 +1149,7 @@
       "start": "2026-11-11T06:00:00+00:00",
       "stop": "2026-11-11T08:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Rennes x Olympiakos Piraeus.",
       "home": "Rennes",
       "away": "Olympiakos Piraeus"
     },
@@ -1030,6 +1158,7 @@
       "start": "2026-11-11T08:00:00+00:00",
       "stop": "2026-11-11T10:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Osasuna x Athletic Club.",
       "home": "Osasuna",
       "away": "Athletic Club"
     },
@@ -1038,6 +1167,7 @@
       "start": "2026-11-11T08:00:00+00:00",
       "stop": "2026-11-11T10:00:00+00:00",
       "title": "Brighton x Brentford - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Brighton x Brentford.",
       "home": "Brighton",
       "away": "Brentford"
     },
@@ -1046,6 +1176,7 @@
       "start": "2026-11-11T10:00:00+00:00",
       "stop": "2026-11-11T12:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Borussia Dortmund x Real Betis.",
       "home": "Borussia Dortmund",
       "away": "Real Betis"
     },
@@ -1054,6 +1185,7 @@
       "start": "2026-11-11T10:00:00+00:00",
       "stop": "2026-11-11T12:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Villarreal x Getafe.",
       "home": "Villarreal",
       "away": "Getafe"
     },
@@ -1062,6 +1194,7 @@
       "start": "2026-11-11T12:00:00+00:00",
       "stop": "2026-11-11T14:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Hamburgo SV x Borussia M'Gladbach.",
       "home": "Hamburgo SV",
       "away": "Borussia M'gladbach"
     },
@@ -1070,6 +1203,7 @@
       "start": "2026-11-11T12:00:00+00:00",
       "stop": "2026-11-11T14:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Celta De Vigo x Union Saint-Gilloise.",
       "home": "Celta de Vigo",
       "away": "Union Saint-Gilloise"
     },
@@ -1078,6 +1212,7 @@
       "start": "2026-11-11T13:00:00+00:00",
       "stop": "2026-11-11T15:00:00+00:00",
       "title": "Heerenveen x Feyenoord - Eredivisie",
+      "info": "Assiste ao jogo da Eredivisie entre Heerenveen x Feyenoord.",
       "home": "Heerenveen",
       "away": "Feyenoord"
     },
@@ -1086,6 +1221,7 @@
       "start": "2026-11-11T14:00:00+00:00",
       "stop": "2026-11-11T16:00:00+00:00",
       "title": "Ipswich Town x AFC Bournemouth - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Ipswich Town x AFC Bournemouth.",
       "home": "Ipswich Town",
       "away": "AFC Bournemouth"
     },
@@ -1094,6 +1230,7 @@
       "start": "2026-11-11T14:00:00+00:00",
       "stop": "2026-11-11T16:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Sevilla x Alavés.",
       "home": "Sevilla",
       "away": "Alavés"
     },
@@ -1102,6 +1239,7 @@
       "start": "2026-11-11T16:00:00+00:00",
       "stop": "2026-11-11T18:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Crystal Palace x Hoffenheim.",
       "home": "Crystal Palace",
       "away": "Hoffenheim"
     },
@@ -1110,6 +1248,7 @@
       "start": "2026-11-11T17:00:00+00:00",
       "stop": "2026-11-11T19:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA EA SPORTS entre Atl. Madrid x Barcelona.",
       "home": "Atl. Madrid",
       "away": "Barcelona"
     },
@@ -1118,6 +1257,7 @@
       "start": "2026-11-11T17:00:00+00:00",
       "stop": "2026-11-11T19:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre PSV x Club Brugge.",
       "home": "PSV",
       "away": "Club Brugge"
     },
@@ -1126,6 +1266,7 @@
       "start": "2026-11-11T17:55:00+00:00",
       "stop": "2026-11-11T20:00:00+00:00",
       "title": "UEFA Women's Europa Cup (Live)",
+      "info": "Transmissão, em direto, do jogo da UEFA Women's Europa Cup de futebol, entre SCU Torreense e Sparta Praga.",
       "home": "Torreense",
       "away": "Sparta Praga"
     },
@@ -1134,6 +1275,7 @@
       "start": "2026-11-11T18:00:00+00:00",
       "stop": "2026-11-11T20:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Atl. Madrid x Bayern München.",
       "home": "Atl. Madrid",
       "away": "Bayern München"
     },
@@ -1142,6 +1284,7 @@
       "start": "2026-11-11T19:53:00+00:00",
       "stop": "2026-11-11T21:55:00+00:00",
       "title": "Liga dos Campeões Feminina de Futebol",
+      "info": "Transmissão do jogo da Liga dos Campeões Feminina, entre Benfica e Áustria Viena.",
       "home": "Benfica",
       "away": "Áustria Viena"
     },
@@ -1150,6 +1293,7 @@
       "start": "2026-11-11T20:00:00+00:00",
       "stop": "2026-11-11T22:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Valencia x Real Madrid.",
       "home": "Valencia",
       "away": "Real Madrid"
     },
@@ -1158,6 +1302,7 @@
       "start": "2026-11-11T21:00:00+00:00",
       "stop": "2026-11-11T23:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Feyenoord x Inter.",
       "home": "Feyenoord",
       "away": "Inter"
     },
@@ -1166,6 +1311,7 @@
       "start": "2026-11-11T22:30:00+00:00",
       "stop": "2026-11-12T00:20:00+00:00",
       "title": "Leeds United x Tottenham Hotspur - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Leeds United v Tottenham Hotspur.",
       "home": "Leeds United",
       "away": "Tottenham Hotspur"
     },
@@ -1174,6 +1320,7 @@
       "start": "2026-11-11T23:00:00+00:00",
       "stop": "2026-11-12T00:50:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Slavia Praha x Arsenal.",
       "home": "Slavia Praha",
       "away": "Arsenal"
     },
@@ -1182,6 +1329,7 @@
       "start": "2026-11-11T23:00:00+00:00",
       "stop": "2026-11-12T01:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Real Sociedad x Olympique Lyonnais.",
       "home": "Real Sociedad",
       "away": "Olympique Lyonnais"
     },
@@ -1190,6 +1338,7 @@
       "start": "2026-11-12T00:20:00+00:00",
       "stop": "2026-11-12T02:10:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Milan x Ferencváros.",
       "home": "Milan",
       "away": "Ferencváros"
     },
@@ -1198,6 +1347,7 @@
       "start": "2026-11-12T00:50:00+00:00",
       "stop": "2026-11-12T02:40:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Espanyol x Deportivo de La Coruna.",
       "home": "Espanyol",
       "away": "Deportivo de La Coruña"
     },
@@ -1206,6 +1356,7 @@
       "start": "2026-11-12T02:10:00+00:00",
       "stop": "2026-11-12T04:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre RB Leipzig x Augsburg.",
       "home": "RB Leipzig",
       "away": "Augsburg"
     },
@@ -1214,6 +1365,7 @@
       "start": "2026-11-12T02:40:00+00:00",
       "stop": "2026-11-12T04:30:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Viking x Sabah.",
       "home": "Viking",
       "away": "Sabah"
     },
@@ -1222,6 +1374,7 @@
       "start": "2026-11-12T04:00:00+00:00",
       "stop": "2026-11-12T06:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Celta De Vigo x Levante.",
       "home": "Celta de Vigo",
       "away": "Levante"
     },
@@ -1230,6 +1383,7 @@
       "start": "2026-11-12T06:00:00+00:00",
       "stop": "2026-11-12T08:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre PSV x Club Brugge.",
       "home": "PSV",
       "away": "Club Brugge"
     },
@@ -1238,6 +1392,7 @@
       "start": "2026-11-12T06:00:00+00:00",
       "stop": "2026-11-12T08:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Hamburgo SV x Borussia M'Gladbach.",
       "home": "Hamburgo SV",
       "away": "Borussia M'gladbach"
     },
@@ -1246,6 +1401,7 @@
       "start": "2026-11-12T08:00:00+00:00",
       "stop": "2026-11-12T10:00:00+00:00",
       "title": "Sunderland x Chelsea - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Sunderland x Chelsea.",
       "home": "Sunderland",
       "away": "Chelsea"
     },
@@ -1254,6 +1410,7 @@
       "start": "2026-11-12T08:00:00+00:00",
       "stop": "2026-11-12T10:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Málaga x Racing De Santander.",
       "home": "Málaga",
       "away": "Racing de Santander"
     },
@@ -1262,6 +1419,7 @@
       "start": "2026-11-12T10:00:00+00:00",
       "stop": "2026-11-12T12:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Stuttgart x Werder Bremen.",
       "home": "Stuttgart",
       "away": "Werder Bremen"
     },
@@ -1270,6 +1428,7 @@
       "start": "2026-11-12T10:00:00+00:00",
       "stop": "2026-11-12T12:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Real Sociedad x Olympique Lyonnais.",
       "home": "Real Sociedad",
       "away": "Olympique Lyonnais"
     },
@@ -1278,6 +1437,7 @@
       "start": "2026-11-12T12:00:00+00:00",
       "stop": "2026-11-12T14:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo UEFA Champions League entre AEK Athens x Real Madrid.",
       "home": "AEK Athens",
       "away": "Real Madrid"
     },
@@ -1286,6 +1446,7 @@
       "start": "2026-11-12T12:00:00+00:00",
       "stop": "2026-11-12T14:00:00+00:00",
       "title": "Nottingham Forest x Manchester City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Nottingham Forest x Manchester City.",
       "home": "Nottingham Forest",
       "away": "Manchester City"
     },
@@ -1294,6 +1455,7 @@
       "start": "2026-11-12T12:00:00+00:00",
       "stop": "2026-11-12T14:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Mainz 05 x Bayern Munchen.",
       "home": "Mainz 05",
       "away": "Bayern München"
     },
@@ -1302,6 +1464,7 @@
       "start": "2026-11-12T14:00:00+00:00",
       "stop": "2026-11-12T16:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre AZ x Juventus.",
       "home": "AZ",
       "away": "Juventus"
     },
@@ -1310,6 +1473,7 @@
       "start": "2026-11-12T14:00:00+00:00",
       "stop": "2026-11-12T16:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Kõln x Bayer Leverkusen.",
       "home": "Köln",
       "away": "Bayer Leverkusen"
     },
@@ -1318,6 +1482,7 @@
       "start": "2026-11-12T15:00:00+00:00",
       "stop": "2026-11-12T17:00:00+00:00",
       "title": "Everton x Coventry City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Everton x Coventry City.",
       "home": "Everton",
       "away": "Coventry City"
     },
@@ -1326,6 +1491,7 @@
       "start": "2026-11-12T15:50:00+00:00",
       "stop": "2026-11-12T18:00:00+00:00",
       "title": "Futebol - Taça Nações Africanas - Qualificação (Live)",
+      "info": "Transmissão, em direto, do jogo de qualificação para a Taça das Nações Africanas de futebol, entre Madagáscar e Guiné-Bissau.",
       "home": "Madagáscar",
       "away": "Guiné-Bissau"
     },
@@ -1334,6 +1500,7 @@
       "start": "2026-11-12T16:00:00+00:00",
       "stop": "2026-11-12T18:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Borussia Dortmund x Elversberg.",
       "home": "Borussia Dortmund",
       "away": "Elversberg"
     },
@@ -1342,6 +1509,7 @@
       "start": "2026-11-12T16:00:00+00:00",
       "stop": "2026-11-12T18:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Celta De Vigo x Levante.",
       "home": "Celta de Vigo",
       "away": "Levante"
     },
@@ -1350,6 +1518,7 @@
       "start": "2026-11-12T16:50:00+00:00",
       "stop": "2026-11-12T19:00:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Turquia e Bélgica.",
       "home": "Turquia",
       "away": "Bélgica"
     },
@@ -1358,6 +1527,7 @@
       "start": "2026-11-12T16:50:00+00:00",
       "stop": "2026-11-12T19:00:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Arménia e Chipre.",
       "home": "Arménia",
       "away": "Chipre"
     },
@@ -1366,6 +1536,7 @@
       "start": "2026-11-12T17:00:00+00:00",
       "stop": "2026-11-12T19:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
       "home": "Porto",
       "away": "Napoli"
     },
@@ -1374,6 +1545,7 @@
       "start": "2026-11-12T18:00:00+00:00",
       "stop": "2026-11-12T20:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Sunderland x Dinamo Zagreb.",
       "home": "Sunderland",
       "away": "Dinamo Zagreb"
     },
@@ -1382,6 +1554,7 @@
       "start": "2026-11-12T18:30:00+00:00",
       "stop": "2026-11-12T20:30:00+00:00",
       "title": "Crystal Palace x Liverpool - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Crystal Palace x Liverpool.",
       "home": "Crystal Palace",
       "away": "Liverpool"
     },
@@ -1390,6 +1563,7 @@
       "start": "2026-11-12T19:00:00+00:00",
       "stop": "2026-11-12T21:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Paderborn x Eintracht Frankfurt.",
       "home": "Paderborn",
       "away": "Eintracht Frankfurt"
     },
@@ -1398,6 +1572,7 @@
       "start": "2026-11-12T19:35:00+00:00",
       "stop": "2026-11-12T21:45:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Itália e França.",
       "home": "Itália",
       "away": "França"
     },
@@ -1406,6 +1581,7 @@
       "start": "2026-11-12T19:35:00+00:00",
       "stop": "2026-11-12T21:45:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Chéquia e Espanha.",
       "home": "Chéquia",
       "away": "Espanha"
     },
@@ -1414,6 +1590,7 @@
       "start": "2026-11-12T19:35:00+00:00",
       "stop": "2026-11-12T21:45:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Inglaterra e Croácia.",
       "home": "Inglaterra",
       "away": "Croácia"
     },
@@ -1422,6 +1599,7 @@
       "start": "2026-11-12T19:35:00+00:00",
       "stop": "2026-11-12T21:45:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Albânia e Finlândia.",
       "home": "Albânia",
       "away": "Finlândia"
     },
@@ -1430,6 +1608,7 @@
       "start": "2026-11-12T20:00:00+00:00",
       "stop": "2026-11-12T22:00:00+00:00",
       "title": "Arsenal x Hull City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Arsenal v Hull City.",
       "home": "Arsenal",
       "away": "Hull City"
     },
@@ -1438,6 +1617,7 @@
       "start": "2026-11-12T21:00:00+00:00",
       "stop": "2026-11-12T23:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA EA SPORTS entre Atl. Madrid x Barcelona.",
       "home": "Atl. Madrid",
       "away": "Barcelona"
     },
@@ -1446,6 +1626,7 @@
       "start": "2026-11-12T21:00:00+00:00",
       "stop": "2026-11-12T23:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Torreense x Ararat-Armenia.",
       "home": "Torreense",
       "away": "Ararat-Armenia"
     },
@@ -1454,6 +1635,7 @@
       "start": "2026-11-12T22:00:00+00:00",
       "stop": "2026-11-13T00:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Valencia x Real Madrid.",
       "home": "Valencia",
       "away": "Real Madrid"
     },
@@ -1462,6 +1644,7 @@
       "start": "2026-11-13T00:00:00+00:00",
       "stop": "2026-11-13T02:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Freiburg x Union Berlin.",
       "home": "Freiburg",
       "away": "Union Berlin"
     },
@@ -1470,6 +1653,7 @@
       "start": "2026-11-13T02:00:00+00:00",
       "stop": "2026-11-13T04:00:00+00:00",
       "title": "Fulham x Newcastle United - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Fulham x Newcastle United.",
       "home": "Fulham",
       "away": "Newcastle United"
     },
@@ -1478,6 +1662,7 @@
       "start": "2026-11-13T04:00:00+00:00",
       "stop": "2026-11-13T06:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Anderlecht x Salzburg.",
       "home": "Anderlecht",
       "away": "Salzburg"
     },
@@ -1486,6 +1671,7 @@
       "start": "2026-11-13T06:00:00+00:00",
       "stop": "2026-11-13T08:00:00+00:00",
       "title": "Monaco x Nordsjælland - UEFA Conference League",
+      "info": "Assiste ao jogo da UEFA Conference League entre Monaco x Nordsjælland.",
       "home": "Monaco",
       "away": "Nordsjælland"
     },
@@ -1494,6 +1680,7 @@
       "start": "2026-11-13T06:00:00+00:00",
       "stop": "2026-11-13T08:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Sevilla x Alavés.",
       "home": "Sevilla",
       "away": "Alavés"
     },
@@ -1502,6 +1689,7 @@
       "start": "2026-11-13T08:00:00+00:00",
       "stop": "2026-11-13T10:00:00+00:00",
       "title": "Everton x Coventry City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Everton x Coventry City.",
       "home": "Everton",
       "away": "Coventry City"
     },
@@ -1510,6 +1698,7 @@
       "start": "2026-11-13T08:00:00+00:00",
       "stop": "2026-11-13T10:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Villarreal x PSG.",
       "home": "Villarreal",
       "away": "PSG"
     },
@@ -1518,6 +1707,7 @@
       "start": "2026-11-13T10:00:00+00:00",
       "stop": "2026-11-13T12:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Bodø/Glimt x Lille.",
       "home": "Bodø / Glimt",
       "away": "Lille"
     },
@@ -1526,6 +1716,7 @@
       "start": "2026-11-13T10:00:00+00:00",
       "stop": "2026-11-13T12:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Celta De Vigo x Levante.",
       "home": "Celta de Vigo",
       "away": "Levante"
     },
@@ -1534,6 +1725,7 @@
       "start": "2026-11-13T12:00:00+00:00",
       "stop": "2026-11-13T14:00:00+00:00",
       "title": "Manchester United x Aston Villa - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Manchester United x Aston Villa.",
       "home": "Manchester United",
       "away": "Aston Villa"
     },
@@ -1542,6 +1734,7 @@
       "start": "2026-11-13T12:00:00+00:00",
       "stop": "2026-11-13T14:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Paderborn x Eintracht Frankfurt.",
       "home": "Paderborn",
       "away": "Eintracht Frankfurt"
     },
@@ -1550,6 +1743,7 @@
       "start": "2026-11-13T12:50:00+00:00",
       "stop": "2026-11-13T15:00:00+00:00",
       "title": "Futebol - Taça Nações Africanas - Qualificação (Live)",
+      "info": "Transmissão, em direto, do jogo de qualificação para a Taça das Nações Africanas de futebol, entre Moçambique e Etiópia.",
       "home": "Moçambique",
       "away": "Etiópia"
     },
@@ -1558,6 +1752,7 @@
       "start": "2026-11-13T14:00:00+00:00",
       "stop": "2026-11-13T16:00:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Real Sociedad x Rayo Vallecano.",
       "home": "Real Sociedad",
       "away": "Rayo Vallecano"
     },
@@ -1566,6 +1761,7 @@
       "start": "2026-11-13T14:00:00+00:00",
       "stop": "2026-11-13T16:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Feyenoord x Inter.",
       "home": "Feyenoord",
       "away": "Inter"
     },
@@ -1574,6 +1770,7 @@
       "start": "2026-11-13T15:00:00+00:00",
       "stop": "2026-11-13T17:00:00+00:00",
       "title": "2. Bundesliga",
+      "info": "Assiste ao jogo da 2 Bundesliga entre Hertha BSC x Wolfsburg.",
       "home": "Hertha BSC",
       "away": "Wolfsburg"
     },
@@ -1582,6 +1779,7 @@
       "start": "2026-11-13T15:50:00+00:00",
       "stop": "2026-11-13T18:00:00+00:00",
       "title": "Futebol - Taça Nações Africanas - Qualificação (Live)",
+      "info": "Transmissão, em direto, do jogo de qualificação para a Taça das Nações Africanas de futebol, entre Cabo Verde e Libéria.",
       "home": "Cabo Verde",
       "away": "Libéria"
     },
@@ -1590,6 +1788,7 @@
       "start": "2026-11-13T16:00:00+00:00",
       "stop": "2026-11-13T18:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Rennes x Olympiakos Piraeus.",
       "home": "Rennes",
       "away": "Olympiakos Piraeus"
     },
@@ -1598,6 +1797,7 @@
       "start": "2026-11-13T16:00:00+00:00",
       "stop": "2026-11-13T18:00:00+00:00",
       "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Stuttgart x Werder Bremen.",
       "home": "Stuttgart",
       "away": "Werder Bremen"
     },
@@ -1606,6 +1806,7 @@
       "start": "2026-11-13T16:50:00+00:00",
       "stop": "2026-11-13T19:00:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Moldávia e Cazaquistão.",
       "home": "Moldávia",
       "away": "Cazaquistão"
     },
@@ -1614,6 +1815,7 @@
       "start": "2026-11-13T18:00:00+00:00",
       "stop": "2026-11-13T20:15:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Barcelona x Aston Villa.",
       "home": "Barcelona",
       "away": "Aston Villa"
     },
@@ -1622,6 +1824,7 @@
       "start": "2026-11-13T18:00:00+00:00",
       "stop": "2026-11-13T20:00:00+00:00",
       "title": "Arsenal x Hull City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Arsenal v Hull City.",
       "home": "Arsenal",
       "away": "Hull City"
     },
@@ -1630,6 +1833,7 @@
       "start": "2026-11-13T19:35:00+00:00",
       "stop": "2026-11-13T21:45:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Sérvia e Alemanha.",
       "home": "Sérvia",
       "away": "Alemanha"
     },
@@ -1638,6 +1842,7 @@
       "start": "2026-11-13T19:35:00+00:00",
       "stop": "2026-11-13T21:45:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Países Baixos e Grécia.",
       "home": "Países Baixos",
       "away": "Grécia"
     },
@@ -1646,6 +1851,7 @@
       "start": "2026-11-13T19:35:00+00:00",
       "stop": "2026-11-13T21:45:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Escócia e Macedónia do Norte.",
       "home": "Escócia",
       "away": "Macedónia do Norte"
     },
@@ -1654,6 +1860,7 @@
       "start": "2026-11-13T19:35:00+00:00",
       "stop": "2026-11-13T21:45:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Eslovénia e Suíça.",
       "home": "Eslovénia",
       "away": "Suíça"
     },
@@ -1662,6 +1869,7 @@
       "start": "2026-11-13T19:35:00+00:00",
       "stop": "2026-11-13T21:45:00+00:00",
       "title": "UEFA NATIONS LEAGUE BULGÁRIA X ISLÂNDIA FUTEBOL",
+      "info": "BULGÁRIA X ISLÂNDIA.",
       "home": "BULGÁRIA",
       "away": "ISLÂNDIA"
     },
@@ -1670,6 +1878,7 @@
       "start": "2026-11-13T19:50:00+00:00",
       "stop": "2026-11-13T22:00:00+00:00",
       "title": "Futebol - Taça Nações Africanas - Qualificação (Live)",
+      "info": "Transmissão, em direto, do jogo de qualificação para a Taça das Nações Africanas de futebol, entre Marrocos e Níger.",
       "home": "Marrocos",
       "away": "Niger"
     },
@@ -1678,6 +1887,7 @@
       "start": "2026-11-13T20:00:00+00:00",
       "stop": "2026-11-13T22:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre RB Leipzig x Manchester City.",
       "home": "RB Leipzig",
       "away": "Manchester City"
     },
@@ -1686,6 +1896,7 @@
       "start": "2026-11-13T21:00:00+00:00",
       "stop": "2026-11-13T23:00:00+00:00",
       "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Crystal Palace x Hoffenheim.",
       "home": "Crystal Palace",
       "away": "Hoffenheim"
     },
@@ -1694,6 +1905,7 @@
       "start": "2026-11-13T22:30:00+00:00",
       "stop": "2026-11-14T00:00:00+00:00",
       "title": "AGF x Sporting Braga - UEFA Conference League",
+      "info": "Assiste ao jogo da UEFA Conference League entre AGF x Sporting Braga.",
       "home": "AGF",
       "away": "Sporting Braga"
     },
@@ -1702,6 +1914,7 @@
       "start": "2026-11-13T22:45:00+00:00",
       "stop": "2026-11-14T00:35:00+00:00",
       "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA EA SPORTS entre Atl. Madrid x Barcelona.",
       "home": "Atl. Madrid",
       "away": "Barcelona"
     },
@@ -1710,6 +1923,7 @@
       "start": "2026-11-13T23:00:00+00:00",
       "stop": "2026-11-14T01:00:00+00:00",
       "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Manchester United x Roma.",
       "home": "Manchester United",
       "away": "Roma"
     }

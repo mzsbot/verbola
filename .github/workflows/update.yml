@@ -4,7 +4,7 @@ on:
     push:
         branches: [main]
     schedule:
-    # De hora a hora: o EPG e a API-Football só são pedidos de 3 em 3 horas (ver scrape_channels.py e fetch_games.py)
+    # De hora a hora: o EPG e as APIs só são pedidos de 3 em 3 horas (ver scrape_channels.py e fetch_games.py)
     - cron: "0 * * * *"
     workflow_dispatch:
 
@@ -35,8 +35,8 @@ jobs:
               # Se o EPG falhar, continua com as emissões da última extração
               continue-on-error: true
               run: python scrape_channels.py
-            - name: Obter Jogos (API-Football e football-data.org)
-              # Se a API falhar (ex.: limite diário), continua com os jogos guardados
+            - name: Obter Jogos (football-data.org e API-Football)
+              # Valida as emissões da DAZN; se falhar, usa os jogos da última atualização
               continue-on-error: true
               env:
                 API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}

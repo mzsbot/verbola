@@ -9,6 +9,8 @@ from common import (
     load_env, now_lisbon, read_json, write_json, load_allowed_leagues, is_allowed
 )
 
+# Jogos reais para validar as emissões do EPG (sobretudo da DAZN, que não distingue direto
+# de repetição) e para acertar a hora do pontapé de saída.
 # Fonte principal: football-data.org (plano gratuito com ~12 competições, até 10 dias por pedido).
 # Complemento: API-Football para as competições que o football-data.org não tem (o plano
 # gratuito só dá ontem, hoje e amanhã)
@@ -19,7 +21,7 @@ FOOTBALL_DATA_URL = "https://api.football-data.org/v4/matches"
 # football-data.org: 10 pedidos/minuto; cada atualização gasta 1.
 REFRESH_EVERY = timedelta(hours=3)
 
-# Jogos adiados ou cancelados nunca têm emissão
+# Jogos adiados ou cancelados: guardam-se à parte para retirar as emissões que o EPG ainda tem
 SKIP_API_FOOTBALL  = {"PST", "CANC", "ABD"}
 SKIP_FOOTBALL_DATA = {"POSTPONED", "CANCELLED", "SUSPENDED"}
 
@@ -47,10 +49,10 @@ def fetch_api_football(api_key, day):
             "league_id": item["league"]["id"],
             "league": item["league"]["name"],
             "home": item["teams"]["home"]["name"],
-            "away": item["teams"]["away"]["name"]
+            "away": item["teams"]["away"]["name"],
+            "postponed": item["fixture"]["status"]["short"] in SKIP_API_FOOTBALL
         }
         for item in data.get("response", [])
-        if item["fixture"]["status"]["short"] not in SKIP_API_FOOTBALL
     ]
 
 def football_data_leagues():
@@ -79,8 +81,6 @@ def fetch_football_data(token, date_from, date_to):
     fixtures, unknown = [], set()
     for item in matches:
         code = item["competition"]["code"]
-        if item["status"] in SKIP_FOOTBALL_DATA:
-            continue
         if code not in leagues:
             unknown.add(f'{code} ({item["competition"]["name"]})')
             continue
@@ -92,7 +92,8 @@ def fetch_football_data(token, date_from, date_to):
             "league_id": leagues[code],
             "league": item["competition"]["name"],
             "home": item["homeTeam"]["shortName"] or item["homeTeam"]["name"],
-            "away": item["awayTeam"]["shortName"] or item["awayTeam"]["name"]
+            "away": item["awayTeam"]["shortName"] or item["awayTeam"]["name"],
+            "postponed": item["status"] in SKIP_FOOTBALL_DATA
         })
 
     if unknown:
@@ -167,9 +168,13 @@ if __name__ == "__main__":
 
     # Só as competições do allowed_competitions.json
     allowed  = load_allowed_leagues()
-    fixtures = [f for f in api_fixtures + fd_fixtures if is_allowed(f, allowed)]
-    fixtures = with_channel(fixtures, epg["programmes"])
+    fixtures  = [f for f in api_fixtures + fd_fixtures if is_allowed(f, allowed)]
+    postponed = [f for f in fixtures if f["postponed"]]
+    fixtures  = with_channel([f for f in fixtures if not f["postponed"]], epg["programmes"])
     fixtures.sort(key=lambda f: f["kickoff"])
 
-    write_json(FIXTURES_FILE, {"fetched_at": now.isoformat(), "date": today.isoformat(), "fixtures": fixtures})
-    print(f"{len(fixtures)} jogos guardados em {FIXTURES_FILE}")
+    write_json(FIXTURES_FILE, {
+        "fetched_at": now.isoformat(), "date": today.isoformat(),
+        "fixtures": fixtures, "postponed": postponed
+    })
+    print(f"{len(fixtures)} jogos e {len(postponed)} adiados/cancelados guardados em {FIXTURES_FILE}")

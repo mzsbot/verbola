@@ -12,8 +12,13 @@
   {"id": 71, "name": "Brasileirão"},
   {"id": 97, "name": "Taça da Liga"},
   {"id": 307, "name": "Liga Arábia Saudita"},
-  {"id": 1191, "name": "Europa Cup Feminina"},
   {"id": 61, "name": "Ligue 1"},
   {"id": 78, "name": "Bundesliga"},
-  {"id": 88, "name": "Eredivisie"}
+  {"id": 88, "name": "Eredivisie"},
+  {"id": 1, "name": "Mundial"},
+  {"id": 32, "name": "Qualificação Mundial"},
+  {"id": 4, "name": "Euro"},
+  {"id": 960, "name": "Qualificação Euro"},
+  {"id": 10, "name": "Jogos Particulares"},
+  {"id": 45, "name": "Taça de Inglaterra"}
 ]

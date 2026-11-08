@@ -82,6 +82,8 @@ def scrape(channels, window_start, window_end):
                             "start": start.isoformat(),
                             "stop": stop.isoformat(),
                             "title": title,
+                            # Ex.: "Assiste ao jogo da UEFA Champions League entre ..." (para a competição)
+                            "info": desc.splitlines()[-1][:200] if desc else "",
                             "home": home,
                             "away": away
                         })
