@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-08T03:26:58.431823+00:00",
+  "scraped_at": "2026-11-08T10:54:48.444016+00:00",
   "games": [
     {
       "source_id": "60032",
@@ -52,27 +52,15 @@
       ]
     },
     {
-      "source_id": "60423",
+      "source_id": "60457",
       "kickoff": "2026-11-08T15:30:00+00:00",
       "date": "Dom 8 Nov",
       "time": "15:30",
-      "home": "Estoril",
-      "away": "Marítimo",
+      "home": "Varios",
+      "away": "Jogos",
       "competition": "Liga Portugal, J11",
       "channels": [
-        "Sport.Tv2"
-      ]
-    },
-    {
-      "source_id": "59499",
-      "kickoff": "2026-11-08T15:30:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "15:30",
-      "home": "S. Clara",
-      "away": "Gil Vicente",
-      "competition": "Liga Portugal, J11",
-      "channels": [
-        "Sport.Tv3"
+        "Sport.Tv 2-3"
       ]
     },
     {
