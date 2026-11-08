@@ -1,0 +1,20 @@
+[
+  {"id": 2, "name": "Liga dos Campeões"},
+  {"id": 3, "name": "Liga Europa"},
+  {"id": 848, "name": "Liga Conferência"},
+  {"id": 39, "name": "Premier League"},
+  {"id": 140, "name": "LA Liga"},
+  {"id": 94, "name": "Liga Portugal"},
+  {"id": 135, "name": "Serie A"},
+  {"id": 5, "name": "Liga das Nações"},
+  {"id": 48, "name": "Taça da Liga Inglesa"},
+  {"id": 81, "name": "Taça da Alemanha"},
+  {"id": 71, "name": "Brasileirão"},
+  {"id": 525, "name": "Liga dos Campeões Feminina"},
+  {"id": 97, "name": "Taça da Liga"},
+  {"id": 307, "name": "Liga Arábia Saudita"},
+  {"id": 1191, "name": "Europa Cup Feminina"},
+  {"id": 61, "name": "Ligue 1"},
+  {"id": 78, "name": "Bundesliga"},
+  {"id": 88, "name": "Eredivisie"}
+]

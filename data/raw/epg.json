@@ -1,0 +1,621 @@
+{
+  "scraped_at": "2026-11-08T20:04:10.883132+00:00",
+  "programmes": [
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-07T22:30:00+00:00",
+      "stop": "2026-11-08T00:30:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Osasuna",
+      "away": "Athletic Club"
+    },
+    {
+      "channel": "DAZN 4",
+      "start": "2026-11-07T23:20:00+00:00",
+      "stop": "2026-11-08T01:15:00+00:00",
+      "title": "Fulham x Newcastle United - Premier League",
+      "home": "Fulham",
+      "away": "Newcastle United"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-07T23:45:00+00:00",
+      "stop": "2026-11-08T02:00:00+00:00",
+      "title": "Champions League",
+      "home": "Porto",
+      "away": "Napoli"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T00:30:00+00:00",
+      "stop": "2026-11-08T02:25:00+00:00",
+      "title": "Bundesliga",
+      "home": "Paderborn",
+      "away": "Eintracht Frankfurt"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-08T02:00:00+00:00",
+      "stop": "2026-11-08T04:00:00+00:00",
+      "title": "Arsenal x Hull City - Premier League",
+      "home": "Arsenal",
+      "away": "Hull City"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T03:00:00+00:00",
+      "stop": "2026-11-08T05:00:00+00:00",
+      "title": "2. Bundesliga",
+      "home": "Hertha BSC",
+      "away": "Wolfsburg"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-08T04:00:00+00:00",
+      "stop": "2026-11-08T06:00:00+00:00",
+      "title": "Bundesliga",
+      "home": "Mainz 05",
+      "away": "Bayern München"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T05:00:00+00:00",
+      "stop": "2026-11-08T07:00:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Málaga",
+      "away": "Racing de Santander"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-08T06:00:00+00:00",
+      "stop": "2026-11-08T08:00:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Espanyol",
+      "away": "Deportivo de La Coruña"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T07:30:00+00:00",
+      "stop": "2026-11-08T09:30:00+00:00",
+      "title": "Leeds United x Tottenham Hotspur - Premier League",
+      "home": "Leeds United",
+      "away": "Tottenham Hotspur"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-08T08:30:00+00:00",
+      "stop": "2026-11-08T10:30:00+00:00",
+      "title": "Fulham x Newcastle United - Premier League",
+      "home": "Fulham",
+      "away": "Newcastle United"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-08T10:00:00+00:00",
+      "stop": "2026-11-08T11:55:00+00:00",
+      "title": "2. Bundesliga",
+      "home": "Hertha BSC",
+      "away": "Wolfsburg"
+    },
+    {
+      "channel": "SPORT TV 1",
+      "start": "2026-11-08T10:49:00+00:00",
+      "stop": "2026-11-08T13:19:00+00:00",
+      "title": "CD Feirense x Lourosa FC - Liga Portugal 2 (Live)",
+      "home": "CD Feirense",
+      "away": "Lourosa FC"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T11:10:00+00:00",
+      "stop": "2026-11-08T13:10:00+00:00",
+      "title": "Heerenveen x Feyenoord - Eredivisie",
+      "home": "Heerenveen",
+      "away": "Feyenoord"
+    },
+    {
+      "channel": "SPORT TV 2",
+      "start": "2026-11-08T11:24:00+00:00",
+      "stop": "2026-11-08T13:29:00+00:00",
+      "title": "Serie A (Live)",
+      "home": "Nápoles",
+      "away": "Lazio"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-08T12:25:00+00:00",
+      "stop": "2026-11-08T12:35:00+00:00",
+      "title": "Champions League",
+      "home": "Porto",
+      "away": "Napoli"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-08T12:50:00+00:00",
+      "stop": "2026-11-08T13:10:00+00:00",
+      "title": "Champions League",
+      "home": "Porto",
+      "away": "Napoli"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-08T12:50:00+00:00",
+      "stop": "2026-11-08T15:05:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Elche",
+      "away": "Real Betis"
+    },
+    {
+      "channel": "SPORT TV 3",
+      "start": "2026-11-08T12:50:00+00:00",
+      "stop": "2026-11-08T14:59:00+00:00",
+      "title": "Superliga Turca (Live)",
+      "home": "Corum",
+      "away": "Fenerbahçe"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T13:10:00+00:00",
+      "stop": "2026-11-08T13:25:00+00:00",
+      "title": "Champions League",
+      "home": "Shakhtar Donetsk",
+      "away": "Sporting CP"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-08T13:10:00+00:00",
+      "stop": "2026-11-08T13:25:00+00:00",
+      "title": "Liga Europa",
+      "home": "Benfica",
+      "away": "Lech Poznań"
+    },
+    {
+      "channel": "SPORT TV 7",
+      "start": "2026-11-08T13:48:00+00:00",
+      "stop": "2026-11-08T16:09:00+00:00",
+      "title": "SERIE A MONZA X ATALANTA FUTEBOL",
+      "home": "MONZA",
+      "away": "ATALANTA"
+    },
+    {
+      "channel": "SPORT TV+",
+      "start": "2026-11-08T13:49:00+00:00",
+      "stop": "2026-11-08T16:14:00+00:00",
+      "title": "SC Farense x SL Benfica B - Liga Portugal 2 (Live)",
+      "home": "SC Farense",
+      "away": "SL Benfica B"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T13:50:00+00:00",
+      "stop": "2026-11-08T15:55:00+00:00",
+      "title": "Crystal Palace x Liverpool - Premier League",
+      "home": "Crystal Palace",
+      "away": "Liverpool"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-08T13:50:00+00:00",
+      "stop": "2026-11-08T16:00:00+00:00",
+      "title": "Sunderland x Chelsea - Premier League",
+      "home": "Sunderland",
+      "away": "Chelsea"
+    },
+    {
+      "channel": "SPORT TV 1",
+      "start": "2026-11-08T13:54:00+00:00",
+      "stop": "2026-11-08T15:59:00+00:00",
+      "title": "Serie A (Live)",
+      "home": "Génova",
+      "away": "AC Milan"
+    },
+    {
+      "channel": "DAZN 4",
+      "start": "2026-11-08T14:25:00+00:00",
+      "stop": "2026-11-08T16:25:00+00:00",
+      "title": "Bundesliga",
+      "home": "Köln",
+      "away": "Bayer Leverkusen"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-08T15:05:00+00:00",
+      "stop": "2026-11-08T17:10:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Real Sociedad",
+      "away": "Rayo Vallecano"
+    },
+    {
+      "channel": "SPORT TV 2",
+      "start": "2026-11-08T15:18:00+00:00",
+      "stop": "2026-11-08T17:51:00+00:00",
+      "title": "Liga Portugal Betclic (Live)",
+      "home": "Estoril Praia",
+      "away": "Marítimo"
+    },
+    {
+      "channel": "SPORT TV 3",
+      "start": "2026-11-08T15:18:00+00:00",
+      "stop": "2026-11-08T17:49:00+00:00",
+      "title": "Liga Portugal Betclic (Live)",
+      "home": "Santa Clara",
+      "away": "Gil Vicente FC"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T15:55:00+00:00",
+      "stop": "2026-11-08T16:10:00+00:00",
+      "title": "Champions League",
+      "home": "Porto",
+      "away": "Napoli"
+    },
+    {
+      "channel": "SPORT TV 7",
+      "start": "2026-11-08T16:09:00+00:00",
+      "stop": "2026-11-08T18:13:00+00:00",
+      "title": "LIGA FRANCESA BREST X LYON FUTEBOL",
+      "home": "BREST",
+      "away": "LYON"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T16:10:00+00:00",
+      "stop": "2026-11-08T16:20:00+00:00",
+      "title": "Liga Europa",
+      "home": "Benfica",
+      "away": "Lech Poznań"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T16:20:00+00:00",
+      "stop": "2026-11-08T18:30:00+00:00",
+      "title": "Manchester United x Aston Villa - Premier League",
+      "home": "Manchester United",
+      "away": "Aston Villa"
+    },
+    {
+      "channel": "SPORT TV 6",
+      "start": "2026-11-08T16:54:00+00:00",
+      "stop": "2026-11-08T18:58:00+00:00",
+      "title": "Serie A (Live)",
+      "home": "Inter de Milão",
+      "away": "Como"
+    },
+    {
+      "channel": "SPORT TV 5",
+      "start": "2026-11-08T17:09:00+00:00",
+      "stop": "2026-11-08T19:15:00+00:00",
+      "title": "Futebol - Taça de Inglaterra (Live)",
+      "home": "Oldham",
+      "away": "Sheffield Wednesday"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-08T17:10:00+00:00",
+      "stop": "2026-11-08T17:20:00+00:00",
+      "title": "Champions League",
+      "home": "Shakhtar Donetsk",
+      "away": "Sporting CP"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-08T17:20:00+00:00",
+      "stop": "2026-11-08T19:30:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Villarreal",
+      "away": "Getafe"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-08T17:20:00+00:00",
+      "stop": "2026-11-08T19:30:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Celta de Vigo",
+      "away": "Levante"
+    },
+    {
+      "channel": "Benfica TV",
+      "start": "2026-11-08T17:25:00+00:00",
+      "stop": "2026-11-08T19:30:00+00:00",
+      "title": "SLB x SC Farense - Liga Next Gen - Sub 23",
+      "home": "SLB",
+      "away": "SC Farense"
+    },
+    {
+      "channel": "SPORT TV 1",
+      "start": "2026-11-08T17:48:00+00:00",
+      "stop": "2026-11-08T20:00:00+00:00",
+      "title": "Liga Portugal Betclic (Live)",
+      "home": "Vitória SC",
+      "away": "FC Porto"
+    },
+    {
+      "channel": "DAZN 4",
+      "start": "2026-11-08T18:20:00+00:00",
+      "stop": "2026-11-08T20:15:00+00:00",
+      "title": "Bundesliga",
+      "home": "Hoffenheim",
+      "away": "Schalke 04"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T18:30:00+00:00",
+      "stop": "2026-11-08T22:30:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Atl. Madrid",
+      "away": "Barcelona"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-08T19:30:00+00:00",
+      "stop": "2026-11-08T21:25:00+00:00",
+      "title": "Brighton x Brentford - Premier League",
+      "home": "Brighton",
+      "away": "Brentford"
+    },
+    {
+      "channel": "SPORT TV 4",
+      "start": "2026-11-08T19:34:00+00:00",
+      "stop": "2026-11-08T21:44:00+00:00",
+      "title": "Serie A (Live)",
+      "home": "Fiorentina",
+      "away": "Juventus"
+    },
+    {
+      "channel": "SPORT TV 7",
+      "start": "2026-11-08T19:39:00+00:00",
+      "stop": "2026-11-08T21:41:00+00:00",
+      "title": "LIGA FRANCESA LENS X MARSELHA FUTEBOL",
+      "home": "LENS",
+      "away": "MARSELHA"
+    },
+    {
+      "channel": "SPORT TV 2",
+      "start": "2026-11-08T20:18:00+00:00",
+      "stop": "2026-11-08T22:30:00+00:00",
+      "title": "Liga Portugal Betclic (Live)",
+      "home": "Estrela da Amadora",
+      "away": "SL Benfica"
+    },
+    {
+      "channel": "SPORT TV 3",
+      "start": "2026-11-08T20:18:00+00:00",
+      "stop": "2026-11-08T22:49:00+00:00",
+      "title": "Liga Portugal Betclic (Live)",
+      "home": "Rio Ave FC",
+      "away": "SC Braga"
+    },
+    {
+      "channel": "DAZN 4",
+      "start": "2026-11-08T20:30:00+00:00",
+      "stop": "2026-11-08T22:25:00+00:00",
+      "title": "Heerenveen x Feyenoord - Eredivisie",
+      "home": "Heerenveen",
+      "away": "Feyenoord"
+    },
+    {
+      "channel": "SPORT TV 7",
+      "start": "2026-11-08T21:41:00+00:00",
+      "stop": "2026-11-08T23:36:00+00:00",
+      "title": "LIGA FRANCESA RENNES X LILLE FUTEBOL",
+      "home": "RENNES",
+      "away": "LILLE"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-08T22:30:00+00:00",
+      "stop": "2026-11-09T00:25:00+00:00",
+      "title": "Ipswich Town x AFC Bournemouth - Premier League",
+      "home": "Ipswich Town",
+      "away": "AFC Bournemouth"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-08T23:20:00+00:00",
+      "stop": "2026-11-09T01:15:00+00:00",
+      "title": "Bundesliga",
+      "home": "Freiburg",
+      "away": "Union Berlin"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T00:55:00+00:00",
+      "stop": "2026-11-09T01:05:00+00:00",
+      "title": "Champions League",
+      "home": "Porto",
+      "away": "Napoli"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T01:05:00+00:00",
+      "stop": "2026-11-09T03:10:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Villarreal",
+      "away": "Getafe"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T04:00:00+00:00",
+      "stop": "2026-11-09T06:00:00+00:00",
+      "title": "Sunderland x Chelsea - Premier League",
+      "home": "Sunderland",
+      "away": "Chelsea"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T05:45:00+00:00",
+      "stop": "2026-11-09T06:00:00+00:00",
+      "title": "Liga Europa",
+      "home": "Benfica",
+      "away": "Lech Poznań"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T06:00:00+00:00",
+      "stop": "2026-11-09T08:00:00+00:00",
+      "title": "LaLiga EA Sports",
+      "home": "Elche",
+      "away": "Real Betis"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T06:00:00+00:00",
+      "stop": "2026-11-09T08:00:00+00:00",
+      "title": "Heerenveen x Feyenoord - Eredivisie",
+      "home": "Heerenveen",
+      "away": "Feyenoord"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T08:00:00+00:00",
+      "stop": "2026-11-09T10:00:00+00:00",
+      "title": "Ipswich Town x AFC Bournemouth - Premier League",
+      "home": "Ipswich Town",
+      "away": "AFC Bournemouth"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T08:00:00+00:00",
+      "stop": "2026-11-09T10:00:00+00:00",
+      "title": "2. Bundesliga",
+      "home": "Hertha BSC",
+      "away": "Wolfsburg"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T10:00:00+00:00",
+      "stop": "2026-11-09T11:55:00+00:00",
+      "title": "Monaco x Nordsjælland - UEFA Conference League",
+      "home": "Monaco",
+      "away": "Nordsjælland"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T10:00:00+00:00",
+      "stop": "2026-11-09T12:00:00+00:00",
+      "title": "Liga Europa",
+      "home": "Milan",
+      "away": "Ferencváros"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T11:55:00+00:00",
+      "stop": "2026-11-09T14:00:00+00:00",
+      "title": "Champions League",
+      "home": "Barcelona",
+      "away": "Aston Villa"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T12:00:00+00:00",
+      "stop": "2026-11-09T14:00:00+00:00",
+      "title": "Bundesliga",
+      "home": "Borussia Dortmund",
+      "away": "Elversberg"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T14:00:00+00:00",
+      "stop": "2026-11-09T16:00:00+00:00",
+      "title": "Champions League",
+      "home": "Lens",
+      "away": "Como"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T14:25:00+00:00",
+      "stop": "2026-11-09T16:20:00+00:00",
+      "title": "Arsenal x Hull City - Premier League",
+      "home": "Arsenal",
+      "away": "Hull City"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T16:00:00+00:00",
+      "stop": "2026-11-09T17:55:00+00:00",
+      "title": "Liga Europa",
+      "home": "AZ",
+      "away": "Juventus"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T17:00:00+00:00",
+      "stop": "2026-11-09T17:15:00+00:00",
+      "title": "Champions League",
+      "home": "Porto",
+      "away": "Napoli"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T17:15:00+00:00",
+      "stop": "2026-11-09T19:15:00+00:00",
+      "title": "Champions League",
+      "home": "Manchester United",
+      "away": "Roma"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-09T19:00:00+00:00",
+      "stop": "2026-11-09T21:00:00+00:00",
+      "title": "Bundesliga",
+      "home": "Mainz 05",
+      "away": "Bayern München"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T19:15:00+00:00",
+      "stop": "2026-11-09T19:25:00+00:00",
+      "title": "Liga Europa",
+      "home": "Benfica",
+      "away": "Lech Poznań"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T19:25:00+00:00",
+      "stop": "2026-11-09T21:25:00+00:00",
+      "title": "LaLiga Hypermotion",
+      "home": "Sabadell",
+      "away": "Real Sociedad II"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T20:00:00+00:00",
+      "stop": "2026-11-09T22:00:00+00:00",
+      "title": "Nottingham Forest x Manchester City - Premier League",
+      "home": "Nottingham Forest",
+      "away": "Manchester City"
+    },
+    {
+      "channel": "SPORT TV 1",
+      "start": "2026-11-09T20:03:00+00:00",
+      "stop": "2026-11-09T22:29:00+00:00",
+      "title": "SCU Torreense x União de Leiria - Liga Portugal 2 (Live)",
+      "home": "SCU Torreense",
+      "away": "União de Leiria"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-09T21:00:00+00:00",
+      "stop": "2026-11-09T23:05:00+00:00",
+      "title": "Liga Europa",
+      "home": "Celtic",
+      "away": "Beşiktaş"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-09T22:00:00+00:00",
+      "stop": "2026-11-10T00:00:00+00:00",
+      "title": "Champions League",
+      "home": "Borussia Dortmund",
+      "away": "Real Betis"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-09T23:00:00+00:00",
+      "stop": "2026-11-10T01:00:00+00:00",
+      "title": "Champions League",
+      "home": "AEK Athens",
+      "away": "Real Madrid"
+    }
+  ]
+}

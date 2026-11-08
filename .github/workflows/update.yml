@@ -4,7 +4,7 @@ on:
     push:
         branches: [main]
     schedule:
-    # De 15 em 15 min: os canais (ondebola) só são atualizados de 3 em 3 horas (ver scrape_channels.py)
+    # De hora a hora: o EPG e a API-Football só são pedidos de 3 em 3 horas (ver scrape_channels.py e fetch_games.py)
     - cron: "0 * * * *"
     workflow_dispatch:
 
@@ -31,10 +31,16 @@ jobs:
                 python-version: '3.10'
             - name: Instalar Dependências
               run: pip install -r requirements.txt
-            - name: Extrair Canais (ondebola)
-              # Se o ondebola falhar, continua com os canais da última extração
+            - name: Extrair Canais (EPG)
+              # Se o EPG falhar, continua com as emissões da última extração
               continue-on-error: true
               run: python scrape_channels.py
+            - name: Obter Jogos (API-Football)
+              # Se a API falhar (ex.: limite diário), continua com os jogos guardados
+              continue-on-error: true
+              env:
+                API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+              run: python fetch_games.py
             - name: Gerar jogos.json
               run: python build_games.py
             - name: Guardar Alterações
