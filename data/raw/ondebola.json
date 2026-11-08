@@ -1,19 +1,6 @@
 {
-  "scraped_at": "2026-11-08T10:54:48.444016+00:00",
+  "scraped_at": "2026-11-08T16:51:58.836254+00:00",
   "games": [
-    {
-      "source_id": "60032",
-      "kickoff": "2026-11-08T11:30:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "11:30",
-      "home": "Nápoles",
-      "away": "Lazio",
-      "competition": "Liga Itália",
-      "channels": [
-        "Sport.Tv2",
-        "Betano"
-      ]
-    },
     {
       "source_id": "60347",
       "kickoff": "2026-11-08T14:00:00+00:00",
@@ -23,7 +10,8 @@
       "away": "Liverpool",
       "competition": "Liga Inglaterra",
       "channels": [
-        "dazn 1"
+        "dazn 1",
+        "Vídeo"
       ]
     },
     {
@@ -40,27 +28,27 @@
       ]
     },
     {
-      "source_id": "60348",
-      "kickoff": "2026-11-08T14:00:00+00:00",
-      "date": "Dom 8 Nov",
-      "time": "14:00",
-      "home": "Sunderland",
-      "away": "Chelsea",
-      "competition": "Liga Inglaterra",
-      "channels": [
-        "dazn 2"
-      ]
-    },
-    {
-      "source_id": "60457",
+      "source_id": "60423",
       "kickoff": "2026-11-08T15:30:00+00:00",
       "date": "Dom 8 Nov",
       "time": "15:30",
-      "home": "Varios",
-      "away": "Jogos",
+      "home": "Estoril",
+      "away": "Marítimo",
       "competition": "Liga Portugal, J11",
       "channels": [
-        "Sport.Tv 2-3"
+        "Sport.Tv2"
+      ]
+    },
+    {
+      "source_id": "59499",
+      "kickoff": "2026-11-08T15:30:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "15:30",
+      "home": "S. Clara",
+      "away": "Gil Vicente",
+      "competition": "Liga Portugal, J11",
+      "channels": [
+        "Sport.Tv3"
       ]
     },
     {
@@ -73,6 +61,19 @@
       "competition": "Liga Inglaterra",
       "channels": [
         "dazn 1"
+      ]
+    },
+    {
+      "source_id": "60174",
+      "kickoff": "2026-11-08T17:00:00+00:00",
+      "date": "Dom 8 Nov",
+      "time": "17:00",
+      "home": "Inter Milão",
+      "away": "Como",
+      "competition": "Liga Itália",
+      "channels": [
+        "Sport.Tv6",
+        "Betano"
       ]
     },
     {

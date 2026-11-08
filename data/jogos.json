@@ -1,22 +1,6 @@
 [
   {
     "sport": "futebol",
-    "kickoff": "2026-11-08T11:30:00+00:00",
-    "date": "Dom 8 Nov",
-    "time": "11:30",
-    "is_today": true,
-    "match": "Nápoles - Lazio",
-    "competition": "Serie A",
-    "competition_key": "liga-italiana",
-    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "channels": [
-      "Sport.Tv2",
-      "Betano"
-    ],
-    "id": 0
-  },
-  {
-    "sport": "futebol",
     "kickoff": "2026-11-08T14:00:00+00:00",
     "date": "Dom 8 Nov",
     "time": "14:00",
@@ -26,9 +10,10 @@
     "competition_key": "liga-inglesa",
     "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
     "channels": [
-      "dazn 1"
+      "dazn 1",
+      "Vídeo"
     ],
-    "id": 1
+    "id": 0
   },
   {
     "sport": "futebol",
@@ -44,22 +29,7 @@
       "Sport.Tv1",
       "Betano"
     ],
-    "id": 2
-  },
-  {
-    "sport": "futebol",
-    "kickoff": "2026-11-08T14:00:00+00:00",
-    "date": "Dom 8 Nov",
-    "time": "14:00",
-    "is_today": true,
-    "match": "Sunderland - Chelsea",
-    "competition": "Premier League",
-    "competition_key": "liga-inglesa",
-    "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
-    "channels": [
-      "dazn 2"
-    ],
-    "id": 3
+    "id": 1
   },
   {
     "sport": "futebol",
@@ -67,14 +37,29 @@
     "date": "Dom 8 Nov",
     "time": "15:30",
     "is_today": true,
-    "match": "Varios - Jogos",
+    "match": "Estoril - Marítimo",
     "competition": "Liga Portugal",
     "competition_key": "liga-portugal",
     "competition_icon": "assets/icons/competicoes/liga-portugal.png",
     "channels": [
-      "Sport.Tv 2-3"
+      "Sport.Tv2"
     ],
-    "id": 4
+    "id": 2
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-08T15:30:00+00:00",
+    "date": "Dom 8 Nov",
+    "time": "15:30",
+    "is_today": true,
+    "match": "S. Clara - Gil Vicente",
+    "competition": "Liga Portugal",
+    "competition_key": "liga-portugal",
+    "competition_icon": "assets/icons/competicoes/liga-portugal.png",
+    "channels": [
+      "Sport.Tv3"
+    ],
+    "id": 3
   },
   {
     "sport": "futebol",
@@ -88,6 +73,22 @@
     "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
     "channels": [
       "dazn 1"
+    ],
+    "id": 4
+  },
+  {
+    "sport": "futebol",
+    "kickoff": "2026-11-08T17:00:00+00:00",
+    "date": "Dom 8 Nov",
+    "time": "17:00",
+    "is_today": true,
+    "match": "Inter Milão - Como",
+    "competition": "Serie A",
+    "competition_key": "liga-italiana",
+    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
+    "channels": [
+      "Sport.Tv6",
+      "Betano"
     ],
     "id": 5
   },
