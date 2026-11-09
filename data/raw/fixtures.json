@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T07:28:15.691311+00:00",
+  "fetched_at": "2026-11-09T17:59:39.803989+00:00",
   "date": "2026-11-09",
   "fixtures": [
     {
@@ -33,26 +33,6 @@
       "postponed": false
     },
     {
-      "id": "fd-560635",
-      "source": "football-data",
-      "kickoff": "2026-11-08T14:00:00+00:00",
-      "league_id": 39,
-      "league": "Premier League",
-      "home": "Crystal Palace",
-      "away": "Liverpool",
-      "postponed": false
-    },
-    {
-      "id": "fd-558538",
-      "source": "football-data",
-      "kickoff": "2026-11-08T14:00:00+00:00",
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Monza",
-      "away": "Atalanta",
-      "postponed": false
-    },
-    {
       "id": "fd-560636",
       "source": "football-data",
       "kickoff": "2026-11-08T14:00:00+00:00",
@@ -70,6 +50,26 @@
       "league": "Serie A",
       "home": "Genoa",
       "away": "Milan",
+      "postponed": false
+    },
+    {
+      "id": "fd-558538",
+      "source": "football-data",
+      "kickoff": "2026-11-08T14:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Monza",
+      "away": "Atalanta",
+      "postponed": false
+    },
+    {
+      "id": "fd-560635",
+      "source": "football-data",
+      "kickoff": "2026-11-08T14:00:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
       "postponed": false
     },
     {
@@ -93,16 +93,6 @@
       "postponed": false
     },
     {
-      "id": "fd-567351",
-      "source": "football-data",
-      "kickoff": "2026-11-08T15:30:00+00:00",
-      "league_id": 94,
-      "league": "Primeira Liga",
-      "home": "Santa Clara",
-      "away": "Gil Vicente",
-      "postponed": false
-    },
-    {
       "id": "fd-567352",
       "source": "football-data",
       "kickoff": "2026-11-08T15:30:00+00:00",
@@ -110,6 +100,16 @@
       "league": "Primeira Liga",
       "home": "CD Nacional",
       "away": "Acad. Viseu",
+      "postponed": false
+    },
+    {
+      "id": "fd-567351",
+      "source": "football-data",
+      "kickoff": "2026-11-08T15:30:00+00:00",
+      "league_id": 94,
+      "league": "Primeira Liga",
+      "home": "Santa Clara",
+      "away": "Gil Vicente",
       "postponed": false
     },
     {
@@ -153,16 +153,6 @@
       "postponed": false
     },
     {
-      "id": "fd-564742",
-      "source": "football-data",
-      "kickoff": "2026-11-08T17:30:00+00:00",
-      "league_id": 140,
-      "league": "Primera Division",
-      "home": "Celta",
-      "away": "Levante",
-      "postponed": false
-    },
-    {
       "id": "fd-564747",
       "source": "football-data",
       "kickoff": "2026-11-08T17:30:00+00:00",
@@ -170,6 +160,16 @@
       "league": "Primera Division",
       "home": "Villarreal",
       "away": "Getafe",
+      "postponed": false
+    },
+    {
+      "id": "fd-564742",
+      "source": "football-data",
+      "kickoff": "2026-11-08T17:30:00+00:00",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Celta",
+      "away": "Levante",
       "postponed": false
     },
     {
@@ -223,16 +223,6 @@
       "postponed": false
     },
     {
-      "id": "fd-567354",
-      "source": "football-data",
-      "kickoff": "2026-11-08T20:30:00+00:00",
-      "league_id": 94,
-      "league": "Primeira Liga",
-      "home": "Rio Ave",
-      "away": "Braga",
-      "postponed": false
-    },
-    {
       "id": "fd-567355",
       "source": "football-data",
       "kickoff": "2026-11-08T20:30:00+00:00",
@@ -240,6 +230,16 @@
       "league": "Primeira Liga",
       "home": "Amadora",
       "away": "SL Benfica",
+      "postponed": false
+    },
+    {
+      "id": "fd-567354",
+      "source": "football-data",
+      "kickoff": "2026-11-08T20:30:00+00:00",
+      "league_id": 94,
+      "league": "Primeira Liga",
+      "home": "Rio Ave",
+      "away": "Braga",
       "postponed": false
     }
   ],
