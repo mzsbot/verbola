@@ -1,87 +1,7 @@
 {
-  "fetched_at": "2026-11-08T22:36:32.967927+00:00",
-  "date": "2026-11-08",
+  "fetched_at": "2026-11-09T00:19:58.013261+00:00",
+  "date": "2026-11-09",
   "fixtures": [
-    {
-      "id": "fd-560641",
-      "source": "football-data",
-      "kickoff": "2026-11-07T17:30:00+00:00",
-      "league_id": 39,
-      "league": "Premier League",
-      "home": "Nottingham",
-      "away": "Man City",
-      "postponed": false
-    },
-    {
-      "id": "fd-565849",
-      "source": "football-data",
-      "kickoff": "2026-11-07T17:30:00+00:00",
-      "league_id": 78,
-      "league": "Bundesliga",
-      "home": "Stuttgart",
-      "away": "Bremen",
-      "postponed": false
-    },
-    {
-      "id": "fd-564739",
-      "source": "football-data",
-      "kickoff": "2026-11-07T17:30:00+00:00",
-      "league_id": 140,
-      "league": "Primera Division",
-      "home": "Osasuna",
-      "away": "Athletic",
-      "postponed": false
-    },
-    {
-      "id": "fd-567347",
-      "source": "football-data",
-      "kickoff": "2026-11-07T18:00:00+00:00",
-      "league_id": 94,
-      "league": "Primeira Liga",
-      "home": "Alverca",
-      "away": "Casa Pia",
-      "postponed": false
-    },
-    {
-      "id": "fd-558531",
-      "source": "football-data",
-      "kickoff": "2026-11-07T19:45:00+00:00",
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Roma",
-      "away": "Sassuolo",
-      "postponed": false
-    },
-    {
-      "id": "fd-564741",
-      "source": "football-data",
-      "kickoff": "2026-11-07T20:00:00+00:00",
-      "league_id": 140,
-      "league": "Primera Division",
-      "home": "Valencia",
-      "away": "Real Madrid",
-      "postponed": false
-    },
-    {
-      "id": "fd-559635",
-      "source": "football-data",
-      "kickoff": "2026-11-07T20:05:00+00:00",
-      "league_id": 61,
-      "league": "Ligue 1",
-      "home": "PSG",
-      "away": "Troyes",
-      "postponed": false
-    },
-    {
-      "id": "fd-567350",
-      "source": "football-data",
-      "kickoff": "2026-11-07T20:30:00+00:00",
-      "league_id": 94,
-      "league": "Primeira Liga",
-      "home": "Sporting CP",
-      "away": "Moreirense",
-      "postponed": false
-    },
     {
       "id": "fd-558840",
       "source": "football-data",
@@ -113,16 +33,6 @@
       "postponed": false
     },
     {
-      "id": "fd-558538",
-      "source": "football-data",
-      "kickoff": "2026-11-08T14:00:00+00:00",
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Monza",
-      "away": "Atalanta",
-      "postponed": false
-    },
-    {
       "id": "fd-560636",
       "source": "football-data",
       "kickoff": "2026-11-08T14:00:00+00:00",
@@ -150,6 +60,16 @@
       "league": "Premier League",
       "home": "Crystal Palace",
       "away": "Liverpool",
+      "postponed": false
+    },
+    {
+      "id": "fd-558538",
+      "source": "football-data",
+      "kickoff": "2026-11-08T14:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Monza",
+      "away": "Atalanta",
       "postponed": false
     },
     {
@@ -293,16 +213,6 @@
       "postponed": false
     },
     {
-      "id": "fd-567354",
-      "source": "football-data",
-      "kickoff": "2026-11-08T20:30:00+00:00",
-      "league_id": 94,
-      "league": "Primeira Liga",
-      "home": "Rio Ave",
-      "away": "Braga",
-      "postponed": false
-    },
-    {
       "id": "fd-567355",
       "source": "football-data",
       "kickoff": "2026-11-08T20:30:00+00:00",
@@ -311,39 +221,19 @@
       "home": "Amadora",
       "away": "SL Benfica",
       "postponed": false
+    },
+    {
+      "id": "fd-567354",
+      "source": "football-data",
+      "kickoff": "2026-11-08T20:30:00+00:00",
+      "league_id": 94,
+      "league": "Primeira Liga",
+      "home": "Rio Ave",
+      "away": "Braga",
+      "postponed": false
     }
   ],
   "postponed": [
-    {
-      "id": 1603083,
-      "source": "api-football",
-      "kickoff": "2026-11-07T13:20:00+00:00",
-      "league_id": 307,
-      "league": "Pro League",
-      "home": "Al-Faisaly FC",
-      "away": "Al Diriyah",
-      "postponed": true
-    },
-    {
-      "id": 1603082,
-      "source": "api-football",
-      "kickoff": "2026-11-07T14:30:00+00:00",
-      "league_id": 307,
-      "league": "Pro League",
-      "home": "Al-Ettifaq",
-      "away": "Al-Hilal Saudi FC",
-      "postponed": true
-    },
-    {
-      "id": 1603081,
-      "source": "api-football",
-      "kickoff": "2026-11-07T17:30:00+00:00",
-      "league_id": 307,
-      "league": "Pro League",
-      "home": "Al-Ahli Jeddah",
-      "away": "Al Taawon",
-      "postponed": true
-    },
     {
       "id": "fd-567348",
       "source": "football-data",
