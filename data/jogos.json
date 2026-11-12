@@ -92,6 +92,21 @@
   {
     "id": 6,
     "sport": "futebol",
+    "kickoff": "2026-11-13T00:30:00+00:00",
+    "date": "Sex 13 Nov",
+    "time": "00:30",
+    "is_today": false,
+    "match": "Curaçau - Panamá",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 1"
+    ]
+  },
+  {
+    "id": 7,
+    "sport": "futebol",
     "kickoff": "2026-11-13T17:00:00+00:00",
     "date": "Sex 13 Nov",
     "time": "17:00",
@@ -105,7 +120,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "sport": "futebol",
     "kickoff": "2026-11-13T19:45:00+00:00",
     "date": "Sex 13 Nov",
@@ -120,7 +135,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "sport": "futebol",
     "kickoff": "2026-11-13T19:45:00+00:00",
     "date": "Sex 13 Nov",
@@ -135,7 +150,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "sport": "futebol",
     "kickoff": "2026-11-13T19:45:00+00:00",
     "date": "Sex 13 Nov",
@@ -150,7 +165,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "sport": "futebol",
     "kickoff": "2026-11-13T19:45:00+00:00",
     "date": "Sex 13 Nov",
@@ -165,7 +180,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "sport": "futebol",
     "kickoff": "2026-11-13T19:45:00+00:00",
     "date": "Sex 13 Nov",
