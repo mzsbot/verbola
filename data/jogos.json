@@ -5,7 +5,7 @@
     "kickoff": "2026-11-12T17:00:00+00:00",
     "date": "Qui 12 Nov",
     "time": "17:00",
-    "is_today": false,
+    "is_today": true,
     "match": "Armenia - Cyprus",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
@@ -20,7 +20,7 @@
     "kickoff": "2026-11-12T17:00:00+00:00",
     "date": "Qui 12 Nov",
     "time": "17:00",
-    "is_today": false,
+    "is_today": true,
     "match": "Türkiye - Belgium",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
@@ -35,7 +35,7 @@
     "kickoff": "2026-11-12T19:45:00+00:00",
     "date": "Qui 12 Nov",
     "time": "19:45",
-    "is_today": false,
+    "is_today": true,
     "match": "Albania - Finland",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
@@ -50,7 +50,7 @@
     "kickoff": "2026-11-12T19:45:00+00:00",
     "date": "Qui 12 Nov",
     "time": "19:45",
-    "is_today": false,
+    "is_today": true,
     "match": "Czechia - Spain",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
@@ -65,7 +65,7 @@
     "kickoff": "2026-11-12T19:45:00+00:00",
     "date": "Qui 12 Nov",
     "time": "19:45",
-    "is_today": false,
+    "is_today": true,
     "match": "England - Croatia",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
@@ -80,13 +80,103 @@
     "kickoff": "2026-11-12T19:45:00+00:00",
     "date": "Qui 12 Nov",
     "time": "19:45",
-    "is_today": false,
+    "is_today": true,
     "match": "Italy - France",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
       "SPORT TV 1"
+    ]
+  },
+  {
+    "id": 6,
+    "sport": "futebol",
+    "kickoff": "2026-11-13T17:00:00+00:00",
+    "date": "Sex 13 Nov",
+    "time": "17:00",
+    "is_today": false,
+    "match": "Moldova - Kazakhstan",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 1"
+    ]
+  },
+  {
+    "id": 7,
+    "sport": "futebol",
+    "kickoff": "2026-11-13T19:45:00+00:00",
+    "date": "Sex 13 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Bulgaria - Iceland",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 7"
+    ]
+  },
+  {
+    "id": 8,
+    "sport": "futebol",
+    "kickoff": "2026-11-13T19:45:00+00:00",
+    "date": "Sex 13 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Escócia - Macedónia do Norte",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 3"
+    ]
+  },
+  {
+    "id": 9,
+    "sport": "futebol",
+    "kickoff": "2026-11-13T19:45:00+00:00",
+    "date": "Sex 13 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Países Baixos - Grécia",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 2"
+    ]
+  },
+  {
+    "id": 10,
+    "sport": "futebol",
+    "kickoff": "2026-11-13T19:45:00+00:00",
+    "date": "Sex 13 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Serbia - Germany",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 1"
+    ]
+  },
+  {
+    "id": 11,
+    "sport": "futebol",
+    "kickoff": "2026-11-13T19:45:00+00:00",
+    "date": "Sex 13 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Slovenia - Switzerland",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 4"
     ]
   }
 ]
