@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T08:58:29.548894+00:00",
+  "fetched_at": "2026-11-12T17:23:13.114961+00:00",
   "date": "2026-11-12",
   "fixtures": [
     {
@@ -30,16 +30,6 @@
       "league": "UEFA Nations League",
       "home": "Italy",
       "away": "France",
-      "postponed": false
-    },
-    {
-      "id": 1528961,
-      "source": "api-football",
-      "kickoff": "2026-11-12T19:45:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Czechia",
-      "away": "Spain",
       "postponed": false
     },
     {
