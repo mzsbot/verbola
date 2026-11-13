@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-13T03:10:58.700947+00:00",
+  "scraped_at": "2026-11-13T11:43:53.480123+00:00",
   "programmes": [
     {
       "channel": "DAZN 1",
@@ -301,7 +301,7 @@
     {
       "channel": "SPORT TV 5",
       "start": "2026-11-12T16:55:00+00:00",
-      "stop": "2026-11-12T18:55:00+00:00",
+      "stop": "2026-11-12T18:57:00+00:00",
       "title": "UEFA Women's Europa Cup (Live)",
       "info": "Transmissão, em direto, do jogo da UEFA Women's Europa Cup de futebol, entre SCU Torreense e Sparta Praga.",
       "home": "Torreense",
@@ -472,7 +472,7 @@
     {
       "channel": "DAZN 3",
       "start": "2026-11-12T21:00:00+00:00",
-      "stop": "2026-11-12T23:00:00+00:00",
+      "stop": "2026-11-12T23:05:00+00:00",
       "title": "Liga Europa",
       "info": "Assiste ao jogo da UEFA Europa League entre Torreense x Ararat-Armenia.",
       "home": "Torreense",
@@ -490,6 +490,15 @@
     {
       "channel": "DAZN 3",
       "start": "2026-11-12T23:00:00+00:00",
+      "stop": "2026-11-13T01:00:00+00:00",
+      "title": "FC Thun x Hearts - UEFA Conference League",
+      "info": "Assiste ao jogo da UEFA Conference League entre FC Thun x Hearts.",
+      "home": "FC Thun",
+      "away": "Hearts"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-12T23:05:00+00:00",
       "stop": "2026-11-13T01:00:00+00:00",
       "title": "FC Thun x Hearts - UEFA Conference League",
       "info": "Assiste ao jogo da UEFA Conference League entre FC Thun x Hearts.",
@@ -580,7 +589,7 @@
     {
       "channel": "DAZN 1",
       "start": "2026-11-13T10:00:00+00:00",
-      "stop": "2026-11-13T12:00:00+00:00",
+      "stop": "2026-11-13T11:55:00+00:00",
       "title": "Champions League",
       "info": "Assiste ao jogo da UEFA Champions League entre Bodø/Glimt x Lille.",
       "home": "Bodø / Glimt",
@@ -589,11 +598,20 @@
     {
       "channel": "DAZN 2",
       "start": "2026-11-13T10:00:00+00:00",
-      "stop": "2026-11-13T11:50:00+00:00",
+      "stop": "2026-11-13T11:45:00+00:00",
       "title": "LaLiga EA Sports",
       "info": "Assiste ao jogo da LALIGA entre Celta De Vigo x Levante.",
       "home": "Celta de Vigo",
       "away": "Levante"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-13T11:45:00+00:00",
+      "stop": "2026-11-13T12:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
+      "home": "Benfica",
+      "away": "Lech Poznań"
     },
     {
       "channel": "DAZN 2",
@@ -603,6 +621,15 @@
       "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
       "home": "Benfica",
       "away": "Lech Poznań"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-13T11:55:00+00:00",
+      "stop": "2026-11-13T14:00:00+00:00",
+      "title": "Manchester United x Aston Villa - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Manchester United x Aston Villa.",
+      "home": "Manchester United",
+      "away": "Aston Villa"
     },
     {
       "channel": "DAZN 1",
@@ -616,7 +643,7 @@
     {
       "channel": "DAZN 2",
       "start": "2026-11-13T12:00:00+00:00",
-      "stop": "2026-11-13T13:50:00+00:00",
+      "stop": "2026-11-13T13:45:00+00:00",
       "title": "Bundesliga",
       "info": "Assiste ao jogo da Bundesliga entre Paderborn x Eintracht Frankfurt.",
       "home": "Paderborn",
@@ -643,7 +670,7 @@
     {
       "channel": "DAZN 2",
       "start": "2026-11-13T14:00:00+00:00",
-      "stop": "2026-11-13T16:00:00+00:00",
+      "stop": "2026-11-13T15:55:00+00:00",
       "title": "Champions League",
       "info": "Assiste ao jogo da UEFA Champions League entre Feyenoord x Inter.",
       "home": "Feyenoord",
@@ -661,11 +688,20 @@
     {
       "channel": "SPORT TV 2",
       "start": "2026-11-13T15:50:00+00:00",
-      "stop": "2026-11-13T18:00:00+00:00",
+      "stop": "2026-11-13T17:59:00+00:00",
       "title": "Futebol - Taça Nações Africanas - Qualificação (Live)",
       "info": "Transmissão, em direto, do jogo de qualificação para a Taça das Nações Africanas de futebol, entre Cabo Verde e Libéria.",
       "home": "Cabo Verde",
       "away": "Libéria"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-13T15:55:00+00:00",
+      "stop": "2026-11-13T18:05:00+00:00",
+      "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Stuttgart x Werder Bremen.",
+      "home": "Stuttgart",
+      "away": "Werder Bremen"
     },
     {
       "channel": "DAZN 1",
@@ -687,6 +723,15 @@
     },
     {
       "channel": "SPORT TV 1",
+      "start": "2026-11-13T16:49:00+00:00",
+      "stop": "2026-11-13T19:02:00+00:00",
+      "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Moldávia e Cazaquistão.",
+      "home": "Moldávia",
+      "away": "Cazaquistão"
+    },
+    {
+      "channel": "SPORT TV 1",
       "start": "2026-11-13T16:50:00+00:00",
       "stop": "2026-11-13T19:00:00+00:00",
       "title": "Futebol - UEFA Nations League (Live)",
@@ -697,7 +742,7 @@
     {
       "channel": "DAZN 1",
       "start": "2026-11-13T18:00:00+00:00",
-      "stop": "2026-11-13T19:55:00+00:00",
+      "stop": "2026-11-13T19:50:00+00:00",
       "title": "Champions League",
       "info": "Assiste ao jogo da UEFA Champions League entre Barcelona x Aston Villa.",
       "home": "Barcelona",
@@ -706,6 +751,15 @@
     {
       "channel": "DAZN 2",
       "start": "2026-11-13T18:00:00+00:00",
+      "stop": "2026-11-13T20:00:00+00:00",
+      "title": "Arsenal x Hull City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Arsenal v Hull City.",
+      "home": "Arsenal",
+      "away": "Hull City"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-13T18:05:00+00:00",
       "stop": "2026-11-13T20:00:00+00:00",
       "title": "Arsenal x Hull City - Premier League",
       "info": "Assiste ao jogo da Premier League entre Arsenal v Hull City.",
@@ -729,6 +783,42 @@
       "info": "BULGÁRIA X ISLÂNDIA.",
       "home": "BULGÁRIA",
       "away": "ISLÂNDIA"
+    },
+    {
+      "channel": "SPORT TV 1",
+      "start": "2026-11-13T19:34:00+00:00",
+      "stop": "2026-11-13T21:46:00+00:00",
+      "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Sérvia e Alemanha.",
+      "home": "Sérvia",
+      "away": "Alemanha"
+    },
+    {
+      "channel": "SPORT TV 2",
+      "start": "2026-11-13T19:34:00+00:00",
+      "stop": "2026-11-13T21:46:00+00:00",
+      "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Países Baixos e Grécia.",
+      "home": "Países Baixos",
+      "away": "Grécia"
+    },
+    {
+      "channel": "SPORT TV 3",
+      "start": "2026-11-13T19:34:00+00:00",
+      "stop": "2026-11-13T21:45:00+00:00",
+      "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Escócia e Macedónia do Norte.",
+      "home": "Escócia",
+      "away": "Macedónia do Norte"
+    },
+    {
+      "channel": "SPORT TV 4",
+      "start": "2026-11-13T19:34:00+00:00",
+      "stop": "2026-11-13T21:46:00+00:00",
+      "title": "Futebol - UEFA Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Eslovénia e Suíça.",
+      "home": "Eslovénia",
+      "away": "Suíça"
     },
     {
       "channel": "SPORT TV 1",
@@ -776,9 +866,18 @@
       "away": "ISLÂNDIA"
     },
     {
+      "channel": "DAZN 1",
+      "start": "2026-11-13T19:50:00+00:00",
+      "stop": "2026-11-13T20:10:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Shakhtar Donetsk x Sporting CP.",
+      "home": "Shakhtar Donetsk",
+      "away": "Sporting CP"
+    },
+    {
       "channel": "SPORT TV 6",
       "start": "2026-11-13T19:50:00+00:00",
-      "stop": "2026-11-13T22:01:00+00:00",
+      "stop": "2026-11-13T22:00:00+00:00",
       "title": "Futebol - Taça Nações Africanas - Qualificação (Live)",
       "info": "Transmissão, em direto, do jogo de qualificação para a Taça das Nações Africanas de futebol, entre Marrocos e Níger.",
       "home": "Marrocos",
@@ -814,11 +913,20 @@
     {
       "channel": "DAZN 2",
       "start": "2026-11-13T22:30:00+00:00",
-      "stop": "2026-11-14T00:00:00+00:00",
+      "stop": "2026-11-14T00:25:00+00:00",
       "title": "AGF x Sporting Braga - UEFA Conference League",
       "info": "Assiste ao jogo da UEFA Conference League entre AGF x Sporting Braga.",
       "home": "AGF",
       "away": "Sporting Braga"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-13T22:35:00+00:00",
+      "stop": "2026-11-14T00:30:00+00:00",
+      "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Atl. Madrid x Barcelona.",
+      "home": "Atl. Madrid",
+      "away": "Barcelona"
     },
     {
       "channel": "DAZN 1",
@@ -832,7 +940,7 @@
     {
       "channel": "DAZN 3",
       "start": "2026-11-13T23:00:00+00:00",
-      "stop": "2026-11-14T01:00:00+00:00",
+      "stop": "2026-11-14T00:35:00+00:00",
       "title": "Champions League",
       "info": "Assiste ao jogo da UEFA Champions League entre Manchester United x Roma.",
       "home": "Manchester United",
@@ -842,6 +950,15 @@
       "channel": "DAZN 2",
       "start": "2026-11-14T00:00:00+00:00",
       "stop": "2026-11-14T02:00:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Atl. Madrid x Bayern München.",
+      "home": "Atl. Madrid",
+      "away": "Bayern München"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-14T00:25:00+00:00",
+      "stop": "2026-11-14T02:15:00+00:00",
       "title": "Champions League",
       "info": "Assiste ao jogo da UEFA Champions League entre Atl. Madrid x Bayern München.",
       "home": "Atl. Madrid",
@@ -866,9 +983,27 @@
       "away": "Canadá"
     },
     {
+      "channel": "SPORT TV 1",
+      "start": "2026-11-14T01:51:00+00:00",
+      "stop": "2026-11-14T04:00:00+00:00",
+      "title": "Futebol - CONCACAF Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da CONCACAF Nations League de futebol, entre Guatemala e Canadá.",
+      "home": "Guatemala",
+      "away": "Canadá"
+    },
+    {
       "channel": "DAZN 2",
       "start": "2026-11-14T02:00:00+00:00",
       "stop": "2026-11-14T04:00:00+00:00",
+      "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Kõln x Bayer Leverkusen.",
+      "home": "Köln",
+      "away": "Bayer Leverkusen"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-14T02:15:00+00:00",
+      "stop": "2026-11-14T04:05:00+00:00",
       "title": "Bundesliga",
       "info": "Assiste ao jogo da Bundesliga entre Kõln x Bayer Leverkusen.",
       "home": "Köln",
@@ -886,6 +1021,15 @@
     {
       "channel": "DAZN 2",
       "start": "2026-11-14T04:00:00+00:00",
+      "stop": "2026-11-14T06:00:00+00:00",
+      "title": "Heerenveen x Feyenoord - Eredivisie",
+      "info": "Assiste ao jogo da Eredivisie entre Heerenveen x Feyenoord.",
+      "home": "Heerenveen",
+      "away": "Feyenoord"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-14T04:05:00+00:00",
       "stop": "2026-11-14T06:00:00+00:00",
       "title": "Heerenveen x Feyenoord - Eredivisie",
       "info": "Assiste ao jogo da Eredivisie entre Heerenveen x Feyenoord.",
@@ -922,11 +1066,20 @@
     {
       "channel": "DAZN 2",
       "start": "2026-11-14T08:00:00+00:00",
-      "stop": "2026-11-14T10:00:00+00:00",
+      "stop": "2026-11-14T09:55:00+00:00",
       "title": "Bundesliga",
       "info": "Assiste ao jogo da Bundesliga entre Paderborn x Eintracht Frankfurt.",
       "home": "Paderborn",
       "away": "Eintracht Frankfurt"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-14T09:55:00+00:00",
+      "stop": "2026-11-14T12:00:00+00:00",
+      "title": "FC Thun x Hearts - UEFA Conference League",
+      "info": "Assiste ao jogo da UEFA Conference League entre FC Thun x Hearts.",
+      "home": "FC Thun",
+      "away": "Hearts"
     },
     {
       "channel": "DAZN 1",
@@ -981,6 +1134,15 @@
       "info": "Transmissão, em direto, do jogo da Liga das Nações de futebol, entre Kosovo e Israel.",
       "home": "Kosovo",
       "away": "Israel"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-14T14:55:00+00:00",
+      "stop": "2026-11-14T17:00:00+00:00",
+      "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Hamburgo SV x Borussia M'Gladbach.",
+      "home": "Hamburgo SV",
+      "away": "Borussia M'gladbach"
     },
     {
       "channel": "DAZN 3",
@@ -1109,6 +1271,15 @@
       "away": "Polónia"
     },
     {
+      "channel": "SPORT TV 7",
+      "start": "2026-11-14T19:33:00+00:00",
+      "stop": "2026-11-14T21:43:00+00:00",
+      "title": "UEFA NATIONS LEAGUE ÁUSTRIA X REPÚBLICA DA IRLANDA FUTEBOL",
+      "info": "ÁUSTRIA X REPÚBLICA DA IRLANDA.",
+      "home": "ÁUSTRIA",
+      "away": "REPÚBLICA DA IRLANDA"
+    },
+    {
       "channel": "SPORT TV 1",
       "start": "2026-11-14T19:35:00+00:00",
       "stop": "2026-11-14T21:45:00+00:00",
@@ -1228,11 +1399,20 @@
     {
       "channel": "DAZN 3",
       "start": "2026-11-14T23:00:00+00:00",
-      "stop": "2026-11-15T01:00:00+00:00",
+      "stop": "2026-11-15T00:45:00+00:00",
       "title": "Monaco x Nordsjælland - UEFA Conference League",
       "info": "Assiste ao jogo da UEFA Conference League entre Monaco x Nordsjælland.",
       "home": "Monaco",
       "away": "Nordsjælland"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-15T00:45:00+00:00",
+      "stop": "2026-11-15T01:20:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
+      "home": "Porto",
+      "away": "Napoli"
     },
     {
       "channel": "SPORT TV 4",
@@ -1305,6 +1485,15 @@
       "info": "Assiste ao jogo da UEFA Europa League entre Sparta Praha x AFC Bournemouth.",
       "home": "Sparta Praha",
       "away": "AFC Bournemouth"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-15T08:50:00+00:00",
+      "stop": "2026-11-15T09:05:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
+      "home": "Porto",
+      "away": "Napoli"
     },
     {
       "channel": "DAZN 1",
@@ -1481,10 +1670,10 @@
       "channel": "DAZN 1",
       "start": "2026-11-15T19:15:00+00:00",
       "stop": "2026-11-15T19:30:00+00:00",
-      "title": "Liga Europa",
-      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
-      "home": "Benfica",
-      "away": "Lech Poznań"
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Shakhtar Donetsk x Sporting CP.",
+      "home": "Shakhtar Donetsk",
+      "away": "Sporting CP"
     },
     {
       "channel": "DAZN 1",
@@ -1533,6 +1722,15 @@
     },
     {
       "channel": "DAZN 2",
+      "start": "2026-11-15T19:50:00+00:00",
+      "stop": "2026-11-15T20:10:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
+      "home": "Benfica",
+      "away": "Lech Poznań"
+    },
+    {
+      "channel": "DAZN 2",
       "start": "2026-11-15T19:55:00+00:00",
       "stop": "2026-11-15T20:10:00+00:00",
       "title": "Liga Europa",
@@ -1559,6 +1757,15 @@
       "away": "SLB"
     },
     {
+      "channel": "Benfica TV",
+      "start": "2026-11-15T20:32:00+00:00",
+      "stop": "2026-11-15T22:23:00+00:00",
+      "title": "GD Aldeia Nova x SLB - Taça de Portugal Futebol Feminino",
+      "info": "Transmissão do jogo da Taça de Portugal de Futebol Feminino, entre Aldeia Nova e Benfica.",
+      "home": "GD Aldeia Nova",
+      "away": "SLB"
+    },
+    {
       "channel": "SPORT TV 2",
       "start": "2026-11-15T22:50:00+00:00",
       "stop": "2026-11-16T01:00:00+00:00",
@@ -1578,12 +1785,30 @@
     },
     {
       "channel": "DAZN 2",
+      "start": "2026-11-15T23:45:00+00:00",
+      "stop": "2026-11-16T00:00:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
+      "home": "Porto",
+      "away": "Napoli"
+    },
+    {
+      "channel": "DAZN 2",
       "start": "2026-11-16T00:00:00+00:00",
       "stop": "2026-11-16T02:00:00+00:00",
       "title": "LaLiga EA Sports",
       "info": "Assiste ao jogo da LALIGA entre Barcelona x Real Madrid.",
       "home": "Barcelona",
       "away": "Real Madrid"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-16T00:50:00+00:00",
+      "stop": "2026-11-16T01:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
+      "home": "Benfica",
+      "away": "Lech Poznań"
     },
     {
       "channel": "DAZN 2",
@@ -1620,6 +1845,15 @@
       "info": "Assiste ao jogo da UEFA Champions League entre Real Betis x Feyenoord.",
       "home": "Real Betis",
       "away": "Feyenoord"
+    },
+    {
+      "channel": "Benfica TV",
+      "start": "2026-11-16T07:49:00+00:00",
+      "stop": "2026-11-16T09:39:00+00:00",
+      "title": "GD Aldeia Nova x SLB - Taça de Portugal Futebol Feminino",
+      "info": "Transmissão do jogo da Taça de Portugal de Futebol Feminino, entre Aldeia Nova e Benfica.",
+      "home": "GD Aldeia Nova",
+      "away": "SLB"
     },
     {
       "channel": "DAZN 1",
@@ -1741,7 +1975,7 @@
     {
       "channel": "DAZN 2",
       "start": "2026-11-16T16:00:00+00:00",
-      "stop": "2026-11-16T18:00:00+00:00",
+      "stop": "2026-11-16T18:30:00+00:00",
       "title": "LaLiga EA Sports",
       "info": "Assiste ao jogo da LaLiga entre Barcelona x Getafe.",
       "home": "Barcelona",
@@ -1937,6 +2171,15 @@
       "away": "Chelsea"
     },
     {
+      "channel": "Benfica TV",
+      "start": "2026-11-17T05:30:00+00:00",
+      "stop": "2026-11-17T07:00:00+00:00",
+      "title": "GD Aldeia Nova x SLB - Taça de Portugal Futebol Feminino",
+      "info": "Transmissão do jogo da Taça de Portugal de Futebol Feminino, entre Aldeia Nova e Benfica.",
+      "home": "GD Aldeia Nova",
+      "away": "SLB"
+    },
+    {
       "channel": "DAZN 1",
       "start": "2026-11-17T06:00:00+00:00",
       "stop": "2026-11-17T07:50:00+00:00",
@@ -2074,7 +2317,7 @@
     {
       "channel": "DAZN 3",
       "start": "2026-11-17T17:00:00+00:00",
-      "stop": "2026-11-17T21:00:00+00:00",
+      "stop": "2026-11-17T19:00:00+00:00",
       "title": "Chelsea x AFC Bournemouth - Premier League",
       "info": "Assiste ao jogo da Premier League entre Chelsea x AFC Bournemouth.",
       "home": "Chelsea",
@@ -2232,6 +2475,276 @@
       "info": "Transmissão, em direto, do jogo da CONCACAF Nations League de futebol.",
       "home": "Eua",
       "away": "Haiti"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T00:00:00+00:00",
+      "stop": "2026-11-18T02:00:00+00:00",
+      "title": "Liverpool x Arsenal - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Liverpool x Arsenal.",
+      "home": "Liverpool",
+      "away": "Arsenal"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T02:00:00+00:00",
+      "stop": "2026-11-18T04:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Real Sociedad x Olympique Lyonnais.",
+      "home": "Real Sociedad",
+      "away": "Olympique Lyonnais"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T02:15:00+00:00",
+      "stop": "2026-11-18T04:00:00+00:00",
+      "title": "Taça da Alemanha",
+      "info": "Assiste ao jogo da DFB Pokal entre Rot-Weiss Essen x RB Leipzig.",
+      "home": "Rot-Weiss Essen",
+      "away": "RB Leipzig"
+    },
+    {
+      "channel": "SPORT TV 1",
+      "start": "2026-11-18T02:20:00+00:00",
+      "stop": "2026-11-18T04:30:00+00:00",
+      "title": "Futebol - CONCACAF Nations League (Live)",
+      "info": "Transmissão, em direto, do jogo da CONCACAF Nations League de futebol, entre México e Jamaica.",
+      "home": "México",
+      "away": "Jamaica"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T04:00:00+00:00",
+      "stop": "2026-11-18T05:40:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Sabah x Borussia Dortmund.",
+      "home": "Sabah",
+      "away": "Borussia Dortmund"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T04:00:00+00:00",
+      "stop": "2026-11-18T06:00:00+00:00",
+      "title": "UEFA Youth League",
+      "info": "Assiste ao jogo da UEFA Youth League entre Atl. Madrid x Bayern München.",
+      "home": "Atl. Madrid",
+      "away": "Bayern München"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T05:40:00+00:00",
+      "stop": "2026-11-18T06:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
+      "home": "Benfica",
+      "away": "Lech Poznań"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T06:00:00+00:00",
+      "stop": "2026-11-18T08:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Crystal Palace x Hoffenheim.",
+      "home": "Crystal Palace",
+      "away": "Hoffenheim"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T06:00:00+00:00",
+      "stop": "2026-11-18T08:00:00+00:00",
+      "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Stuttgart x Werder Bremen.",
+      "home": "Stuttgart",
+      "away": "Werder Bremen"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T08:00:00+00:00",
+      "stop": "2026-11-18T10:00:00+00:00",
+      "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Celta De Vigo x Levante.",
+      "home": "Celta de Vigo",
+      "away": "Levante"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T08:00:00+00:00",
+      "stop": "2026-11-18T10:00:00+00:00",
+      "title": "Everton x Coventry City - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Everton x Coventry City.",
+      "home": "Everton",
+      "away": "Coventry City"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T10:00:00+00:00",
+      "stop": "2026-11-18T12:00:00+00:00",
+      "title": "Sunderland x Chelsea - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Sunderland x Chelsea.",
+      "home": "Sunderland",
+      "away": "Chelsea"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T10:00:00+00:00",
+      "stop": "2026-11-18T11:45:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da Uefa Champions League entre Man. City x AEK Athens.",
+      "home": "Manchester City",
+      "away": "AEK Athens"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T12:00:00+00:00",
+      "stop": "2026-11-18T14:00:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Liverpool x Villarreal.",
+      "home": "Liverpool",
+      "away": "Villarreal"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T12:00:00+00:00",
+      "stop": "2026-11-18T13:45:00+00:00",
+      "title": "Bundesliga",
+      "info": "Assiste ao jogo da Bundesliga entre Borussia Dortmund x Eintracht Frankfurt.",
+      "home": "Borussia Dortmund",
+      "away": "Eintracht Frankfurt"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T14:00:00+00:00",
+      "stop": "2026-11-18T16:00:00+00:00",
+      "title": "Monaco x Nordsjælland - UEFA Conference League",
+      "info": "Assiste ao jogo da UEFA Conference League entre Monaco x Nordsjælland.",
+      "home": "Monaco",
+      "away": "Nordsjælland"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T14:00:00+00:00",
+      "stop": "2026-11-18T16:00:00+00:00",
+      "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Espanyol x Deportivo de La Coruna.",
+      "home": "Espanyol",
+      "away": "Deportivo de La Coruña"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-18T15:00:00+00:00",
+      "stop": "2026-11-18T17:00:00+00:00",
+      "title": "Crystal Palace x Liverpool - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Crystal Palace x Liverpool.",
+      "home": "Crystal Palace",
+      "away": "Liverpool"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T16:00:00+00:00",
+      "stop": "2026-11-18T17:50:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Atl. Madrid x Manchester United.",
+      "home": "Atl. Madrid",
+      "away": "Manchester United"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T16:00:00+00:00",
+      "stop": "2026-11-18T18:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Milan x Ferencváros.",
+      "home": "Milan",
+      "away": "Ferencváros"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T17:50:00+00:00",
+      "stop": "2026-11-18T18:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
+      "home": "Benfica",
+      "away": "Lech Poznań"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T18:00:00+00:00",
+      "stop": "2026-11-18T20:00:00+00:00",
+      "title": "Arsenal x Everton - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Arsenal x Everton.",
+      "home": "Arsenal",
+      "away": "Everton"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T18:00:00+00:00",
+      "stop": "2026-11-18T20:00:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Sporting CP x LASK.",
+      "home": "Sporting CP",
+      "away": "LASK"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-18T19:00:00+00:00",
+      "stop": "2026-11-18T21:00:00+00:00",
+      "title": "LaLiga EA Sports",
+      "info": "Assiste ao jogo da LALIGA entre Valencia x Real Madrid.",
+      "home": "Valencia",
+      "away": "Real Madrid"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T20:00:00+00:00",
+      "stop": "2026-11-18T22:00:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x PSV.",
+      "home": "Porto",
+      "away": "PSV"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T20:00:00+00:00",
+      "stop": "2026-11-18T22:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Torreense x Ararat-Armenia.",
+      "home": "Torreense",
+      "away": "Ararat-Armenia"
+    },
+    {
+      "channel": "DAZN 1",
+      "start": "2026-11-18T22:00:00+00:00",
+      "stop": "2026-11-19T00:00:00+00:00",
+      "title": "Liga Europa",
+      "info": "Assiste ao jogo da UEFA Europa League entre Benfica x Lech Poznań.",
+      "home": "Benfica",
+      "away": "Lech Poznań"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T22:00:00+00:00",
+      "stop": "2026-11-18T23:45:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Bayern München x Arsenal.",
+      "home": "Bayern München",
+      "away": "Arsenal"
+    },
+    {
+      "channel": "DAZN 3",
+      "start": "2026-11-18T23:00:00+00:00",
+      "stop": "2026-11-19T01:00:00+00:00",
+      "title": "Liverpool x Brighton - Premier League",
+      "info": "Assiste ao jogo da Premier League entre Liverpool x Brighton.",
+      "home": "Liverpool",
+      "away": "Brighton"
+    },
+    {
+      "channel": "DAZN 2",
+      "start": "2026-11-18T23:45:00+00:00",
+      "stop": "2026-11-19T00:00:00+00:00",
+      "title": "Champions League",
+      "info": "Assiste ao jogo da UEFA Champions League entre Porto x Napoli.",
+      "home": "Porto",
+      "away": "Napoli"
     }
   ]
 }
