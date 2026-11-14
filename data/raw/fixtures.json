@@ -1,57 +1,7 @@
 {
-  "fetched_at": "2026-11-13T18:57:22.105396+00:00",
-  "date": "2026-11-13",
+  "fetched_at": "2026-11-14T00:08:40.196896+00:00",
+  "date": "2026-11-14",
   "fixtures": [
-    {
-      "id": 1528958,
-      "source": "api-football",
-      "kickoff": "2026-11-12T17:00:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Türkiye",
-      "away": "Belgium",
-      "postponed": false
-    },
-    {
-      "id": 1528959,
-      "source": "api-football",
-      "kickoff": "2026-11-12T17:00:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Armenia",
-      "away": "Cyprus",
-      "postponed": false
-    },
-    {
-      "id": 1528960,
-      "source": "api-football",
-      "kickoff": "2026-11-12T19:45:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Italy",
-      "away": "France",
-      "postponed": false
-    },
-    {
-      "id": 1528962,
-      "source": "api-football",
-      "kickoff": "2026-11-12T19:45:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "England",
-      "away": "Croatia",
-      "postponed": false
-    },
-    {
-      "id": 1528963,
-      "source": "api-football",
-      "kickoff": "2026-11-12T19:45:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Albania",
-      "away": "Finland",
-      "postponed": false
-    },
     {
       "id": 1528968,
       "source": "api-football",
@@ -150,6 +100,76 @@
       "league": "UEFA Nations League",
       "home": "Sweden",
       "away": "Bosnia & Herzegovina",
+      "postponed": false
+    },
+    {
+      "id": 1528979,
+      "source": "api-football",
+      "kickoff": "2026-11-15T14:00:00+00:00",
+      "league_id": 5,
+      "league": "UEFA Nations League",
+      "home": "Cyprus",
+      "away": "Montenegro",
+      "postponed": false
+    },
+    {
+      "id": 1545616,
+      "source": "api-football",
+      "kickoff": "2026-11-15T14:00:00+00:00",
+      "league_id": 5,
+      "league": "UEFA Nations League",
+      "home": "Latvia",
+      "away": "Armenia",
+      "postponed": false
+    },
+    {
+      "id": 1528980,
+      "source": "api-football",
+      "kickoff": "2026-11-15T17:00:00+00:00",
+      "league_id": 5,
+      "league": "UEFA Nations League",
+      "home": "Belarus",
+      "away": "Albania",
+      "postponed": false
+    },
+    {
+      "id": 1528981,
+      "source": "api-football",
+      "kickoff": "2026-11-15T17:00:00+00:00",
+      "league_id": 5,
+      "league": "UEFA Nations League",
+      "home": "Finland",
+      "away": "San Marino",
+      "postponed": false
+    },
+    {
+      "id": 1528982,
+      "source": "api-football",
+      "kickoff": "2026-11-15T19:45:00+00:00",
+      "league_id": 5,
+      "league": "UEFA Nations League",
+      "home": "France",
+      "away": "Türkiye",
+      "postponed": false
+    },
+    {
+      "id": 1528983,
+      "source": "api-football",
+      "kickoff": "2026-11-15T19:45:00+00:00",
+      "league_id": 5,
+      "league": "UEFA Nations League",
+      "home": "Belgium",
+      "away": "Italy",
+      "postponed": false
+    },
+    {
+      "id": 1528985,
+      "source": "api-football",
+      "kickoff": "2026-11-15T19:45:00+00:00",
+      "league_id": 5,
+      "league": "UEFA Nations League",
+      "home": "Croatia",
+      "away": "Czech Republic",
       "postponed": false
     }
   ],
