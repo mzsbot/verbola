@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-15T03:52:13.584950+00:00",
+  "fetched_at": "2026-11-15T11:39:49.224523+00:00",
   "date": "2026-11-15",
   "fixtures": [
     {
@@ -200,6 +200,36 @@
       "league": "UEFA Nations League",
       "home": "FYR Macedonia",
       "away": "Slovenia",
+      "postponed": false
+    },
+    {
+      "id": "fd-565859",
+      "source": "football-data",
+      "kickoff": "2026-11-20T19:30:00+00:00",
+      "league_id": 78,
+      "league": "Bundesliga",
+      "home": "Bayern",
+      "away": "1. FC Köln",
+      "postponed": false
+    },
+    {
+      "id": "fd-559622",
+      "source": "football-data",
+      "kickoff": "2026-11-20T19:45:00+00:00",
+      "league_id": 61,
+      "league": "Ligue 1",
+      "home": "Troyes",
+      "away": "Le Havre",
+      "postponed": false
+    },
+    {
+      "id": "fd-564748",
+      "source": "football-data",
+      "kickoff": "2026-11-20T20:00:00+00:00",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Athletic",
+      "away": "Espanyol",
       "postponed": false
     }
   ],
