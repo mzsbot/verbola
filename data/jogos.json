@@ -2,86 +2,11 @@
   {
     "id": 0,
     "sport": "futebol",
-    "kickoff": "2026-11-14T02:00:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "02:00",
+    "kickoff": "2026-11-15T01:00:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "01:00",
     "is_today": false,
-    "match": "Guatemala - Canadá",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 1"
-    ]
-  },
-  {
-    "id": 1,
-    "sport": "futebol",
-    "kickoff": "2026-11-14T14:00:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "14:00",
-    "is_today": false,
-    "match": "Kosovo - Israel",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 1"
-    ]
-  },
-  {
-    "id": 2,
-    "sport": "futebol",
-    "kickoff": "2026-11-14T17:00:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "17:00",
-    "is_today": false,
-    "match": "Georgia - Hungary",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 3"
-    ]
-  },
-  {
-    "id": 3,
-    "sport": "futebol",
-    "kickoff": "2026-11-14T17:00:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "17:00",
-    "is_today": false,
-    "match": "Noruega - País de Gales",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 2"
-    ]
-  },
-  {
-    "id": 4,
-    "sport": "futebol",
-    "kickoff": "2026-11-14T19:45:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "19:45",
-    "is_today": false,
-    "match": "Austria - Rep. Of Ireland",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 7"
-    ]
-  },
-  {
-    "id": 5,
-    "sport": "futebol",
-    "kickoff": "2026-11-14T19:45:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "19:45",
-    "is_today": false,
-    "match": "Irlanda do Norte - Ucrânia",
+    "match": "Jamaica - México",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
@@ -90,29 +15,43 @@
     ]
   },
   {
-    "id": 6,
+    "id": 1,
     "sport": "futebol",
-    "kickoff": "2026-11-14T19:45:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "19:45",
+    "kickoff": "2026-11-15T14:00:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "14:00",
     "is_today": false,
-    "match": "Portugal - Denmark",
+    "match": "Cyprus - Montenegro",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
-      "RTP 1",
-      "SPORT TV 1"
+      "SPORT TV 2"
     ]
   },
   {
-    "id": 7,
+    "id": 2,
     "sport": "futebol",
-    "kickoff": "2026-11-14T19:45:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "19:45",
+    "kickoff": "2026-11-15T14:00:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "14:00",
     "is_today": false,
-    "match": "Romania - Poland",
+    "match": "Latvia - Armenia",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 6"
+    ]
+  },
+  {
+    "id": 3,
+    "sport": "futebol",
+    "kickoff": "2026-11-15T17:00:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "17:00",
+    "is_today": false,
+    "match": "Belarus - Albania",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
@@ -121,13 +60,73 @@
     ]
   },
   {
-    "id": 8,
+    "id": 4,
     "sport": "futebol",
-    "kickoff": "2026-11-14T19:45:00+00:00",
-    "date": "Sáb 14 Nov",
+    "kickoff": "2026-11-15T17:00:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "17:00",
+    "is_today": false,
+    "match": "Finland - San Marino",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 2"
+    ]
+  },
+  {
+    "id": 5,
+    "sport": "futebol",
+    "kickoff": "2026-11-15T19:45:00+00:00",
+    "date": "Dom 15 Nov",
     "time": "19:45",
     "is_today": false,
-    "match": "Sweden - Bosnia & Herzegovina",
+    "match": "Belgium - Italy",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 3"
+    ]
+  },
+  {
+    "id": 6,
+    "sport": "futebol",
+    "kickoff": "2026-11-15T19:45:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Croatia - Czech Republic",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 4"
+    ]
+  },
+  {
+    "id": 7,
+    "sport": "futebol",
+    "kickoff": "2026-11-15T19:45:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Espanha - Inglaterra",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 1"
+    ]
+  },
+  {
+    "id": 8,
+    "sport": "futebol",
+    "kickoff": "2026-11-15T19:45:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "France - Türkiye",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
@@ -138,26 +137,26 @@
   {
     "id": 9,
     "sport": "futebol",
-    "kickoff": "2026-11-14T21:30:00+00:00",
-    "date": "Sáb 14 Nov",
-    "time": "21:30",
+    "kickoff": "2026-11-15T23:00:00+00:00",
+    "date": "Dom 15 Nov",
+    "time": "23:00",
     "is_today": false,
-    "match": "Haiti - EUA",
+    "match": "Panamá - Curaçau",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
-      "SPORT TV 6"
+      "SPORT TV 2"
     ]
   },
   {
     "id": 10,
     "sport": "futebol",
-    "kickoff": "2026-11-15T01:00:00+00:00",
-    "date": "Dom 15 Nov",
-    "time": "01:00",
+    "kickoff": "2026-11-16T15:00:00+00:00",
+    "date": "Seg 16 Nov",
+    "time": "15:00",
     "is_today": true,
-    "match": "Jamaica - México",
+    "match": "Ilhas Faroé - Moldávia",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
@@ -168,11 +167,26 @@
   {
     "id": 11,
     "sport": "futebol",
-    "kickoff": "2026-11-15T14:00:00+00:00",
-    "date": "Dom 15 Nov",
-    "time": "14:00",
+    "kickoff": "2026-11-16T15:00:00+00:00",
+    "date": "Seg 16 Nov",
+    "time": "15:00",
     "is_today": true,
-    "match": "Cyprus - Montenegro",
+    "match": "Kazakhstan - Slovakia",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 3"
+    ]
+  },
+  {
+    "id": 12,
+    "sport": "futebol",
+    "kickoff": "2026-11-16T17:00:00+00:00",
+    "date": "Seg 16 Nov",
+    "time": "17:00",
+    "is_today": true,
+    "match": "Estonia - Bulgaria",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
@@ -181,13 +195,28 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "sport": "futebol",
-    "kickoff": "2026-11-15T14:00:00+00:00",
-    "date": "Dom 15 Nov",
-    "time": "14:00",
+    "kickoff": "2026-11-16T17:00:00+00:00",
+    "date": "Seg 16 Nov",
+    "time": "17:00",
     "is_today": true,
-    "match": "Latvia - Armenia",
+    "match": "Iceland - Luxembourg",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 1"
+    ]
+  },
+  {
+    "id": 14,
+    "sport": "futebol",
+    "kickoff": "2026-11-16T17:00:00+00:00",
+    "date": "Seg 16 Nov",
+    "time": "17:00",
+    "is_today": true,
+    "match": "Lithuania - Liechtenstein",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
@@ -196,58 +225,28 @@
     ]
   },
   {
-    "id": 13,
-    "sport": "futebol",
-    "kickoff": "2026-11-15T17:00:00+00:00",
-    "date": "Dom 15 Nov",
-    "time": "17:00",
-    "is_today": true,
-    "match": "Belarus - Albania",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 3"
-    ]
-  },
-  {
-    "id": 14,
-    "sport": "futebol",
-    "kickoff": "2026-11-15T17:00:00+00:00",
-    "date": "Dom 15 Nov",
-    "time": "17:00",
-    "is_today": true,
-    "match": "Finland - San Marino",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 2"
-    ]
-  },
-  {
     "id": 15,
     "sport": "futebol",
-    "kickoff": "2026-11-15T19:45:00+00:00",
-    "date": "Dom 15 Nov",
+    "kickoff": "2026-11-16T19:45:00+00:00",
+    "date": "Seg 16 Nov",
     "time": "19:45",
     "is_today": true,
-    "match": "Belgium - Italy",
+    "match": "Alemanha - Países Baixos",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
-      "SPORT TV 3"
+      "SPORT TV 1"
     ]
   },
   {
     "id": 16,
     "sport": "futebol",
-    "kickoff": "2026-11-15T19:45:00+00:00",
-    "date": "Dom 15 Nov",
+    "kickoff": "2026-11-16T19:45:00+00:00",
+    "date": "Seg 16 Nov",
     "time": "19:45",
     "is_today": true,
-    "match": "Croatia - Czech Republic",
+    "match": "FYR Macedonia - Slovenia",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
@@ -258,26 +257,26 @@
   {
     "id": 17,
     "sport": "futebol",
-    "kickoff": "2026-11-15T19:45:00+00:00",
-    "date": "Dom 15 Nov",
+    "kickoff": "2026-11-16T19:45:00+00:00",
+    "date": "Seg 16 Nov",
     "time": "19:45",
     "is_today": true,
-    "match": "Espanha - Inglaterra",
+    "match": "Gibraltar - Malta",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
-      "SPORT TV 1"
+      "SPORT TV 6"
     ]
   },
   {
     "id": 18,
     "sport": "futebol",
-    "kickoff": "2026-11-15T19:45:00+00:00",
-    "date": "Dom 15 Nov",
+    "kickoff": "2026-11-16T19:45:00+00:00",
+    "date": "Seg 16 Nov",
     "time": "19:45",
     "is_today": true,
-    "match": "France - Türkiye",
+    "match": "Greece - Serbia",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
@@ -288,166 +287,107 @@
   {
     "id": 19,
     "sport": "futebol",
-    "kickoff": "2026-11-15T23:00:00+00:00",
-    "date": "Dom 15 Nov",
-    "time": "23:00",
+    "kickoff": "2026-11-16T19:45:00+00:00",
+    "date": "Seg 16 Nov",
+    "time": "19:45",
     "is_today": true,
-    "match": "Panamá - Curaçau",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 2"
-    ]
-  },
-  {
-    "id": 20,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T15:00:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "15:00",
-    "is_today": false,
-    "match": "Ilhas Faroé - Moldávia",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 4"
-    ]
-  },
-  {
-    "id": 21,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T15:00:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "15:00",
-    "is_today": false,
-    "match": "Kazakhstan - Slovakia",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 3"
-    ]
-  },
-  {
-    "id": 22,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T17:00:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "17:00",
-    "is_today": false,
-    "match": "Estonia - Bulgaria",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 2"
-    ]
-  },
-  {
-    "id": 23,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T17:00:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "17:00",
-    "is_today": false,
-    "match": "Iceland - Luxembourg",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 1"
-    ]
-  },
-  {
-    "id": 24,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T17:00:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "17:00",
-    "is_today": false,
-    "match": "Lithuania - Liechtenstein",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 6"
-    ]
-  },
-  {
-    "id": 25,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T19:45:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "19:45",
-    "is_today": false,
-    "match": "Alemanha - Países Baixos",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 1"
-    ]
-  },
-  {
-    "id": 26,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T19:45:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "19:45",
-    "is_today": false,
-    "match": "FYR Macedonia - Slovenia",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 4"
-    ]
-  },
-  {
-    "id": 27,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T19:45:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "19:45",
-    "is_today": false,
-    "match": "Gibraltar - Malta",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 6"
-    ]
-  },
-  {
-    "id": 28,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T19:45:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "19:45",
-    "is_today": false,
-    "match": "Greece - Serbia",
-    "competition": "Liga das Nações",
-    "competition_key": "liga-nacoes",
-    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
-    "channels": [
-      "SPORT TV 2"
-    ]
-  },
-  {
-    "id": 29,
-    "sport": "futebol",
-    "kickoff": "2026-11-16T19:45:00+00:00",
-    "date": "Seg 16 Nov",
-    "time": "19:45",
-    "is_today": false,
     "match": "Suíça - Escócia",
     "competition": "Liga das Nações",
     "competition_key": "liga-nacoes",
     "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
     "channels": [
       "SPORT TV 3"
+    ]
+  },
+  {
+    "id": 20,
+    "sport": "futebol",
+    "kickoff": "2026-11-17T01:00:00+00:00",
+    "date": "Ter 17 Nov",
+    "time": "01:00",
+    "is_today": false,
+    "match": "Canadá - Guatemala",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 2"
+    ]
+  },
+  {
+    "id": 21,
+    "sport": "futebol",
+    "kickoff": "2026-11-17T19:45:00+00:00",
+    "date": "Ter 17 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Denmark - Norway",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 2"
+    ]
+  },
+  {
+    "id": 22,
+    "sport": "futebol",
+    "kickoff": "2026-11-17T19:45:00+00:00",
+    "date": "Ter 17 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Hungria - Irlanda Do Norte",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 7"
+    ]
+  },
+  {
+    "id": 23,
+    "sport": "futebol",
+    "kickoff": "2026-11-17T19:45:00+00:00",
+    "date": "Ter 17 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Polónia - Suécia",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 3"
+    ]
+  },
+  {
+    "id": 24,
+    "sport": "futebol",
+    "kickoff": "2026-11-17T19:45:00+00:00",
+    "date": "Ter 17 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Ukraine - Georgia",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "SPORT TV 4"
+    ]
+  },
+  {
+    "id": 25,
+    "sport": "futebol",
+    "kickoff": "2026-11-17T19:45:00+00:00",
+    "date": "Ter 17 Nov",
+    "time": "19:45",
+    "is_today": false,
+    "match": "Wales - Portugal",
+    "competition": "Liga das Nações",
+    "competition_key": "liga-nacoes",
+    "competition_icon": "assets/icons/competicoes/liga-nacoes.png",
+    "channels": [
+      "RTP 1",
+      "SPORT TV 1"
     ]
   }
 ]
