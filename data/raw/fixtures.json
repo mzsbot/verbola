@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T12:17:17.495051+00:00",
+  "fetched_at": "2026-11-16T22:39:18.019207+00:00",
   "date": "2026-11-16",
   "fixtures": [
     {
@@ -303,16 +303,6 @@
       "postponed": false
     },
     {
-      "id": "fd-560651",
-      "source": "football-data",
-      "kickoff": "2026-11-21T17:30:00+00:00",
-      "league_id": 39,
-      "league": "Premier League",
-      "home": "Newcastle",
-      "away": "Arsenal",
-      "postponed": false
-    },
-    {
       "id": "fd-564756",
       "source": "football-data",
       "kickoff": "2026-11-21T17:30:00+00:00",
@@ -320,6 +310,16 @@
       "league": "Primera Division",
       "home": "Sevilla FC",
       "away": "Real Betis",
+      "postponed": false
+    },
+    {
+      "id": "fd-560651",
+      "source": "football-data",
+      "kickoff": "2026-11-21T17:30:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Newcastle",
+      "away": "Arsenal",
       "postponed": false
     },
     {
