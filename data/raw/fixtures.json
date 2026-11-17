@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-17T13:59:15.841886+00:00",
+  "fetched_at": "2026-11-17T22:04:15.853527+00:00",
   "date": "2026-11-17",
   "fixtures": [
     {
@@ -313,6 +313,16 @@
       "postponed": false
     },
     {
+      "id": "fd-558524",
+      "source": "football-data",
+      "kickoff": "2026-11-22T14:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "postponed": false
+    },
+    {
       "id": "fd-558522",
       "source": "football-data",
       "kickoff": "2026-11-22T14:00:00+00:00",
@@ -330,16 +340,6 @@
       "league": "Ligue 1",
       "home": "Paris FC",
       "away": "Angers SCO",
-      "postponed": false
-    },
-    {
-      "id": "fd-558524",
-      "source": "football-data",
-      "kickoff": "2026-11-22T14:00:00+00:00",
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Sassuolo",
-      "away": "Genoa",
       "postponed": false
     },
     {
@@ -403,16 +403,6 @@
       "postponed": false
     },
     {
-      "id": "fd-559629",
-      "source": "football-data",
-      "kickoff": "2026-11-22T19:45:00+00:00",
-      "league_id": 61,
-      "league": "Ligue 1",
-      "home": "Marseille",
-      "away": "Le Mans",
-      "postponed": false
-    },
-    {
       "id": "fd-558520",
       "source": "football-data",
       "kickoff": "2026-11-22T19:45:00+00:00",
@@ -420,6 +410,16 @@
       "league": "Serie A",
       "home": "Atalanta",
       "away": "Inter",
+      "postponed": false
+    },
+    {
+      "id": "fd-559629",
+      "source": "football-data",
+      "kickoff": "2026-11-22T19:45:00+00:00",
+      "league_id": 61,
+      "league": "Ligue 1",
+      "home": "Marseille",
+      "away": "Le Mans",
       "postponed": false
     },
     {
