@@ -1,77 +1,7 @@
 {
-  "fetched_at": "2026-11-16T22:39:18.019207+00:00",
-  "date": "2026-11-16",
+  "fetched_at": "2026-11-17T04:53:35.840844+00:00",
+  "date": "2026-11-17",
   "fixtures": [
-    {
-      "id": 1528979,
-      "source": "api-football",
-      "kickoff": "2026-11-15T14:00:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Cyprus",
-      "away": "Montenegro",
-      "postponed": false
-    },
-    {
-      "id": 1545616,
-      "source": "api-football",
-      "kickoff": "2026-11-15T14:00:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Latvia",
-      "away": "Armenia",
-      "postponed": false
-    },
-    {
-      "id": 1528980,
-      "source": "api-football",
-      "kickoff": "2026-11-15T17:00:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Belarus",
-      "away": "Albania",
-      "postponed": false
-    },
-    {
-      "id": 1528981,
-      "source": "api-football",
-      "kickoff": "2026-11-15T17:00:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Finland",
-      "away": "San Marino",
-      "postponed": false
-    },
-    {
-      "id": 1528982,
-      "source": "api-football",
-      "kickoff": "2026-11-15T19:45:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "France",
-      "away": "Türkiye",
-      "postponed": false
-    },
-    {
-      "id": 1528983,
-      "source": "api-football",
-      "kickoff": "2026-11-15T19:45:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Belgium",
-      "away": "Italy",
-      "postponed": false
-    },
-    {
-      "id": 1528985,
-      "source": "api-football",
-      "kickoff": "2026-11-15T19:45:00+00:00",
-      "league_id": 5,
-      "league": "UEFA Nations League",
-      "home": "Croatia",
-      "away": "Czech Republic",
-      "postponed": false
-    },
     {
       "id": 1528986,
       "source": "api-football",
@@ -223,16 +153,6 @@
       "postponed": false
     },
     {
-      "id": "fd-558528",
-      "source": "football-data",
-      "kickoff": "2026-11-21T14:00:00+00:00",
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Lazio",
-      "away": "Lecce",
-      "postponed": false
-    },
-    {
       "id": "fd-558525",
       "source": "football-data",
       "kickoff": "2026-11-21T14:00:00+00:00",
@@ -240,6 +160,16 @@
       "league": "Serie A",
       "home": "Como 1907",
       "away": "Cagliari",
+      "postponed": false
+    },
+    {
+      "id": "fd-558528",
+      "source": "football-data",
+      "kickoff": "2026-11-21T14:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Lazio",
+      "away": "Lecce",
       "postponed": false
     },
     {
@@ -303,13 +233,13 @@
       "postponed": false
     },
     {
-      "id": "fd-564756",
+      "id": "fd-565861",
       "source": "football-data",
       "kickoff": "2026-11-21T17:30:00+00:00",
-      "league_id": 140,
-      "league": "Primera Division",
-      "home": "Sevilla FC",
-      "away": "Real Betis",
+      "league_id": 78,
+      "league": "Bundesliga",
+      "home": "Schalke",
+      "away": "Stuttgart",
       "postponed": false
     },
     {
@@ -323,23 +253,13 @@
       "postponed": false
     },
     {
-      "id": "fd-565861",
+      "id": "fd-564756",
       "source": "football-data",
       "kickoff": "2026-11-21T17:30:00+00:00",
-      "league_id": 78,
-      "league": "Bundesliga",
-      "home": "Schalke",
-      "away": "Stuttgart",
-      "postponed": false
-    },
-    {
-      "id": "fd-559627",
-      "source": "football-data",
-      "kickoff": "2026-11-21T19:45:00+00:00",
-      "league_id": 61,
-      "league": "Ligue 1",
-      "home": "Strasbourg",
-      "away": "Brest",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Sevilla FC",
+      "away": "Real Betis",
       "postponed": false
     },
     {
@@ -350,6 +270,16 @@
       "league": "Serie A",
       "home": "Napoli",
       "away": "Torino",
+      "postponed": false
+    },
+    {
+      "id": "fd-559627",
+      "source": "football-data",
+      "kickoff": "2026-11-21T19:45:00+00:00",
+      "league_id": 61,
+      "league": "Ligue 1",
+      "home": "Strasbourg",
+      "away": "Brest",
       "postponed": false
     },
     {
