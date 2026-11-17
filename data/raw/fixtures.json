@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-17T04:53:35.840844+00:00",
+  "fetched_at": "2026-11-17T13:59:15.841886+00:00",
   "date": "2026-11-17",
   "fixtures": [
     {
@@ -153,16 +153,6 @@
       "postponed": false
     },
     {
-      "id": "fd-558525",
-      "source": "football-data",
-      "kickoff": "2026-11-21T14:00:00+00:00",
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Como 1907",
-      "away": "Cagliari",
-      "postponed": false
-    },
-    {
       "id": "fd-558528",
       "source": "football-data",
       "kickoff": "2026-11-21T14:00:00+00:00",
@@ -170,6 +160,16 @@
       "league": "Serie A",
       "home": "Lazio",
       "away": "Lecce",
+      "postponed": false
+    },
+    {
+      "id": "fd-558525",
+      "source": "football-data",
+      "kickoff": "2026-11-21T14:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Como 1907",
+      "away": "Cagliari",
       "postponed": false
     },
     {
@@ -233,16 +233,6 @@
       "postponed": false
     },
     {
-      "id": "fd-565861",
-      "source": "football-data",
-      "kickoff": "2026-11-21T17:30:00+00:00",
-      "league_id": 78,
-      "league": "Bundesliga",
-      "home": "Schalke",
-      "away": "Stuttgart",
-      "postponed": false
-    },
-    {
       "id": "fd-560651",
       "source": "football-data",
       "kickoff": "2026-11-21T17:30:00+00:00",
@@ -263,13 +253,13 @@
       "postponed": false
     },
     {
-      "id": "fd-558527",
+      "id": "fd-565861",
       "source": "football-data",
-      "kickoff": "2026-11-21T19:45:00+00:00",
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Napoli",
-      "away": "Torino",
+      "kickoff": "2026-11-21T17:30:00+00:00",
+      "league_id": 78,
+      "league": "Bundesliga",
+      "home": "Schalke",
+      "away": "Stuttgart",
       "postponed": false
     },
     {
@@ -283,6 +273,16 @@
       "postponed": false
     },
     {
+      "id": "fd-558527",
+      "source": "football-data",
+      "kickoff": "2026-11-21T19:45:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Napoli",
+      "away": "Torino",
+      "postponed": false
+    },
+    {
       "id": "fd-564754",
       "source": "football-data",
       "kickoff": "2026-11-21T20:00:00+00:00",
@@ -290,6 +290,146 @@
       "league": "Primera Division",
       "home": "Real Madrid",
       "away": "Celta",
+      "postponed": false
+    },
+    {
+      "id": "fd-558521",
+      "source": "football-data",
+      "kickoff": "2026-11-22T11:30:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Juventus",
+      "away": "Venezia FC",
+      "postponed": false
+    },
+    {
+      "id": "fd-564749",
+      "source": "football-data",
+      "kickoff": "2026-11-22T13:00:00+00:00",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Barça",
+      "away": "Villarreal",
+      "postponed": false
+    },
+    {
+      "id": "fd-558522",
+      "source": "football-data",
+      "kickoff": "2026-11-22T14:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Bologna",
+      "away": "Udinese",
+      "postponed": false
+    },
+    {
+      "id": "fd-559625",
+      "source": "football-data",
+      "kickoff": "2026-11-22T14:00:00+00:00",
+      "league_id": 61,
+      "league": "Ligue 1",
+      "home": "Paris FC",
+      "away": "Angers SCO",
+      "postponed": false
+    },
+    {
+      "id": "fd-558524",
+      "source": "football-data",
+      "kickoff": "2026-11-22T14:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "postponed": false
+    },
+    {
+      "id": "fd-560646",
+      "source": "football-data",
+      "kickoff": "2026-11-22T14:00:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Hull City",
+      "away": "Brighton Hove",
+      "postponed": false
+    },
+    {
+      "id": "fd-564750",
+      "source": "football-data",
+      "kickoff": "2026-11-22T15:15:00+00:00",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Santander",
+      "away": "Real Sociedad",
+      "postponed": false
+    },
+    {
+      "id": "fd-559626",
+      "source": "football-data",
+      "kickoff": "2026-11-22T16:15:00+00:00",
+      "league_id": 61,
+      "league": "Ligue 1",
+      "home": "Lorient",
+      "away": "Stade Rennais",
+      "postponed": false
+    },
+    {
+      "id": "fd-560645",
+      "source": "football-data",
+      "kickoff": "2026-11-22T16:30:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Liverpool",
+      "away": "Man United",
+      "postponed": false
+    },
+    {
+      "id": "fd-558523",
+      "source": "football-data",
+      "kickoff": "2026-11-22T17:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Milan",
+      "away": "Frosinone",
+      "postponed": false
+    },
+    {
+      "id": "fd-564752",
+      "source": "football-data",
+      "kickoff": "2026-11-22T17:30:00+00:00",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Osasuna",
+      "away": "Málaga",
+      "postponed": false
+    },
+    {
+      "id": "fd-559629",
+      "source": "football-data",
+      "kickoff": "2026-11-22T19:45:00+00:00",
+      "league_id": 61,
+      "league": "Ligue 1",
+      "home": "Marseille",
+      "away": "Le Mans",
+      "postponed": false
+    },
+    {
+      "id": "fd-558520",
+      "source": "football-data",
+      "kickoff": "2026-11-22T19:45:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Atalanta",
+      "away": "Inter",
+      "postponed": false
+    },
+    {
+      "id": "fd-564753",
+      "source": "football-data",
+      "kickoff": "2026-11-22T20:00:00+00:00",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Getafe",
+      "away": "Atleti",
       "postponed": false
     }
   ],
