@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T03:57:25.678471+00:00",
+  "fetched_at": "2026-11-18T12:37:42.702025+00:00",
   "date": "2026-11-18",
   "fixtures": [
     {
@@ -113,16 +113,6 @@
       "postponed": false
     },
     {
-      "id": "fd-560642",
-      "source": "football-data",
-      "kickoff": "2026-11-21T15:00:00+00:00",
-      "league_id": 39,
-      "league": "Premier League",
-      "home": "Chelsea",
-      "away": "Leeds United",
-      "postponed": false
-    },
-    {
       "id": "fd-560648",
       "source": "football-data",
       "kickoff": "2026-11-21T15:00:00+00:00",
@@ -130,6 +120,16 @@
       "league": "Premier League",
       "home": "Tottenham",
       "away": "Ipswich Town",
+      "postponed": false
+    },
+    {
+      "id": "fd-560642",
+      "source": "football-data",
+      "kickoff": "2026-11-21T15:00:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Chelsea",
+      "away": "Leeds United",
       "postponed": false
     },
     {
@@ -333,16 +333,6 @@
       "postponed": false
     },
     {
-      "id": "fd-559629",
-      "source": "football-data",
-      "kickoff": "2026-11-22T19:45:00+00:00",
-      "league_id": 61,
-      "league": "Ligue 1",
-      "home": "Marseille",
-      "away": "Le Mans",
-      "postponed": false
-    },
-    {
       "id": "fd-558520",
       "source": "football-data",
       "kickoff": "2026-11-22T19:45:00+00:00",
@@ -353,6 +343,16 @@
       "postponed": false
     },
     {
+      "id": "fd-559629",
+      "source": "football-data",
+      "kickoff": "2026-11-22T19:45:00+00:00",
+      "league_id": 61,
+      "league": "Ligue 1",
+      "home": "Marseille",
+      "away": "Le Mans",
+      "postponed": false
+    },
+    {
       "id": "fd-564753",
       "source": "football-data",
       "kickoff": "2026-11-22T20:00:00+00:00",
@@ -360,6 +360,36 @@
       "league": "Primera Division",
       "home": "Getafe",
       "away": "Atleti",
+      "postponed": false
+    },
+    {
+      "id": "fd-558519",
+      "source": "football-data",
+      "kickoff": "2026-11-23T19:45:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Monza",
+      "away": "Fiorentina",
+      "postponed": false
+    },
+    {
+      "id": "fd-560649",
+      "source": "football-data",
+      "kickoff": "2026-11-23T20:00:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Brentford",
+      "away": "Everton",
+      "postponed": false
+    },
+    {
+      "id": "fd-564757",
+      "source": "football-data",
+      "kickoff": "2026-11-23T20:00:00+00:00",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Levante",
+      "away": "Elche",
       "postponed": false
     }
   ],
