@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T07:52:07.126658+00:00",
+  "fetched_at": "2026-11-21T15:47:29.999792+00:00",
   "date": "2026-11-21",
   "fixtures": [
     {
@@ -63,16 +63,6 @@
       "postponed": false
     },
     {
-      "id": "fd-558525",
-      "source": "football-data",
-      "kickoff": "2026-11-21T14:00:00+00:00",
-      "league_id": 135,
-      "league": "Serie A",
-      "home": "Como 1907",
-      "away": "Cagliari",
-      "postponed": false
-    },
-    {
       "id": "fd-558528",
       "source": "football-data",
       "kickoff": "2026-11-21T14:00:00+00:00",
@@ -80,6 +70,16 @@
       "league": "Serie A",
       "home": "Lazio",
       "away": "Lecce",
+      "postponed": false
+    },
+    {
+      "id": "fd-558525",
+      "source": "football-data",
+      "kickoff": "2026-11-21T14:00:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Como 1907",
+      "away": "Cagliari",
       "postponed": false
     },
     {
@@ -143,6 +143,16 @@
       "postponed": false
     },
     {
+      "id": "fd-564756",
+      "source": "football-data",
+      "kickoff": "2026-11-21T17:30:00+00:00",
+      "league_id": 140,
+      "league": "Primera Division",
+      "home": "Sevilla FC",
+      "away": "Real Betis",
+      "postponed": false
+    },
+    {
       "id": "fd-560651",
       "source": "football-data",
       "kickoff": "2026-11-21T17:30:00+00:00",
@@ -160,16 +170,6 @@
       "league": "Bundesliga",
       "home": "Schalke",
       "away": "Stuttgart",
-      "postponed": false
-    },
-    {
-      "id": "fd-564756",
-      "source": "football-data",
-      "kickoff": "2026-11-21T17:30:00+00:00",
-      "league_id": 140,
-      "league": "Primera Division",
-      "home": "Sevilla FC",
-      "away": "Real Betis",
       "postponed": false
     },
     {
@@ -223,16 +223,6 @@
       "postponed": false
     },
     {
-      "id": "fd-559625",
-      "source": "football-data",
-      "kickoff": "2026-11-22T14:00:00+00:00",
-      "league_id": 61,
-      "league": "Ligue 1",
-      "home": "Paris FC",
-      "away": "Angers SCO",
-      "postponed": false
-    },
-    {
       "id": "fd-558522",
       "source": "football-data",
       "kickoff": "2026-11-22T14:00:00+00:00",
@@ -260,6 +250,16 @@
       "league": "Serie A",
       "home": "Sassuolo",
       "away": "Genoa",
+      "postponed": false
+    },
+    {
+      "id": "fd-559625",
+      "source": "football-data",
+      "kickoff": "2026-11-22T14:00:00+00:00",
+      "league_id": 61,
+      "league": "Ligue 1",
+      "home": "Paris FC",
+      "away": "Angers SCO",
       "postponed": false
     },
     {
@@ -353,6 +353,16 @@
       "postponed": false
     },
     {
+      "id": "fd-560649",
+      "source": "football-data",
+      "kickoff": "2026-11-23T20:00:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Brentford",
+      "away": "Everton",
+      "postponed": false
+    },
+    {
       "id": "fd-564757",
       "source": "football-data",
       "kickoff": "2026-11-23T20:00:00+00:00",
@@ -363,13 +373,13 @@
       "postponed": false
     },
     {
-      "id": "fd-560649",
+      "id": "fd-575396",
       "source": "football-data",
-      "kickoff": "2026-11-23T20:00:00+00:00",
-      "league_id": 39,
-      "league": "Premier League",
-      "home": "Brentford",
-      "away": "Everton",
+      "kickoff": "2026-11-24T17:45:00+00:00",
+      "league_id": 2,
+      "league": "UEFA Champions League",
+      "home": "Bodø/Glimt",
+      "away": "LASK",
       "postponed": false
     },
     {
@@ -383,13 +393,13 @@
       "postponed": false
     },
     {
-      "id": "fd-575396",
+      "id": "fd-575398",
       "source": "football-data",
-      "kickoff": "2026-11-24T17:45:00+00:00",
+      "kickoff": "2026-11-24T20:00:00+00:00",
       "league_id": 2,
       "league": "UEFA Champions League",
-      "home": "Bodø/Glimt",
-      "away": "LASK",
+      "home": "Man City",
+      "away": "Napoli",
       "postponed": false
     },
     {
@@ -423,26 +433,6 @@
       "postponed": false
     },
     {
-      "id": "fd-575398",
-      "source": "football-data",
-      "kickoff": "2026-11-24T20:00:00+00:00",
-      "league_id": 2,
-      "league": "UEFA Champions League",
-      "home": "Man City",
-      "away": "Napoli",
-      "postponed": false
-    },
-    {
-      "id": "fd-575405",
-      "source": "football-data",
-      "kickoff": "2026-11-25T17:45:00+00:00",
-      "league_id": 2,
-      "league": "UEFA Champions League",
-      "home": "Slavia Praha",
-      "away": "Villarreal",
-      "postponed": false
-    },
-    {
       "id": "fd-575404",
       "source": "football-data",
       "kickoff": "2026-11-25T17:45:00+00:00",
@@ -453,13 +443,13 @@
       "postponed": false
     },
     {
-      "id": "fd-575409",
+      "id": "fd-575405",
       "source": "football-data",
-      "kickoff": "2026-11-25T20:00:00+00:00",
+      "kickoff": "2026-11-25T17:45:00+00:00",
       "league_id": 2,
       "league": "UEFA Champions League",
-      "home": "Club Brugge",
-      "away": "Liverpool",
+      "home": "Slavia Praha",
+      "away": "Villarreal",
       "postponed": false
     },
     {
@@ -490,6 +480,16 @@
       "league": "UEFA Champions League",
       "home": "PSG",
       "away": "Roma",
+      "postponed": false
+    },
+    {
+      "id": "fd-575409",
+      "source": "football-data",
+      "kickoff": "2026-11-25T20:00:00+00:00",
+      "league_id": 2,
+      "league": "UEFA Champions League",
+      "home": "Club Brugge",
+      "away": "Liverpool",
       "postponed": false
     }
   ],
