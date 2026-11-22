@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T17:29:53.850497+00:00",
+  "fetched_at": "2026-11-22T22:58:34.842849+00:00",
   "date": "2026-11-22",
   "fixtures": [
     {
@@ -53,16 +53,6 @@
       "postponed": false
     },
     {
-      "id": "fd-560642",
-      "source": "football-data",
-      "kickoff": "2026-11-21T15:00:00+00:00",
-      "league_id": 39,
-      "league": "Premier League",
-      "home": "Chelsea",
-      "away": "Leeds United",
-      "postponed": false
-    },
-    {
       "id": "fd-560648",
       "source": "football-data",
       "kickoff": "2026-11-21T15:00:00+00:00",
@@ -70,6 +60,16 @@
       "league": "Premier League",
       "home": "Tottenham",
       "away": "Ipswich Town",
+      "postponed": false
+    },
+    {
+      "id": "fd-560642",
+      "source": "football-data",
+      "kickoff": "2026-11-21T15:00:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Chelsea",
+      "away": "Leeds United",
       "postponed": false
     },
     {
@@ -353,16 +353,6 @@
       "postponed": false
     },
     {
-      "id": "fd-575398",
-      "source": "football-data",
-      "kickoff": "2026-11-24T20:00:00+00:00",
-      "league_id": 2,
-      "league": "UEFA Champions League",
-      "home": "Man City",
-      "away": "Napoli",
-      "postponed": false
-    },
-    {
       "id": "fd-575400",
       "source": "football-data",
       "kickoff": "2026-11-24T20:00:00+00:00",
@@ -373,13 +363,13 @@
       "postponed": false
     },
     {
-      "id": "fd-575397",
+      "id": "fd-575398",
       "source": "football-data",
       "kickoff": "2026-11-24T20:00:00+00:00",
       "league_id": 2,
       "league": "UEFA Champions League",
-      "home": "Real Madrid",
-      "away": "PSV",
+      "home": "Man City",
+      "away": "Napoli",
       "postponed": false
     },
     {
@@ -400,6 +390,16 @@
       "league": "UEFA Champions League",
       "home": "Arsenal",
       "away": "Dortmund",
+      "postponed": false
+    },
+    {
+      "id": "fd-575397",
+      "source": "football-data",
+      "kickoff": "2026-11-24T20:00:00+00:00",
+      "league_id": 2,
+      "league": "UEFA Champions League",
+      "home": "Real Madrid",
+      "away": "PSV",
       "postponed": false
     },
     {
