@@ -223,5 +223,20 @@
     "channels": [
       "DAZN 1"
     ]
+  },
+  {
+    "id": 15,
+    "sport": "futebol",
+    "kickoff": "2026-11-25T20:00:00+00:00",
+    "date": "Qua 25 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Sporting CP - Man United",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "SPORT TV 5"
+    ]
   }
 ]
