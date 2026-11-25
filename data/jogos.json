@@ -2,55 +2,10 @@
   {
     "id": 0,
     "sport": "futebol",
-    "kickoff": "2026-11-23T19:45:00+00:00",
-    "date": "Seg 23 Nov",
-    "time": "19:45",
-    "is_today": false,
-    "match": "Monza - Fiorentina",
-    "competition": "Serie A",
-    "competition_key": "liga-italiana",
-    "competition_icon": "assets/icons/competicoes/liga-italiana.png",
-    "channels": [
-      "SPORT TV 1"
-    ]
-  },
-  {
-    "id": 1,
-    "sport": "futebol",
-    "kickoff": "2026-11-23T20:00:00+00:00",
-    "date": "Seg 23 Nov",
-    "time": "20:00",
-    "is_today": false,
-    "match": "Brentford - Everton",
-    "competition": "Premier League",
-    "competition_key": "liga-inglesa",
-    "competition_icon": "assets/icons/competicoes/liga-inglesa.png",
-    "channels": [
-      "DAZN 1"
-    ]
-  },
-  {
-    "id": 2,
-    "sport": "futebol",
-    "kickoff": "2026-11-23T20:00:00+00:00",
-    "date": "Seg 23 Nov",
-    "time": "20:00",
-    "is_today": false,
-    "match": "Levante - Elche",
-    "competition": "LA Liga",
-    "competition_key": "liga-espanhola",
-    "competition_icon": "assets/icons/competicoes/liga-espanhola.png",
-    "channels": [
-      "DAZN 2"
-    ]
-  },
-  {
-    "id": 3,
-    "sport": "futebol",
     "kickoff": "2026-11-24T17:45:00+00:00",
     "date": "Ter 24 Nov",
     "time": "17:45",
-    "is_today": true,
+    "is_today": false,
     "match": "Bodø/Glimt - Lask",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
@@ -60,12 +15,12 @@
     ]
   },
   {
-    "id": 4,
+    "id": 1,
     "sport": "futebol",
     "kickoff": "2026-11-24T17:45:00+00:00",
     "date": "Ter 24 Nov",
     "time": "17:45",
-    "is_today": true,
+    "is_today": false,
     "match": "Galatasaray - Aston Villa",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
@@ -75,12 +30,12 @@
     ]
   },
   {
-    "id": 5,
+    "id": 2,
     "sport": "futebol",
     "kickoff": "2026-11-24T20:00:00+00:00",
     "date": "Ter 24 Nov",
     "time": "20:00",
-    "is_today": true,
+    "is_today": false,
     "match": "Arsenal - Dortmund",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
@@ -90,12 +45,12 @@
     ]
   },
   {
-    "id": 6,
+    "id": 3,
     "sport": "futebol",
     "kickoff": "2026-11-24T20:00:00+00:00",
     "date": "Ter 24 Nov",
     "time": "20:00",
-    "is_today": true,
+    "is_today": false,
     "match": "Como 1907 - Pae Aek",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
@@ -105,12 +60,12 @@
     ]
   },
   {
-    "id": 7,
+    "id": 4,
     "sport": "futebol",
     "kickoff": "2026-11-24T20:00:00+00:00",
     "date": "Ter 24 Nov",
     "time": "20:00",
-    "is_today": true,
+    "is_today": false,
     "match": "Feyenoord - Porto",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
@@ -120,13 +75,58 @@
     ]
   },
   {
-    "id": 8,
+    "id": 5,
     "sport": "futebol",
     "kickoff": "2026-11-24T20:00:00+00:00",
     "date": "Ter 24 Nov",
     "time": "20:00",
-    "is_today": true,
+    "is_today": false,
     "match": "Man City - Napoli",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "DAZN 2"
+    ]
+  },
+  {
+    "id": 6,
+    "sport": "futebol",
+    "kickoff": "2026-11-24T20:00:00+00:00",
+    "date": "Ter 24 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Real Madrid - PSV",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "DAZN 1"
+    ]
+  },
+  {
+    "id": 7,
+    "sport": "futebol",
+    "kickoff": "2026-11-25T17:45:00+00:00",
+    "date": "Qua 25 Nov",
+    "time": "17:45",
+    "is_today": true,
+    "match": "Sabah FK - Barça",
+    "competition": "Liga dos Campeões",
+    "competition_key": "liga-campeoes",
+    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
+    "channels": [
+      "DAZN 1"
+    ]
+  },
+  {
+    "id": 8,
+    "sport": "futebol",
+    "kickoff": "2026-11-25T20:00:00+00:00",
+    "date": "Qua 25 Nov",
+    "time": "20:00",
+    "is_today": true,
+    "match": "Club Brugge - Liverpool",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
@@ -137,55 +137,10 @@
   {
     "id": 9,
     "sport": "futebol",
-    "kickoff": "2026-11-24T20:00:00+00:00",
-    "date": "Ter 24 Nov",
+    "kickoff": "2026-11-25T20:00:00+00:00",
+    "date": "Qua 25 Nov",
     "time": "20:00",
     "is_today": true,
-    "match": "Real Madrid - PSV",
-    "competition": "Liga dos Campeões",
-    "competition_key": "liga-campeoes",
-    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "channels": [
-      "DAZN 1"
-    ]
-  },
-  {
-    "id": 10,
-    "sport": "futebol",
-    "kickoff": "2026-11-25T17:45:00+00:00",
-    "date": "Qua 25 Nov",
-    "time": "17:45",
-    "is_today": false,
-    "match": "Sabah FK - Barça",
-    "competition": "Liga dos Campeões",
-    "competition_key": "liga-campeoes",
-    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "channels": [
-      "DAZN 1"
-    ]
-  },
-  {
-    "id": 11,
-    "sport": "futebol",
-    "kickoff": "2026-11-25T20:00:00+00:00",
-    "date": "Qua 25 Nov",
-    "time": "20:00",
-    "is_today": false,
-    "match": "Club Brugge - Liverpool",
-    "competition": "Liga dos Campeões",
-    "competition_key": "liga-campeoes",
-    "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
-    "channels": [
-      "DAZN 2"
-    ]
-  },
-  {
-    "id": 12,
-    "sport": "futebol",
-    "kickoff": "2026-11-25T20:00:00+00:00",
-    "date": "Qua 25 Nov",
-    "time": "20:00",
-    "is_today": false,
     "match": "Inter - Stuttgart",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
@@ -195,12 +150,12 @@
     ]
   },
   {
-    "id": 13,
+    "id": 10,
     "sport": "futebol",
     "kickoff": "2026-11-25T20:00:00+00:00",
     "date": "Qua 25 Nov",
     "time": "20:00",
-    "is_today": false,
+    "is_today": true,
     "match": "Lille - Bayern",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
@@ -210,12 +165,12 @@
     ]
   },
   {
-    "id": 14,
+    "id": 11,
     "sport": "futebol",
     "kickoff": "2026-11-25T20:00:00+00:00",
     "date": "Qua 25 Nov",
     "time": "20:00",
-    "is_today": false,
+    "is_today": true,
     "match": "PSG - Roma",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
@@ -225,18 +180,153 @@
     ]
   },
   {
-    "id": 15,
+    "id": 12,
     "sport": "futebol",
     "kickoff": "2026-11-25T20:00:00+00:00",
     "date": "Qua 25 Nov",
     "time": "20:00",
-    "is_today": false,
+    "is_today": true,
     "match": "Sporting CP - Man United",
     "competition": "Liga dos Campeões",
     "competition_key": "liga-campeoes",
     "competition_icon": "assets/icons/competicoes/liga-campeoes.png",
     "channels": [
       "SPORT TV 5"
+    ]
+  },
+  {
+    "id": 13,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T15:30:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "15:30",
+    "is_today": false,
+    "match": "Kairat Almaty - Mjallby AIF",
+    "competition": "Liga Conferência",
+    "competition_key": "liga-conferencia",
+    "competition_icon": "assets/icons/competicoes/liga-conferencia.png",
+    "channels": [
+      "DAZN 1"
+    ]
+  },
+  {
+    "id": 14,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T17:45:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "17:45",
+    "is_today": false,
+    "match": "Celta Vigo - Bournemouth",
+    "competition": "Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
+    "channels": [
+      "DAZN 3"
+    ]
+  },
+  {
+    "id": 15,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T17:45:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "17:45",
+    "is_today": false,
+    "match": "Heart Of Midlothian - Monaco",
+    "competition": "Liga Conferência",
+    "competition_key": "liga-conferencia",
+    "competition_icon": "assets/icons/competicoes/liga-conferencia.png",
+    "channels": [
+      "DAZN 4"
+    ]
+  },
+  {
+    "id": 16,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T17:45:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "17:45",
+    "is_today": false,
+    "match": "Olympiakos Piraeus - AC Milan",
+    "competition": "Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
+    "channels": [
+      "DAZN 2"
+    ]
+  },
+  {
+    "id": 17,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T17:45:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "17:45",
+    "is_today": false,
+    "match": "Plzen - Benfica",
+    "competition": "Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
+    "channels": [
+      "SPORT TV 5"
+    ]
+  },
+  {
+    "id": 18,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T20:00:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Crystal Palace - Real Sociedad",
+    "competition": "Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
+    "channels": [
+      "DAZN 4"
+    ]
+  },
+  {
+    "id": 19,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T20:00:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Juventus - Omonia Nicosia",
+    "competition": "Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
+    "channels": [
+      "DAZN 3"
+    ]
+  },
+  {
+    "id": 20,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T20:00:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "SC Braga - KuPS",
+    "competition": "Liga Conferência",
+    "competition_key": "liga-conferencia",
+    "competition_icon": "assets/icons/competicoes/liga-conferencia.png",
+    "channels": [
+      "DAZN 2"
+    ]
+  },
+  {
+    "id": 21,
+    "sport": "futebol",
+    "kickoff": "2026-11-26T20:00:00+00:00",
+    "date": "Qui 26 Nov",
+    "time": "20:00",
+    "is_today": false,
+    "match": "Torreense - Celtic",
+    "competition": "Liga Europa",
+    "competition_key": "liga-europa",
+    "competition_icon": "assets/icons/competicoes/liga-europa.png",
+    "channels": [
+      "DAZN 1"
     ]
   }
 ]
