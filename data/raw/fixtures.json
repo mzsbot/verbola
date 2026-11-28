@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-28T02:23:17.319608+00:00",
+  "fetched_at": "2026-11-28T11:08:30.973711+00:00",
   "date": "2026-11-28",
   "fixtures": [
     {
@@ -473,6 +473,26 @@
       "postponed": false
     },
     {
+      "id": "fd-558516",
+      "source": "football-data",
+      "kickoff": "2026-11-30T17:30:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Lecce",
+      "away": "Atalanta",
+      "postponed": false
+    },
+    {
+      "id": "fd-558510",
+      "source": "football-data",
+      "kickoff": "2026-11-30T19:45:00+00:00",
+      "league_id": 135,
+      "league": "Serie A",
+      "home": "Cagliari",
+      "away": "Milan",
+      "postponed": false
+    },
+    {
       "id": "fd-564763",
       "source": "football-data",
       "kickoff": "2026-11-30T20:00:00+00:00",
@@ -480,6 +500,16 @@
       "league": "Primera Division",
       "home": "Espanyol",
       "away": "Getafe",
+      "postponed": false
+    },
+    {
+      "id": "fd-567359",
+      "source": "football-data",
+      "kickoff": "2026-11-30T20:15:00+00:00",
+      "league_id": 94,
+      "league": "Primeira Liga",
+      "home": "Casa Pia",
+      "away": "Braga",
       "postponed": false
     },
     {
@@ -540,6 +570,16 @@
       "league": "Primera Division",
       "home": "Barça",
       "away": "Atleti",
+      "postponed": false
+    },
+    {
+      "id": "fd-560662",
+      "source": "football-data",
+      "kickoff": "2026-12-03T20:00:00+00:00",
+      "league_id": 39,
+      "league": "Premier League",
+      "home": "Tottenham",
+      "away": "Fulham",
       "postponed": false
     }
   ],
